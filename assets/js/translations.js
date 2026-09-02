@@ -27,12 +27,12 @@ const translations = {
     // Hero Section
     pill_loc: "దిల్‌సుఖ్‌నగర్, హైదరాబాద్",
     hero_badge: "వేద సేవా • పితృ సేవా • ధర్మ సేవా",
-    hero_founder: "ప్రొ॥ నంబూరి ఆదినారాయణ మూర్తి",
+    hero_founder: "ప్రొ॥ నంబూరి ఆదినారాయణ శర్మ",
     hero_est: "EST. 2026 | రామ్ నారాయణ బ్రాహ్మణ సేవా సంస్థ",
     hero_title_main: "రామ్ నారాయణ బ్రాహ్మణ సేవా సంస్థ",
     hero_tagline: "వైదిక సంప్రదాయ పరిరక్షణే మా లక్ష్యం...",
-    hero_tagline_sub: "శ్రాద్ధ, భక్తి, శాస్త్రబద్ధతతో మీ సేవా తత్పరతలో...",
-    hero_desc: "మా వద్ద హిందూ సాంప్రదాయ విధాన సత్ బ్రాహ్మణులతో సదాచారములతో, అగ్నిహోత్ర పరాయణ విధానంతో వైదిక పురోహితులు, భోక్తలు, వంట వారుల చేత మాసికం, ఆబ్దికం, సంవత్సరీకములు, పితృ కార్యములు మా సంస్థ ప్రాంగణంలోనే శాస్త్రోక్తంగా నిర్వహించబడును.",
+    hero_tagline_sub: "శ్రద్ధ, భక్తి, శాస్త్రబద్ధతతో మీ సేవా తత్పరతలో...",
+    hero_desc: "మా వద్ద హిందూ సాంప్రదాయ విధాన సత్ బ్రాహ్మణులతో సదాచారములతో, అగ్నిహోత్ర పారణ విధానంతో వైదిక పురోహితులు, భోక్తలు, వంట వారుల చేత మాసికం, ఆబ్దికం, సంవత్సరీకములు, పితృ కార్యములు మా సంస్థ ప్రాంగణంలోనే శాస్త్రోక్తంగా నిర్వహించబడును.",
     hero_cta_call: "ఇప్పుడే కాల్ చేయండి",
     hero_cta_whatsapp: "వాట్సాప్",
     hero_cta_location: "లొకేషన్",
@@ -46,7 +46,7 @@ const translations = {
     hero_stat_satisfaction_sub: "భక్తి & సదాచారం",
 
     // Quick Highlights
-    feature_1_title: "అగ్నిహోత్ర పరాయణం",
+    feature_1_title: "అగ్నిహోత్ర పారణం",
     feature_1_desc: "సనాతన అగ్నిహోత్ర వేద మంత్రోచ్ఛారణతో పవిత్ర నిర్వహణ",
     feature_2_title: "సత్ బ్రాహ్మణ భోక్తలు",
     feature_2_desc: "నిష్టాగరిష్ఠులైన సదాచార బ్రాహ్మణుల సమక్షంలో ఆచరణ",
@@ -58,8 +58,8 @@ const translations = {
     // About Section
     about_badge: "మా పవిత్ర ధ్యేయం",
     about_title: "సనాతన ధర్మ రక్షణ & పితృ కర్మల విశిష్టత",
-    about_lead: "మాతాపితరుల రుణం తీర్చుకోవడం ప్రతి మానవుని ప్రథమ కర్తవ్యం. శాస్త్రోక్తంగా నిర్వహించే శ్రాద్ధ కర్మలు పితృదేవతలకు సద్గతిని, కుటుంబానికి శుభాలను చేకూరుస్తాయి.",
-    about_text_1: "రామ్ నారాయణ బ్రాహ్మణ సేవా సంస్థ ద్వారా ప్రొ॥ నంబూరి ఆదినారాయణ మూర్తి గారి పర్యవేక్షణలో అత్యంత నిష్ఠతో, వేద మంత్రోచ్ఛారణలతో పితృ కార్యాలు మరియు శ్రాద్ధ కర్మలు నిర్వహించబడుతున్నాయి.",
+    about_lead: "మాతాపితరుల రుణం తీర్చుకోవడం ప్రతి మానవుని ప్రథమ కర్తవ్యం. శాస్త్రోక్తంగా నిర్వహించే శ్రద్ధ మరియు శ్రాద్ధ కర్మలు పితృదేవతలకు సద్గతిని, కుటుంబానికి శుభాలను చేకూరుస్తాయి.",
+    about_text_1: "రామ్ నారాయణ బ్రాహ్మణ సేవా సంస్థ ద్వారా ప్రొ॥ నంబూరి ఆదినారాయణ శర్మ గారి పర్యవేక్షణలో అత్యంత నిష్ఠతో, వేద మంత్రోచ్ఛారణలతో పితృ కార్యాలు మరియు శ్రాద్ధ కర్మలు నిర్వహించబడుతున్నాయి.",
     about_text_2: "అన్ని కార్యక్రమాలు హైదరాబాద్ దిల్సుఖ్నగర్‌లోని మా రామ్ నారాయణ బ్రాహ్మణ సేవా సంస్థ ప్రాంగణంలోనే (H.No. 11-62, ప్రగతి నగర్ రోడ్, సాహితి నగర్) పురోహితులు, భోక్తలు, పూజా సామాగ్రి, సాత్విక వంట మరియు సంపూర్ణ సౌకర్యాలతో శాస్త్రోక్తంగా నిర్వహించబడును.",
     about_quote: "\"పూర్వీకుల ఆశీస్సులే కుటుంబ క్షేమానికి మూలస్తంభాలు\"",
     about_point_1: "అనుభవజ్ఞులైన వేద పండితుల మార్గదర్శకత్వం",
@@ -70,17 +70,17 @@ const translations = {
     // Services Section (4 Key Services)
     services_badge: "మా సేవా విభాగాలు",
     services_title: "శాస్త్రోక్తంగా నిర్వహించే వైదిక & పితృ సేవలు",
-    services_sub: "వైదిక సంప్రదాయ పరిరక్షణే మా లక్ష్యం - మా సంస్థ ప్రాంగణంలో శ్రాద్ధ, భక్తి, శాస్త్రబద్ధతతో మీ సేవా తత్పరతలో",
+    services_sub: "వైదిక సంప్రదాయ పరిరక్షణే మా లక్ష్యం - మా సంస్థ ప్రాంగణంలో శ్రద్ధ, భక్తి, శాస్త్రబద్ధతతో మీ సేవా తత్పరతలో",
     btn_service_inquire: "వాట్సాప్‌లో విచారణ →",
 
     srv_1_name: "వైదిక బ్రాహ్మణుల సేవా",
-    srv_1_desc: "వైదిక పరాయణం, జపాలు, హోమాలు తదితర వైదిక కార్యక్రమాలు సంస్థలో శాస్త్రోక్తంగా నిర్వహించబడును.",
-    srv_1_feat1: "రుద్ర నమక-చమక పరాయణం",
+    srv_1_desc: "వైదిక పారణం, జపాలు, హోమాలు తదితర వైదిక కార్యక్రమాలు సంస్థలో శాస్త్రోక్తంగా నిర్వహించబడును.",
+    srv_1_feat1: "రుద్ర నమక-చమక పారణం",
     srv_1_feat2: "గాయత్రి, మృత్యుంజయ విశేష జపాలు",
     srv_1_feat3: "గణపతి, నవగ్రహ, చండీ హోమాలు",
 
     srv_2_name: "భోక్తల సేవా",
-    srv_2_desc: "శ్రాద్ధ, పితృకార్యాలు మరియు శ్రాద్ధ భోజనములలో శాస్త్రోక్త విధానంలో భోక్తల సేవా అందుబాటులో ఉంటుంది.",
+    srv_2_desc: "శ్రద్ధ, పితృకార్యాలు మరియు శ్రాద్ధ భోజనములలో శాస్త్రోక్త విధానంలో భోక్తల సేవా అందుబాటులో ఉంటుంది.",
     srv_2_feat1: "సదాచార సంపన్నులైన సత్ బ్రాహ్మణులు",
     srv_2_feat2: "నిష్టాగరిష్ఠ ఆచార వ్యవహారాలు",
     srv_2_feat3: "మా సంస్థ ప్రాంగణంలోనే సంపూర్ణ నిర్వహణ",
@@ -99,7 +99,7 @@ const translations = {
 
     // Benefits Section
     benefits_badge: "పితృ కర్మల మహత్యం",
-    benefits_title: "పితృకర్మల వల్ల కలిగే ప్రయోజనాలు",
+    benefits_title: "శ్రద్ధ & పితృకర్మల వల్ల కలిగే ప్రయోజనాలు",
     benefits_sub: "మన సనాతన ధర్మంలో పితృయజ్ఞం అత్యున్నతమైనది. శాస్త్రోక్త ఆచరణతో కలిగే శుభఫలాలు:",
 
     ben_1_title: "కృతజ్ఞత భావం",
@@ -129,10 +129,10 @@ const translations = {
     why_1_desc: "శాస్త్ర పరిజ్ఞానం, దశాబ్దాల అనుభవం గల వేద పండితుల చేత వైదిక పద్ధతిలో నిర్వహణ.",
 
     why_2_title: "వేదోక్త సంప్రదాయం ప్రకారం నిర్వహణ",
-    why_2_desc: "శాస్త్ర నియమాలను తూచా తప్పకుండా, అగ్నిహోత్ర పరాయణ విధానంలో పరిపూర్ణంగా జరిపిస్తాము.",
+    why_2_desc: "శాస్త్ర నియమాలను తూచా తప్పకుండా, అగ్నిహోత్ర పారణ విధానంలో పరిపూర్ణంగా జరిపిస్తాము.",
 
     why_3_title: "శుభ్రమైన, ప్రశాంతమైన వాతావరణం",
-    why_3_desc: "దిల్సుఖ్నగర్‌లోని మా సంస్థ ప్రాంగణంలో భక్తి శ్రాద్ధలకు అనువైన పవిత్ర, పరిశుభ్ర వాతావరణం కలదు.",
+    why_3_desc: "దిల్సుఖ్నగర్‌లోని మా సంస్థ ప్రాంగణంలో భక్తి శ్రద్ధలకు అనువైన పవిత్ర, పరిశుభ్ర వాతావరణం కలదు.",
 
     why_4_title: "శాస్త్రోక్త సేవలు & సాత్విక భోజనం",
     why_4_desc: "పూజా సామాగ్రి, హోమం, భోక్తలు, సాత్విక భోజనం వరకు అన్ని ఏర్పాట్లు మేమే స్వయంగా చూసుకుంటాము.",
@@ -141,7 +141,7 @@ const translations = {
     why_5_desc: "తిథి నిర్ణయం, గోత్ర నామాలు, ఆచార విధులకు సంబంధించి కుటుంబ సభ్యులకు పూర్తి సాంప్రదాయ మార్గదర్శకత్వం.",
 
     why_6_title: "సమయపాలన & భక్తిపూర్వక నిబద్ధత",
-    why_6_desc: "ఖచ్చితమైన సమయపాలన, నిష్ఠాగరిష్ఠ భక్తి శ్రాద్ధలతో ఎటువంటి అసౌకర్యం కలగకుండా శాస్త్రోక్తంగా పూర్తి చేయుట.",
+    why_6_desc: "ఖచ్చితమైన సమయపాలన, నిష్ఠాగరిష్ఠ భక్తి శ్రద్ధలతో ఎటువంటి అసౌకర్యం కలగకుండా శాస్త్రోక్తంగా పూర్తి చేయుట.",
 
     // Gallery / Brochure Section
     gallery_badge: "సంస్థ వివరాలు & బ్యానర్లు",
@@ -175,12 +175,12 @@ const translations = {
     mob_location: "లొకేషన్",
 
     // Footer
-    footer_desc: "హిందూ సాంప్రదాయ విధాన సత్ బ్రాహ్మణులతో, అగ్నిహోత్ర పరాయణంతో పితృ కార్యముల సమగ్ర నిర్వహణ సేవా సంస్థ.",
+    footer_desc: "హిందూ సాంప్రదాయ విధాన సత్ బ్రాహ్మణులతో, అగ్నిహోత్ర పారణంతో పితృ కార్యముల సమగ్ర నిర్వహణ సేవా సంస్థ.",
     footer_quick_links: "ముఖ్యమైన లింకులు",
     footer_services: "సేవలు",
     footer_contact_info: "సంప్రదింపుల కేంద్రం",
     footer_rights: "రామ్ నారాయణ బ్రాహ్మణ సేవా సంస్థ. సర్వ హక్కులూ ప్రత్యేకించబడినవి.",
-    footer_developed: "ప్రొ॥ నంబూరి ఆదినారాయణ మూర్తి గారి ఆధ్వర్యంలో"
+    footer_developed: "ప్రొ॥ నంబూరి ఆదినారాయణ శర్మ గారి ఆధ్వర్యంలో"
   },
 
   en: {
@@ -206,12 +206,12 @@ const translations = {
     // Hero Section
     pill_loc: "Dilsukhnagar, Hyderabad",
     hero_badge: "Tradition ♦ Devotion ♦ Service",
-    hero_founder: "Pro. Namburi Adinarayana Murthy",
+    hero_founder: "Pro. Namburi Adinarayana Sharma",
     hero_est: "EST. 2026 | Ram Narayana Brahmana Seva Samstha",
     hero_title_main: "RAM NARAYANA BRAHMANA SEVA SAMSTHA",
     hero_tagline: "Preserving Vedic Tradition is our Mission...",
     hero_tagline_sub: "In your service with reverence, devotion & Shastra compliance...",
-    hero_desc: "Conducting authentic Vedic rituals (Masikam, Abdikam, Samvatsarikam, Pitru Karyas, Homams) exclusively at our sacred Samstha premises in Dilsukhnagar following strict Sanatana Dharma, Agnihotra recitation, devout Vedic Purohits, Bhokthas, and traditional Brahmin Satvik cooking.",
+    hero_desc: "Conducting authentic Vedic rituals (Masikam, Abdikam, Samvatsarikam, Pitru Karyas, Homams) exclusively at our sacred Samstha premises in Dilsukhnagar following strict Sanatana Dharma, Agnihotra Paranam recitation, devout Vedic Purohits, Bhokthas, and traditional Brahmin Satvik cooking.",
     hero_cta_call: "Call Us",
     hero_cta_whatsapp: "WhatsApp",
     hero_cta_location: "Location",
@@ -225,7 +225,7 @@ const translations = {
     hero_stat_satisfaction_sub: "Devotion & Sadacharam",
 
     // Quick Highlights
-    feature_1_title: "Agnihotra Chanting",
+    feature_1_title: "Agnihotra Paranam",
     feature_1_desc: "Sacred fire rituals conducted with authentic Vedic mantras and sacred procedures",
     feature_2_title: "Devout Brahmin Bhokthas",
     feature_2_desc: "Pious, disciplined Brahmins practicing authentic Sadachara traditions",
@@ -238,7 +238,7 @@ const translations = {
     about_badge: "Our Sacred Mission",
     about_title: "Preserving Sanatana Dharma & Ancestral Rites",
     about_lead: "Fulfilling filial duty (Pitru Rina) and upholding Vedic sacraments is our prime duty. Properly conducted rituals bring peace, spiritual upliftment, and lasting family prosperity.",
-    about_text_1: "Under the venerable leadership and guidance of Pro. Namburi Adinarayana Murthy, Ram Narayana Brahmana Seva Samstha conducts all ancestral rites and Shraddha ceremonies with unwavering devotion and authentic Vedic chanting.",
+    about_text_1: "Under the venerable leadership and guidance of Pro. Namburi Adinarayana Sharma, Ram Narayana Brahmana Seva Samstha conducts all ancestral rites and Shraddha ceremonies with unwavering devotion and authentic Vedic chanting.",
     about_text_2: "All rituals are conducted exclusively at our sacred Ram Narayana Brahmana Seva Samstha premises in Dilsukhnagar, Hyderabad (H.No. 11-62, Pragathi Nagar Road, Sahithi Nagar), complete with Vedic Purohits, Bhokthas, authentic puja items, and pure Satvik cooking.",
     about_quote: "\"Ancestral blessings form the foundation of peace and prosperity for generations.\"",
     about_point_1: "Guidance of experienced Vedic scholars & Pandits",
@@ -253,8 +253,8 @@ const translations = {
     btn_service_inquire: "Inquire via WhatsApp →",
 
     srv_1_name: "Vaidika Brahmana Seva",
-    srv_1_desc: "Vedic Parayanam, Japas, Homams, and sacred chanting performed strictly as per scripture at the Samstha.",
-    srv_1_feat1: "Rudra Namaka-Chamaka Parayanam",
+    srv_1_desc: "Vedic Paranam, Japas, Homams, and sacred chanting performed strictly as per scripture at the Samstha.",
+    srv_1_feat1: "Rudra Namaka-Chamaka Paranam",
     srv_1_feat2: "Gayatri & Mrityunjaya special Japas",
     srv_1_feat3: "Ganapati, Navagraha & Chandi Homams",
 
@@ -308,7 +308,7 @@ const translations = {
     why_1_desc: "Ceremonies performed by senior Vedic pandits with scripture-certified knowledge.",
 
     why_2_title: "Performed as per Shastra & Tradition",
-    why_2_desc: "Strict adherence to Vedic rites, Agnihotra chanting, and authentic procedures.",
+    why_2_desc: "Strict adherence to Vedic rites, Agnihotra Paranam chanting, and authentic procedures.",
 
     why_3_title: "Neat, Clean & Peaceful Environment",
     why_3_desc: "A pure, serene, and spiritually uplifting setting at our Dilsukhnagar Samstha.",
@@ -359,6 +359,6 @@ const translations = {
     footer_services: "Our Rituals",
     footer_contact_info: "Contact Information",
     footer_rights: "Ram Narayana Brahmana Seva Samstha. All Rights Reserved.",
-    footer_developed: "Under the guidance of Pro. Namburi Adinarayana Murthy"
+    footer_developed: "Under the guidance of Pro. Namburi Adinarayana Sharma"
   }
 };

@@ -8,7 +8,7 @@
   *Authentic Vedic Rites • Ancestral Pitru Karyas • Satvik Traditions • Sacred Heritage*
 
   <p align="center">
-    <strong>Dedicated to preserving Sanatana Dharma under the divine guidance of Pro. Namburi Adinarayana Murthy.</strong><br>
+    <strong>Dedicated to preserving Sanatana Dharma under the divine guidance of Pro. Namburi Adinarayana Sharma.</strong><br>
     <em>Dilsukhnagar, Hyderabad, Telangana, India</em>
   </p>
 
@@ -64,7 +64,7 @@
 
 **Ram Narayana Brahmana Seva Samstha** (రామ్ నారాయణ బ్రాహ్మణ సేవా సంస్థ) is an authentic, sacred digital portal for Vedic rites and ancestral ceremonies situated in Dilsukhnagar, Hyderabad.
 
-Under the venerated guidance of **Pro. Namburi Adinarayana Murthy**, this platform connects devotees with experienced Vedic scholars (*Purohits*), disciplined Vedic guests (*Bhokthas*), authentic Agnihotra Parayanam, traditional ritual catering (*Satvik Bhojanam*), and complete ceremonial arrangements in full adherence to *Shastras* and *Sanatana Dharma*.
+Under the venerated guidance of **Pro. Namburi Adinarayana Sharma**, this platform connects devotees with experienced Vedic scholars (*Purohits*), disciplined Vedic guests (*Bhokthas*), authentic Agnihotra Paranam, traditional ritual catering (*Satvik Bhojanam*), and complete ceremonial arrangements in full adherence to *Shastras* and *Sanatana Dharma*.
 
 ### 🎯 Key Objectives:
 - **Preservation of Sacred Heritage:** Modernizing accessibility to ancient Vedic rituals without compromising ritualistic sanctity.
@@ -105,7 +105,7 @@ The Samstha provides 4 focused, Shastra-compliant ritual services:
 
 | # | Service Category (తెలుగు) | Service Name (English) | Sacred Scope & Arrangements |
 |---|---|---|---|
-| **01** | **వైదిక బ్రాహ్మణుల సేవా** | Vaidika Brahmana Seva | Veda Parayanam, Rudra Namaka-Chamaka Parayanam, Gayatri & Mrityunjaya Japas, Ganapathi & Chandi Homas. |
+| **01** | **వైదిక బ్రాహ్మణుల సేవా** | Vaidika Brahmana Seva | Veda Paranam, Rudra Namaka-Chamaka Paranam, Gayatri & Mrityunjaya Japas, Ganapathi & Chandi Homas. |
 | **02** | **భోక్తల సేవా** | Bhoktha Seva | Disciplined, orthodox Brahmin Bhokthas for Shraddha meals adhering strictly to Shastric codes. |
 | **03** | **పితృకార్యాలు & శ్రాద్ధకర్మలు** | Pitru Karyas & Shraddha Karmas | Masikam, Abdikam, Samvatsarikam, Mahalaya Paksha Tarpana, and Pinda Pradanam. |
 | **04** | **సాత్విక వంట & సంపూర్ణ నిర్వహణ** | Satvik Catering & Full Arrangements | Traditional Satvik Brahmin culinary preparation, puja samagri, and clean sacred venue arrangements. |
@@ -253,7 +253,7 @@ class Developer:
 ## 📜 License & Credits
 
 - **Software Engineering & Architecture:** Developed with ❤️ by [**Chintada Vasudharini**](https://github.com/chintadavasudharini).
-- **Vedic Direction & Supervision:** **Pro. Namburi Adinarayana Murthy** (రామ్ నారాయణ బ్రాహ్మణ సేవా సంస్థ).
+- **Vedic Direction & Supervision:** **Pro. Namburi Adinarayana Sharma** (రామ్ నారాయణ బ్రాహ్మణ సేవా సంస్థ).
 - **License:** Open-sourced under the [MIT License](LICENSE).
 
 <div align="center">
