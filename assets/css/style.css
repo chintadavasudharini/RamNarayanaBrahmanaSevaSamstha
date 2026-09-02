@@ -967,8 +967,8 @@ button, input, select, textarea {
 }
 
 .btn-secondary {
-  background: var(--bg-card);
-  color: var(--text-main) !important;
+  background: linear-gradient(135deg, #851317 0%, #A31E23 100%);
+  color: #FFFFFF !important;
   padding: 0.85rem 1.75rem;
   border-radius: var(--radius-full);
   font-weight: 700;
@@ -976,16 +976,18 @@ button, input, select, textarea {
   display: inline-flex;
   align-items: center;
   gap: 0.65rem;
-  border: 1.5px solid var(--border-gold);
-  box-shadow: var(--shadow-sm);
+  border: 1.5px solid #D4AF37;
+  box-shadow: 0 4px 16px rgba(133, 19, 23, 0.35);
   transition: all var(--transition-fast);
+  cursor: pointer;
 }
 
 .btn-secondary:hover {
-  background: var(--color-secondary-light);
-  color: #000000 !important;
+  background: linear-gradient(135deg, #FFE082 0%, #D4AF37 100%);
+  color: #5C0A0E !important;
+  border-color: #851317;
   transform: translateY(-3px);
-  box-shadow: var(--shadow-gold-glow);
+  box-shadow: 0 8px 24px rgba(212, 175, 55, 0.45);
 }
 
 /* Hero Stats Counter Bar */
