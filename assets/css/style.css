@@ -166,6 +166,8 @@ button, input, select, textarea {
   z-index: 1001;
   letter-spacing: 0.2px;
   box-shadow: 0 1px 6px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  overflow-x: hidden;
 }
 
 .top-bar-content {
@@ -181,10 +183,11 @@ button, input, select, textarea {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  gap: clamp(0.35rem, 1.2vw, 0.95rem);
+  gap: clamp(0.25rem, 1vw, 0.95rem);
   font-weight: 600;
   font-size: clamp(0.72rem, 2.2vw, 0.86rem);
-  line-height: 1.4;
+  line-height: 1.35;
+  text-align: center;
 }
 
 .sacred-chant {
@@ -223,6 +226,8 @@ button, input, select, textarea {
   -webkit-backdrop-filter: blur(16px);
   border-bottom: 1px solid var(--border-gold);
   transition: all var(--transition-normal);
+  width: 100%;
+  overflow-x: clip;
 }
 
 .site-header.scrolled {
@@ -250,13 +255,14 @@ button, input, select, textarea {
 .brand-identity {
   display: flex;
   align-items: center;
-  gap: clamp(0.45rem, 1vw, 0.75rem);
-  flex-shrink: 0;
+  gap: clamp(0.35rem, 1.2vw, 0.75rem);
+  min-width: 0;
+  flex: 1 1 auto;
 }
 
 .brand-emblem-wrap {
-  width: clamp(40px, 3.8vw, 54px);
-  height: clamp(40px, 3.8vw, 54px);
+  width: clamp(38px, 4.2vw, 54px);
+  height: clamp(38px, 4.2vw, 54px);
   border-radius: 50%;
   background: #FFFDF8;
   display: flex;
@@ -284,32 +290,40 @@ button, input, select, textarea {
 .brand-text {
   display: flex;
   flex-direction: column;
+  min-width: 0;
 }
 
 .brand-title {
   font-family: var(--font-heading);
-  font-size: clamp(0.78rem, 2vw, 1.15rem);
+  font-size: clamp(0.72rem, 2.7vw, 1.05rem);
   font-weight: 800;
   color: var(--color-primary);
-  line-height: 1.16;
+  line-height: 1.15;
   letter-spacing: -0.2px;
   margin: 0;
+  word-wrap: break-word;
+  white-space: normal;
 }
 
 @media (min-width: 1140px) {
+  .brand-identity {
+    flex: 0 0 auto;
+  }
   .brand-title {
     white-space: nowrap;
-    font-size: clamp(0.9rem, 1.05vw, 1.22rem);
+    font-size: clamp(0.88rem, 1.05vw, 1.22rem);
+  }
+  .brand-subtitle {
+    white-space: nowrap;
   }
 }
 
 .brand-subtitle {
-  font-size: clamp(0.64rem, 0.95vw, 0.76rem);
+  font-size: clamp(0.6rem, 1.6vw, 0.74rem);
   font-weight: 600;
   color: var(--color-secondary);
-  letter-spacing: 0.3px;
-  line-height: 1.2;
-  white-space: nowrap;
+  letter-spacing: 0.2px;
+  line-height: 1.15;
 }
 
 /* Nav Links Desktop */
@@ -749,16 +763,17 @@ button, input, select, textarea {
 
 .hero-logo-frame {
   position: relative;
-  max-width: 360px;
+  max-width: min(340px, 85vw);
   width: 100%;
   aspect-ratio: 1 / 1;
   border-radius: 50%;
-  padding: 10px;
+  padding: clamp(6px, 2vw, 10px);
   background: radial-gradient(circle, #FFE082 0%, #D4AF37 50%, #851317 100%);
   box-shadow: 0 0 45px rgba(255, 224, 130, 0.55), 0 16px 36px rgba(0, 0, 0, 0.6);
   display: flex;
   align-items: center;
   justify-content: center;
+  margin: 0 auto;
   transition: transform var(--transition-bounce), box-shadow var(--transition-normal);
   animation: float 6s ease-in-out infinite;
 }
