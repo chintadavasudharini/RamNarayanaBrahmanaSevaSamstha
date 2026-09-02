@@ -233,7 +233,8 @@ button, input, select, textarea {
 }
 
 .site-header .container {
-  max-width: 1540px;
+  max-width: 1480px;
+  width: 100%;
 }
 
 .nav-container {
@@ -249,14 +250,13 @@ button, input, select, textarea {
 .brand-identity {
   display: flex;
   align-items: center;
-  gap: clamp(0.45rem, 0.8vw, 0.75rem);
+  gap: clamp(0.45rem, 1vw, 0.75rem);
   flex-shrink: 0;
-  min-width: max-content;
 }
 
 .brand-emblem-wrap {
-  width: clamp(38px, 3.5vw, 50px);
-  height: clamp(38px, 3.5vw, 50px);
+  width: clamp(40px, 3.8vw, 54px);
+  height: clamp(40px, 3.8vw, 54px);
   border-radius: 50%;
   background: #FFFDF8;
   display: flex;
@@ -284,48 +284,46 @@ button, input, select, textarea {
 .brand-text {
   display: flex;
   flex-direction: column;
-  flex-shrink: 0;
-  min-width: max-content;
 }
 
 .brand-title {
   font-family: var(--font-heading);
-  font-size: clamp(0.76rem, 2vw, 1.05rem);
+  font-size: clamp(0.78rem, 2vw, 1.15rem);
   font-weight: 800;
   color: var(--color-primary);
   line-height: 1.16;
   letter-spacing: -0.2px;
-  word-break: break-word;
   margin: 0;
 }
 
-@media (min-width: 1240px) {
+@media (min-width: 1140px) {
   .brand-title {
     white-space: nowrap;
-    font-size: clamp(0.82rem, 0.86vw, 1.12rem);
+    font-size: clamp(0.9rem, 1.05vw, 1.22rem);
   }
 }
 
 .brand-subtitle {
-  font-size: clamp(0.62rem, 0.9vw, 0.72rem);
+  font-size: clamp(0.64rem, 0.95vw, 0.76rem);
   font-weight: 600;
   color: var(--color-secondary);
   letter-spacing: 0.3px;
   line-height: 1.2;
+  white-space: nowrap;
 }
 
 /* Nav Links Desktop */
 .nav-menu {
   display: none;
   align-items: center;
-  gap: clamp(0.12rem, 0.35vw, 0.65rem);
+  gap: clamp(0.15rem, 0.45vw, 0.75rem);
   list-style: none;
   margin: 0;
   padding: 0;
   flex-wrap: nowrap;
 }
 
-@media (min-width: 1240px) {
+@media (min-width: 1140px) {
   .nav-menu {
     display: flex;
   }
@@ -333,15 +331,15 @@ button, input, select, textarea {
 
 .nav-link {
   font-weight: 600;
-  font-size: clamp(0.75rem, 0.74vw, 0.86rem);
+  font-size: clamp(0.78rem, 0.82vw, 0.88rem);
   color: var(--text-main);
   position: relative;
-  padding: 0.38rem clamp(0.2rem, 0.32vw, 0.46rem);
+  padding: 0.42rem clamp(0.28rem, 0.4vw, 0.55rem);
   border-radius: var(--radius-sm);
   white-space: nowrap;
   display: inline-flex;
   align-items: center;
-  gap: 0.25rem;
+  gap: 0.3rem;
   transition: all var(--transition-fast);
   cursor: pointer;
 }
@@ -547,7 +545,7 @@ button, input, select, textarea {
   color: var(--color-primary);
 }
 
-@media (min-width: 1240px) {
+@media (min-width: 1140px) {
   .mobile-menu-btn {
     display: none;
   }
