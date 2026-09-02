@@ -136,7 +136,7 @@ function initDropdowns() {
 
   if (navDropdown && dropdownToggle) {
     dropdownToggle.addEventListener('click', (e) => {
-      if (window.innerWidth < 1240) {
+      if (window.innerWidth < 1140) {
         e.preventDefault();
         navDropdown.classList.toggle('open');
       }
