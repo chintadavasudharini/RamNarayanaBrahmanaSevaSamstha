@@ -63,11 +63,13 @@
     <div class="container top-bar-content">
       <div class="top-bar-left">
         <span class="sacred-chant">
-          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><circle cx="12" cy="12" r="10" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="12" cy="12" r="4"/></svg>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><circle cx="12" cy="12" r="10" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="12" cy="12" r="4"/></svg>
           <strong data-i18n="top_invocation">ఓం శ్రీ మాత్రే నమః</strong>
         </span>
-        <span class="sacred-motto" style="color: #FFE082;">| &nbsp; <span data-i18n="top_vedoktam">వేదోక్తం • శాస్త్రోక్తం • భక్తితో</span></span>
-        <span class="sacred-motto" style="color: #FFE082;">| &nbsp; <span data-i18n="top_motto">ధర్మో రక్షతి రక్షితః</span></span>
+        <span class="sacred-divider-dot">•</span>
+        <span class="sacred-motto" data-i18n="top_vedoktam">వేదోక్తం • శాస్త్రోక్తం • భక్తితో</span>
+        <span class="sacred-divider-dot">•</span>
+        <span class="sacred-motto" data-i18n="top_motto">ధర్మో రక్షతి రక్షితః</span>
       </div>
     </div>
   </aside>
@@ -89,12 +91,28 @@
         </div>
       </a>
 
-      <!-- Desktop Navigation Links -->
+      <!-- Desktop Navigation Links with Services Dropdown -->
       <nav class="desktop-nav" aria-label="Main Menu">
         <ul class="nav-menu">
           <li><a href="#home" class="nav-link active" data-i18n="nav_home">ప్రధాన పేజీ</a></li>
           <li><a href="#about" class="nav-link" data-i18n="nav_about">మఠం గురించి</a></li>
-          <li><a href="#services" class="nav-link" data-i18n="nav_services">మా సేవలు</a></li>
+          
+          <!-- Services Dropdown Item -->
+          <li class="nav-dropdown-item">
+            <a href="#services" class="nav-link dropdown-toggle" id="servicesDropdownLink" aria-haspopup="true" aria-expanded="false">
+              <span data-i18n="nav_services">మా సేవలు</span>
+              <svg class="dropdown-chevron" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"/></svg>
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="servicesDropdownLink">
+              <li><a href="#services" class="dropdown-menu-link"><span class="drop-icon">🕉️</span> <span data-i18n="srv_1_name">వైదిక బ్రాహ్మణుల సేవ</span></a></li>
+              <li><a href="#services" class="dropdown-menu-link"><span class="drop-icon">🪔</span> <span data-i18n="srv_2_name">పురోహితుల సేవ</span></a></li>
+              <li><a href="#services" class="dropdown-menu-link"><span class="drop-icon">🍚</span> <span data-i18n="srv_3_name">భోక్తల సేవ</span></a></li>
+              <li><a href="#services" class="dropdown-menu-link"><span class="drop-icon">🌿</span> <span data-i18n="srv_4_name">పితృ కార్యాలు & శ్రాద్ధ కర్మ</span></a></li>
+              <li><a href="#services" class="dropdown-menu-link"><span class="drop-icon">💍</span> <span data-i18n="srv_5_name">శుభకార్యాలు & వివాహం</span></a></li>
+              <li><a href="#services" class="dropdown-menu-link"><span class="drop-icon">🍲</span> <span data-i18n="srv_6_name">సాత్విక భోజన సదుపాయం</span></a></li>
+            </ul>
+          </li>
+
           <li><a href="#benefits" class="nav-link" data-i18n="nav_benefits">ప్రయోజనాలు</a></li>
           <li><a href="#why-us" class="nav-link" data-i18n="nav_why_us">ఎందుకు ఎంచుకోవాలి</a></li>
           <li><a href="#gallery" class="nav-link" data-i18n="nav_gallery">బ్యానర్లు & కరపత్రం</a></li>
@@ -102,13 +120,20 @@
         </ul>
       </nav>
 
-      <!-- Action Controls (Language Switcher, Mobile Drawer) -->
+      <!-- Action Controls (Language Dropdown, Mobile Drawer) -->
       <div class="nav-actions">
-        <!-- Language Switcher Button -->
-        <button class="ctrl-btn lang-toggle-btn" aria-label="Toggle Language between Telugu and English">
-          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
-          <span class="lang-btn-text">English</span>
-        </button>
+        <!-- Language Switcher Dropdown -->
+        <div class="lang-dropdown-wrapper">
+          <button class="ctrl-btn lang-dropdown-btn" id="langDropdownBtn" aria-expanded="false" aria-label="Select Language">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+            <span class="lang-btn-text">తెలుగు</span>
+            <svg class="dropdown-chevron" width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"/></svg>
+          </button>
+          <ul class="lang-dropdown-list" id="langDropdownList">
+            <li><button type="button" class="lang-option-btn active" data-lang="te">🇮🇳 తెలుగు (Telugu)</button></li>
+            <li><button type="button" class="lang-option-btn" data-lang="en">🌐 English (English)</button></li>
+          </ul>
+        </div>
 
         <!-- Mobile Drawer Toggle -->
         <button class="mobile-menu-btn" aria-label="Open Navigation Menu">
@@ -127,22 +152,38 @@
         <div class="brand-emblem-wrap" style="width:48px; height:48px;">
           <img src="assets/images/logo.jpg" alt="రామ్ నారాయణ బ్రాహ్మణ సేవ సంస్థ లోగో">
         </div>
-        <div class="brand-text">
-          <strong class="brand-title" style="font-size:1.05rem;" data-i18n="hero_title_main">రామ్ నారాయణ బ్రాహ్మణ సేవ సంస్థ</strong>
-          <small data-i18n="top_invocation" style="color:var(--color-secondary);">ఓం శ్రీ మాత్రే నమః</small>
+        <div class="brand-text" style="min-width:0;">
+          <strong class="brand-title" style="font-size:0.98rem; word-break:break-word;" data-i18n="hero_title_main">రామ్ నారాయణ బ్రాహ్మణ సేవ సంస్థ</strong>
+          <small data-i18n="top_invocation" style="color:var(--color-secondary); display:block; font-size:0.75rem;">ఓం శ్రీ మాత్రే నమః</small>
         </div>
       </div>
       <ul class="drawer-links">
         <li><a href="#home" data-i18n="nav_home">ప్రధాన పేజీ</a></li>
         <li><a href="#about" data-i18n="nav_about">మఠం గురించి</a></li>
-        <li><a href="#services" data-i18n="nav_services">మా సేవలు</a></li>
+        
+        <!-- Mobile Drawer Collapsible Services Submenu -->
+        <li class="drawer-dropdown-item">
+          <button class="drawer-dropdown-toggle" id="drawerServicesBtn" aria-expanded="false">
+            <span data-i18n="nav_services">మా సేవలు</span>
+            <svg class="drawer-chevron" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"/></svg>
+          </button>
+          <ul class="drawer-submenu" id="drawerServicesSubmenu">
+            <li><a href="#services"><span class="drop-icon">🕉️</span> <span data-i18n="srv_1_name">వైదిక బ్రాహ్మణుల సేవ</span></a></li>
+            <li><a href="#services"><span class="drop-icon">🪔</span> <span data-i18n="srv_2_name">పురోహితుల సేవ</span></a></li>
+            <li><a href="#services"><span class="drop-icon">🍚</span> <span data-i18n="srv_3_name">భోక్తల సేవ</span></a></li>
+            <li><a href="#services"><span class="drop-icon">🌿</span> <span data-i18n="srv_4_name">పితృ కార్యాలు & శ్రాద్ధ కర్మ</span></a></li>
+            <li><a href="#services"><span class="drop-icon">💍</span> <span data-i18n="srv_5_name">శుభకార్యాలు & వివాహం</span></a></li>
+            <li><a href="#services"><span class="drop-icon">🍲</span> <span data-i18n="srv_6_name">సాత్విక భోజన సదుపాయం</span></a></li>
+          </ul>
+        </li>
+
         <li><a href="#benefits" data-i18n="nav_benefits">ప్రయోజనాలు</a></li>
         <li><a href="#why-us" data-i18n="nav_why_us">ఎందుకు ఎంచుకోవాలి</a></li>
         <li><a href="#gallery" data-i18n="nav_gallery">బ్యానర్లు & కరపత్రం</a></li>
         <li><a href="#contact" data-i18n="nav_contact">సంప్రదించండి</a></li>
       </ul>
     </div>
-    <div style="margin-top:2rem; display:flex; flex-direction:column; gap:0.75rem;">
+    <div style="margin-top:1.5rem; display:flex; flex-direction:column; gap:0.65rem;">
       <a href="tel:7780223977" class="btn-primary" style="justify-content:center;" data-i18n="drawer_call_cta">📞 +91 77802 23977</a>
       <a href="https://wa.me/917780223977" target="_blank" rel="noopener" class="btn-whatsapp" style="justify-content:center;" data-i18n="hero_cta_whatsapp">💬 వాట్సాప్ విచారణ</a>
       <a href="https://maps.app.goo.gl/kL4BedYNx17JEaZs9?g_st=aw" target="_blank" rel="noopener" class="btn-secondary" style="justify-content:center;" data-i18n="nav_location_btn">📍 గూగుల్ మ్యాప్స్</a>

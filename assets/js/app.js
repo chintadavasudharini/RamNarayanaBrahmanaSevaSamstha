@@ -1,7 +1,8 @@
 /**
  * Main Application Logic for Ram Narayana Brahmana Seva Samstha / Matham
  * Features:
- * - Language Switcher (Telugu / English)
+ * - Language Switcher with Dropdown Menu (Telugu / English)
+ * - Navigation Services Dropdown (Desktop & Mobile Drawer)
  * - Lightbox Image Modal
  * - Mobile Navigation Drawer
  * - Smooth Scrolling & Back to Top
@@ -13,6 +14,7 @@ document.addEventListener('DOMContentLoaded', () => {
   localStorage.removeItem('rnbs_theme');
 
   initLanguage();
+  initDropdowns();
   initMobileNav();
   initScrollEffects();
   initLightbox();
@@ -22,17 +24,39 @@ document.addEventListener('DOMContentLoaded', () => {
    2. Language Management (Telugu / English)
    ========================================================================== */
 function initLanguage() {
-  const langToggleBtns = document.querySelectorAll('.lang-toggle-btn');
+  const langDropdownWrapper = document.querySelector('.lang-dropdown-wrapper');
+  const langDropdownBtn = document.getElementById('langDropdownBtn');
+  const langOptionBtns = document.querySelectorAll('.lang-option-btn');
   const storedLang = localStorage.getItem('rnbs_lang') || 'te';
   
   setLanguage(storedLang);
 
-  langToggleBtns.forEach(btn => {
-    btn.addEventListener('click', () => {
-      const currentLang = document.documentElement.getAttribute('lang') || 'te';
-      const newLang = currentLang === 'te' ? 'en' : 'te';
-      setLanguage(newLang);
+  if (langDropdownBtn && langDropdownWrapper) {
+    langDropdownBtn.addEventListener('click', (e) => {
+      e.stopPropagation();
+      const isOpen = langDropdownWrapper.classList.toggle('open');
+      langDropdownBtn.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
     });
+  }
+
+  langOptionBtns.forEach(btn => {
+    btn.addEventListener('click', (e) => {
+      e.stopPropagation();
+      const lang = btn.getAttribute('data-lang');
+      setLanguage(lang);
+      if (langDropdownWrapper) {
+        langDropdownWrapper.classList.remove('open');
+        langDropdownBtn?.setAttribute('aria-expanded', 'false');
+      }
+    });
+  });
+
+  // Close language dropdown on outside click
+  document.addEventListener('click', (e) => {
+    if (langDropdownWrapper && !langDropdownWrapper.contains(e.target)) {
+      langDropdownWrapper.classList.remove('open');
+      langDropdownBtn?.setAttribute('aria-expanded', 'false');
+    }
   });
 }
 
@@ -76,24 +100,66 @@ function setLanguage(lang) {
     }
   });
 
-  // Update language toggle button text
+  // Update language trigger text & active options
   document.querySelectorAll('.lang-btn-text').forEach(el => {
-    el.textContent = lang === 'te' ? 'English' : 'తెలుగు';
+    el.textContent = lang === 'te' ? 'తెలుగు' : 'English';
   });
 
-  // Re-sync theme button label language
-  const currentTheme = document.documentElement.getAttribute('data-theme') || 'light';
-  document.querySelectorAll('.theme-label').forEach(label => {
-    if (currentTheme === 'dark') {
-      label.textContent = lang === 'te' ? 'లైట్ మోడ్' : 'Light Mode';
+  document.querySelectorAll('.lang-option-btn').forEach(btn => {
+    if (btn.getAttribute('data-lang') === lang) {
+      btn.classList.add('active');
     } else {
-      label.textContent = lang === 'te' ? 'డార్క్ మోడ్' : 'Dark Mode';
+      btn.classList.remove('active');
     }
   });
 }
 
 /* ==========================================================================
-   3. Mobile Navigation Drawer
+   3. Dropdown Menus Management (Desktop & Mobile)
+   ========================================================================== */
+function initDropdowns() {
+  // Mobile Drawer Services Submenu Toggle
+  const drawerServicesBtn = document.getElementById('drawerServicesBtn');
+  const drawerDropdownItem = drawerServicesBtn?.closest('.drawer-dropdown-item');
+
+  if (drawerServicesBtn && drawerDropdownItem) {
+    drawerServicesBtn.addEventListener('click', (e) => {
+      e.preventDefault();
+      const isOpen = drawerDropdownItem.classList.toggle('open');
+      drawerServicesBtn.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+    });
+  }
+
+  // Desktop Services Dropdown Hover/Touch
+  const navDropdown = document.querySelector('.nav-dropdown-item');
+  const dropdownToggle = document.getElementById('servicesDropdownLink');
+
+  if (navDropdown && dropdownToggle) {
+    dropdownToggle.addEventListener('click', (e) => {
+      if (window.innerWidth < 1140) {
+        e.preventDefault();
+        navDropdown.classList.toggle('open');
+      }
+    });
+
+    document.addEventListener('click', (e) => {
+      if (!navDropdown.contains(e.target)) {
+        navDropdown.classList.remove('open');
+      }
+    });
+  }
+
+  // Close all open dropdowns on Escape key
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape') {
+      document.querySelector('.lang-dropdown-wrapper')?.classList.remove('open');
+      document.querySelector('.nav-dropdown-item')?.classList.remove('open');
+    }
+  });
+}
+
+/* ==========================================================================
+   4. Mobile Navigation Drawer
    ========================================================================== */
 function initMobileNav() {
   const menuToggle = document.querySelector('.mobile-menu-btn');
