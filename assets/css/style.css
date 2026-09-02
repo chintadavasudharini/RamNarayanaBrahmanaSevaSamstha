@@ -1317,7 +1317,7 @@ section {
 .services-grid {
   display: grid;
   grid-template-columns: 1fr;
-  gap: 2rem;
+  gap: clamp(1.5rem, 2.5vw, 2.25rem);
 }
 
 @media (min-width: 680px) {
@@ -1326,9 +1326,11 @@ section {
   }
 }
 
-@media (min-width: 1040px) {
+@media (min-width: 1100px) {
   .services-grid {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 1140px;
+    margin: 0 auto;
   }
 }
 
