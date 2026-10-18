@@ -1,4 +1,4 @@
-﻿/**
+/**
  * Bilingual Translation Data for Ram Narayana Brahmana Seva Samstha
  * Supports dynamic switching between Telugu (తెలుగు) and English
  */
@@ -60,7 +60,7 @@ const translations = {
     about_title: "సనాతన ధర్మ రక్షణ & పితృ కర్మల విశిష్టత",
     about_lead: "మాతాపితరుల రుణం తీర్చుకోవడం ప్రతి మానవుని ప్రథమ కర్తవ్యం. శాస్త్రోక్తంగా నిర్వహించే శ్రద్ధ మరియు శ్రాద్ధ కర్మలు పితృదేవతలకు సద్గతిని, కుటుంబానికి శుభాలను చేకూరుస్తాయి.",
     about_text_1: "రామ్ నారాయణ బ్రాహ్మణ సేవా సంస్థ ద్వారా ప్రొ॥ నంబూరి ఆదినారాయణ శర్మ గారి పర్యవేక్షణలో అత్యంత నిష్ఠతో, వేద మంత్రోచ్ఛారణలతో పితృ కార్యాలు మరియు శ్రాద్ధ కర్మలు నిర్వహించబడుతున్నాయి.",
-    about_text_2: "అన్ని కార్యక్రమాలు హైదరాబాద్ దిల్సుఖ్నగర్‌లోని మా రామ్ నారాయణ బ్రాహ్మణ సేవా సంస్థ ప్రాంగణంలోనే (H.No. 11-62, ప్రగతి నగర్ రోడ్, సాహితి నగర్) పురోహితులు, భోక్తలు, పూజా సామాగ్రి, సాత్విక వంట మరియు సంపూర్ణ సౌకర్యాలతో శాస్త్రోక్తంగా నిర్వహించబడును.",
+    about_text_2: "అన్ని కార్యక్రమాలు హైదరాబాద్ దిల్సుఖ్నగర్ మా రామ్ నారాయణ బ్రాహ్మణ సేవా సంస్థ ప్రాంగణంలోనే (H.No. 11-62, ప్రగతి నగర్ రోడ్, సాహితి నగర్) పురోహితులు, భోక్తలు, పూజా సామాగ్రి, సాత్విక వంట మరియు సంపూర్ణ సౌకర్యాలతో శాస్త్రోక్తంగా నిర్వహించబడును.",
     about_quote: "\"పూర్వీకుల ఆశీస్సులే కుటుంబ క్షేమానికి మూలస్తంభాలు\"",
     about_point_1: "అనుభవజ్ఞులైన వేద పండితుల మార్గదర్శకత్వం",
     about_point_2: "సమగ్ర పూజా సామగ్రి మరియు భోక్తల ఏర్పాట్లు",
@@ -80,7 +80,7 @@ const translations = {
     srv_1_feat3: "గణపతి, నవగ్రహ, చండీ హోమాలు",
 
     srv_2_name: "భోక్తల సేవా",
-    srv_2_desc: "శ్రద్ధ, పితృకార్యాలు మరియు శ్రాద్ధ భోజనములలో శాస్త్రోక్త విధానంలో భోక్తల సేవా అందుబాటులో ఉంటుంది.",
+    srv_2_desc: "పితృకార్యాలు మరియు శ్రాద్ధ భోజనములలో శాస్త్రోక్త విధానంలో భోక్తల సేవా అందుబాటులో ఉంటుంది.",
     srv_2_feat1: "సదాచార సంపన్నులైన సత్ బ్రాహ్మణులు",
     srv_2_feat2: "నిష్టాగరిష్ఠ ఆచార వ్యవహారాలు",
     srv_2_feat3: "మా సంస్థ ప్రాంగణంలోనే సంపూర్ణ నిర్వహణ",
@@ -99,7 +99,7 @@ const translations = {
 
     // Benefits Section
     benefits_badge: "పితృ కర్మల మహత్యం",
-    benefits_title: "శ్రద్ధ & పితృకర్మల వల్ల కలిగే ప్రయోజనాలు",
+    benefits_title: "పితృకర్మల వల్ల కలిగే ప్రయోజనాలు",
     benefits_sub: "మన సనాతన ధర్మంలో పితృయజ్ఞం అత్యున్నతమైనది. శాస్త్రోక్త ఆచరణతో కలిగే శుభఫలాలు:",
 
     ben_1_title: "కృతజ్ఞత భావం",
@@ -132,7 +132,7 @@ const translations = {
     why_2_desc: "శాస్త్ర నియమాలను తూచా తప్పకుండా, అగ్నిహోత్ర పారణ విధానంలో పరిపూర్ణంగా జరిపిస్తాము.",
 
     why_3_title: "శుభ్రమైన, ప్రశాంతమైన వాతావరణం",
-    why_3_desc: "దిల్సుఖ్నగర్‌లోని మా సంస్థ ప్రాంగణంలో భక్తి శ్రద్ధలకు అనువైన పవిత్ర, పరిశుభ్ర వాతావరణం కలదు.",
+    why_3_desc: "దిల్సుఖ్నగర్ మా సంస్థ ప్రాంగణంలో భక్తి శ్రద్ధలకు అనువైన పవిత్ర, పరిశుభ్ర వాతావరణం కలదు.",
 
     why_4_title: "శాస్త్రోక్త సేవలు & సాత్విక భోజనం",
     why_4_desc: "పూజా సామాగ్రి, హోమం, భోక్తలు, సాత్విక భోజనం వరకు అన్ని ఏర్పాట్లు మేమే స్వయంగా చూసుకుంటాము.",
@@ -165,7 +165,7 @@ const translations = {
     contact_whatsapp_btn_text: "💬 +91 77802 23977",
     contact_email_label: "ఈమెయిల్:",
     contact_hours_label: "సేవా సమయాలు:",
-    contact_hours_val: "రోజూ ఉదయం 8:00 నుండి సాయంత్రం 5:00 వరకు",
+    contact_hours_val: "రోజూ ఉదయం 8:00 నుండి సాయంత్రం 6:00 వరకు",
     contact_cta_maps: "📍 గూగుల్ మ్యాప్స్‌లో చూడండి (Google Maps)",
     contact_cta_whatsapp: "💬 వాట్సాప్‌లో సంప్రదించండి (+91 77802 23977)",
 
@@ -178,7 +178,9 @@ const translations = {
     footer_desc: "హిందూ సాంప్రదాయ విధాన సత్ బ్రాహ్మణులతో, అగ్నిహోత్ర పారణంతో పితృ కార్యముల సమగ్ర నిర్వహణ సేవా సంస్థ.",
     footer_quick_links: "ముఖ్యమైన లింకులు",
     footer_services: "సేవలు",
+    footer_srv_2: "భోక్తల సేవ",
     footer_contact_info: "సంప్రదింపుల కేంద్రం",
+    footer_social_title: "సోషల్ మీడియా",
     footer_rights: "రామ్ నారాయణ బ్రాహ్మణ సేవా సంస్థ. సర్వ హక్కులూ ప్రత్యేకించబడినవి.",
     footer_developed: "ప్రొ॥ నంబూరి ఆదినారాయణ శర్మ గారి ఆధ్వర్యంలో"
   },
@@ -344,7 +346,7 @@ const translations = {
     contact_whatsapp_btn_text: "💬 +91 77802 23977",
     contact_email_label: "Email Address:",
     contact_hours_label: "Service Timings:",
-    contact_hours_val: "Open Every Day: 8:00 AM – 5:00 PM",
+    contact_hours_val: "Open Every Day: 8:00 AM – 6:00 PM",
     contact_cta_maps: "📍 Open in Google Maps",
     contact_cta_whatsapp: "💬 Connect on WhatsApp (+91 77802 23977)",
 
@@ -357,7 +359,9 @@ const translations = {
     footer_desc: "Dedicated to the authentic, Shastra-compliant conduct of Hindu ancestral rituals with Vedic Purohits and devout Sadacharam at our Samstha.",
     footer_quick_links: "Quick Navigation",
     footer_services: "Our Rituals",
+    footer_srv_2: "Bhoktha Seva (Brahmin Bhokthas)",
     footer_contact_info: "Contact Information",
+    footer_social_title: "Follow Us",
     footer_rights: "Ram Narayana Brahmana Seva Samstha. All Rights Reserved.",
     footer_developed: "Under the guidance of Pro. Namburi Adinarayana Sharma"
   }
