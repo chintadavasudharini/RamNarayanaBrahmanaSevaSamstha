@@ -1,4 +1,4 @@
-<div align="center">
+﻿<div align="center">
 
   <!-- Logo & Title Header -->
   <img src="assets/images/logo.jpg" alt="Ram Narayana Brahmana Seva Samstha Logo" width="130" style="border-radius: 50%; box-shadow: 0 0 25px rgba(212, 175, 55, 0.6); border: 3px solid #D4AF37; margin-bottom: 12px;" />
@@ -22,9 +22,6 @@
     </a>
     <a href="https://github.com/chintadavasudharini/RamNarayanaBrahmanaSevaSamstha/network/members">
       <img src="https://img.shields.io/github/forks/chintadavasudharini/RamNarayanaBrahmanaSevaSamstha?style=for-the-badge&logo=github&color=851317" alt="GitHub Forks" />
-    </a>
-    <a href="https://www.instagram.com/ramnarayana_brahmana_seva?xtok=MTAwMWFiY245OWJrcQ==" target="_blank">
-      <img src="https://img.shields.io/badge/Instagram-@ramnarayana__brahmana__seva-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Official Instagram" />
     </a>
     <a href="https://github.com/chintadavasudharini/RamNarayanaBrahmanaSevaSamstha/blob/main/LICENSE">
       <img src="https://img.shields.io/badge/License-MIT-gold?style=for-the-badge" alt="License" />
