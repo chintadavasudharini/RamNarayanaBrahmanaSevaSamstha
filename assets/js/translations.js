@@ -192,7 +192,7 @@ const translations = {
     footer_services: "సేవలు",
     footer_srv_2: "భోక్తల సేవ",
     footer_contact_info: "సంప్రదింపుల కేంద్రం",
-    footer_social_title: "సోషల్ మీడియా",
+    footer_social_title: "Follow Us",
     footer_rights: "రామ్ నారాయణ బ్రాహ్మణ సేవా సంస్థ. సర్వ హక్కులూ ప్రత్యేకించబడినవి.",
     footer_developed: "ప్రొ॥ నంబూరి ఆదినారాయణ శర్మ గారి ఆధ్వర్యంలో"
   },
@@ -381,7 +381,7 @@ const translations = {
 
     // Footer
     footer_desc: "Dedicated to the authentic, Shastra-compliant conduct of Hindu ancestral rituals with Vedic Purohits and devout Sadacharam at our Samstha.",
-    footer_quick_links: "Quick Navigation",
+    footer_quick_links: "Explore Our Samstha",
     footer_services: "Our Rituals",
     footer_srv_2: "Bhoktha Seva (Brahmin Bhokthas)",
     footer_contact_info: "Contact Information",

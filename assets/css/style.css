@@ -2209,6 +2209,24 @@ section {
   font-size: 0.88rem;
 }
 
+.footer-social-bottom-wrap {
+  margin-top: 1.25rem;
+  padding-top: 1.25rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.15rem;
+  flex-wrap: wrap;
+}
+
+.footer-social-bottom-label {
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: #FFE082;
+  letter-spacing: 0.5px;
+}
+
 /* ==========================================================================
    15. Modals & Lightbox
    ========================================================================== */
