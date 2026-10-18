@@ -110,8 +110,9 @@ Modern city living presents immense hurdles for families wishing to fulfill thei
 
 ## 🕉️ సమగ్ర సేవా విభాగాలు | Sacred Services in Detail
 
-> ### **మా సేవలు: మాసికం ◆ ఆబ్దికం ◆ సంవత్సరీకం ◆ పిండప్రదానం**
-> *(Masikam ◆ Abdikam ◆ Samvatsarikam ◆ Pinda Pradanam)*
+> ### **బ్రాహ్మణ పితృ కార్యముల నిర్వహణ సంస్థ**
+> **◆ మాసికం ◆ ఆబ్దికం ◆ సంవత్సరీకం ◆ పిండప్రదానం**  
+> *(Brahmana Pitru Karyamula Nirvahana Samstha: ◆ Masikam ◆ Abdikam ◆ Samvatsarikam ◆ Pinda Pradanam)*
 
 రామ్ నారాయణ బ్రాహ్మణ సేవా సంస్థలో నిర్వహించబడే ప్రధాన వైదిక విభాగాలు:
 
