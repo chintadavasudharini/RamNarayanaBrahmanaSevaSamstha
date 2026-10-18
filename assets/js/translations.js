@@ -359,7 +359,7 @@ const translations = {
     contact_whatsapp_btn_text: "💬 +91 77802 23977",
     contact_email_label: "Email Address:",
     contact_hours_label: "Service Timings:",
-    contact_hours_val: "Open Every Day: 8:00 AM – 6:00 PM",
+    contact_hours_val: "Every Day: 8:00 AM – 6:00 PM",
     contact_cta_maps: "📍 Open in Google Maps",
     contact_cta_whatsapp: "💬 Connect on WhatsApp (+91 77802 23977)",
 
