@@ -22,7 +22,13 @@
       <img src="https://img.shields.io/badge/గూగుల్_మ్యాప్స్-లొకేషన్_చూడండి-4285F4?style=for-the-badge&logo=googlemaps&logoColor=white" alt="Google Maps Location" />
     </a>
     <a href="https://www.instagram.com/ramnarayana_brahmana_seva?xtok=MTAwMWFiY245OWJrcQ==" target="_blank">
-      <img src="https://img.shields.io/badge/ఇన్‌స్టాగ్రామ్-@ramnarayana__brahmana__seva-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Official Instagram" />
+      <img src="https://img.shields.io/badge/Instagram-@ramnarayana__brahmana__seva-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Official Instagram" />
+    </a>
+    <a href="https://www.facebook.com/profile.php?id=61595183055843" target="_blank">
+      <img src="https://img.shields.io/badge/Facebook-Follow_Us-1877F2?style=for-the-badge&logo=facebook&logoColor=white" alt="Facebook" />
+    </a>
+    <a href="https://www.youtube.com/@RamNarayanaBrahmanaSevaSamstha" target="_blank">
+      <img src="https://img.shields.io/badge/YouTube-Subscribe-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="YouTube" />
     </a>
     <a href="https://wa.me/917780223977?text=నమస్కారం%20రామ్%20నారాయణ%20బ్రాహ్మణ%20సేవా%20సంస్థ,%20నేను%20మీ%20సేవల%20గురించి%20తెలుసుకోవాలనుకుంటున్నాను." target="_blank">
       <img src="https://img.shields.io/badge/వాట్సాప్-సంప్రదించండి-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="WhatsApp Inquiry" />
@@ -52,7 +58,8 @@
 7. [🏢 ప్రాంగణ సౌకర్యాలు & పరిశుభ్రత | Premises & Sacred Facilities](#-ప్రాంగణ-సౌకర్యాలు--పరిశుభ్రత--premises--sacred-facilities)
 8. [📋 కుటుంబాలకు ముఖ్యమైన సూచనలు | Guidelines for Visiting Families](#-కుటుంబాలకు-ముఖ్యమైన-సూచనలు--guidelines-for-visiting-families)
 9. [❓ తరచుగా అడిగే ప్రశ్నలు | Frequently Asked Questions (FAQ)](#-తరచుగా-అడిగే-ప్రశ్నలు--frequently-asked-questions-faq)
-10. [📍 సంప్రదింపు వివరాలు & దర్శన సమయాలు | Contact & Location Info](#-సంప్రదింపు-వివరాలు--దర్శన-సమయాలు--contact--location-info)
+10. [🌐 సోషల్ మీడియాలో ఫాలో అవ్వండి | Follow Us On Social Media](#-సోషల్-మీడియాలో-ఫాలో-అవ్వండి--follow-us-on-social-media)
+11. [📍 సంప్రదింపు వివరాలు & దర్శన సమయాలు | Contact & Location Info](#-సంప్రదింపు-వివరాలు--దర్శన-సమయాలు--contact--location-info)
 
 ---
 
@@ -214,6 +221,19 @@ Modern city living presents immense hurdles for families wishing to fulfill thei
 
 ---
 
+## 🌐 సోషల్ మీడియాలో ఫాలో అవ్వండి | Follow Us On Social Media
+
+సంస్థ విశేషాలు, పవిత్ర తిథులు, వైదిక సమాచారం మరియు ప్రత్యేక పూజా కార్యక్రమాల అప్‌డేట్స్ కోసం మా అధికారిక సోషల్ మీడియా పేజీలను ఫాలో అవ్వండి:
+
+| ప్లాట్‌ఫారమ్ (Platform) | అధికారిక పేజీ / లింక్ (Official Link & Handle) | సేవా విశేషాలు (Content & Highlights) |
+|:---:|---|---|
+| 📸 **Instagram** | [@ramnarayana_brahmana_seva](https://www.instagram.com/ramnarayana_brahmana_seva?xtok=MTAwMWFiY245OWJrcQ==) | రోజువారీ సమాచారం, ఫొటోలు & విశేషాలు |
+| 📘 **Facebook** | [Ram Narayana Brahmana Seva](https://www.facebook.com/profile.php?id=61595183055843) | ఆధ్యాత్మిక పోస్టులు & ఈవెంట్ అప్‌డేట్స్ |
+| 🎥 **YouTube** | [@RamNarayanaBrahmanaSevaSamstha](https://www.youtube.com/@RamNarayanaBrahmanaSevaSamstha) | వైదిక ప్రవచనాలు & కార్యక్రమ వీడియోలు |
+| 💬 **WhatsApp** | [Connect on WhatsApp (+91 77802 23977)](https://wa.me/917780223977?text=నమస్కారం%20రామ్%20నారాయణ%20బ్రాహ్మణ%20సేవా%20సంస్థ,%20నేను%20మీ%20సేవల%20గురించి%20తెలుసుకోవాలనుకుంటున్నాను.) | ప్రత్యక్ష విచారణ & సందేహాల నివృత్తి |
+
+---
+
 ## 📍 సంప్రదింపు వివరాలు & దర్శన సమయాలు | Contact & Location Info
 
 | వివరాలు (Field) | సమగ్ర సమాచారం (Details) |
@@ -225,7 +245,9 @@ Modern city living presents immense hurdles for families wishing to fulfill thei
 | **ఫోన్ నంబర్లు (Calling)** | 📞 [**+91 77802 23977**](tel:7780223977) &nbsp;\|&nbsp; 📞 [**+91 87903 23977**](tel:8790323977) |
 | **వాట్సాప్ సంప్రదింపు (WhatsApp)** | 💬 [**+91 77802 23977**](https://wa.me/917780223977?text=నమస్కారం%20రామ్%20నారాయణ%20బ్రాహ్మణ%20సేవా%20సంస్థ,%20నేను%20మీ%20సేవల%20గురించి%20తెలుసుకోవాలనుకుంటున్నాను.) |
 | **ఈమెయిల్ (Email)** | ✉️ [ramnarayanabrahmanasevasamstha@gmail.com](mailto:ramnarayanabrahmanasevasamstha@gmail.com) |
-| **అధికారిక ఇన్‌స్టాగ్రామ్ పేజీ** | 📸 [@ramnarayana_brahmana_seva](https://www.instagram.com/ramnarayana_brahmana_seva?xtok=MTAwMWFiY245OWJrcQ==) |
+| **అధికారిక ఇన్‌స్టాగ్రామ్** | 📸 [@ramnarayana_brahmana_seva](https://www.instagram.com/ramnarayana_brahmana_seva?xtok=MTAwMWFiY245OWJrcQ==) |
+| **అధికారిక ఫేస్‌బుక్ పేజీ** | 📘 [Ram Narayana Brahmana Seva](https://www.facebook.com/profile.php?id=61595183055843) |
+| **అధికారిక యూట్యూబ్ ఛానల్** | 🎥 [@RamNarayanaBrahmanaSevaSamstha](https://www.youtube.com/@RamNarayanaBrahmanaSevaSamstha) |
 | **గూగుల్ మ్యాప్స్ డైరెక్షన్స్** | 📍 [Open Location in Google Maps](https://maps.app.goo.gl/kL4BedYNx17JEaZs9?g_st=aw) |
 | **దర్శన & సేవా సమయాలు (Timings)** | ⏰ ప్రతిరోజు ఉదయం 8:00 AM నుండి సాయంత్రం 6:00 PM వరకు (ఆదివారాలతో సహా తెరిచి ఉంటుంది) |
 
