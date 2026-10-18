@@ -229,12 +229,12 @@ Modern city living presents immense hurdles for families wishing to fulfill thei
 
 సంస్థ విశేషాలు, పవిత్ర తిథులు, వైదిక సమాచారం మరియు ప్రత్యేక పూజా కార్యక్రమాల అప్‌డేట్స్ కోసం మా అధికారిక సోషల్ మీడియా పేజీలను ఫాలో అవ్వండి:
 
-| ప్లాట్‌ఫారమ్ (Platform) | అధికారిక పేజీ / లింక్ (Official Link & Handle) | సేవా విశేషాలు (Content & Highlights) |
-|:---:|---|---|
-| 📸 **Instagram** | [@ramnarayana_brahmana_seva](https://www.instagram.com/ramnarayana_brahmana_seva?xtok=MTAwMWFiY245OWJrcQ==) | రోజువారీ సమాచారం, ఫొటోలు & విశేషాలు |
-| 📘 **Facebook** | [Ram Narayana Brahmana Seva](https://www.facebook.com/profile.php?id=61595183055843) | ఆధ్యాత్మిక పోస్టులు & ఈవెంట్ అప్‌డేట్స్ |
-| 🎥 **YouTube** | [@RamNarayanaBrahmanaSevaSamstha](https://www.youtube.com/@RamNarayanaBrahmanaSevaSamstha) | వైదిక ప్రవచనాలు & కార్యక్రమ వీడియోలు |
-| 💬 **WhatsApp** | [Connect on WhatsApp (+91 77802 23977)](https://wa.me/917780223977?text=నమస్కారం%20రామ్%20నారాయణ%20బ్రాహ్మణ%20సేవా%20సంస్థ,%20నేను%20మీ%20సేవల%20గురించి%20తెలుసుకోవాలనుకుంటున్నాను.) | ప్రత్యక్ష విచారణ & సందేహాల నివృత్తి |
+| ప్లాట్‌ఫారమ్ (Platform) | అధికారిక పేజీ / లింక్ (Official Link & Handle) |
+|:---:|---|
+| 📸 **Instagram** | [@ramnarayana_brahmana_seva](https://www.instagram.com/ramnarayana_brahmana_seva?xtok=MTAwMWFiY245OWJrcQ==) |
+| 📘 **Facebook** | [Ram Narayana Brahmana Seva](https://www.facebook.com/profile.php?id=61595183055843) |
+| 🎥 **YouTube** | [@RamNarayanaBrahmanaSevaSamstha](https://www.youtube.com/@RamNarayanaBrahmanaSevaSamstha) |
+| 💬 **WhatsApp** | [Connect on WhatsApp (+91 77802 23977)](https://wa.me/917780223977?text=నమస్కారం%20రామ్%20నారాయణ%20బ్రాహ్మణ%20సేవా%20సంస్థ,%20నేను%20మీ%20సేవల%20గురించి%20తెలుసుకోవాలనుకుంటున్నాను.) |
 
 ---
 
