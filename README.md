@@ -15,7 +15,7 @@
 
   <!-- Key Sacred Badges -->
   <p align="center">
-    <a href="https://ram-narayana-brahmana-seva-samstha.vercel.app/" target="_blank">
+    <a href="https://ramnarayana-brahmana-sevasamstha.vercel.app/" target="_blank">
       <img src="https://img.shields.io/badge/అధికారిక_వెబ్‌సైట్-సందర్శించండి-000000?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Official Website" />
     </a>
     <a href="https://maps.app.goo.gl/kL4BedYNx17JEaZs9?g_st=aw" target="_blank">
@@ -42,6 +42,10 @@
     <img src="https://img.shields.io/badge/సదుపాయం-సంస్థలోనే_సంపూర్ణ_నిర్వహణ-2E7D32?style=flat-square" alt="All Arrangements at Samstha" />
     <img src="https://img.shields.io/badge/సేవా_సమయాలు-రోజూ_8:00_AM_–_6:00_PM-B43403?style=flat-square" alt="Daily Timings" />
   </p>
+
+  <h4>
+    🌐 <a href="https://ramnarayana-brahmana-sevasamstha.vercel.app/" target="_blank"><strong>https://ramnarayana-brahmana-sevasamstha.vercel.app »</strong></a>
+  </h4>
 
 </div>
 
@@ -248,6 +252,7 @@ Modern city living presents immense hurdles for families wishing to fulfill thei
 | **అధికారిక ఇన్‌స్టాగ్రామ్** | 📸 [@ramnarayana_brahmana_seva](https://www.instagram.com/ramnarayana_brahmana_seva?xtok=MTAwMWFiY245OWJrcQ==) |
 | **అధికారిక ఫేస్‌బుక్ పేజీ** | 📘 [Ram Narayana Brahmana Seva](https://www.facebook.com/profile.php?id=61595183055843) |
 | **అధికారిక యూట్యూబ్ ఛానల్** | 🎥 [@RamNarayanaBrahmanaSevaSamstha](https://www.youtube.com/@RamNarayanaBrahmanaSevaSamstha) |
+| **అధికారిక వెబ్‌సైట్** | 🌐 [ramnarayana-brahmana-sevasamstha.vercel.app](https://ramnarayana-brahmana-sevasamstha.vercel.app/) |
 | **గూగుల్ మ్యాప్స్ డైరెక్షన్స్** | 📍 [Open Location in Google Maps](https://maps.app.goo.gl/kL4BedYNx17JEaZs9?g_st=aw) |
 | **దర్శన & సేవా సమయాలు (Timings)** | ⏰ ప్రతిరోజు ఉదయం 8:00 AM నుండి సాయంత్రం 6:00 PM వరకు (ఆదివారాలతో సహా తెరిచి ఉంటుంది) |
 
