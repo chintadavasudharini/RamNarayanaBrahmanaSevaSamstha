@@ -1,7 +1,7 @@
 <div align="center">
 
-  <!-- Official Logo & Emblem -->
-  <img src="assets/images/logo.jpg" alt="రామ్ నారాయణ బ్రాహ్మణ సేవా సంస్థ - Official Logo" width="140" style="border-radius: 50%; box-shadow: 0 0 25px rgba(212, 175, 55, 0.6); border: 3px solid #D4AF37; margin-bottom: 14px;" />
+  <!-- Official Sacred Emblem -->
+  <img src="assets/images/logo.jpg" alt="రామ్ నారాయణ బ్రాహ్మణ సేవా సంస్థ - Official Sacred Emblem" width="145" style="border-radius: 50%; box-shadow: 0 0 25px rgba(212, 175, 55, 0.6); border: 3px solid #D4AF37; margin-bottom: 14px;" />
 
   # 🕉️ రామ్ నారాయణ బ్రాహ్మణ సేవా సంస్థ
   ### **Ram Narayana Brahmana Seva Samstha**
@@ -9,37 +9,33 @@
 
   <p align="center">
     <strong>"వైదిక సంప్రదాయ పరిరక్షణే మా లక్ష్యం — శ్రద్ధ, భక్తి, శాస్త్రబద్ధతతో మీ సేవా తత్పరతలో..."</strong><br>
-    <em>పర్యవేక్షణ & మార్గదర్శకత్వం: <strong>ప్రొ॥ నంబూరి ఆదినారాయణ శర్మ</strong> (Pro. Namburi Adinarayana Sharma)</em><br>
+    <em>దివ్య పర్యవేక్షణ & మార్గదర్శకత్వం: <strong>ప్రొ॥ నంబూరి ఆదినారాయణ శర్మ</strong> (Pro. Namburi Adinarayana Sharma)</em><br>
     📍 H.No. 11-62, ప్రగతి నగర్ రోడ్, సాహితి నగర్, దిల్‌సుఖ్‌నగర్, హైదరాబాద్ – 500060
   </p>
 
-  <!-- Live Deployment & Repository Badges -->
+  <!-- Key Sacred Badges -->
   <p align="center">
     <a href="https://ram-narayana-brahmana-seva-samstha.vercel.app/" target="_blank">
-      <img src="https://img.shields.io/badge/Live_Website-Vercel_Production-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Live Website" />
-    </a>
-    <a href="https://github.com/ramnarayanabrahmanaseva/RamNarayanaBrahmanaSevaSamstha">
-      <img src="https://img.shields.io/badge/GitHub-Official_Repo-851317?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Repo" />
-    </a>
-    <a href="https://www.instagram.com/ramnarayana_brahmana_seva?xtok=MTAwMWFiY245OWJrcQ==" target="_blank">
-      <img src="https://img.shields.io/badge/Instagram-@ramnarayana__brahmana__seva-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" />
+      <img src="https://img.shields.io/badge/అధికారిక_వెబ్‌సైట్-సందర్శించండి-000000?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Official Website" />
     </a>
     <a href="https://maps.app.goo.gl/kL4BedYNx17JEaZs9?g_st=aw" target="_blank">
-      <img src="https://img.shields.io/badge/Google_Maps-Location_Pin-4285F4?style=for-the-badge&logo=googlemaps&logoColor=white" alt="Google Maps" />
+      <img src="https://img.shields.io/badge/గూగుల్_మ్యాప్స్-లొకేషన్_చూడండి-4285F4?style=for-the-badge&logo=googlemaps&logoColor=white" alt="Google Maps Location" />
+    </a>
+    <a href="https://www.instagram.com/ramnarayana_brahmana_seva?xtok=MTAwMWFiY245OWJrcQ==" target="_blank">
+      <img src="https://img.shields.io/badge/ఇన్‌స్టాగ్రామ్-@ramnarayana__brahmana__seva-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Official Instagram" />
+    </a>
+    <a href="https://wa.me/917780223977?text=నమస్కారం%20రామ్%20నారాయణ%20బ్రాహ్మణ%20సేవా%20సంస్థ,%20నేను%20మీ%20సేవల%20గురించి%20తెలుసుకోవాలనుకుంటున్నాను." target="_blank">
+      <img src="https://img.shields.io/badge/వాట్సాప్-సంప్రదించండి-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="WhatsApp Inquiry" />
     </a>
   </p>
 
-  <!-- Feature Highlights Pills -->
+  <!-- Samstha Highlights -->
   <p align="center">
-    <img src="https://img.shields.io/badge/సేవా_కేంద్రం-దిల్‌సుఖ్‌నగర్_హైదరాబాద్-851317?style=flat-square" alt="Location" />
-    <img src="https://img.shields.io/badge/వైదిక_పద్ధతి-100%25_శాస్త్రోక్తం-D4AF37?style=flat-square" alt="Vedic Tradition" />
-    <img src="https://img.shields.io/badge/నిర్వహణ-సంస్థ_ప్రాంగణంలోనే_సంపూర్ణం-2E7D32?style=flat-square" alt="All Arrangements" />
-    <img src="https://img.shields.io/badge/సమయాలు-రోజూ_8:00_AM_–_6:00_PM-B43403?style=flat-square" alt="Timings" />
+    <img src="https://img.shields.io/badge/ప్రాంగణం-దిల్‌సుఖ్‌నగర్_హైదరాబాద్-851317?style=flat-square" alt="Location Dilsukhnagar" />
+    <img src="https://img.shields.io/badge/విధానం-100%25_వేదోక్తం_•_శాస్త్రోక్తం-D4AF37?style=flat-square" alt="Vedic Tradition" />
+    <img src="https://img.shields.io/badge/సదుపాయం-సంస్థలోనే_సంపూర్ణ_నిర్వహణ-2E7D32?style=flat-square" alt="All Arrangements at Samstha" />
+    <img src="https://img.shields.io/badge/సేవా_సమయాలు-రోజూ_8:00_AM_–_6:00_PM-B43403?style=flat-square" alt="Daily Timings" />
   </p>
-
-  <h4>
-    🌐 <a href="https://ram-narayana-brahmana-seva-samstha.vercel.app/"><strong>Visit Official Website (అధికారిక వెబ్‌సైట్ తెరవండి) »</strong></a>
-  </h4>
 
 </div>
 
@@ -47,138 +43,158 @@
 
 ## 📑 విషయ సూచిక | Table of Contents
 
-1. [🏛️ సంస్థ పరిచయం & స్థాపన నేపథ్యం | About the Samstha & Background](#️-సంస్థ-పరిచయం--స్థాపన-నేపథ్యం--about-the-samstha--background)
-2. [🎯 ధ్యేయం & పవిత్ర సంకల్పం | Sacred Mission & Vision](#-ధ్యేయం--పవిత్ర-సంకల్పం--sacred-mission--vision)
-3. [🕉️ సమగ్ర సేవా విభాగాలు | Complete Services Offered](#️-సమగ్ర-సేవా-విభాగాలు--complete-services-offered)
-4. [🔄 సంస్థ ద్వారా నిర్వహణ ఎలా జరుగుతుంది? | How We Conduct the Rituals (Step-by-Step)](#-సంస్థ-ద్వారా-నిర్వహణ-ఎలా-జరుగుతుంది--how-we-conduct-the-rituals-step-by-step)
-5. [🌿 పితృ కర్మల ఆధ్యాత్మిక విశిష్టత | Spiritual Significance & Benefits of Shraddha](#-పితృ-కర్మల-ఆధ్యాత్మిక-విశిష్టత--spiritual-significance--benefits-of-shraddha)
-6. [🌟 మా సంస్థ ప్రత్యేకతలు | Why Families Trust Our Samstha](#-మా-సంస్థ-ప్రత్యేకతలు--why-families-trust-our-samstha)
-7. [🏢 ప్రాంగణ సౌకర్యాలు | Facilities at Samstha Premises](#-ప్రాంగణ-సౌకర్యాలు--facilities-at-samstha-premises)
-8. [❓ తరచుగా అడిగే ప్రశ్నలు | Frequently Asked Questions (FAQ)](#-తరచుగా-అడిగే-ప్రశ్నలు--frequently-asked-questions-faq)
-9. [📍 సంప్రదింపు వివరాలు & చిరునామా | Contact & Visiting Details](#-సంప్రదింపు-వివరాలు--చిరునామా--contact--visiting-details)
-10. [💻 వెబ్‌సైట్ సాంకేతిక వివరాలు | Website Architecture](#-వెబ్‌సైట్-సాంకేతిక-వివరాలు--website-architecture)
+1. [🏛️ సంస్థ పరిచయం & పూర్వరంగం | About the Samstha](#️-సంస్థ-పరిచయం--పూర్వరంగం--about-the-samstha)
+2. [🎯 ధ్యేయం & ప్రధాన ఆశయాలు | Sacred Mission & Vision](#-ధ్యేయం--ప్రధాన-ఆశయాలు--sacred-mission--vision)
+3. [🕉️ సమగ్ర సేవా విభాగాలు | Sacred Services in Detail](#️-సమగ్ర-సేవా-విభాగాలు--sacred-services-in-detail)
+4. [🔄 సంస్థలో కార్యక్రమ నిర్వహణ విధానం | Step-by-Step Ritual Process](#-సంస్థలో-కార్యక్రమ-నిర్వహణ-విధానం--step-by-step-ritual-process)
+5. [🌿 పితృ కర్మల మహత్యం & శుభఫలాలు | Spiritual Significance & Benefits of Shraddha](#-పితృ-కర్మల-మహత్యం--శుభఫలాలు--spiritual-significance--benefits-of-shraddha)
+6. [🌟 మా సంస్థ ప్రత్యేకతలు | Why Families Choose Our Samstha](#-మా-సంస్థ-ప్రత్యేకతలు--why-families-choose-our-samstha)
+7. [🏢 ప్రాంగణ సౌకర్యాలు & పరిశుభ్రత | Premises & Sacred Facilities](#-ప్రాంగణ-సౌకర్యాలు--పరిశుభ్రత--premises--sacred-facilities)
+8. [📋 కుటుంబాలకు ముఖ్యమైన సూచనలు | Guidelines for Visiting Families](#-కుటుంబాలకు-ముఖ్యమైన-సూచనలు--guidelines-for-visiting-families)
+9. [❓ తరచుగా అడిగే ప్రశ్నలు | Frequently Asked Questions (FAQ)](#-తరచుగా-అడిగే-ప్రశ్నలు--frequently-asked-questions-faq)
+10. [📍 సంప్రదింపు వివరాలు & దర్శన సమయాలు | Contact & Location Info](#-సంప్రదింపు-వివరాలు--దర్శన-సమయాలు--contact--location-info)
 
 ---
 
-## 🏛️ సంస్థ పరిచయం & స్థాపన నేపథ్యం | About the Samstha & Background
+## 🏛️ సంస్థ పరిచయం & పూర్వరంగం | About the Samstha
 
 ### **తెలుగు:**
-**రామ్ నారాయణ బ్రాహ్మణ సేవా సంస్థ** అనేది సనాతన ధర్మ సంప్రదాయాలను, పితృ కర్మలను యథాతథంగా పరిరక్షించే పవిత్ర సంకల్పంతో స్థాపించబడిన విశిష్ట వైదిక సేవా కేంద్రం. హైదరాబాద్ నగరంలో అత్యంత ప్రముఖమైన, అందరికీ సుపరిచితమైన **దిల్‌సుఖ్‌నగర్** (ప్రగతి నగర్ రోడ్, సాహితి నగర్) లో ఈ సంస్థ శాశ్వత ప్రాంగణంలో కార్యకలాపాలు నిర్వహిస్తున్నది.
+**రామ్ నారాయణ బ్రాహ్మణ సేవా సంస్థ** అనేది సనాతన ధర్మం నిర్దేశించిన పితృ యజ్ఞాలను, శ్రాద్ధ కర్మలను పరమ పవిత్రంగా, నిష్ఠాగరిష్ఠంగా నిర్వహించేందుకు అంకితమైన ఆధ్యాత్మిక సేవా సంస్థ. ఈ పుణ్య సంస్థ తెలంగాణ రాష్ట్ర రాజధాని అయిన హైదరాబాద్‌లోని ప్రముఖ ఆధ్యాత్మిక మరియు కేంద్ర ప్రదేశమైన **దిల్‌సుఖ్‌నగర్** లో (H.No. 11-62, ప్రగతి నగర్ రోడ్, సాహితి నగర్) శాశ్వత భవనంలో కొలువై ఉన్నది.
 
-**ప్రొ॥ నంబూరి ఆదినారాయణ శర్మ** గారి ఆధ్వర్యంలో మరియు వేదశాస్త్ర సంపన్నులైన సీనియర్ పండితుల పర్యవేక్షణలో — ఆబ్దికం, మాసికం, సంవత్సరీకం, మహాలయ పక్ష తర్పణాలు, శ్రాద్ధ కర్మలు మరియు సంపూర్ణ వైదిక పితృ సేవలు అత్యంత భక్తిశ్రద్ధలతో, నిర్మల వాతావరణంలో జరుపబడుతున్నాయి.
+ఈ సంస్థ ప్రముఖ వేద పండితులు, ఆచార్యులు అయిన **ప్రొ॥ నంబూరి ఆదినారాయణ శర్మ** గారి దివ్య పర్యవేక్షణ మరియు అనుభవజ్ఞులైన వేద విద్వాంసుల మార్గదర్శకత్వంలో నడుస్తున్నది.
 
-#### **సంస్థ ఎందుకు ప్రారంభించబడింది? (Why the Samstha was Established):**
-నేటి ఆధునిక నగర జీవనంలో, ముఖ్యంగా అపార్ట్‌మెంట్లు మరియు గేటెడ్ కమ్యూనిటీలలో నివసించే కుటుంబాలకు పితృ కార్యాలు నిర్వహించడంలో అనేక ఇబ్బందులు ఎదురవుతున్నాయి:
-* అపార్ట్‌మెంట్లలో హోమాగ్ని, పొగ మరియు స్థల పరిమితుల ఆంక్షలు.
-* సదాచార సంపన్నులైన, నిష్ఠాగరిష్ఠులైన **బ్రాహ్మణ భోక్తలు** సమయానికి లభించకపోవడం.
-* శాస్త్ర సమ్మతమైన **'మడి' ఆచార సాత్విక వంట** (ఉల్లి, వెల్లుల్లి లేని పవిత్ర పాకం) తయారుచేయడం కష్టతరం కావడం.
-* దర్భలు, సమిధలు, ఆవు నెయ్యి, విస్తళ్ళు మొదలైన సంప్రదాయ పూజా ద్రవ్యాల సేకరణలో శ్రమ.
+#### **సంస్థ ఆవిర్భావ నేపథ్యం:**
+నేటి మహానగర జీవనంలో, ముఖ్యంగా అపార్ట్‌మెంట్లు మరియు గేటెడ్ విల్లాలలో నివసించే కుటుంబాలు పితృ కర్మలను తమ గృహాలలో నిర్వహించడంలో ఎదుర్కొంటున్న వాస్తవ సమస్యలు:
+* అపార్ట్‌మెంట్లలో హోమాలు జరపడానికి, పొగ రాకుండా ఉండేందుకు గల కఠినమైన ఆంక్షలు.
+* నిత్య సంధ్యావందనం ఆచరించే నిష్ఠాగరిష్ఠులైన సత్ బ్రాహ్మణ భోక్తలు సమయానికి లభించకపోవడం.
+* శ్రాద్ధ కర్మలకు అవసరమైన కఠినమైన 'మడి' ఆచారంతో కూడిన సాత్విక వంటను తయారుచేసుకోవడంలో శ్రమ.
+* దర్భలు, సమిధలు, ఆవు నెయ్యి, నల్ల నువ్వులు, విస్తళ్ళు మొదలైన ప్రామాణిక పూజా ద్రవ్యాల సేకరణలో ఇబ్బందులు.
 
-ఈ సమస్త ఇబ్బందులను పరిష్కరిస్తూ — కుటుంబాలు ప్రశాంత చిత్తంతో, నిర్మల మనస్సుతో పూర్వీకుల కర్మలు నెరవేర్చుకునేలా **రామ్ నారాయణ బ్రాహ్మణ సేవా సంస్థ ఒకే వేదికపై సమగ్ర ఏర్పాట్లను** కల్పిస్తోంది.
+ఈ సమస్యలన్నింటికీ సంపూర్ణ పరిష్కారంగా — పూర్వీకుల రుణం తీర్చుకునే పవిత్ర కర్తవ్యాన్ని ఏ విధమైన ఆటంకం లేకుండా, కుటుంబ సభ్యులందరూ కలిసి భక్తిశ్రద్ధలతో నిర్వహించుకోవడానికి **రామ్ నారాయణ బ్రాహ్మణ సేవా సంస్థ ఒక పవిత్ర వేదికను** అందిస్తున్నది.
 
 ---
 
 ### **English:**
-**Ram Narayana Brahmana Seva Samstha** is a premier sacred institution founded to protect, preserve, and authentically administer Hindu ancestral sacraments (Pitru Karyas) strictly according to Shastric injunctions. Located centrally in **Dilsukhnagar, Hyderabad, Telangana**, the Samstha operates under the venerable leadership and Vedic supervision of **Pro. Namburi Adinarayana Sharma**.
+**Ram Narayana Brahmana Seva Samstha** is a premier Vedic institution founded with the sole purpose of upholding Sanatana Dharma and conducting sacred Hindu ancestral rites (Pitru Karyas & Shraddha ceremonies) with uncompromised Shastric precision. 
 
-In today's fast-paced urban lifestyle, conducting ancestral rites at home—especially inside modern apartment complexes—presents severe challenges: stringent fire/smoke restrictions for Homas, acute shortage of space, scarcity of genuine puja items, and most importantly, the difficulty of arranging devout, orthodox Brahmin Bhokthas and ritual-compliant Satvik catering. 
+Located in **Dilsukhnagar, Hyderabad, Telangana**, the Samstha functions under the revered guidance and Vedic direction of **Pro. Namburi Adinarayana Sharma**.
 
-**Ram Narayana Brahmana Seva Samstha provides a dedicated, peaceful, and fully equipped sacred sanctuary where families can perform all Shraddha ceremonies and ancestral rites with absolute devotion and zero logistical stress.**
+Modern city living presents immense hurdles for families wishing to fulfill their filial duties (Pitru Rina): lack of spacious ventilated areas for fire rituals (Homas) in apartments, difficulty in securing pious Brahmin Bhokthas who adhere to strict daily Sandhyavandana practices, and the logistical challenge of preparing orthodox Satvik food. 
+
+**Ram Narayana Brahmana Seva Samstha solves all of these challenges under one sacred roof — providing the venue, Vedic Pandits, devout Bhokthas, authentic puja items, and pure Satvik meals.**
 
 ---
 
-## 🎯 ధ్యేయం & పవిత్ర సంకల్పం | Sacred Mission & Vision
+## 🎯 ధ్యేయం & ప్రధాన ఆశయాలు | Sacred Mission & Vision
 
-> ### *"మాతాపితరుల రుణం తీర్చుకోవడం ప్రతి మానవుని ప్రథమ కర్తవ్యం. పూర్వీకుల ఆశీస్సులే కుటుంబ క్షేమానికి, అభివృద్ధికి మూలస్తంభాలు."*
+> ### *"మాతాపితరుల రుణం తీర్చుకోవడం ప్రతి మానవుని ప్రథమ కర్తవ్యం. పూర్వీకుల ఆశీస్సులే కుటుంబ క్షేమానికి, సకల శుభాలకు మూలస్తంభాలు."*
 > — **ప్రొ॥ నంబూరి ఆదినారాయణ శర్మ**
 
-* **శాస్త్రోక్త రక్షణ (Shastric Authenticity):** బోధాయన, ఆపస్తంబ గృహ్యసూత్రాల ప్రకారం లోపం లేకుండా మంత్రోచ్ఛారణతో కర్మలు నిర్వహించడం.
-* **సదాచార నిష్ఠ (Sadacharam & Sanctity):** సంధ్యావందనం, అగ్నిహోత్ర నిష్ఠ పాటించే వేద బ్రాహ్మణుల ద్వారా మాత్రమే భోక్తల సేవ మరియు పూజలు జరిపించడం.
-* **భక్తుల సౌకర్యం (Peace of Mind for Families):** పూజా సామగ్రి నుండి భోజనం వరకు అన్నింటినీ సంస్థే స్వయంగా సమకూర్చి భక్తులకు మనశ్శాంతి చేకూర్చడం.
-* **సంప్రదాయ వారసత్వం (Cultural Continuity):** మన ప్రాచీన ధర్మ విధులను, సంస్కృతిని నేటి మరియు రేపటి తరాలకు అందించడం.
+1. **వేదోక్త ఆచరణ (Vedic Rigor):** ప్రాచీన బోధాయన, ఆపస్తంబ గృహ్య సూత్రాల ప్రకారం ఒక్క అక్షరం కూడా పొల్లుపోకుండా పితృ యజ్ఞాలను జరిపించడం.
+2. **సదాచార సంరక్షణ (Devout Sadacharam):** ఆచార సంపన్నులైన, నిత్య గాయత్రీ జప నిష్ఠ గల వేద బ్రాహ్మణుల ద్వారా మాత్రమే భోక్తల సేవ మరియు హోమాలు జరిపించడం.
+3. **కుటుంబాలకు మానసిక ప్రశాంతత (Spiritual Peace of Mind):** పూజా సామాగ్రి సేకరణ మొదలుకొని భోజనం వరకు అన్ని బాధ్యతలను సంస్థే వహించి, కర్త నిర్మల మనస్సుతో కర్మను పూర్తిచేసుకునేలా చేయడం.
+4. **సంస్కృతి పరిరక్షణ (Heritage Transmission):** సనాతన ధర్మ సంప్రదాయాల విశిష్టతను భావితరాలకు సజీవంగా అందించడం.
 
 ---
 
-## 🕉️ సమగ్ర సేవా విభాగాలు | Complete Services Offered
+## 🕉️ సమగ్ర సేవా విభాగాలు | Sacred Services in Detail
 
-రామ్ నారాయణ బ్రాహ్మణ సేవా సంస్థ ప్రాంగణంలోనే ప్రధానంగా 3 విశిష్ట సేవా విభాగాలు సంపూర్ణంగా నిర్వహించబడుతున్నాయి:
+రామ్ నారాయణ బ్రాహ్మణ సేవా సంస్థలో నిర్వహించబడే ప్రధాన వైదిక విభాగాలు:
 
 ### 1️⃣ భోక్తల సేవ (Bhoktha Seva - Devout Brahmin Bhokthas)
-శ్రాద్ధ కర్మలలో పితృదేవతల ప్రీతి కొరకు భోక్తలను నియమించి తృప్తిపరచడం అత్యంత ప్రాముఖ్యమైన శ్రౌత విధి.
-* **సదాచార సంపన్నులు:** నిత్య సంధ్యావందనాది అనుష్ఠానాలు ఆచరించే సత్ బ్రాహ్మణులను సంస్థ స్వయంగా ఏర్పాటు చేస్తుంది.
-* **నిష్ఠాగరిష్ఠ నియమావళి:** శాస్త్రోక్త ఆహార నియమాలు, మడి మరియు సదాచారంతో కూడిన ఆచరణ.
-* **సంస్థలోనే సమర్పణ:** భోక్తలకు ప్రత్యేక ఆసనాలు, సంభావనలు మరియు సత్కార ఏర్పాట్లు సమగ్రంగా జరుగుతాయి.
+శ్రాద్ధ కర్మలో భోక్తల సంతృప్తే పితృదేవతల తృప్తికి హేతువు.
+* **ఎంపిక చేయబడిన సత్ బ్రాహ్మణులు:** నిత్య సంధ్యావందనం, వేదాధ్యయనం మరియు సదాచార నియమాలు పాటించే బ్రాహ్మణులనే భోక్తలుగా సంస్థ ఏర్పాటు చేస్తుంది.
+* **ఆచార నిష్ఠ:** శ్రాద్ధ ఆహార నియమాలు, మౌనం, శాస్త్రోక్త విధులను పాటించే క్రమశిక్షణ.
+* **సంస్థలోనే గౌరవ సమర్పణ:** భోక్తలకు ప్రత్యేక ఆసనాలు, విస్తళ్ళు, పాద ప్రక్షాళన, తాంబూల-దక్షిణల సమర్పణ క్రమం తప్పకుండా నిర్వహించబడును.
 
-### 2️⃣ పితృకార్యాలు & శ్రాద్ధకర్మలు (Ancestral Ceremonies & Shraddha Karmas)
-పూర్వీకుల శాంతి మరియు సద్గతి కొరకు అవసరమైన ప్రతి సంస్కారమూ ఇక్కడ శాస్త్రోక్తంగా నిర్వహించబడును:
-* **ఆబ్దికం (Abdikam):** మాతాపితరులు పరమపదించిన పుణ్యతిథి నాడు ప్రతి సంవత్సరం జరిపే సాంవత్సరిక శ్రాద్ధం.
-* **మాసికం (Masikam):** దివంగతులైన మొదటి సంవత్సరంలో ప్రతి నెలా నిర్వహించవలసిన మాసిక కర్మలు.
-* **సంవత్సరీకం (Samvatsarikam):** ప్రథమ వర్ధంతి మహా శ్రాద్ధ కర్మ సంపూర్ణ నిర్వహణ.
-* **మహాలయ పక్షం & తర్పణాలు (Mahalaya Paksha Tarpanams):** భాద్రపద బహుళ పక్షంలో పితృదేవతలందరికీ తిలతర్పణాలు, పిండప్రదానాలు.
-* **వైదిక పారణం & అగ్నిహోత్ర హోమాలు:** రుద్ర పారణం, గణపతి, నవగ్రహ హోమాలు మరియు శాంతి పూజలు.
+### 2️⃣ పితృకార్యాలు & శ్రాద్ధకర్మలు (Ancestral Sacraments)
+* **ఆబ్దికం (Abdikam - Annual Shraddha):** మాతాపితరులు పరమపదించిన చాంద్రమాన పుణ్యతిథి నాడు ప్రతి ఏటా నిర్వహించే వార్షిక శ్రాద్ధ కర్మ.
+* **మాసికం (Masikam - Monthly Rites):** మొదటి సంవత్సరంలో ప్రతి నెలా నిర్వహించవలసిన 16 శ్రాద్ధ కర్మలు.
+* **సంవత్సరీకం (Samvatsarikam - First Year Anniversary):** ప్రథమ వర్ధంతి మహా శ్రాద్ధ కర్మ.
+* **మహాలయ పక్ష తర్పణాలు & పిండప్రదానం:** భాద్రపద బహుళ పక్షం (మహాలయ పక్షం) నాడు పితృదేవతలందరికీ తిలతర్పణాలు మరియు పిండప్రదానాలు.
+* **తీర్థ శ్రాద్ధాలు & పితృ దోష నివారణ పూజలు:** నారాయణ బలి, త్రిపిండీ శ్రాద్ధం మరియు శాస్త్రోక్త పరిహార కర్మలు.
 
-### 3️⃣ సాత్విక వంట & సంపూర్ణ నిర్వహణ (Satvik Catering & Full Arrangements)
-శ్రాద్ధ విధులలో భోజన శుద్ధి మరియు పాక నిష్ఠ అత్యంత ప్రధానమైనవి:
-* **సాంప్రదాయ బ్రాహ్మణ పాకశాల:** ఉల్లి, వెల్లుల్లి లేని, పవిత్రమైన ఆవు నెయ్యితో శుచి-శుభ్రతలతో తయారయ్యే సాత్విక భోజనం.
-* **మడి ఆచార పద్ధతి:** శ్రాద్ధ నిబంధనల ప్రకారం సాంప్రదాయ అరిటాకులు/విస్తళ్ళలో వడ్డన.
-* **సమగ్ర పూజా సామగ్రి:** దర్భలు, సమిధలు, హోమ ద్రవ్యాలు, తిలలు, పాత్రలు సహా సమస్త సామగ్రి సంస్థలోనే అమర్చబడును.
+### 3️⃣ సాత్విక వంట & సంపూర్ణ నిర్వహణ (Satvik Catering & Madi)
+* **పరిపూర్ణ సాత్విక వంట:** ఉల్లి, వెల్లుల్లి ఏమాత్రం వాడకుండా, పవిత్రమైన ఆవు నెయ్యితో, శాస్త్ర సమ్మతమైన కూరగాయలు మరియు దినుసులతో సాంప్రదాయ బ్రాహ్మణ వంట వారిచే తయారీ.
+* **మడి ఆచార పద్ధతి:** శుచి, శుభ్రతతో కూడిన నిష్టాగరిష్ఠ పాకశాల.
+* **సంప్రదాయ అరిటాకులు / విస్తళ్ళు:** సాంప్రదాయ రీతిలో విస్తళ్ళలో భోక్తలకు మరియు కుటుంబ సభ్యులకు వడ్డన.
+
+### 4️⃣ వైదిక పారణం & అగ్నిహోత్ర హోమాలు (Vedic Chanting & Fire Sacraments)
+* నమక-చమక సహిత రుద్ర పారణం.
+* గణపతి హోమం, నవగ్రహ హోమం, మృత్యుంజయ జపాలు మరియు శాంతి హోమాలు.
 
 ---
 
-## 🔄 సంస్థ ద్వారా నిర్వహణ ఎలా జరుగుతుంది? | How We Conduct the Rituals (Step-by-Step)
+## 🔄 సంస్థలో కార్యక్రమ నిర్వహణ విధానం | Step-by-Step Ritual Process
 
-కుటుంబాలు ఎటువంటి అయోమయం లేకుండా సులభంగా కార్యక్రమాన్ని పూర్తిచేసుకునే సమన్వయ ప్రక్రియ:
+కుటుంబాలు ఎటువంటి వ్యయప్రయాసలు లేకుండా నిర్మల మనస్సుతో కర్మను పూర్తిచేసుకునే విధానం:
 
 ```
-[1. సంప్రదింపు & తిథి నిర్ణయం]
-      │  కుటుంబ సభ్యులు ఫోన్ / వాట్సాప్ ద్వారా మమ్మల్ని సంప్రదించడం
-      ▼
-[2. సంస్థ ద్వారా సమగ్ర సన్నాహాలు]
-      │  పూజా సామగ్రి, వేద పండితులు, భోక్తలు మరియు సాత్విక వంట ఏర్పాట్లు
-      ▼
-[3. నిర్ణీత రోజున పూజా నిర్వహణ]
-      │  దిల్‌సుఖ్‌నగర్ సంస్థ కేంద్రంలో పవిత్ర మంత్రోచ్ఛారణతో అగ్నిహోత్ర శ్రాద్ధం
-      ▼
-[4. భోక్తల సేవ & సాత్విక భోజనం]
-      │  భోక్తల సంతృప్తి, ఆశీర్వచనం మరియు కుటుంబ సభ్యులకు భోజన ప్రసాదం
-      ▼
-[5. సంపూర్ణ శాంతి & పితృ ఆశీస్సులు]
+1. సంప్రదింపు & తిథి నిర్ణయం
+   • కుటుంబ సభ్యులు ఫోన్ (+91 77802 23977) లేదా వాట్సాప్ ద్వారా సంస్థను సంప్రదించడం
+   • వేద పండితులు పంచాంగ రీత్యా ఖచ్చితమైన చాంద్రమాన తిథిని నిర్ధారించడం
+                 │
+                 ▼
+2. సంస్థ ద్వారా ముందస్తు ఏర్పాట్లు
+   • అనుభవజ్ఞులైన పురోహితులు, సదాచార భోక్తలు మరియు వంట వారి సమన్వయం
+   • దర్భలు, సమిధలు, ఆవు నెయ్యి, తిలలు సహా సమస్త పూజా సామగ్రి సమకూర్చడం
+                 │
+                 ▼
+3. నిర్ణీత రోజున పూజా నిర్వహణ
+   • కుటుంబ సభ్యులు దిల్‌సుఖ్‌నగర్ సంస్థ ప్రాంగణానికి ఉదయాన్నే చేరుకోవడం
+   • పవిత్ర మంత్రోచ్ఛారణలతో, అగ్నిహోత్ర సమక్షంలో శ్రాద్ధ విధి నిర్వహణ
+                 │
+                 ▼
+4. భోక్తల సేవ & సాత్విక భోజనం
+   • శ్రద్ధతో భోక్తలకు మడి భోజన సమర్పణ, ఆశీర్వచనం, దక్షిణ సమర్పణ
+   • అనంతరం కుటుంబ సభ్యులందరికీ పవిత్ర సాత్విక భోజన ప్రసాదం
+                 │
+                 ▼
+5. సంపూర్ణ శాంతి & పితృదేవతల ఆశీస్సులు
+   • కర్తకు మరియు సమగ్ర కుటుంబానికి పితృదేవతల కృపాకటాక్షములు
 ```
 
 ---
 
-## 🌿 పితృ కర్మల ఆధ్యాత్మిక విశిష్టత | Spiritual Significance & Benefits of Shraddha
+## 🌿 పితృ కర్మల మహత్యం & శుభఫలాలు | Spiritual Significance & Benefits of Shraddha
 
-మన సనాతన ధర్మంలో పంచ మహాయజ్ఞాలలో **పితృ యజ్ఞం** శ్రేష్ఠమైనది. శాస్త్రోక్తంగా శ్రాద్ధ కర్మలు ఆచరించడం వలన కలుగు శుభఫలాలు:
+సనాతన ధర్మ శాస్త్రాల ప్రకారం శ్రాద్ధ కర్మలు ఆచరించడం వలన కలుగు శుభఫలాలు:
 
-1. **కృతజ్ఞతా భావ సమర్పణ (Gratitude):** మన జన్మకు, పురోగతికి కారణమైన మాతాపితరులకు, పూర్వీకులకు భక్తితో కృతజ్ఞతలు తెలుపుకోవడం.
-2. **కుటుంబంలో శాంతి & ఐక్యత (Family Harmony):** పూర్వీకుల ఆశీస్సులతో కుటుంబంలో గృహచ్ఛిద్రాలు, మనస్పర్థలు తొలగి ఐక్యత కలుగుతుంది.
-3. **ఆయురారోగ్యాలు & సంపద (Health & Prosperity):** పితృదేవతల అనుగ్రహం వలన వంశాభివృద్ధి, ఆర్థిక స్థిరత్వం, శారీరక-మానసిక ఆరోగ్యం చేకూరుతాయి.
-4. **పితృ దోష నివారణ (Pitru Dosha Nivarana):** జన్మకుండలిలోని పితృదోషాలు, సంతాన లేమి, పనులలో ఆటంకాలు శాస్త్రోక్త శ్రాద్ధంతో తొలగిపోతాయి.
-5. **పూర్వీకులకు సద్గతి (Liberation / Moksha):** తర్పణ-పిండ ప్రదానాల ద్వారా పితృదేవతలకు ఉత్తమ లోక ప్రాప్తి లభిస్తుంది.
-6. **ధర్మ పరిరక్షణ (Cultural Preservation):** మన వైదిక సంస్కృతిని, సంప్రదాయాన్ని భావితరాలకు సజీవంగా అందించే పవిత్ర బాధ్యత.
+1. **కృతజ్ఞతా సమర్పణ (Gratitude):** మన ఉనికికి, ఎదుగుదలకు కారణమైన తల్లిదండ్రులకు, పూర్వీకులకు భక్తితో కృతజ్ఞతలు తెలుపుకోవడం.
+2. **కుటుంబ సౌభాగ్యం & ఐక్యత (Family Harmony):** పూర్వీకుల ఆశీస్సులతో కుటుంబంలో గృహచ్ఛిద్రాలు, కలహాలు తొలగి శాంతి, అన్యోన్యత వర్ధిల్లుతాయి.
+3. **ఆయురారోగ్యాలు & సంతానాభివృద్ధి (Health & Lineage):** పితృదేవతల ప్రసన్నతతో వంశాభివృద్ధి, సంతాన సౌభాగ్యం, ఆయురారోగ్యాలు సిద్ధిస్తాయి.
+4. **పితృ దోషాల నివారణ (Dosha Nivarana):** జాతక చక్రంలోని పితృదోషాలు, వృత్తి-వ్యాపారాలలో ఆటంకాలు తొలగిపోయి సకల కార్యసిద్ధి కలుగుతుంది.
+5. **పూర్వీకులకు సద్గతి (Ancestral Elevation):** పిండ ప్రదానాలు మరియు తిలతర్పణాల ద్వారా పూర్వీకుల ఆత్మలకు ఉత్తమ లోక ప్రాప్తి లభిస్తుంది.
 
 ---
 
-## 🌟 మా సంస్థ ప్రత్యేకతలు | Why Families Trust Our Samstha
+## 🌟 మా సంస్థ ప్రత్యేకతలు | Why Families Choose Our Samstha
 
 | ప్రత్యేకత (Aspect) | రామ్ నారాయణ బ్రాహ్మణ సేవా సంస్థ వైశిష్ట్యం |
 |---|---|
-| 🪔 **వేద పండితులు** | శాస్త్ర పరిజ్ఞానం, సంప్రదాయ దీక్ష గల అనుభవజ్ఞులైన సీనియర్ పురోహితులు. |
-| 👥 **సత్ బ్రాహ్మణ భోక్తలు** | నిత్య సంధ్యావందనం ఆచరించే నిష్ఠావంతులైన భోక్తల ఏర్పాటు. |
+| 🪔 **వేద పండితులు** | శాస్త్ర నిపుణులైన, సంప్రదాయ దీక్ష గల వేద పురోహితులు. |
+| 👥 **సత్ బ్రాహ్మణ భోక్తలు** | నిత్య సంధ్యావందన నిష్ఠ గల ఆచార సంపన్నులైన భోక్తలు. |
 | 🍲 **సాత్విక పాకశాల** | పూర్తి 'మడి' ఆచారంతో, ఉల్లి-వెల్లుల్లి లేకుండా పవిత్రంగా వండబడే భోజనం. |
 | 🏛️ **కేంద్ర స్థానం** | దిల్‌సుఖ్‌నగర్ మెట్రో మరియు బస్సు సౌకర్యాలకు అత్యంత సమీపంలో ప్రశాంత ప్రాంగణం. |
-| 📦 **సంపూర్ణ సామాగ్రి** | దర్భలు, సమిధలు, నెయ్యి సహా సమస్త పూజా సామగ్రి సంస్థే సమకూరుస్తుంది. |
+| 📦 **సమగ్ర సామాగ్రి** | దర్భలు, సమిధలు, నెయ్యి సహా సమస్త పూజా సామగ్రి సంస్థే సమకూరుస్తుంది. |
 | 📅 **తిథి గణన** | ఖచ్చితమైన పంచాంగ ఆధారిత తిథి నిర్ణయం మరియు ముందస్తు మార్గదర్శకత్వం. |
 
 ---
 
-## 🏢 ప్రాంగణ సౌకర్యాలు | Facilities at Samstha Premises
+## 🏢 ప్రాంగణ సౌకర్యాలు & పరిశుభ్రత | Premises & Sacred Facilities
 
-* **విశాలమైన పూజా ప్రాంగణం:** అగ్నిహోత్ర హోమాలు, శ్రాద్ధ కర్మలు జరిపేందుకు సరైన గాలి, వెలుతురుతో కూడిన పవిత్ర మండపం.
-* **ప్రత్యేక భోజన విభాగం:** భోక్తలకు మరియు కుటుంబ సభ్యులకు పరిశుభ్రమైన, సాంప్రదాయ విస్తళ్ళ భోజన సదుపాయం.
-* **వృద్ధులకు అనుకూలం:** కుటుంబంలోని పెద్దలు, మహిళలు విశ్రమించేందుకు అనుకూలమైన వాతావరణం మరియు స్వచ్ఛమైన తాగునీరు.
-* **సులభమైన రవాణా:** హైదరాబాద్ నలుమూలల నుండి మెట్రో, ఆర్టీసీ బస్సులు మరియు క్యాబ్‌ల ద్వారా సులభంగా చేరుకోవచ్చు.
+* **విశాలమైన హోమ & పూజా మండపం:** అగ్నిహోత్ర హోమాలు, పితృ కర్మలు జరిపేందుకు సరైన గాలి, వెలుతురుతో కూడిన పరిశుభ్రమైన ప్రాంగణం.
+* **ప్రత్యేక భోజన విభాగం:** భోక్తలకు మరియు కుటుంబ సభ్యులకు గౌరవప్రదంగా వడ్డించేందుకు విశాలమైన డైనింగ్ ప్రదేశం.
+* **వృద్ధులకు సౌకర్యం:** కుటుంబంలోని పెద్దలు, మహిళలు విశ్రమించేందుకు అనుకూలమైన ఆసనాలు, స్వచ్ఛమైన తాగునీటి సదుపాయం.
+* **కేంద్ర ప్రదేశం:** హైదరాబాద్, సికింద్రాబాద్, మరియు పరిసర ప్రాంతాల నుండి మెట్రో, ఆర్టీసీ బస్సులు మరియు క్యాబ్‌ల ద్వారా సులభంగా చేరుకునే ప్రదేశం.
+
+---
+
+## 📋 కుటుంబాలకు ముఖ్యమైన సూచనలు | Guidelines for Visiting Families
+
+1. **సమయపాలన:** శ్రాద్ధ కర్మలు ఉదయం పూట శాస్త్రోక్త సమయంలో ప్రారంభమవుతాయి కావున నిర్ణీత సమయానికి ప్రాంగణానికి చేరుకోవలసిందిగా కోరడమైనది.
+2. **వస్త్రధారణ:** కర్త మరియు కుటుంబ సభ్యులు సాంప్రదాయ వస్త్రధారణ (ధోవతి / పంచె / సాంప్రదాయ వస్త్రాలు) లో హాజరుకావడం శ్రేయస్కరం.
+3. **ముందస్తు సమాచారం:** భోక్తలు, వంట వారి సంఖ్యను నిర్ధారించడానికి కనీసం 3-5 రోజుల ముందుగా సంస్థకు తెలియజేయాలి.
 
 ---
 
@@ -198,47 +214,25 @@ In today's fast-paced urban lifestyle, conducting ancestral rites at home—espe
 
 ---
 
-## 📍 సంప్రదింపు వివరాలు & చిరునామా | Contact & Visiting Details
+## 📍 సంప్రదింపు వివరాలు & దర్శన సమయాలు | Contact & Location Info
 
 | వివరాలు (Field) | సమగ్ర సమాచారం (Details) |
 |---|---|
 | **సంస్థ పేరు** | **రామ్ నారాయణ బ్రాహ్మణ సేవా సంస్థ** |
 | **English Name** | **Ram Narayana Brahmana Seva Samstha** |
-| **పర్యవేక్షణ & మార్గదర్శకత్వం** | **ప్రొ॥ నంబూరి ఆదినారాయణ శర్మ (Pro. Namburi Adinarayana Sharma)** |
+| **దివ్య పర్యవేక్షణ & మార్గదర్శకత్వం** | **ప్రొ॥ నంబూరి ఆదినారాయణ శర్మ (Pro. Namburi Adinarayana Sharma)** |
 | **పూర్తి చిరునామా (Address)** | H.No. 11-62, ప్రగతి నగర్ రోడ్, సాహితి నగర్, దిల్‌సుఖ్‌నగర్, హైదరాబాద్, తెలంగాణ – 500060 |
 | **ఫోన్ నంబర్లు (Calling)** | 📞 [**+91 77802 23977**](tel:7780223977) &nbsp;\|&nbsp; 📞 [**+91 87903 23977**](tel:8790323977) |
-| **వాట్సాప్ (WhatsApp)** | 💬 [**+91 77802 23977**](https://wa.me/917780223977?text=నమస్కారం%20రామ్%20నారాయణ%20బ్రాహ్మణ%20సేవా%20సంస్థ,%20నేను%20మీ%20సేవల%20గురించి%20తెలుసుకోవాలనుకుంటున్నాను.) |
+| **వాట్సాప్ సంప్రదింపు (WhatsApp)** | 💬 [**+91 77802 23977**](https://wa.me/917780223977?text=నమస్కారం%20రామ్%20నారాయణ%20బ్రాహ్మణ%20సేవా%20సంస్థ,%20నేను%20మీ%20సేవల%20గురించి%20తెలుసుకోవాలనుకుంటున్నాను.) |
 | **ఈమెయిల్ (Email)** | ✉️ [ramnarayanabrahmanasevasamstha@gmail.com](mailto:ramnarayanabrahmanasevasamstha@gmail.com) |
-| **అధికారిక ఇన్‌స్టాగ్రామ్** | 📸 [@ramnarayana_brahmana_seva](https://www.instagram.com/ramnarayana_brahmana_seva?xtok=MTAwMWFiY245OWJrcQ==) |
-| **గూగుల్ మ్యాప్స్ లొకేషన్** | 📍 [Open Location in Google Maps](https://maps.app.goo.gl/kL4BedYNx17JEaZs9?g_st=aw) |
-| **సేవా సమయాలు (Timings)** | ⏰ ప్రతిరోజు ఉదయం 8:00 AM నుండి సాయంత్రం 6:00 PM వరకు (ఆదివారాలతో సహా) |
+| **అధికారిక ఇన్‌స్టాగ్రామ్ పేజీ** | 📸 [@ramnarayana_brahmana_seva](https://www.instagram.com/ramnarayana_brahmana_seva?xtok=MTAwMWFiY245OWJrcQ==) |
+| **గూగుల్ మ్యాప్స్ డైరెక్షన్స్** | 📍 [Open Location in Google Maps](https://maps.app.goo.gl/kL4BedYNx17JEaZs9?g_st=aw) |
+| **దర్శన & సేవా సమయాలు (Timings)** | ⏰ ప్రతిరోజు ఉదయం 8:00 AM నుండి సాయంత్రం 6:00 PM వరకు (ఆదివారాలతో సహా తెరిచి ఉంటుంది) |
 
 ---
 
-## 💻 వెబ్‌సైట్ సాంకేతిక వివరాలు | Website Architecture
-
-ఈ ప్రాజెక్ట్ యొక్క అధికారిక వెబ్‌సైట్ ఎటువంటి భారీ లైబ్రరీలపై ఆధారపడకుండా, అత్యంత వేగంగా లోడ్ అయ్యేలా ప్యూర్ వెబ్ టెక్నాలజీలతో రూపొందించబడింది:
-
-```
-RNSS/
-├── index.html                   # Core semantic web application (Telugu default + i18n support)
-├── assets/
-│   ├── css/
-│   │   └── style.css            # Sacred maroon & gold theme, responsive clamp() typography
-│   ├── js/
-│   │   ├── app.js               # Navigation drawer, lightbox modal, scrollspy, active states
-│   │   └── translations.js      # Complete Telugu (te) & English (en) bilingual dictionary
-│   └── images/
-│       ├── banner-new.jpg       # Official grand banner
-│       ├── card-cream.jpg       # Visiting card reference
-│       ├── flyer-te.jpg         # Official Telugu informational brochure
-│       ├── flyer-en.jpg         # Official English informational brochure
-│       ├── logo.jpg             # High-resolution circular emblem
-│       └── pamphlet.jpg         # Sacred Shastric guide pamphlet
-├── README.md                    # Official Samstha documentation
-└── .gitignore                   # Git version control ignore rules
-```
-
 <div align="center">
+  <h3><strong>రామ్ నారాయణ బ్రాహ్మణ సేవా సంస్థ</strong></h3>
+  <p><em>వైదిక సంప్రదాయ పరిరక్షణే మా లక్ష్యం — శ్రద్ధ, భక్తి, శాస్త్రబద్ధతతో మీ సేవా తత్పరతలో</em></p>
   <sub>© 2026 రామ్ నారాయణ బ్రాహ్మణ సేవా సంస్థ (Ram Narayana Brahmana Seva Samstha). సర్వ హక్కులూ ప్రత్యేకించబడినవి.</sub>
 </div>
