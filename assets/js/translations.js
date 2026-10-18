@@ -1,4 +1,4 @@
-﻿/**
+/**
  * Bilingual Translation Data for Ram Narayana Brahmana Seva Samstha
  * Supports dynamic switching between Telugu (తెలుగు) and English
  */
@@ -163,6 +163,11 @@ const translations = {
     contact_phone_label: "ఫోన్ నంబర్లు (కాల్ చేయండి):",
     contact_whatsapp_label: "వాట్సాప్ నంబర్ (WhatsApp):",
     contact_whatsapp_btn_text: "💬 +91 77802 23977",
+    contact_instagram_label: "అధికారిక ఇన్‌స్టాగ్రామ్ పేజీ (Instagram):",
+    contact_instagram_name: "Ram Narayana Brahmana Seva Samastha",
+    contact_instagram_id: "@ramnarayana_brahmana_seva",
+    contact_instagram_url: "https://www.instagram.com/ramnarayana_brahmana_seva?xtok=MTAwMWFiY245OWJrcQ==",
+    contact_instagram_btn: "ఇన్‌స్టాగ్రామ్‌లో ఫాలో అవ్వండి",
     contact_email_label: "ఈమెయిల్:",
     contact_hours_label: "సేవా సమయాలు:",
     contact_hours_val: "రోజూ ఉదయం 8:00 నుండి సాయంత్రం 5:00 వరకు",
@@ -342,6 +347,11 @@ const translations = {
     contact_phone_label: "Phone Numbers (Call Us):",
     contact_whatsapp_label: "WhatsApp Number:",
     contact_whatsapp_btn_text: "💬 +91 77802 23977",
+    contact_instagram_label: "Official Instagram Page:",
+    contact_instagram_name: "Ram Narayana Brahmana Seva Samastha",
+    contact_instagram_id: "@ramnarayana_brahmana_seva",
+    contact_instagram_url: "https://www.instagram.com/ramnarayana_brahmana_seva?xtok=MTAwMWFiY245OWJrcQ==",
+    contact_instagram_btn: "Follow on Instagram",
     contact_email_label: "Email Address:",
     contact_hours_label: "Service Timings:",
     contact_hours_val: "Open Every Day: 8:00 AM – 5:00 PM",

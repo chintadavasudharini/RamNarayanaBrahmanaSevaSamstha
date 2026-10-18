@@ -1,0 +1,146 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root, [data-theme="classic-maroon"] {
+  --color-primary: #851317;
+  --color-primary-dark: #58080b;
+  --color-primary-deep: #3d0407;
+  --color-accent-gold: #D4AF37;
+  --color-accent-light: #F6E27A;
+  --color-accent-dark: #9A7B1C;
+  --color-bg-cream: #FFFDF9;
+  --color-bg-ivory: #F9F4E8;
+}
+
+[data-theme="vedic-saffron"] {
+  --color-primary: #B43403;
+  --color-primary-dark: #7C2D12;
+  --color-primary-deep: #451A03;
+  --color-accent-gold: #F59E0B;
+  --color-accent-light: #FDE68A;
+  --color-accent-dark: #D97706;
+  --color-bg-cream: #FFFBEB;
+  --color-bg-ivory: #FEF3C7;
+}
+
+[data-theme="sacred-emerald"] {
+  --color-primary: #14532D;
+  --color-primary-dark: #0F3D21;
+  --color-primary-deep: #052E16;
+  --color-accent-gold: #CA8A04;
+  --color-accent-light: #FDE047;
+  --color-accent-dark: #A16207;
+  --color-bg-cream: #F7FEE7;
+  --color-bg-ivory: #ECFDF5;
+}
+
+[data-theme="kashi-indigo"] {
+  --color-primary: #1E1B4B;
+  --color-primary-dark: #17143B;
+  --color-primary-deep: #0F0E26;
+  --color-accent-gold: #EAB308;
+  --color-accent-light: #FDE047;
+  --color-accent-dark: #CA8A04;
+  --color-bg-cream: #F8FAFC;
+  --color-bg-ivory: #F1F5F9;
+}
+
+[data-theme="royal-ruby"] {
+  --color-primary: #6B0F1A;
+  --color-primary-dark: #4A0710;
+  --color-primary-deep: #2D0308;
+  --color-accent-gold: #E5C158;
+  --color-accent-light: #FFF0B3;
+  --color-accent-dark: #B8860B;
+  --color-bg-cream: #FDF8F5;
+  --color-bg-ivory: #FAF0E6;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    transition: background-color 0.4s ease, color 0.4s ease;
+  }
+  body {
+    background-color: var(--color-bg-cream);
+    color: #2D1810;
+    overflow-x: hidden;
+  }
+}
+
+/* Custom Sacred Keyframe Animations */
+@keyframes diyaFlicker {
+  0%, 100% {
+    filter: drop-shadow(0 0 10px rgba(255, 179, 0, 0.75)) drop-shadow(0 0 25px rgba(255, 111, 0, 0.4));
+    transform: scale(1);
+  }
+  50% {
+    filter: drop-shadow(0 0 16px rgba(255, 204, 0, 0.95)) drop-shadow(0 0 35px rgba(255, 87, 34, 0.55));
+    transform: scale(1.03);
+  }
+}
+
+@keyframes goldShimmer {
+  0% {
+    background-position: -200% 0;
+  }
+  100% {
+    background-position: 200% 0;
+  }
+}
+
+@keyframes floatGentle {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-6px);
+  }
+}
+
+.animate-diya {
+  animation: diyaFlicker 3s infinite ease-in-out;
+}
+
+.animate-float {
+  animation: floatGentle 4s infinite ease-in-out;
+}
+
+.gold-shimmer-text {
+  background: linear-gradient(90deg, var(--color-accent-gold) 0%, var(--color-accent-light) 40%, var(--color-accent-gold) 60%, var(--color-accent-dark) 100%);
+  background-size: 200% auto;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: goldShimmer 6s linear infinite;
+}
+
+.gold-rim-card {
+  border: 1px solid rgba(212, 175, 55, 0.35);
+  box-shadow: 0 10px 30px -5px rgba(0, 0, 0, 0.08), 0 0 0 1px rgba(212, 175, 55, 0.15);
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.gold-rim-card:hover {
+  border-color: var(--color-accent-gold);
+  box-shadow: 0 15px 35px -5px rgba(0, 0, 0, 0.16), 0 0 25px rgba(212, 175, 55, 0.35);
+  transform: translateY(-3px);
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--color-bg-ivory);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-accent-gold);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-primary);
+}
