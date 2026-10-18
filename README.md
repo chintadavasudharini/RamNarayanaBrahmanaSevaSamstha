@@ -1,260 +1,182 @@
 <div align="center">
 
-  <!-- Logo & Title Header -->
-  <img src="assets/images/logo.jpg" alt="Ram Narayana Brahmana Seva Samstha Logo" width="130" style="border-radius: 50%; box-shadow: 0 0 25px rgba(212, 175, 55, 0.6); border: 3px solid #D4AF37; margin-bottom: 12px;" />
+  <!-- Official Logo & Emblem -->
+  <img src="assets/images/logo.jpg" alt="రామ్ నారాయణ బ్రాహ్మణ సేవా సంస్థ - Official Logo" width="135" style="border-radius: 50%; box-shadow: 0 0 25px rgba(212, 175, 55, 0.6); border: 3px solid #D4AF37; margin-bottom: 14px;" />
 
   # 🕉️ రామ్ నారాయణ బ్రాహ్మణ సేవా సంస్థ
   ### **Ram Narayana Brahmana Seva Samstha**
   *Authentic Vedic Rites • Ancestral Pitru Karyas • Satvik Traditions • Sacred Heritage*
 
   <p align="center">
-    <strong>Dedicated to preserving Sanatana Dharma under the divine guidance of Pro. Namburi Adinarayana Sharma.</strong><br>
-    <em>Dilsukhnagar, Hyderabad, Telangana, India</em>
+    <strong>"వైదిక సంప్రదాయ పరిరక్షణే మా లక్ష్యం — శ్రద్ధ, భక్తి, శాస్త్రబద్ధతతో మీ సేవా తత్పరతలో..."</strong><br>
+    <em>Under the Guidance & Direction of <strong>Pro. Namburi Adinarayana Sharma</strong></em><br>
+    📍 H.No. 11-62, Pragathi Nagar Road, Sahithi Nagar, Dilsukhnagar, Hyderabad, Telangana - 500060
   </p>
 
-  <!-- Live Deployment & Technology Badges -->
+  <!-- Live Deployment & Repository Badges -->
   <p align="center">
     <a href="https://ram-narayana-brahmana-seva-samstha.vercel.app/" target="_blank">
-      <img src="https://img.shields.io/badge/Live_Demo-Vercel_Production-success?style=for-the-badge&logo=vercel&logoColor=white&color=000000" alt="Vercel Deployment" />
+      <img src="https://img.shields.io/badge/Live_Website-Vercel_Production-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Live Website" />
     </a>
-    <a href="https://github.com/chintadavasudharini/RamNarayanaBrahmanaSevaSamstha/stargazers">
-      <img src="https://img.shields.io/github/stars/chintadavasudharini/RamNarayanaBrahmanaSevaSamstha?style=for-the-badge&logo=github&color=D4AF37" alt="GitHub Stars" />
+    <a href="https://github.com/ramnarayanabrahmanaseva/RamNarayanaBrahmanaSevaSamstha">
+      <img src="https://img.shields.io/badge/GitHub-Repository-851317?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Repo" />
     </a>
-    <a href="https://github.com/chintadavasudharini/RamNarayanaBrahmanaSevaSamstha/network/members">
-      <img src="https://img.shields.io/github/forks/chintadavasudharini/RamNarayanaBrahmanaSevaSamstha?style=for-the-badge&logo=github&color=851317" alt="GitHub Forks" />
+    <a href="https://www.instagram.com/ramnarayana_brahmana_seva?xtok=MTAwMWFiY245OWJrcQ==" target="_blank">
+      <img src="https://img.shields.io/badge/Instagram-@ramnarayana__brahmana__seva-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" />
     </a>
-    <a href="https://github.com/chintadavasudharini/RamNarayanaBrahmanaSevaSamstha/blob/main/LICENSE">
-      <img src="https://img.shields.io/badge/License-MIT-gold?style=for-the-badge" alt="License" />
+    <a href="https://maps.app.goo.gl/kL4BedYNx17JEaZs9?g_st=aw" target="_blank">
+      <img src="https://img.shields.io/badge/Location-Google_Maps-4285F4?style=for-the-badge&logo=googlemaps&logoColor=white" alt="Google Maps" />
     </a>
   </p>
 
-  <!-- Tech Stack Pills -->
+  <!-- Language & Feature Tags -->
   <p align="center">
-    <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" alt="HTML5" />
-    <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white" alt="CSS3" />
-    <img src="https://img.shields.io/badge/JavaScript_ES6+-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript ES6+" />
-    <img src="https://img.shields.io/badge/Responsive_Design-100%25_Mobile_Ready-2E7D32?style=flat-square&logo=googlechrome&logoColor=white" alt="Responsive" />
-    <img src="https://img.shields.io/badge/SEO_Optimized-Schema.org_JSON--LD-8E24AA?style=flat-square" alt="SEO Schema" />
-    <img src="https://img.shields.io/badge/Bilingual-Telugu_%7C_English-B8860B?style=flat-square" alt="Bilingual" />
+    <img src="https://img.shields.io/badge/Services-భోక్తల_సేవ_%7C_పితృ_కార్యాలు_%7C_సాత్విక_వంట-851317?style=flat-square" alt="Services" />
+    <img src="https://img.shields.io/badge/Language-తెలుగు_%7C_English-D4AF37?style=flat-square" alt="Bilingual" />
+    <img src="https://img.shields.io/badge/Ritual_Standard-100%25_Shastra_Compliant-2E7D32?style=flat-square" alt="Shastra Compliant" />
+    <img src="https://img.shields.io/badge/Premises-Dedicated_Vedic_Facility-B43403?style=flat-square" alt="Facility" />
   </p>
 
   <h4>
-    🌐 <a href="https://ram-narayana-brahmana-seva-samstha.vercel.app/"><strong>Explore Live Production Website »</strong></a>
+    🌐 <a href="https://ram-narayana-brahmana-seva-samstha.vercel.app/"><strong>Visit Official Website (అధికారిక వెబ్‌సైట్) »</strong></a>
   </h4>
 
 </div>
 
 ---
 
-## 📌 Table of Contents
-- [🌟 Overview & Mission](#-overview--mission)
-- [✨ Key Features & Engineering Highlights](#-key-features--engineering-highlights)
-- [🕉️ Core Vedic Services](#️-core-vedic-services)
-- [🎨 Design System & Visual Identity](#-design-system--visual-identity)
-- [🛠️ Tech Stack & Architecture](#️-tech-stack--architecture)
-- [📂 Codebase Structure](#-codebase-structure)
-- [🚀 Quick Start & Local Setup](#-quick-start--local-setup)
-- [📱 Responsive Breakpoints & Cross-Device Support](#-responsive-breakpoints--cross-device-support)
-- [👩‍💻 Author & Developer Profile](#-author--developer-profile)
-- [📜 License & Credits](#-license--credits)
+## 📑 విషయ సూచిక | Table of Contents
+
+1. [🏛️ సంస్థ పరిచయం | About the Samstha](#️-సంస్థ-పరిచయం--about-the-samstha)
+2. [🎯 ధ్యేయం & సంకల్పం | Vision & Sacred Mission](#-ధ్యేయం--సంకల్పం--vision--sacred-mission)
+3. [🕉️ సమగ్ర సేవలు | Sacred Services Offered](#️-సమగ్ర-సేవలు--sacred-services-offered)
+4. [🌿 పితృ కర్మల విశిష్టత & ప్రయోజనాలు | Spiritual Significance & Benefits](#-పితృ-కర్మల-విశిష్టత--ప్రయోజనాలు--spiritual-significance--benefits)
+5. [🌟 మా సంస్థ ప్రత్యేకతలు | Why Choose Our Samstha?](#-మా-సంస్థ-ప్రత్యేకతలు--why-choose-our-samstha)
+6. [📍 ప్రాంగణం & సంప్రదింపు వివరాలు | Location & Contact Info](#-ప్రాంగణం--సంప్రదింపు-వివరాలు--location--contact-info)
+7. [💻 వెబ్‌సైట్ & సాంకేతిక వివరాలు | Website & Technical Architecture](#-వెబ్‌సైట్--సాంకేతిక-వివరాలు--website--technical-architecture)
 
 ---
 
-## 🌟 Overview & Mission
+## 🏛️ సంస్థ పరిచయం | About the Samstha
 
-**Ram Narayana Brahmana Seva Samstha** (రామ్ నారాయణ బ్రాహ్మణ సేవా సంస్థ) is an authentic, sacred digital portal for Vedic rites and ancestral ceremonies situated in Dilsukhnagar, Hyderabad.
+### **తెలుగు:**
+**రామ్ నారాయణ బ్రాహ్మణ సేవా సంస్థ** అనేది సనాతన ధర్మ సంప్రదాయ పరిరక్షణే లక్ష్యంగా స్థాపించబడిన పవిత్ర వైదిక సేవా కేంద్రం. భాగ్యనగరం (హైదరాబాద్) లోని ప్రముఖ ఆధ్యాత్మిక, నివాస కేంద్రమైన **దిల్‌సుఖ్‌నగర్** లో ఈ సంస్థ కొలువై ఉన్నది. 
 
-Under the venerated guidance of **Pro. Namburi Adinarayana Sharma**, this platform connects devotees with experienced Vedic scholars (*Purohits*), disciplined Vedic guests (*Bhokthas*), authentic Agnihotra Paranam, traditional ritual catering (*Satvik Bhojanam*), and complete ceremonial arrangements in full adherence to *Shastras* and *Sanatana Dharma*.
+**ప్రొ॥ నంబూరి ఆదినారాయణ శర్మ** గారి పర్యవేక్షణ మరియు అనుభవజ్ఞులైన వేద పండితుల మార్గదర్శకత్వంలో — ఆబ్దికం, మాసికం, సంవత్సరీకం, మహాలయ పక్ష తర్పణాలు, శ్రాద్ధ కర్మలు మరియు సమస్త పితృ కార్యాలు సంస్థ ప్రాంగణంలోనే సంపూర్ణ శాస్త్రోక్త నిష్ఠతో నిర్వహించబడుతున్నాయి.
 
-### 🎯 Key Objectives:
-- **Preservation of Sacred Heritage:** Modernizing accessibility to ancient Vedic rituals without compromising ritualistic sanctity.
-- **Flawless User Experience:** Delivering high-speed, zero-dependency, ultra-lightweight client performance with an authentic Temple Maroon & Pure Gold aesthetic.
-- **Bilingual Inclusivity:** Full native support for both Telugu (తెలుగు) and English with instant dynamic switching.
+సదాచార సంపన్నులైన సత్ బ్రాహ్మణ భోక్తలు, అగ్నిహోత్ర పారణ విధానం, సాంప్రదాయ శుచి-శుభ్రతలతో కూడిన సాత్విక వంట మరియు సమగ్ర పూజా సామగ్రితో కుటుంబాలు ఎటువంటి వ్యయప్రయాసలు లేకుండా నిర్మల మనస్సుతో పితృ కర్మలను పూర్తిచేసుకునే సదుపాయాన్ని సంస్థ కల్పిస్తోంది.
 
 ---
 
-## ✨ Key Features & Engineering Highlights
+### **English:**
+**Ram Narayana Brahmana Seva Samstha** is a premier sacred institution established in **Dilsukhnagar, Hyderabad, Telangana**, with the prime objective of upholding Sanatana Dharma and preserving traditional Vedic ancestral ceremonies.
 
-`
-┌─────────────────────────────────────────────────────────────────────────────────────────┐
-│                                ARCHITECTURE & CAPABILITIES                              │
-├──────────────────────────┬───────────────────────────┬──────────────────────────────────┤
-│ 🌐 Real-Time Bilingual   │ 📱 100% Fluid Responsive  │ ⚡ Zero-Framework Performance     │
-│ Instant i18n switching   │ Mobile, Tablet, Laptop,   │ Pure HTML5, Vanilla CSS3, & ES6+ │
-│ without page reload      │ Desktop & Foldables       │ No heavy libraries / Instant TTL │
-├──────────────────────────┼───────────────────────────┼──────────────────────────────────┤
-│ 🕉️ 4 Core Vedic Cards    │ 📍 Interactive Geo & CTAs │ 🔍 Semantic SEO & Schema.org     │
-│ Categorized Shastric     │ Direct WhatsApp, One-Tap  │ Full JSON-LD structured metadata │
-│ ancestral services       │ Calling, & Google Maps    │ for enhanced search rich cards   │
-└──────────────────────────┴───────────────────────────┴──────────────────────────────────┘
-`
+Operated under the revered supervision of **Pro. Namburi Adinarayana Sharma**, the Samstha provides a dedicated, tranquil, and orthodox environment where families can perform all sacred ancestral sacraments—including **Abdikam** (Annual Shraddha), **Masikam** (Monthly Rites), **Samvatsarikam**, **Mahalaya Paksha Tarpanam**, and **Pinda Pradanam**—with complete peace of mind, uncompromised ritual sanctity, and pure Vedic adherence.
 
-- **🎨 Vedic Light Theme Design System:** Handcrafted color palette featuring Deep Sacred Maroon (#851317), Pure Temple Gold (#D4AF37), and Warm Ivory Parchment (#FFFDF8).
-- **⚡ Dynamic Desktop & Mobile Navigation:**
-  - Desktop: Hover & Click Dropdown navigation with custom micro-animations.
-  - Mobile: Smooth sliding collapsible navigation drawer with accordion submenus.
-- **📸 High-Res Media Showcase & Lightbox:** Zoomable interactive modal gallery featuring official banners, pamphlets, and credentials.
-- **♿ Accessibility & Semantic Standards:** Accessible ARIA attributes, semantic HTML5 structure, keyboard navigation, and WCAG-compliant color contrast.
-- **📱 Zero-CLS Fluid Layouts:** CSS clamp() typography and container queries prevent text clipping and horizontal scrolling across all viewport widths (from iPhone SE up to 4K Ultrawide).
+Modern urban living often poses severe challenges in conducting rituals at home—such as lack of sacred space, difficulty in coordinating devout Brahmin Bhokthas, acquiring rare Shastric puja materials, and preparing ritual-compliant Satvik meals. **Ram Narayana Brahmana Seva Samstha solves all of these under one sacred roof.**
 
 ---
 
-## 🕉️ Core Vedic Services
+## 🎯 ధ్యేయం & సంకల్పం | Vision & Sacred Mission
 
-The Samstha provides 4 focused, Shastra-compliant ritual services:
+> ### *"మాతాపితరుల రుణం తీర్చుకోవడం ప్రతి మానవుని ప్రథమ కర్తవ్యం. పూర్వీకుల ఆశీస్సులే కుటుంబ క్షేమానికి మూలస్తంభాలు."*
+> — **ప్రొ॥ నంబూరి ఆదినారాయణ శర్మ**
 
-| # | Service Category (తెలుగు) | Service Name (English) | Sacred Scope & Arrangements |
-|---|---|---|---|
-| **01** | **భోక్తల సేవ** | Bhoktha Seva | Disciplined, orthodox Brahmin Bhokthas for Shraddha meals adhering strictly to Shastric codes. |
-| **02** | **పితృకార్యాలు & శ్రాద్ధకర్మలు** | Pitru Karyas & Shraddha Karmas | Masikam, Abdikam, Samvatsarikam, Mahalaya Paksha Tarpana, and Pinda Pradanam. |
-| **03** | **సాత్విక వంట & సంపూర్ణ నిర్వహణ** | Satvik Catering & Full Arrangements | Traditional Satvik Brahmin culinary preparation, puja samagri, and clean sacred venue arrangements. |
-
----
-
-## 🎨 Design System & Visual Identity
-
-### 🎨 Color Palette
-`css
-:root {
-  --color-primary:          #851317;  /* Deep Temple Maroon */
-  --color-primary-dark:     #5C0A0E;  /* Royal Crimson Shade */
-  --color-secondary:        #D4AF37;  /* Pure Shastric Gold */
-  --color-secondary-light:  #FFE082;  /* Divine Gold Glow */
-  --bg-main:                #FAF7F0;  /* Warm Sacred Ivory */
-  --bg-card:                #FFFFFF;  /* Crisp Card Background */
-  --text-main:              #241508;  /* Deep Charcoal Brown */
-  --text-muted:             #5C4A3A;  /* Soft Ochre Text */
-}
-`
-
-### 🔤 Typography
-- **Telugu Headings & Body:** 'Tiro Telugu', 'Mandali', 'Gautami', sans-serif
-- **English Headings:** 'Cinzel', 'Playfair Display', Georgia, serif
-- **Body & UI Controls:** 'Inter', 'Plus Jakarta Sans', system-ui, sans-serif
+* **వేద సాంప్రదాయ పరిరక్షణ (Vedic Preservation):** ప్రాచీన సూత్రాలు, బోధాయన/ఆపస్తంబ ధర్మశాస్త్రాలు నిర్దేశించిన విధానంలో లోపం లేకుండా పితృ యజ్ఞాలను జరిపించడం.
+* **సదాచార సేవా సమర్పణ (Sadachara Service):** నిత్య సంధ్యావందనం, అగ్నిహోత్ర నిష్ఠ గల వేద బ్రాహ్మణుల ద్వారా మాత్రమే హోమాలు మరియు భోక్తల సేవలు అందించడం.
+* **ఏకాగ్రత & నిర్మల వాతావరణం (Sanctified Atmosphere):** నగర రణగొణ ధ్వనుల నడుమ ఒక ప్రశాంతమైన, దేవాలయ సమానమైన వాతావరణంలో పూజా నిర్వహణ.
+* **సంపూర్ణ సమన్వయం (End-to-End Fulfilment):** తిథి నిర్ణయం నుండి పూజా సామాగ్రి, వేద పండితులు, భోక్తలు, వంట వారుల సమన్వయం వరకు అంతా సంస్థే దగ్గరుండి నిర్వర్తించడం.
 
 ---
 
-## 🛠️ Tech Stack & Architecture
+## 🕉️ సమగ్ర సేవలు | Sacred Services Offered
 
-- **Frontend Core:** Pure HTML5 (Semantic5)
-- **Styling Architecture:** Modern Vanilla CSS3 (Custom Properties, Flexbox, Grid, Glassmorphism, CSS clamp())
-- **Client Scripting:** Modular Vanilla JavaScript (ES6+)
-- **Structured Data:** Schema.org LocalBusiness JSON-LD
-- **Cloud Hosting & CDN:** [Vercel](https://vercel.com/) Edge Network
-- **Icons & Assets:** Optimized SVG & High-Resolution Compressed WebP/JPEG
+రామ్ నారాయణ బ్రాహ్మణ సేవా సంస్థ ప్రాంగణంలోనే ప్రధానంగా 3 విశిష్ట సేవా విభాగాలు అందించబడుతున్నాయి:
 
----
-
-## 📂 Codebase Structure
-
-`ash
-RamNarayanaBrahmanaSevaSamstha/
-├── 📁 assets/
-│   ├── 📁 css/
-│   │   └── style.css            # Master stylesheet & responsive design system
-│   ├── 📁 images/
-│   │   ├── banner-new.jpg       # Official grand banner
-│   │   ├── card-cream.jpg       # Authentic visiting card
-│   │   ├── flyer-en.jpg         # English brochure flyer
-│   │   ├── flyer-te.jpg         # Telugu brochure flyer
-│   │   ├── logo.jpg             # High-res official circular emblem
-│   │   ├── pamphlet.jpg         # High-res reference pamphlet
-│   │   └── pamphlet.png         # Transparent emblem asset
-│   └── 📁 js/
-│       ├── app.js               # UI controls, lightbox, drawer, scrollspy
-│       └── translations.js      # Complete Telugu & English i18n dictionaries
-├── index.html                   # Core semantic web application
-├── README.md                    # Engineering documentation & developer profile
-└── .gitignore                   # Version control ignore configuration
-`
+| క్రమ సంఖ్య | సేవా విభాగం (తెలుగు) | Service Category (English) | సేవా వివరణ & సమగ్ర విశేషాలు (Description & Inclusions) |
+|:---:|---|---|---|
+| **01** | **భోక్తల సేవ** | **Bhoktha Seva (Brahmin Bhokthas)** | పితృకార్యాలు మరియు శ్రాద్ధ భోజనములలో అత్యంత ప్రధానమైన ఘట్టం భోక్తల సమర్పణ. సదాచార సంపన్నులైన, నిష్టాగరిష్ఠులైన సత్ బ్రాహ్మణులను సంస్థ స్వయంగా ఏర్పాటు చేస్తుంది. |
+| **02** | **పితృకార్యాలు & శ్రాద్ధకర్మలు** | **Pitru Karyas & Shraddha Karmas** | • **ఆబ్దికం (Abdikam):** సాంవత్సరిక శ్రాద్ధం శాస్త్రోక్తంగా నిర్వహణ.<br>• **మాసికం (Masikam):** ప్రతినెలా నిర్వహించవలసిన మాసిక కర్మలు.<br>• **సంవత్సరీకం (Samvatsarikam):** ప్రథమ వర్ధంతి మహా శ్రాద్ధం.<br>• **మహాలయ పక్షం & తర్పణాలు:** భాద్రపద పక్ష తర్పణాలు మరియు పిండప్రదానం. |
+| **03** | **సాత్విక వంట & సంపూర్ణ నిర్వహణ** | **Satvik Catering & Full Arrangements** | సాంప్రదాయ 'మడి' ఆచార నిష్టతో బ్రాహ్మణుల చేత తయారుచేయబడే స్వచ్ఛమైన సాత్విక భోజనం. దర్భలు, సమిధలు, నెయ్యి, విస్తళ్ళు, తిలలు సహా సమస్త పూజా సామగ్రి సంస్థలోనే లభించును. |
 
 ---
 
-## 🚀 Quick Start & Local Setup
+## 🌿 పితృ కర్మల విశిష్టత & ప్రయోజనాలు | Spiritual Significance & Benefits
 
-### 1️⃣ Clone the Repository
-`ash
-git clone https://github.com/chintadavasudharini/RamNarayanaBrahmanaSevaSamstha.git
-cd RamNarayanaBrahmanaSevaSamstha
-`
+సనాతన ధర్మంలో పంచ మహాయజ్ఞాలలో **పితృ యజ్ఞం** అత్యంత పవిత్రమైనది. శాస్త్రోక్తంగా శ్రాద్ధ కర్మలు ఆచరించడం వలన కలుగు శుభఫలాలు:
 
-### 2️⃣ Run Locally
-Since this project uses zero external build dependencies, you can run it with any static web server:
-
-**Using Python 3:**
-`ash
-python -m http.server 8000
-`
-
-**Using Node.js (
-px serve):**
-`ash
-npx serve .
-`
-
-**Using VS Code Live Server:**
-Right-click index.html → select **"Open with Live Server"**.
-
-### 3️⃣ View in Browser
-Navigate to http://localhost:8000 in your web browser.
+1. **కృతజ్ఞతా భావం (Express Gratitude):**  
+   మన ఉనికికి, ఉన్నతికి కారణభూతులైన తల్లిదండ్రులు, పూర్వీకుల పట్ల భక్తి ప్రపత్తులను ప్రకటించి వారి దివ్యాశీస్సులు పొందడం.
+2. **కుటుంబ బలం & ఐక్యత (Strengthen Family Bonds):**  
+   పూర్వీకుల పుణ్యఫలంతో కుటుంబంలో విభేదాలు తొలగి శాంతి, ఆప్యాయతలు, ఐక్యత వెల్లివిరుస్తాయి.
+3. **శుభఫల ప్రాప్తి (Seek Blessings for Prosperity):**  
+   పితృదేవతల సంతృప్తి వలన ఆయురారోగ్యాలు, సంతాన ప్రాప్తి, ఉద్యోగ-వ్యాపారాభివృద్ధి, మానసిక ప్రశాంతత లభిస్తాయి.
+4. **సంస్కృతి పరిరక్షణ (Preserve Cultural Roots):**  
+   మన వైదిక సంస్కృతిని, సనాతన సంప్రదాయాలను భావితరాలకు సజీవంగా అందించే పవిత్ర వారసత్వం.
+5. **వంశ పరంపర కొనసాగింపు (Lineage Continuance):**  
+   వంశాభివృద్ధి మరియు ధర్మ నిష్ఠ తరతరాలకు వర్ధిల్లేలా పూర్వీకుల అనుగ్రహం లభిస్తుంది.
+6. **పితృ ఋణ విముక్తి & మోక్ష ప్రాప్తి (Pitru Dosha Nivarana & Liberation):**  
+   శాస్త్రబద్ధమైన పిండ ప్రదానంతో పితృ దోషాలు నివారించబడి, పితృదేవతలకు ఉత్తమ లోక ప్రాప్తి (సద్గతి) కలుగుతుంది.
 
 ---
 
-## 📱 Responsive Breakpoints & Cross-Device Support
+## 🌟 మా సంస్థ ప్రత్యేకతలు | Why Choose Our Samstha?
 
-| Device Category | Target Viewport Width | Navigation Mode | Layout Grid |
-|---|---|---|---|
-| **Mobile Phones (Small/Medium)** | 320px - 480px | Bottom Sticky Action Bar + Drawer | 1 Column Full Width |
-| **Smartphones (Large) & Phablets** | 481px - 767px | Bottom Sticky Action Bar + Drawer | 1 - 2 Columns Fluid |
-| **Tablets & iPads (Portrait/Landscape)** | 768px - 1024px| Top Header + Drawer Trigger | 2 Columns Grid |
-| **Laptops & MacBooks** | 1025px - 1440px | Desktop Header + Dropdowns | 2x2 Symmetrical Grid |
-| **Desktop Monitors & 4K Displays** | > 1440px | Desktop Header + Dropdowns | Constrained Container (1480px) |
+* 🪔 **అనుభవజ్ఞులైన వేద పండితులు (Senior Vedic Pandits):** శాస్త్రోక్త సంస్కారాలను మంత్రోచ్ఛారణతో నడిపించే ప్రావీణ్యంగల పండితులు.
+* 🏛️ **దిల్‌సుఖ్‌నగర్ లో విశాలమైన ప్రాంగణం (Central & Dedicated Premises):** హైదరాబాద్ నగరంలో అత్యంత సులభంగా చేరుకోగల ప్రదేశంలో, ప్రశాంతమైన వాతావరణం.
+* 🍲 **నిష్ఠాగరిష్ఠ సాత్విక భోజనం (Pure Shastric Satvik Kitchen):** ఉల్లి, వెల్లుల్లి లేని, శాస్త్ర సమ్మతమైన పవిత్ర పాకశాల.
+* 📜 **శాస్త్రోక్త తిథి నిర్ణయాలు (Accurate Tithi Guidance):** పంచాంగ ఆధారిత తిథి నిర్ణయాలు మరియు ముందస్తు మార్గదర్శకత్వం.
+* 🤝 **ఆదరణ & విశ్వసనీయత (Compassionate & Respectful Care):** భక్తుల మనోభావాలను గౌరవిస్తూ ప్రతి కర్మను తమ సొంత బాధ్యతగా నిర్వహించే నిబద్ధత.
 
 ---
 
-## 👩‍💻 Author & Developer Profile
+## 📍 ప్రాంగణం & సంప్రదింపు వివరాలు | Location & Contact Info
 
-<table align="center" style="border-collapse: collapse; border: none;">
-  <tr>
-    <td align="center" style="border: none; padding: 20px;">
-      <a href="https://github.com/chintadavasudharini">
-        <img src="https://github.com/chintadavasudharini.png" width="140px" style="border-radius: 50%; border: 3px solid #D4AF37; box-shadow: 0 0 20px rgba(212, 175, 55, 0.4);" alt="Chintada Vasudharini" />
-      </a>
-      <br><br>
-      <h3><strong>Chintada Vasudharini</strong></h3>
-      <p><strong>Python Full Stack Developer | AWS Cloud | AI & Data Science</strong></p>
-      <p>📍 <em>KL University | B.Tech Computer Science and Engineering</em></p>
-    </td>
-  </tr>
-</table>
-
-### 🌐 Connect with the Developer:
-- 💼 **LinkedIn:** [Chintada Vasudharini](https://www.linkedin.com/in/chintada-vasudharini-nov21/)
-- 🐙 **GitHub:** [@chintadavasudharini](https://github.com/chintadavasudharini)
-- 🚀 **Personal Portfolio:** [chintadavasudharini-portfolio.vercel.app](https://chintadavasudharini-portfolio.vercel.app/)
-- 📧 **Email:** [chintadavasudharini@gmail.com](mailto:chintadavasudharini@gmail.com)
-
-`python
-class Developer:
-    def __init__(self):
-        self.name = "Chintada Vasudharini"
-        self.role = "Python Full Stack Developer & AI Enthusiast"
-        self.education = "B.Tech CSE - KL University"
-        self.skills = ["Python", "JavaScript", "HTML5/CSS3", "AWS", "AI/DS", "REST APIs", "Full Stack Web"]
-        self.passions = ["Sacred Heritage Preservation", "High-Performance Web Architecture", "Cloud Solutions"]
-
-    def say_hi(self):
-        return "Thank you for visiting! Let's build impactful technologies together."
-`
+| వివరాలు (Field) | సమగ్ర సమాచారం (Details) |
+|---|---|
+| **సంస్థ పేరు** | **రామ్ నారాయణ బ్రాహ్మణ సేవా సంస్థ** |
+| **English Name** | **Ram Narayana Brahmana Seva Samstha** |
+| **ఆధ్వర్యం / మార్గదర్శకత్వం** | **ప్రొ॥ నంబూరి ఆదినారాయణ శర్మ (Pro. Namburi Adinarayana Sharma)** |
+| **చిరునామా (Address)** | H.No. 11-62, ప్రగతి నగర్ రోడ్, సాహితి నగర్, దిల్‌సుఖ్‌నగర్, హైదరాబాద్, తెలంగాణ – 500060 |
+| **ఫోన్ నంబర్లు (Calling)** | 📞 **+91 77802 23977** &nbsp;\|&nbsp; 📞 **+91 87903 23977** |
+| **వాట్సాప్ (WhatsApp)** | 💬 [**+91 77802 23977**](https://wa.me/917780223977?text=నమస్కారం%20రామ్%20నారాయణ%20బ్రాహ్మణ%20సేవా%20సంస్థ,%20నేను%20మీ%20సేవల%20గురించి%20తెలుసుకోవాలనుకుంటున్నాను.) |
+| **ఈమెయిల్ (Email)** | ✉️ [ramnarayanabrahmanasevasamstha@gmail.com](mailto:ramnarayanabrahmanasevasamstha@gmail.com) |
+| **ఇన్‌స్టాగ్రామ్ (Instagram)** | 📸 [@ramnarayana_brahmana_seva](https://www.instagram.com/ramnarayana_brahmana_seva?xtok=MTAwMWFiY245OWJrcQ==) |
+| **గూగుల్ మ్యాప్స్ (Google Maps)** | 📍 [Open Location in Google Maps](https://maps.app.goo.gl/kL4BedYNx17JEaZs9?g_st=aw) |
+| **సేవా సమయాలు (Timings)** | ⏰ ప్రతిరోజు ఉదయం 8:00 AM నుండి సాయంత్రం 6:00 PM వరకు |
 
 ---
 
-## 📜 License & Credits
+## 💻 వెబ్‌సైట్ & సాంకేతిక వివరాలు | Website & Technical Architecture
 
-- **Software Engineering & Architecture:** Developed with ❤️ by [**Chintada Vasudharini**](https://github.com/chintadavasudharini).
-- **Vedic Direction & Supervision:** **Pro. Namburi Adinarayana Sharma** (రామ్ నారాయణ బ్రాహ్మణ సేవా సంస్థ).
-- **License:** Open-sourced under the [MIT License](LICENSE).
+ఈ ప్రాజెక్ట్ యొక్క అధికారిక వెబ్‌సైట్ ఎటువంటి భారీ థర్డ్-పార్టీ లైబ్రరీలపై ఆధారపడకుండా, అత్యంత వేగంగా లోడ్ అయ్యేలా ప్యూర్ వెబ్ టెక్నాలజీలతో రూపొందించబడింది:
+
+```
+RNSS/
+├── index.html                   # Core semantic web application (Telugu default + i18n support)
+├── assets/
+│   ├── css/
+│   │   └── style.css            # Sacred maroon & gold theme, responsive clamp() design system
+│   ├── js/
+│   │   ├── app.js               # Navigation drawer, lightbox modal, scrollspy, active states
+│   │   └── translations.js      # Complete Telugu (te) & English (en) bilingual dictionary
+│   └── images/
+│       ├── banner-new.jpg       # Official grand banner
+│       ├── card-cream.jpg       # Visiting card reference
+│       ├── flyer-te.jpg         # Official Telugu informational brochure
+│       ├── flyer-en.jpg         # Official English informational brochure
+│       ├── logo.jpg             # High-resolution circular emblem
+│       └── pamphlet.jpg         # Sacred Shastric guide pamphlet
+├── README.md                    # Official documentation
+└── .gitignore                   # Git version control ignore rules
+```
+
+### ✨ సాంకేతిక విశేషాలు (Engineering Highlights):
+* **🌐 ద్విభాషా సదుపాయం (Bilingual i18n Engine):** తెలుగు మరియు ఇంగ్లీష్ భాషల మధ్య తక్షణ మార్పు (Instant Toggle without page reload).
+* **📱 100% రెస్పాన్సివ్ లేఅవుట్ (Mobile-First Architecture):** స్మార్ట్‌ఫోన్ నుండి 4K మానిటర్ వరకు అన్ని పరికరాలలో అనుకూలమైన డిస్‌ప్లే.
+* **⚡ శీఘ్ర లోడింగ్ (Ultra High Performance):** జీరో బండిల్ సైజ్, నేటివ్ CSS మరియు మోడ్రన్ ES6+ జావాస్క్రిప్ట్.
+* **🔍 SEO & Schema.org JSON-LD:** గూగుల్ సెర్చ్‌లో స్థానిక వ్యాపారంగా సులభంగా కనిపించేలా `LocalBusiness` మైక్రోడేటా.
 
 <div align="center">
-  <sub>© 2026 Ram Narayana Brahmana Seva Samstha. All rights reserved. • Built with devotion and precision.</sub>
+  <sub>© 2026 రామ్ నారాయణ బ్రాహ్మణ సేవా సంస్థ (Ram Narayana Brahmana Seva Samstha). సర్వ హక్కులూ ప్రత్యేకించబడినవి.</sub>
 </div>

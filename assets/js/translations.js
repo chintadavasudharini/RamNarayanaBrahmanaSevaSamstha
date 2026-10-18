@@ -188,7 +188,7 @@ const translations = {
 
     // Footer
     footer_desc: "హిందూ సాంప్రదాయ విధాన సత్ బ్రాహ్మణులతో, అగ్నిహోత్ర పారణంతో పితృ కార్యముల సమగ్ర నిర్వహణ సేవా సంస్థ.",
-    footer_quick_links: "ముఖ్యమైన లింకులు",
+    footer_quick_links: "మా సంస్థను అన్వేషించండి",
     footer_services: "సేవలు",
     footer_srv_2: "భోక్తల సేవ",
     footer_contact_info: "సంప్రదింపుల కేంద్రం",
