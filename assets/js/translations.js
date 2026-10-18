@@ -19,6 +19,7 @@ const translations = {
     nav_why_us: "ఎందుకు ఎంచుకోవాలి",
     nav_gallery: "బ్యానర్లు & కరపత్రం",
     nav_contact: "సంప్రదించండి",
+    nav_social: "సోషల్ మీడియా",
     nav_call_btn: "కాల్ చేయండి",
     nav_whatsapp_btn: "వాట్సాప్",
     nav_location_btn: "గూగుల్ మ్యాప్స్",
@@ -169,6 +170,17 @@ const translations = {
     contact_cta_maps: "📍 గూగుల్ మ్యాప్స్‌లో చూడండి (Google Maps)",
     contact_cta_whatsapp: "💬 వాట్సాప్‌లో సంప్రదించండి (+91 77802 23977)",
 
+    // Follow Us On Section
+    social_badge: "సోషల్ మీడియా",
+    social_title: "మమ్మల్ని సోషల్ మీడియాలో అనుసరించండి",
+    social_subtitle: "మా తాజా పూజా కార్యక్రమాలు, విశేషాలు మరియు ఆధ్యాత్మిక వివరాల కోసం మా అధికారిక సోషల్ మీడియా వేదికలను అనుసరించండి.",
+    social_ig_title: "ఇన్‌స్టాగ్రామ్ (Instagram)",
+    social_ig_btn: "ఇన్‌స్టాగ్రామ్‌లో ఫాలో అవ్వండి",
+    social_fb_title: "ఫేస్‌బుక్ (Facebook)",
+    social_fb_btn: "ఫేస్‌బుక్‌లో కలవండి",
+    social_yt_title: "యూట్యూబ్ (YouTube)",
+    social_yt_btn: "సబ్‌స్క్రైబ్ చేసుకోండి",
+
     // Mobile Action Bar
     mob_call: "కాల్ చేయండి",
     mob_whatsapp: "వాట్సాప్",
@@ -200,6 +212,7 @@ const translations = {
     nav_why_us: "Why Choose Us",
     nav_gallery: "Banners & Brochure",
     nav_contact: "Contact Us",
+    nav_social: "Social Media",
     nav_call_btn: "Call Now",
     nav_whatsapp_btn: "WhatsApp",
     nav_location_btn: "Google Maps",
@@ -349,6 +362,17 @@ const translations = {
     contact_hours_val: "Open Every Day: 8:00 AM – 6:00 PM",
     contact_cta_maps: "📍 Open in Google Maps",
     contact_cta_whatsapp: "💬 Connect on WhatsApp (+91 77802 23977)",
+
+    // Follow Us On Section
+    social_badge: "Social Media",
+    social_title: "Follow Us On Social Media",
+    social_subtitle: "Stay connected with us on our official social channels for Latest Event Updates and Highlights.",
+    social_ig_title: "Instagram",
+    social_ig_btn: "Follow on Instagram",
+    social_fb_title: "Facebook",
+    social_fb_btn: "Connect on Facebook",
+    social_yt_title: "YouTube",
+    social_yt_btn: "Subscribe on YouTube",
 
     // Mobile Action Bar
     mob_call: "Call Us",

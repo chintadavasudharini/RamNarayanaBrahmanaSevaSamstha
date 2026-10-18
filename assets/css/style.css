@@ -1851,6 +1851,197 @@ section {
 }
 
 /* ==========================================================================
+   13.5. Follow Us On (Social Media) Section
+   ========================================================================== */
+.social-section {
+  background: var(--bg-card);
+  border-top: 1.5px solid var(--border-gold);
+  position: relative;
+  padding: clamp(3.5rem, 6vw, 5.5rem) 0;
+}
+
+.social-cards-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+@media (min-width: 640px) {
+  .social-cards-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 992px) {
+  .social-cards-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.social-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: var(--bg-main);
+  border: 1.5px solid var(--border-gold);
+  border-radius: var(--radius-lg);
+  padding: 1.85rem 1.6rem 1.5rem;
+  text-decoration: none;
+  color: var(--text-main);
+  transition: all var(--transition-normal);
+  box-shadow: var(--shadow-sm);
+  position: relative;
+  overflow: hidden;
+}
+
+.social-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+}
+
+.social-card-instagram::before {
+  background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+}
+
+.social-card-facebook::before {
+  background: #1877F2;
+}
+
+.social-card-youtube::before {
+  background: #FF0000;
+}
+
+.social-card:hover {
+  transform: translateY(-8px);
+  box-shadow: var(--shadow-lg), var(--shadow-gold-glow);
+  border-color: var(--color-primary);
+  background: var(--bg-card);
+}
+
+.social-card-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1.25rem;
+}
+
+.social-card-icon-wrap {
+  width: 58px;
+  height: 58px;
+  border-radius: var(--radius-md);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #FFFFFF;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
+  transition: transform var(--transition-fast);
+}
+
+.social-card:hover .social-card-icon-wrap {
+  transform: scale(1.1) rotate(6deg);
+}
+
+.social-card-icon-wrap.ig-gradient {
+  background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+}
+
+.social-card-icon-wrap.fb-gradient {
+  background: #1877F2;
+}
+
+.social-card-icon-wrap.yt-gradient {
+  background: #FF0000;
+}
+
+.social-tag {
+  font-family: var(--font-heading);
+  font-size: 0.82rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+  color: var(--color-secondary);
+  background: rgba(184, 134, 11, 0.12);
+  padding: 0.3rem 0.75rem;
+  border-radius: var(--radius-full);
+  border: 1px solid var(--border-gold);
+}
+
+.social-card-body {
+  flex-grow: 1;
+  margin-bottom: 1.35rem;
+}
+
+.social-card-title {
+  font-family: var(--font-heading);
+  font-size: 1.22rem;
+  font-weight: 800;
+  color: var(--color-primary);
+  margin-bottom: 0.35rem;
+  line-height: 1.3;
+}
+
+.social-card-handle {
+  font-size: 0.92rem;
+  font-weight: 700;
+  color: var(--color-secondary);
+  word-break: break-all;
+  margin-bottom: 0;
+}
+
+.social-card-cta {
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.75rem 1.15rem;
+  border-radius: var(--radius-md);
+  font-size: 0.88rem;
+  font-weight: 700;
+  color: #FFFFFF;
+  transition: all var(--transition-fast);
+}
+
+.social-card-cta.ig-cta {
+  background: linear-gradient(135deg, #851317 0%, #b81446 60%, #c13584 100%);
+}
+
+.social-card:hover .social-card-cta.ig-cta {
+  background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+  box-shadow: 0 5px 16px rgba(225, 48, 108, 0.4);
+}
+
+.social-card-cta.fb-cta {
+  background: linear-gradient(135deg, #0d5bbd 0%, #1877F2 100%);
+}
+
+.social-card:hover .social-card-cta.fb-cta {
+  background: #1877F2;
+  box-shadow: 0 5px 16px rgba(24, 119, 242, 0.4);
+}
+
+.social-card-cta.yt-cta {
+  background: linear-gradient(135deg, #a80000 0%, #FF0000 100%);
+}
+
+.social-card:hover .social-card-cta.yt-cta {
+  background: #FF0000;
+  box-shadow: 0 5px 16px rgba(255, 0, 0, 0.4);
+}
+
+.social-card-cta svg {
+  transition: transform var(--transition-fast);
+}
+
+.social-card:hover .social-card-cta svg {
+  transform: translateX(4px);
+}
+
+/* ==========================================================================
    14. Site Footer
    ========================================================================== */
 .site-footer {
