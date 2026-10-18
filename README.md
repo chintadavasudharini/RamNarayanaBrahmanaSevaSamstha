@@ -1,4 +1,4 @@
-﻿<div align="center">
+<div align="center">
 
   <!-- Logo & Title Header -->
   <img src="assets/images/logo.jpg" alt="Ram Narayana Brahmana Seva Samstha Logo" width="130" style="border-radius: 50%; box-shadow: 0 0 25px rgba(212, 175, 55, 0.6); border: 3px solid #D4AF37; margin-bottom: 12px;" />
@@ -105,10 +105,9 @@ The Samstha provides 4 focused, Shastra-compliant ritual services:
 
 | # | Service Category (తెలుగు) | Service Name (English) | Sacred Scope & Arrangements |
 |---|---|---|---|
-| **01** | **వైదిక బ్రాహ్మణుల సేవా** | Vaidika Brahmana Seva | Veda Paranam, Rudra Namaka-Chamaka Paranam, Gayatri & Mrityunjaya Japas, Ganapathi & Chandi Homas. |
-| **02** | **భోక్తల సేవా** | Bhoktha Seva | Disciplined, orthodox Brahmin Bhokthas for Shraddha meals adhering strictly to Shastric codes. |
-| **03** | **పితృకార్యాలు & శ్రాద్ధకర్మలు** | Pitru Karyas & Shraddha Karmas | Masikam, Abdikam, Samvatsarikam, Mahalaya Paksha Tarpana, and Pinda Pradanam. |
-| **04** | **సాత్విక వంట & సంపూర్ణ నిర్వహణ** | Satvik Catering & Full Arrangements | Traditional Satvik Brahmin culinary preparation, puja samagri, and clean sacred venue arrangements. |
+| **01** | **భోక్తల సేవ** | Bhoktha Seva | Disciplined, orthodox Brahmin Bhokthas for Shraddha meals adhering strictly to Shastric codes. |
+| **02** | **పితృకార్యాలు & శ్రాద్ధకర్మలు** | Pitru Karyas & Shraddha Karmas | Masikam, Abdikam, Samvatsarikam, Mahalaya Paksha Tarpana, and Pinda Pradanam. |
+| **03** | **సాత్విక వంట & సంపూర్ణ నిర్వహణ** | Satvik Catering & Full Arrangements | Traditional Satvik Brahmin culinary preparation, puja samagri, and clean sacred venue arrangements. |
 
 ---
 
