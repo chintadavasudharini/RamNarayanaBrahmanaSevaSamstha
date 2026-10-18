@@ -1,7 +1,7 @@
 <div align="center">
 
   <!-- Official Sacred Emblem -->
-  <img src="assets/images/logo.jpg" alt="రామ్ నారాయణ బ్రాహ్మణ సేవా సంస్థ - Official Sacred Emblem" width="145" style="border-radius: 50%; box-shadow: 0 0 25px rgba(212, 175, 55, 0.6); border: 3px solid #D4AF37; margin-bottom: 14px;" />
+  <img src="assets/images/logo.png" alt="రామ్ నారాయణ బ్రాహ్మణ సేవా సంస్థ - Official Sacred Emblem" width="145" style="border-radius: 50%; box-shadow: 0 0 25px rgba(212, 175, 55, 0.6); border: 3px solid #D4AF37; margin-bottom: 14px;" />
 
   # 🕉️ రామ్ నారాయణ బ్రాహ్మణ సేవా సంస్థ
   ### **Ram Narayana Brahmana Seva Samstha**
