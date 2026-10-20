@@ -7,7 +7,7 @@ const translations = {
   te: {
     // Top Bar & Navigation
     top_invocation: "ఓం శ్రీ మాత్రే నమః",
-    top_vedoktam: "వేదోక్తం • శాస్త్రోక్తం • భక్తితో",
+    top_vedoktam: "• వేదోక్తం • శాస్త్రోక్తం • భక్తితో",
     top_motto: "ధర్మో రక్షతి రక్షితః",
     call_us: "సంప్రదించండి:",
     top_whatsapp: "వాట్సాప్: 77802 23977",
@@ -27,12 +27,14 @@ const translations = {
 
     // Hero Section
     pill_loc: "దిల్‌సుఖ్‌నగర్, హైదరాబాద్",
-    hero_badge: "• పితృ సేవ",
+    hero_badge: "• సంప్రదాయం  • భక్తి  • సేవ",
     hero_founder: "ప్రొ॥ నంబూరి ఆదినారాయణ శర్మ",
     hero_est: "EST. 2026 | రామ్ నారాయణ బ్రాహ్మణ సేవా సంస్థ",
     hero_title_main: "రామ్ నారాయణ బ్రాహ్మణ సేవా సంస్థ",
     hero_tagline: "వైదిక సంప్రదాయ పరిరక్షణే మా లక్ష్యం...",
     hero_tagline_sub: "శ్రద్ధ, భక్తి, శాస్త్రబద్ధతతో మీ సేవా తత్పరతలో...",
+    hero_services_strip_title: "బ్రాహ్మణ పితృ కార్యముల నిర్వహణ సంస్థ",
+    hero_services_strip_items: "◆ మాసికం ◆ ఆబ్దికం ◆ సంవత్సరీకం ◆ పిండప్రదానం",
     hero_desc: "మా వద్ద హిందూ సాంప్రదాయ విధాన సత్ బ్రాహ్మణులతో సదాచారములతో, అగ్నిహోత్ర పారణ విధానంతో వైదిక పురోహితులు, భోక్తలు, వంట వారుల చేత మాసికం, ఆబ్దికం, సంవత్సరీకములు, పితృ కార్యములు మా సంస్థ ప్రాంగణంలోనే శాస్త్రోక్తంగా నిర్వహించబడును.",
     hero_cta_call: "ఇప్పుడే కాల్ చేయండి",
     hero_cta_whatsapp: "వాట్సాప్",
@@ -200,7 +202,7 @@ const translations = {
   en: {
     // Top Bar & Navigation
     top_invocation: "Om Sri Matre Namaha",
-    top_vedoktam: "Vedoktam • Shastroktam • With Devotion",
+    top_vedoktam: "• Vedoktam • Shastroktam • With Devotion",
     top_motto: "Dharmo Rakshathi Raksthithaha",
     call_us: "Contact Us:",
     top_whatsapp: "WhatsApp: 77802 23977",
@@ -220,12 +222,14 @@ const translations = {
 
     // Hero Section
     pill_loc: "Dilsukhnagar, Hyderabad",
-    hero_badge: "Tradition ♦ Devotion ♦ Service",
+    hero_badge: "♦ Tradition ♦ Devotion ♦ Service",
     hero_founder: "Pro. Namburi Adinarayana Sharma",
     hero_est: "EST. 2026 | Ram Narayana Brahmana Seva Samstha",
     hero_title_main: "RAM NARAYANA BRAHMANA SEVA SAMSTHA",
     hero_tagline: "Preserving Vedic Tradition is our Mission...",
     hero_tagline_sub: "In your service with reverence, devotion & Shastra compliance...",
+    hero_services_strip_title: "Brahmana Pitru Karyamula Nirvahana Samstha",
+    hero_services_strip_items: "◆ Masikam ◆ Abdikam ◆ Samvatsarikam ◆ Pinda Pradanam",
     hero_desc: "Conducting authentic Vedic rituals (Masikam, Abdikam, Samvatsarikam, Pitru Karyas, Homams) exclusively at our sacred Samstha premises in Dilsukhnagar following strict Sanatana Dharma, Agnihotra Paranam recitation, devout Vedic Purohits, Bhokthas, and traditional Brahmin Satvik cooking.",
     hero_cta_call: "Call Us",
     hero_cta_whatsapp: "WhatsApp",
@@ -359,7 +363,7 @@ const translations = {
     contact_whatsapp_btn_text: "💬 +91 77802 23977",
     contact_email_label: "Email Address:",
     contact_hours_label: "Service Timings:",
-    contact_hours_val: "Open Every Day: 8:00 AM – 6:00 PM",
+    contact_hours_val: "Every Day: 8:00 AM – 6:00 PM",
     contact_cta_maps: "📍 Open in Google Maps",
     contact_cta_whatsapp: "💬 Connect on WhatsApp (+91 77802 23977)",
 
