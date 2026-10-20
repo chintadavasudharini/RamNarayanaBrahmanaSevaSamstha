@@ -121,39 +121,51 @@
 
 ---
 
-## ✨ Recent System Updates & Production Highlights
+## ✨ Recent System Updates & Production Highlights (October 20, 2026)
 
-### 1. 🪔 Branding, Sacred Mottos & Terminology
-- **Sacred Mottos Aligned**:
-  - **Telugu**: Synchronized hero badge and mottos to `• సంప్రదాయం • భక్తి • సేవ` and `• వేదోక్తం • శాస్త్రోక్తం • భక్తితో`.
-  - **English**: Aligned to `♦ Tradition ♦ Devotion ♦ Service` and `• Vedoktam • Shastroktam • With Devotion`.
-- **Highlighted Rituals Banner**: Added a prominent service highlight in the Hero, Services section, and documentation:
-  > **బ్రాహ్మణ పితృ కార్యముల నిర్వహణ సంస్థ:** `◆ మాసికం ◆ ఆబ్దికం ◆ సంవత్సరీకం ◆ పిండప్రదానం`
-- **Terminology & Spelling Refinements**:
-  - Updated service terminology to **భోక్తల సేవ** (*Bhoktha Seva*).
-  - Refined Telugu town spelling to **దిల్సుఖ్నగర్** (*Dilsukhnagar*).
-  - Standardized brand badges to **• పితృ సేవ** / **• సంప్రదాయం • భక్తి • సేవ**.
+### 1. 🔤 Typography & Telugu Font (Ramabhadra)
+- **Universal Ramabhadra Font Application**: Applied Google Font `Ramabhadra` to all Telugu text across the entire website (headings, paragraphs, buttons, navigation menus, service cards, announcements, and footer).
+- **Legibility & Scaling Enhancements**: Significantly increased Telugu font sizes and line-heights (`1.35`–`1.55` for titles, `1.76` for body text) across mobile, tablet, and desktop for enhanced clarity and effortless readability.
+- **English Typography Preserved**: Maintained clean, orthodox English typography (`Cinzel`, `Outfit`, `Playfair Display`) 100% unchanged.
 
-### 2. 📸 High-Resolution Assets & Media Overhaul
+### 2. 🏛️ Founder Name & Sacred Mottos Standardization
+- **Founder Name Alignment**: Updated Founder designation from `ప్రొ॥ నంబూరి ఆదినారాయణ శర్మ` to **నంబూరి ఆదినారాయణ శర్మ** (English: **Namburi Adinarayana Sharma**) across HTML5, JavaScript dictionaries, and Schema.org metadata.
+- **Sacred Brand Badges**: Standardized badges to: `• సంప్రదాయం • భక్తి • సేవ` (English: `♦ Tradition ♦ Devotion ♦ Service`).
+- **Sacred Top Bar Motto**: Standardized motto to: `• వేదోక్తం • శాస్త్రోక్తం • భక్తితో` (English: `• Vedoktam • Shastroktam • With Devotion`).
+
+### 3. 🕉️ Sacred Top Announcement Bar
+- **Clean Spacious Invocations**: Removed duplicate divider dots and added clean, spacious gaps between sacred chants:  
+  `"ఓం శ్రీ మాత్రే నమః                • వేదోక్తం • శాస్త్రోక్తం • భక్తితో                ధర్మో రక్షతి రక్షితః"`
+
+### 4. 🪔 Single-Line Core Rituals Highlight
+- **Strict Single-Line Alignment**: Ensured the rituals strip stays strictly on a single line in both the Hero section and Services ribbon:
+  - **Telugu**: `◆ మాసికం ◆ ఆబ్దికం ◆ సంవత్సరీకం ◆ పిండప్రదానం`
+  - **English**: `◆ Masikam ◆ Abdikam ◆ Samvatsarikam ◆ Pinda Pradanam`
+- **Zero-Break Protection**: Added fluid `clamp()` mathematical scaling and hidden touch-scroll protection so it never wraps or breaks the layout across narrow mobile viewports.
+
+### 5. 📍 Location & Contact Section Optimization
+- **Speed Optimization**: Removed the embedded Google Maps iframe to maximize First Contentful Paint (FCP) and page load speed.
+- **Interactive Location Deep-Link**: Added direct Google Maps link with an interactive glass button:  
+  👉 [https://maps.app.goo.gl/LFmHe4vhQKaKRtFi8?g_st=aw](https://maps.app.goo.gl/LFmHe4vhQKaKRtFi8?g_st=aw)
+
+### 6. 📱 Complete Cross-Device Responsiveness (Zero Horizontal Overflow)
+- **CSS Cascade Optimization**: Fixed CSS cascade order in `assets/css/style.css` by organizing all responsive media queries systematically.
+- **Container Overflow Prevention**: Applied `min-width: 0; max-width: 100%; box-sizing: border-box;` to all flex and grid containers.
+- **Accessible Touch Targets**: Made Call, WhatsApp, and Location buttons full-width with comfortable 46px+ touch targets on mobile devices.
+- **Desktop Navbar Harmonization**: Adjusted desktop navbar spacing (1200px – 1440px) so all 8 menu items, the brand title, and the language selector fit cleanly on one row.
+- **Screen Boundary Containment**: Inset decorative background glow to prevent pulse animations from exceeding screen boundaries.
+- **Universal Verification**: Tested and verified 100% PASS with 0px horizontal overflow across all screen sizes (320px, 360px, 375px, 390px, 412px, 430px, 768px, 1024px, 1280px, 1440px+) in both Telugu and English.
+
+### 7. 📸 Lossless Assets & Senior Architecture Documentation
 - **Lossless PNG Migration**: Migrated website images from compressed JPEGs to crisp, high-resolution PNGs:
   - [`assets/images/banner-new.png`](assets/images/banner-new.png) (Grand Official Banner)
   - [`assets/images/card-cream.png`](assets/images/card-cream.png) (Official Visiting Card)
   - [`assets/images/flyer-te.png`](assets/images/flyer-te.png) & [`assets/images/flyer-en.png`](assets/images/flyer-en.png) (Official Telugu & English Brochures)
   - [`assets/images/logo.png`](assets/images/logo.png) (Master Circular Emblem)
-- **Latest Brochure Integration**: Integrated the official promotional flyers containing ritual definitions (*ఆబ్దికం, మాసికం, సంవత్సరికం*), 5 spiritual benefits (*కృతజ్ఞతా భావం, కుటుంబ బలం, శుభఫల ప్రాప్తి, సంస్కృతి పరిరక్షణ, వంశ పరంపర*), and website QR scan codes.
-- **Cleaned Up Deprecated Files**: Cleaned up deprecated and redundant image files to keep the repository fast and lightweight.
+- **Streamlined README.md**: Aligned documentation exclusively to [chintadavasudharini/RamNarayanaBrahmanaSevaSamstha](https://github.com/chintadavasudharini/RamNarayanaBrahmanaSevaSamstha) focusing on Samstha rituals, services, benefits, and clickable links.
+- **Instant Local Dev**: Added `package.json` for one-command local server testing (`npm run dev`).
 
-### 3. 🌐 Navigation, Footer & User Experience (UX)
-- **Footer Navigation Update**: Changed Telugu quick links title from **ముఖ్యమైన లింకులు** to **మా సంస్థను అన్వేషించండి** (matching *"Explore Our Samstha"*).
-- **Social Media Section**: Added a dedicated **Follow Us On** social media bar featuring Instagram ([@ramnarayana_brahmana_seva](https://www.instagram.com/ramnarayana_brahmana_seva/)), Facebook ([Ram Narayana Brahmana Seva](https://www.facebook.com/profile.php?id=61595183055843)), and YouTube ([@RamNarayanaBrahmanaSevaSamstha](https://www.youtube.com/@RamNarayanaBrahmanaSevaSamstha)), linked directly from the navigation bar.
-- **Polite WhatsApp Inquiry Message**: Updated all WhatsApp CTA buttons across the website (Hero, Drawer, Contact, and Mobile Bar) to pre-fill a natural message:
-  > *"నమస్కారం రామ్ నారాయణ బ్రాహ్మణ సేవా సంస్థ, నేను మీ సేవల గురించి తెలుసుకోవాలనుకుంటున్నాను."*
-- **Timing Consistency**: Cleaned English service timings to `Every Day: 8:00 AM – 6:00 PM`.
-
-### 4. 🚀 Production & GitHub Updates
-- **Official Live URL**: [https://ramnarayana-brahmana-sevasamstha.vercel.app/](https://ramnarayana-brahmana-sevasamstha.vercel.app/)
-- **Official Repository**: Repointed and pushed all commits cleanly to the official repository:  
-  👉 [https://github.com/chintadavasudharini/RamNarayanaBrahmanaSevaSamstha](https://github.com/chintadavasudharini/RamNarayanaBrahmanaSevaSamstha)
+- **Official Live Production URL**: [https://ramnarayana-brahmana-sevasamstha.vercel.app/](https://ramnarayana-brahmana-sevasamstha.vercel.app/)
 
 ---
 
@@ -386,7 +398,7 @@ Devotees and community members can stay connected with the Samstha for latest ev
 | 📞 **ఫోన్ నంబర్లు (Call)** | `7780223977` \| `8790323977` | [Call +91 77802 23977](tel:7780223977) \| [Call +91 87903 23977](tel:8790323977) | Direct devotee consultation and ritual booking |
 | 💬 **WhatsApp విచారణ** | `+91 77802 23977` | [Chat on WhatsApp](https://wa.me/917780223977?text=%E0%B0%A8%E0%B0%AE%E0%B0%B8%E0%B1%8D%E0%B0%95%E0%B0%BE%E0%B0%B0%E0%B0%82%20%E0%B0%B0%E0%B0%BE%E0%B0%AE%E0%B1%8D%20%E0%B0%A8%E0%B0%BE%E0%B0%B0%E0%B0%BE%E0%B0%AF%E0%B0%A3%20%E0%B0%AC%E0%B1%8D%E0%B0%B0%E0%B0%BE%E0%B0%B9%E0%B1%8D%E0%B0%AE%E0%B0%A3%20%E0%B0%B8%E0%B1%87%E0%B0%B5%E0%B0%BE%20%E0%B0%B8%E0%B0%82%E0%B0%B8%E0%B1%8D%E0%B0%A5%2C%0A%E0%B0%A8%E0%B1%87%E0%B0%A8%E0%B1%81%20%E0%B0%AE%E0%B1%80%20%E0%B0%B8%E0%B1%87%E0%B0%B5%E0%B0%B2%20%E0%B0%97%E0%B1%81%E0%B0%B0%E0%B0%BF%E0%B0%82%E0%B0%9A%E0%B0%BF%20%E0%B0%A4%E0%B1%86%E0%B0%B2%E0%B1%81%E0%B0%B8%E0%B1%81%E0%B0%95%E0%B1%8B%E0%B0%B5%E0%B0%BE%E0%B0%B2%E0%B0%A8%E0%B1%81%E0%B0%95%E0%B1%81%E0%B0%82%E0%B0%9F%E0%B1%81%E0%B0%A8%E0%B1%8D%E0%B0%A8%E0%B0%BE%E0%B0%A8%E0%B1%81.) | Instant pre-filled Telugu inquiry routing |
 | 🕗 **సేవా సమయాలు (Timings)** | `ప్రతిరోజూ: ఉదయం 8:00 – సాయంత్రం 6:00` | Regular Daily Operational Hours | Sacred consultation & hall arrangements |
-| 📍 **చిరునామా (Location)** | `దిల్సుఖ్నగర్, హైదరాబాద్` | [Open in Google Maps](https://maps.app.goo.gl/kL4BedYNx17JEaZs9?g_st=aw) | Pragathi Nagar Road, Sahithi Nagar, Dilsukhnagar |
+| 📍 **చిరునామా (Location)** | `దిల్సుఖ్నగర్, హైదరాబాద్` | [Open in Google Maps](https://maps.app.goo.gl/LFmHe4vhQKaKRtFi8?g_st=aw) | Pragathi Nagar Road, Sahithi Nagar, Dilsukhnagar |
 
 ---
 
