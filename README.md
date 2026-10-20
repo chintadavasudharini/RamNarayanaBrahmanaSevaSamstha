@@ -413,8 +413,8 @@ RamNarayanaBrahmanaSevaSamstha/
 │   │   └── style.css            # Master stylesheet: CSS variables, clamp() typography,
 │   │                            # glassmorphism cards, and responsive media rules
 │   ├── 📁 images/
-│   │   ├── banner-new.png       # High-res official banner & social OpenGraph cover
-│   │   ├── card-cream.png       # Authentic visiting card asset (lightbox enabled)
+│   │   ├── banner.png           # High-res official banner & social OpenGraph cover
+│   │   ├── card.png             # Authentic visiting card asset (lightbox enabled)
 │   │   ├── flyer-en.png         # Localized English ceremonial brochure
 │   │   ├── flyer-te.png         # Localized Telugu ceremonial brochure
 │   │   └── logo.png             # Master circular emblem (Omkara & Golden Rim)
