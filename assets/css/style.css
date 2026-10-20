@@ -603,9 +603,9 @@ html[lang="te"] .footer-col ul li a {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  gap: clamp(0.25rem, 1vw, 0.95rem);
+  gap: clamp(0.75rem, 2.8vw, 2.5rem);
   font-weight: 600;
-  font-size: clamp(0.72rem, 2.2vw, 0.86rem);
+  font-size: clamp(0.72rem, 1.8vw, 0.86rem);
   line-height: 1.35;
   text-align: center;
 }
