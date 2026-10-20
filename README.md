@@ -15,7 +15,7 @@
 
   <p align="center">
     <strong>"వైదిక సంప్రదాయ పరిరక్షణే మా లక్ష్యం — శ్రద్ధ, భక్తి, శాస్త్రబద్ధతతో మీ సేవా తత్పరతలో..."</strong><br>
-    <em>నిర్వాహకులు & దివ్య పర్యవేక్షణ: <strong>ప్రొ॥ నంబూరి ఆదినారాయణ శర్మ</strong> (Pro. Namburi Adinarayana Sharma)</em><br>
+    <em>నిర్వాహకులు & దివ్య పర్యవేక్షణ: <strong>నంబూరి ఆదినారాయణ శర్మ</strong> (Namburi Adinarayana Sharma)</em><br>
     📍 <strong>H.No. 11-62, ప్రగతి నగర్ రోడ్, సాహితి నగర్, దిల్‌సుఖ్‌నగర్, హైదరాబాద్ – 500060</strong>
   </p>
 
@@ -50,7 +50,7 @@
 ### **తెలుగు:**
 **రామ్ నారాయణ బ్రాహ్మణ సేవా సంస్థ** అనేది సనాతన ధర్మం నిర్దేశించిన పితృ యజ్ఞాలను, శ్రాద్ధ కర్మలను పరమ పవిత్రంగా, శాస్త్రోక్తంగా మరియు నిష్ఠాగరిష్ఠంగా నిర్వహించేందుకు అంకితమైన ఆధ్యాత్మిక పుణ్య సంస్థ. ఈ సంస్థ భాగ్యనగరం (హైదరాబాద్) లోని కేంద్ర స్థానమైన **దిల్‌సుఖ్‌నగర్** లో (H.No. 11-62, ప్రగతి నగర్ రోడ్, సాహితి నగర్) శాశ్వత ప్రాంగణంలో కార్యకలాపాలు నిర్వహిస్తున్నది.
 
-ఈ సంస్థ ప్రముఖ వేద పండితులు, ఆచార్యులైన **ప్రొ॥ నంబూరి ఆదినారాయణ శర్మ** గారి దివ్య పర్యవేక్షణ మరియు వేద విద్వాంసుల మార్గదర్శకత్వంలో నడుస్తున్నది.
+ఈ సంస్థ ప్రముఖ వేద పండితులు, ఆచార్యులైన **నంబూరి ఆదినారాయణ శర్మ** గారి దివ్య పర్యవేక్షణ మరియు వేద విద్వాంసుల మార్గదర్శకత్వంలో నడుస్తున్నది.
 
 #### **సంస్థ ఆవిర్భావ నేపథ్యం:**
 నేటి ఆధునిక నగర జీవనంలో, ముఖ్యంగా అపార్ట్‌మెంట్లు మరియు గేటెడ్ కమ్యూనిటీలలో నివసించే కుటుంబాలు పితృ కార్యాలను తమ ఇళ్లలో నిర్వహించడంలో ఎన్నో వ్యయప్రయాసలు ఎదుర్కొంటున్నాయి:
@@ -66,7 +66,7 @@
 ### **English:**
 **Ram Narayana Brahmana Seva Samstha** is a premier sacred institution established in **Dilsukhnagar, Hyderabad, Telangana**, with the sole objective of upholding Sanatana Dharma and conducting Hindu ancestral sacraments (Pitru Karyas & Shraddha ceremonies) with strict Vedic precision.
 
-Operated under the revered leadership and guidance of **Pro. Namburi Adinarayana Sharma**, the Samstha provides a dedicated, tranquil, and fully equipped sanctuary where families can fulfill their filial duties (Pitru Rina) without any logistical stress.
+Operated under the revered leadership and guidance of **Namburi Adinarayana Sharma**, the Samstha provides a dedicated, tranquil, and fully equipped sanctuary where families can fulfill their filial duties (Pitru Rina) without any logistical stress.
 
 In modern metropolitan living, performing rituals at home—especially inside apartment complexes—poses significant challenges: smoke and fire restrictions for Homas, acute shortage of space, scarcity of genuine Shastric puja materials, and difficulty in arranging devout Brahmin Bhokthas and ritual-compliant Satvik meals.
 
@@ -77,7 +77,7 @@ In modern metropolitan living, performing rituals at home—especially inside ap
 ## 2. 🎯 ప్రధాన ఆశయాలు & ధ్యేయం | Sacred Mission & Vision
 
 > ### *"మాతాపితరుల రుణం తీర్చుకోవడం ప్రతి మానవుని ప్రథమ కర్తవ్యం. పూర్వీకుల ఆశీస్సులే కుటుంబ క్షేమానికి, సకల శుభాలకు మూలస్తంభాలు."*
-> — **ప్రొ॥ నంబూరి ఆదినారాయణ శర్మ**
+> — **నంబూరి ఆదినారాయణ శర్మ**
 
 * **వేదోక్త నిర్వహణ (Vedic Rigor):** బోధాయన, ఆపస్తంబ గృహ్యసూత్రాల ప్రకారం లోపం లేకుండా మంత్రోచ్ఛారణతో కర్మలు నిర్వహించడం.
 * **సదాచార సంరక్షణ (Devout Sadacharam):** సంధ్యావందనం, వేదాధ్యయన నిష్ఠ గల వేద బ్రాహ్మణుల ద్వారా మాత్రమే పూజలు, భోక్తల సేవలు జరిపించడం.
@@ -229,7 +229,7 @@ In modern metropolitan living, performing rituals at home—especially inside ap
 |---|---|
 | **సంస్థ పేరు** | **రామ్ నారాయణ బ్రాహ్మణ సేవా సంస్థ** |
 | **English Name** | **Ram Narayana Brahmana Seva Samstha** |
-| **నిర్వాహకులు & దివ్య పర్యవేక్షణ** | **ప్రొ॥ నంబూరి ఆదినారాయణ శర్మ (Pro. Namburi Adinarayana Sharma)** |
+| **నిర్వాహకులు & దివ్య పర్యవేక్షణ** | **నంబూరి ఆదినారాయణ శర్మ (Namburi Adinarayana Sharma)** |
 | **పూర్తి చిరునామా (Address)** | H.No. 11-62, ప్రగతి నగర్ రోడ్, సాహితి నగర్, దిల్‌సుఖ్‌నగర్, హైదరాబాద్, తెలంగాణ – 500060 |
 | **ఫోన్ నంబర్లు (Calling)** | 📞 [**+91 77802 23977**](tel:7780223977) &nbsp;\|&nbsp; 📞 [**+91 87903 23977**](tel:8790323977) |
 | **వాట్సాప్ సంప్రదింపు (WhatsApp)** | 💬 [**+91 77802 23977**](https://wa.me/917780223977?text=నమస్కారం%20రామ్%20నారాయణ%20బ్రాహ్మణ%20సేవా%20సంస్థ,%20నేను%20మీ%20సేవల%20గురించి%20తెలుసుకోవాలనుకుంటున్నాను.) |
