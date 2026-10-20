@@ -23,13 +23,13 @@
     <a href="https://ramnarayana-brahmana-sevasamstha.vercel.app/" target="_blank" rel="noopener noreferrer">
       <img src="https://img.shields.io/badge/Production-Live_Deployment-success?style=for-the-badge&logo=vercel&logoColor=white&color=000000" alt="Vercel Production Deployment" />
     </a>
-    <a href="https://github.com/ramnarayanabrahmanaseva/RamNarayanaBrahmanaSevaSamstha/stargazers">
-      <img src="https://img.shields.io/github/stars/ramnarayanabrahmanaseva/RamNarayanaBrahmanaSevaSamstha?style=for-the-badge&logo=github&color=D4AF37&labelColor=1a1a1a" alt="GitHub Stars" />
+    <a href="https://github.com/chintadavasudharini/RamNarayanaBrahmanaSevaSamstha/stargazers">
+      <img src="https://img.shields.io/github/stars/chintadavasudharini/RamNarayanaBrahmanaSevaSamstha?style=for-the-badge&logo=github&color=D4AF37&labelColor=1a1a1a" alt="GitHub Stars" />
     </a>
-    <a href="https://github.com/ramnarayanabrahmanaseva/RamNarayanaBrahmanaSevaSamstha/network/members">
-      <img src="https://img.shields.io/github/forks/ramnarayanabrahmanaseva/RamNarayanaBrahmanaSevaSamstha?style=for-the-badge&logo=github&color=851317&labelColor=1a1a1a" alt="GitHub Forks" />
+    <a href="https://github.com/chintadavasudharini/RamNarayanaBrahmanaSevaSamstha/network/members">
+      <img src="https://img.shields.io/github/forks/chintadavasudharini/RamNarayanaBrahmanaSevaSamstha?style=for-the-badge&logo=github&color=851317&labelColor=1a1a1a" alt="GitHub Forks" />
     </a>
-    <a href="https://github.com/ramnarayanabrahmanaseva/RamNarayanaBrahmanaSevaSamstha/blob/main/LICENSE">
+    <a href="https://github.com/chintadavasudharini/RamNarayanaBrahmanaSevaSamstha/blob/main/LICENSE">
       <img src="https://img.shields.io/badge/License-MIT-gold?style=for-the-badge&labelColor=1a1a1a" alt="MIT License" />
     </a>
   </p>
@@ -166,7 +166,7 @@
 ### 4. 🚀 Production & GitHub Updates
 - **Official Live URL**: [https://ramnarayana-brahmana-sevasamstha.vercel.app/](https://ramnarayana-brahmana-sevasamstha.vercel.app/)
 - **Official Repository**: Repointed and pushed all commits cleanly to the official repository:  
-  👉 [https://github.com/ramnarayanabrahmanaseva/RamNarayanaBrahmanaSevaSamstha](https://github.com/ramnarayanabrahmanaseva/RamNarayanaBrahmanaSevaSamstha)
+  👉 [https://github.com/chintadavasudharini/RamNarayanaBrahmanaSevaSamstha](https://github.com/chintadavasudharini/RamNarayanaBrahmanaSevaSamstha)
 
 ---
 
@@ -496,7 +496,7 @@ Because this codebase is intentionally engineered without fragile build steps, b
 ### 1️⃣ Clone the Repository
 
 ```bash
-git clone https://github.com/ramnarayanabrahmanaseva/RamNarayanaBrahmanaSevaSamstha.git
+git clone https://github.com/chintadavasudharini/RamNarayanaBrahmanaSevaSamstha.git
 cd RamNarayanaBrahmanaSevaSamstha
 ```
 
