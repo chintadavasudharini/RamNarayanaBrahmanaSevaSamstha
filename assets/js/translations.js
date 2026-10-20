@@ -7,7 +7,7 @@ const translations = {
   te: {
     // Top Bar & Navigation
     top_invocation: "ఓం శ్రీ మాత్రే నమః",
-    top_vedoktam: "వేదోక్తం • శాస్త్రోక్తం • భక్తితో",
+    top_vedoktam: "• వేదోక్తం • శాస్త్రోక్తం • భక్తితో",
     top_motto: "ధర్మో రక్షతి రక్షితః",
     call_us: "సంప్రదించండి:",
     top_whatsapp: "వాట్సాప్: 77802 23977",
@@ -202,7 +202,7 @@ const translations = {
   en: {
     // Top Bar & Navigation
     top_invocation: "Om Sri Matre Namaha",
-    top_vedoktam: "Vedoktam • Shastroktam • With Devotion",
+    top_vedoktam: "• Vedoktam • Shastroktam • With Devotion",
     top_motto: "Dharmo Rakshathi Raksthithaha",
     call_us: "Contact Us:",
     top_whatsapp: "WhatsApp: 77802 23977",
@@ -222,7 +222,7 @@ const translations = {
 
     // Hero Section
     pill_loc: "Dilsukhnagar, Hyderabad",
-    hero_badge: "Tradition ♦ Devotion ♦ Service",
+    hero_badge: "♦ Tradition ♦ Devotion ♦ Service",
     hero_founder: "Pro. Namburi Adinarayana Sharma",
     hero_est: "EST. 2026 | Ram Narayana Brahmana Seva Samstha",
     hero_title_main: "RAM NARAYANA BRAHMANA SEVA SAMSTHA",
