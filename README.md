@@ -57,39 +57,37 @@
 
 ## 🌺 అధికారిక సంస్థ వివరాలు & సంప్రదింపులు
 
-```text
-ఓం శ్రీమాత్రే నమః
-
-🌺 రామ్ నారాయణ బ్రాహ్మణ సేవా సంస్థ 🌺
-• సంప్రదాయం • భక్తి • సేవ
-
-• వేదోక్తం • శాస్త్రోక్తం • భక్తితో
-బ్రాహ్మణ పితృ కార్యముల నిర్వహణ సంస్థ
-◆ మాసికం ◆ ఆబ్దికం ◆ సంవత్సరీకం ◆ పిండప్రదానం
-నిర్వాహకులు
-నంబూరి ఆదినారాయణ శర్మ
-
-🪔 మా సేవలు
-🔸 భోక్తల సేవ
-🔸 పితృకార్యాలు & శ్రాద్ధకర్మలు
-🔸 సాత్విక వంట & సంపూర్ణ నిర్వహణ
-🔸 ఆబ్దికం, మాసికం, సంవత్సరీకం & పిండప్రదానం
-
-ధర్మో రక్షతి రక్షితః
-
-🕗 ప్రతిరోజూ: ఉదయం 8:00 – సాయంత్రం 6:00
-
-📞 సంప్రదించండి:
-7780223977 | 8790323977
-
-📍 దిల్సుఖ్నగర్,  హైదరాబాద్
-
-🌐 మా వెబ్సైట్: https://ramnarayana-brahmana-sevasamstha.vercel.app/
-
-📸 Instagram: https://www.instagram.com/ramnarayana_brahmana_seva/
-📘 Facebook: https://www.facebook.com/profile.php?id=61595183055843
-▶️ YouTube: https://www.youtube.com/@RamNarayanaBrahmanaSevaSamstha
-```
+> ### **🕉️ ఓం శ్రీమాత్రే నమః**
+>
+> # **🌺 రామ్ నారాయణ బ్రాహ్మణ సేవా సంస్థ 🌺**
+> **• సంప్రదాయం • భక్తి • సేవ •**  
+> **• వేదోక్తం • శాస్త్రోక్తం • భక్తితో •**  
+>
+> **బ్రాహ్మణ పితృ కార్యముల నిర్వహణ సంస్థ**  
+> `◆ మాసికం ◆ ఆబ్దికం ◆ సంవత్సరీకం ◆ పిండప్రదానం`  
+>
+> **నిర్వాహకులు:** **నంబూరి ఆదినారాయణ శర్మ**  
+>
+> ---
+>
+> ### **🪔 మా సేవలు**
+> - 🔸 **భోక్తల సేవ**  
+> - 🔸 **పితృకార్యాలు & శ్రాద్ధకర్మలు**  
+> - 🔸 **సాత్విక వంట & సంపూర్ణ నిర్వహణ**  
+> - 🔸 **ఆబ్దికం, మాసికం, సంవత్సరీకం & పిండప్రదానం**  
+>
+> ### **ధర్మో రక్షతి రక్షితః**  
+>
+> ---
+>
+> 🕗 **ప్రతిరోజూ:** ఉదయం 8:00 – సాయంత్రం 6:00  
+> 📞 **సంప్రదించండి:** [7780223977](tel:7780223977) \| [8790323977](tel:8790323977)  
+> 📍 **చిరునామా:** దిల్సుఖ్నగర్, హైదరాబాద్  
+>
+> 🌐 **మా వెబ్సైట్:** [RAM NARAYANA BRAHMANA SEVA SAMSTHA](https://ramnarayana-brahmana-sevasamstha.vercel.app/)  
+> 📸 **Instagram:** [ramnarayana_brahmana_seva](https://www.instagram.com/ramnarayana_brahmana_seva/)  
+> 📘 **Facebook:** [Ram Narayana Brahmana Seva](https://www.facebook.com/profile.php?id=61595183055843)  
+> ▶️ **YouTube:** [RamNarayanaBrahmanaSevaSamstha](https://www.youtube.com/@RamNarayanaBrahmanaSevaSamstha)
 
 </div>
 
@@ -335,10 +333,10 @@ Devotees and community members can stay connected with the Samstha for latest ev
 
 | Platform / Contact | Official Handle / Link | Direct Access URL | Scope of Content & Availability |
 |:---|:---|:---|:---|
-| 🌐 **మా వెబ్‌సైట్ (Website)** | `ramnarayana-brahmana-sevasamstha` | [Visit Official Website](https://ramnarayana-brahmana-sevasamstha.vercel.app/) | Live production portal, bilingual switcher, interactive gallery |
-| 📸 **Instagram** | `@ramnarayana_brahmana_seva` | [Visit Instagram Profile](https://www.instagram.com/ramnarayana_brahmana_seva/) | Event highlights, sacred ceremony reels, high-res photos |
-| 👥 **Facebook** | `Ram Narayana Brahmana Seva` | [Visit Facebook Page](https://www.facebook.com/profile.php?id=61595183055843) | Samstha announcements, devotional posts, community updates |
-| 🎥 **YouTube** | `@RamNarayanaBrahmanaSevaSamstha` | [Visit YouTube Channel](https://www.youtube.com/@RamNarayanaBrahmanaSevaSamstha) | Vedic chanting, sacred ritual videos, ritual explanations |
+| 🌐 **మా వెబ్‌సైట్ (Website)** | `ramnarayana-brahmana-sevasamstha` | [RAM NARAYANA BRAHMANA SEVA SAMSTHA](https://ramnarayana-brahmana-sevasamstha.vercel.app/) | Live production portal, bilingual switcher, interactive gallery |
+| 📸 **Instagram** | `@ramnarayana_brahmana_seva` | [ramnarayana_brahmana_seva](https://www.instagram.com/ramnarayana_brahmana_seva/) | Event highlights, sacred ceremony reels, high-res photos |
+| 👥 **Facebook** | `Ram Narayana Brahmana Seva` | [Ram Narayana Brahmana Seva](https://www.facebook.com/profile.php?id=61595183055843) | Samstha announcements, devotional posts, community updates |
+| 🎥 **YouTube** | `@RamNarayanaBrahmanaSevaSamstha` | [RamNarayanaBrahmanaSevaSamstha](https://www.youtube.com/@RamNarayanaBrahmanaSevaSamstha) | Vedic chanting, sacred ritual videos, ritual explanations |
 | 📞 **ఫోన్ నంబర్లు (Call)** | `7780223977` \| `8790323977` | [Call +91 77802 23977](tel:7780223977) \| [Call +91 87903 23977](tel:8790323977) | Direct devotee consultation and ritual booking |
 | 💬 **WhatsApp విచారణ** | `+91 77802 23977` | [Chat on WhatsApp](https://wa.me/917780223977?text=%E0%B0%A8%E0%B0%AE%E0%B0%B8%E0%B1%8D%E0%B0%95%E0%B0%BE%E0%B0%B0%E0%B0%82%20%E0%B0%B0%E0%B0%BE%E0%B0%AE%E0%B1%8D%20%E0%B0%A8%E0%B0%BE%E0%B0%B0%E0%B0%BE%E0%B0%AF%E0%B0%A3%20%E0%B0%AC%E0%B1%8D%E0%B0%B0%E0%B0%BE%E0%B0%B9%E0%B1%8D%E0%B0%AE%E0%B0%A3%20%E0%B0%B8%E0%B1%87%E0%B0%B5%E0%B0%BE%20%E0%B0%B8%E0%B0%82%E0%B0%B8%E0%B1%8D%E0%B0%A5%2C%0A%E0%B0%A8%E0%B1%87%E0%B0%A8%E0%B1%81%20%E0%B0%AE%E0%B1%80%20%E0%B0%B8%E0%B1%87%E0%B0%B5%E0%B0%B2%20%E0%B0%97%E0%B1%81%E0%B0%B0%E0%B0%BF%E0%B0%82%E0%B0%9A%E0%B0%BF%20%E0%B0%A4%E0%B1%86%E0%B0%B2%E0%B1%81%E0%B0%B8%E0%B1%81%E0%B0%95%E0%B1%8B%E0%B0%B5%E0%B0%BE%E0%B0%B2%E0%B0%A8%E0%B1%81%E0%B0%95%E0%B1%81%E0%B0%82%E0%B0%9F%E0%B1%81%E0%B0%A8%E0%B1%8D%E0%B0%A8%E0%B0%BE%E0%B0%A8%E0%B1%81.) | Instant pre-filled Telugu inquiry routing |
 | 🕗 **సేవా సమయాలు (Timings)** | `ప్రతిరోజూ: ఉదయం 8:00 – సాయంత్రం 6:00` | Regular Daily Operational Hours | Sacred consultation & hall arrangements |
