@@ -8,6 +8,13 @@
   *దిల్‌సుఖ్‌నగర్, హైదరాబాద్ • Dilsukhnagar, Hyderabad, Telangana*
 
   <p align="center">
+    <strong>• సంప్రదాయం &nbsp;• భక్తి &nbsp;• సేవ</strong><br>
+    <strong style="color:#D4AF37;">◆ మాసికం &nbsp;◆ ఆబ్దికం &nbsp;◆ సంవత్సరీకం &nbsp;◆ పిండప్రదానం</strong><br>
+    <strong>• వేదోక్తం &nbsp;• శాస్త్రోక్తం &nbsp;• భక్తితో</strong><br>
+    <em>(♦ Tradition ♦ Devotion ♦ Service &nbsp;|&nbsp; • Vedoktam • Shastroktam • With Devotion)</em>
+  </p>
+
+  <p align="center">
     <strong>"వైదిక సంప్రదాయ పరిరక్షణే మా లక్ష్యం — శ్రద్ధ, భక్తి, శాస్త్రబద్ధతతో మీ సేవా తత్పరతలో..."</strong><br>
     <em>దివ్య పర్యవేక్షణ & మార్గదర్శకత్వం: <strong>ప్రొ॥ నంబూరి ఆదినారాయణ శర్మ</strong> (Pro. Namburi Adinarayana Sharma)</em><br>
     📍 H.No. 11-62, ప్రగతి నగర్ రోడ్, సాహితి నగర్, దిల్‌సుఖ్‌నగర్, హైదరాబాద్ – 500060
@@ -37,10 +44,11 @@
 
   <!-- Samstha Highlights -->
   <p align="center">
-    <img src="https://img.shields.io/badge/ప్రాంగణం-దిల్‌సుఖ్‌నగర్_హైదరాబాద్-851317?style=flat-square" alt="Location Dilsukhnagar" />
-    <img src="https://img.shields.io/badge/విధానం-100%25_వేదోక్తం_•_శాస్త్రోక్తం-D4AF37?style=flat-square" alt="Vedic Tradition" />
-    <img src="https://img.shields.io/badge/సదుపాయం-సంస్థలోనే_సంపూర్ణ_నిర్వహణ-2E7D32?style=flat-square" alt="All Arrangements at Samstha" />
-    <img src="https://img.shields.io/badge/సేవా_సమయాలు-రోజూ_8:00_AM_–_6:00_PM-B43403?style=flat-square" alt="Daily Timings" />
+    <img src="https://img.shields.io/badge/ఆదర్శం-•_సంప్రదాయం_•_భక్తి_•_సేవ-851317?style=flat-square" alt="Tradition Devotion Service" />
+    <img src="https://img.shields.io/badge/కార్యములు-◆_మాసికం_◆_ఆబ్దికం_◆_సంవత్సరీకం_◆_పిండప్రదానం-D4AF37?style=flat-square" alt="Rituals" />
+    <img src="https://img.shields.io/badge/విధానం-•_వేదోక్తం_•_శాస్త్రోక్తం_•_భక్తితో-2E7D32?style=flat-square" alt="Vedic Tradition" />
+    <img src="https://img.shields.io/badge/ప్రాంగణం-దిల్‌సుఖ్‌నగర్_హైదరాబాద్-B43403?style=flat-square" alt="Location Dilsukhnagar" />
+    <img src="https://img.shields.io/badge/సదుపాయం-సంస్థలోనే_సంపూర్ణ_నిర్వహణ-3F51B5?style=flat-square" alt="All Arrangements at Samstha" />
   </p>
 
   <h4>
@@ -264,6 +272,12 @@ Modern city living presents immense hurdles for families wishing to fulfill thei
 
 <div align="center">
   <h3><strong>రామ్ నారాయణ బ్రాహ్మణ సేవా సంస్థ</strong></h3>
+  <h4><strong>• సంప్రదాయం &nbsp;• భక్తి &nbsp;• సేవ</strong></h4>
+  <p>
+    <strong>◆ మాసికం &nbsp;◆ ఆబ్దికం &nbsp;◆ సంవత్సరీకం &nbsp;◆ పిండప్రదానం</strong><br>
+    <strong>• వేదోక్తం &nbsp;• శాస్త్రోక్తం &nbsp;• భక్తితో</strong><br>
+    <em>(♦ Tradition ♦ Devotion ♦ Service &nbsp;|&nbsp; • Vedoktam • Shastroktam • With Devotion)</em>
+  </p>
   <p><em>వైదిక సంప్రదాయ పరిరక్షణే మా లక్ష్యం — శ్రద్ధ, భక్తి, శాస్త్రబద్ధతతో మీ సేవా తత్పరతలో</em></p>
   <sub>© 2026 రామ్ నారాయణ బ్రాహ్మణ సేవా సంస్థ (Ram Narayana Brahmana Seva Samstha). సర్వ హక్కులూ ప్రత్యేకించబడినవి.</sub>
 </div>
