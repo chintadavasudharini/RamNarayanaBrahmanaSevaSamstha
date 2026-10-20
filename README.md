@@ -235,7 +235,7 @@ In modern metropolitan living, performing rituals at home—especially inside ap
 | **వాట్సాప్ సంప్రదింపు (WhatsApp)** | 💬 [**+91 77802 23977**](https://wa.me/917780223977?text=నమస్కారం%20రామ్%20నారాయణ%20బ్రాహ్మణ%20సేవా%20సంస్థ,%20నేను%20మీ%20సేవల%20గురించి%20తెలుసుకోవాలనుకుంటున్నాను.) |
 | **ఈమెయిల్ (Email)** | ✉️ [ramnarayanabrahmanasevasamstha@gmail.com](mailto:ramnarayanabrahmanasevasamstha@gmail.com) |
 | **అధికారిక వెబ్‌సైట్** | 🌐 [ramnarayana-brahmana-sevasamstha.vercel.app](https://ramnarayana-brahmana-sevasamstha.vercel.app/) |
-| **గూగుల్ మ్యాప్స్ లొకేషన్** | 📍 [Open Location in Google Maps](https://maps.app.goo.gl/kL4BedYNx17JEaZs9?g_st=aw) |
+| **గూగుల్ మ్యాప్స్ లొకేషన్** | 📍 [Open Location in Google Maps](https://maps.app.goo.gl/LFmHe4vhQKaKRtFi8?g_st=aw) |
 | **దర్శన & సేవా సమయాలు (Timings)** | ⏰ ప్రతిరోజు ఉదయం 8:00 AM నుండి సాయంత్రం 6:00 PM వరకు (ఆదివారాలతో సహా) |
 
 ---
