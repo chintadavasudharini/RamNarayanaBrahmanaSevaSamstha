@@ -93,28 +93,9 @@
 
 ---
 
-## 📸 అధికారిక బ్యానర్ & విజిటింగ్ కార్డు | Official Banner & Visiting Card
-
-<div align="center">
-
-### 🏛️ అధికారిక గ్రాండ్ బ్యానర్ (Grand Official Banner)
-<p align="center">
-  <img src="assets/images/banner-new.png" alt="రామ్ నారాయణ బ్రాహ్మణ సేవా సంస్థ - అధికారిక గ్రాండ్ బ్యానర్" width="88%" style="border-radius: 10px; border: 2px solid #D4AF37; box-shadow: 0 8px 24px rgba(133, 19, 23, 0.2);" />
-</p>
-
-### 📜 అధికారిక విజిటింగ్ కార్డు (Official Visiting Card)
-<p align="center">
-  <img src="assets/images/card-cream.png" alt="రామ్ నారాయణ బ్రాహ్మణ సేవా సంస్థ - అధికారిక విజిటింగ్ కార్డు" width="60%" style="border-radius: 10px; border: 2px solid #D4AF37; box-shadow: 0 8px 24px rgba(133, 19, 23, 0.2);" />
-</p>
-
-</div>
-
----
-
 ## 📑 Table of Contents
 
 - [🌺 అధికారిక సంస్థ వివరాలు & సంప్రదింపులు](#-అధికారిక-సంస్థ-వివరాలు--సంప్రదింపులు)
-- [📸 అధికారిక బ్యానర్ & విజిటింగ్ కార్డు](#-అధికారిక-బ్యానర్--విజిటింగ్-కార్డు--official-banner--visiting-card)
 - [✨ Recent System Updates & Production Highlights](#-recent-system-updates--production-highlights)
 - [🏛️ Executive Architecture & System Overview](#️-executive-architecture--system-overview)
 - [⚡ Performance Benchmarks & Core Web Vitals](#-performance-benchmarks--core-web-vitals)
