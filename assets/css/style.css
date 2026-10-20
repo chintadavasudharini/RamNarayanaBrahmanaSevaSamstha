@@ -1813,11 +1813,13 @@ section {
   display: grid;
   grid-template-columns: 1fr;
   gap: clamp(1.5rem, 3vw, 2.75rem);
+  max-width: 820px;
+  margin: 0 auto;
 }
 
 @media (min-width: 992px) {
   .contact-grid {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
   }
 }
 
