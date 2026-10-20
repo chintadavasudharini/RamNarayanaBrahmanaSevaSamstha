@@ -23,6 +23,9 @@
     <a href="https://ramnarayana-brahmana-sevasamstha.vercel.app/" target="_blank" rel="noopener noreferrer">
       <img src="https://img.shields.io/badge/Production-Live_Deployment-success?style=for-the-badge&logo=vercel&logoColor=white&color=000000" alt="Vercel Production Deployment" />
     </a>
+    <a href="https://github.com/chintadavasudharini/RamNarayanaBrahmanaSevaSamstha" target="_blank" rel="noopener noreferrer">
+      <img src="https://img.shields.io/badge/GitHub-Repository-851317?style=for-the-badge&logo=github&logoColor=FFE082" alt="GitHub Repository" />
+    </a>
     <a href="https://github.com/chintadavasudharini/RamNarayanaBrahmanaSevaSamstha/stargazers">
       <img src="https://img.shields.io/github/stars/chintadavasudharini/RamNarayanaBrahmanaSevaSamstha?style=for-the-badge&logo=github&color=D4AF37&labelColor=1a1a1a" alt="GitHub Stars" />
     </a>
@@ -47,6 +50,8 @@
 
   <h3>
     🌐 <a href="https://ramnarayana-brahmana-sevasamstha.vercel.app/" target="_blank" rel="noopener noreferrer"><strong>Explore the Live Production Application »</strong></a>
+    &nbsp;&nbsp;•&nbsp;&nbsp;
+    🐙 <a href="https://github.com/chintadavasudharini/RamNarayanaBrahmanaSevaSamstha" target="_blank" rel="noopener noreferrer"><strong>Official GitHub Repository »</strong></a>
   </h3>
 
 </div>
@@ -85,6 +90,7 @@
 > 📍 **చిరునామా:** దిల్సుఖ్నగర్, హైదరాబాద్  
 >
 > 🌐 **మా వెబ్సైట్:** [RAM NARAYANA BRAHMANA SEVA SAMSTHA](https://ramnarayana-brahmana-sevasamstha.vercel.app/)  
+> 🐙 **GitHub:** [chintadavasudharini/RamNarayanaBrahmanaSevaSamstha](https://github.com/chintadavasudharini/RamNarayanaBrahmanaSevaSamstha)  
 > 📸 **Instagram:** [ramnarayana_brahmana_seva](https://www.instagram.com/ramnarayana_brahmana_seva/)  
 > 📘 **Facebook:** [Ram Narayana Brahmana Seva](https://www.facebook.com/profile.php?id=61595183055843)  
 > ▶️ **YouTube:** [RamNarayanaBrahmanaSevaSamstha](https://www.youtube.com/@RamNarayanaBrahmanaSevaSamstha)
@@ -373,6 +379,7 @@ Devotees and community members can stay connected with the Samstha for latest ev
 | Platform / Contact | Official Handle / Link | Direct Access URL | Scope of Content & Availability |
 |:---|:---|:---|:---|
 | 🌐 **మా వెబ్‌సైట్ (Website)** | `ramnarayana-brahmana-sevasamstha` | [RAM NARAYANA BRAHMANA SEVA SAMSTHA](https://ramnarayana-brahmana-sevasamstha.vercel.app/) | Live production portal, bilingual switcher, interactive gallery |
+| 🐙 **GitHub Repository** | `chintadavasudharini/RamNarayanaBrahmanaSevaSamstha` | [RamNarayanaBrahmanaSevaSamstha](https://github.com/chintadavasudharini/RamNarayanaBrahmanaSevaSamstha) | Official open-source repository & senior architectural docs |
 | 📸 **Instagram** | `@ramnarayana_brahmana_seva` | [ramnarayana_brahmana_seva](https://www.instagram.com/ramnarayana_brahmana_seva/) | Event highlights, sacred ceremony reels, high-res photos |
 | 👥 **Facebook** | `Ram Narayana Brahmana Seva` | [Ram Narayana Brahmana Seva](https://www.facebook.com/profile.php?id=61595183055843) | Samstha announcements, devotional posts, community updates |
 | 🎥 **YouTube** | `@RamNarayanaBrahmanaSevaSamstha` | [RamNarayanaBrahmanaSevaSamstha](https://www.youtube.com/@RamNarayanaBrahmanaSevaSamstha) | Vedic chanting, sacred ritual videos, ritual explanations |
