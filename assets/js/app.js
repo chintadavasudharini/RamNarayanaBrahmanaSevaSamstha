@@ -219,9 +219,10 @@ function initScrollEffects() {
       }
     }
 
-    // Back to top visibility
+    // Back to top visibility - on mobile, only show after scrolling well past hero CTAs
     if (backToTopBtn) {
-      if (scrollY > 400) {
+      const threshold = window.innerWidth < 768 ? 750 : 400;
+      if (scrollY > threshold) {
         backToTopBtn.classList.add('visible');
       } else {
         backToTopBtn.classList.remove('visible');

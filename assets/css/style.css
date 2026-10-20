@@ -437,6 +437,113 @@ html[lang="te"] .footer-col ul li a {
   }
 }
 
+/* ==========================================================================
+   Comprehensive Device Responsiveness (Mobile, iPhone, Tablet, Laptop, Desktop)
+   ========================================================================== */
+@media (max-width: 600px) {
+  .hero-recruitment-card {
+    padding: 1.15rem 0.85rem;
+    border-radius: var(--radius-md);
+  }
+  .hero-content-grid {
+    gap: 1.5rem;
+  }
+  .hero-headline {
+    font-size: clamp(1.3rem, 5.2vw, 1.85rem) !important;
+    line-height: 1.25;
+  }
+  html[lang="te"] .hero-headline {
+    font-size: clamp(1.35rem, 5.4vw, 1.95rem) !important;
+    line-height: 1.35;
+  }
+  .hero-tagline-motto {
+    font-size: clamp(0.95rem, 3.6vw, 1.18rem);
+  }
+  .hero-services-strip {
+    padding: 0.55rem 0.65rem;
+    width: 100%;
+  }
+  .hero-services-strip-title {
+    font-size: clamp(0.74rem, 2.7vw, 0.92rem);
+    justify-content: center;
+    text-align: center;
+  }
+  .hero-services-strip-items {
+    font-size: clamp(0.55rem, 2.7vw, 0.78rem) !important;
+    white-space: nowrap !important;
+    text-align: center;
+    letter-spacing: 0.05px;
+  }
+  html[lang="te"] .hero-services-strip-items {
+    font-size: clamp(0.58rem, 2.7vw, 0.82rem) !important;
+    white-space: nowrap !important;
+  }
+  .services-focus-ribbon {
+    padding: 0.6rem 0.75rem;
+    width: 100%;
+  }
+  .services-focus-label {
+    font-size: clamp(0.74rem, 2.7vw, 0.92rem);
+  }
+  .services-focus-rituals {
+    font-size: clamp(0.55rem, 2.7vw, 0.78rem) !important;
+    white-space: nowrap !important;
+  }
+  html[lang="te"] .services-focus-rituals {
+    font-size: clamp(0.58rem, 2.7vw, 0.82rem) !important;
+    white-space: nowrap !important;
+  }
+  .hero-cta-group {
+    flex-direction: column;
+    width: 100%;
+  }
+  .hero-cta-group .btn-gold-cta,
+  .hero-cta-group .btn-whatsapp,
+  .hero-cta-group .btn-location-glass {
+    width: 100%;
+    justify-content: center;
+    min-height: 48px;
+  }
+}
+
+@media (min-width: 601px) and (max-width: 991px) {
+  .hero-recruitment-card {
+    padding: 2rem 1.65rem;
+  }
+  .hero-logo-frame {
+    max-width: 235px;
+    margin: 0 auto;
+  }
+  .hero-headline {
+    font-size: clamp(1.75rem, 3.4vw, 2.3rem);
+  }
+  .hero-services-strip-items,
+  .services-focus-rituals {
+    font-size: clamp(0.8rem, 1.65vw, 1.1rem) !important;
+    white-space: nowrap !important;
+  }
+}
+
+@media (min-width: 992px) {
+  .hero-content-grid {
+    grid-template-columns: 0.85fr 1.15fr;
+    gap: 3.5rem;
+    align-items: center;
+  }
+  .hero-logo-frame {
+    max-width: 340px;
+  }
+  .hero-services-strip {
+    width: 100%;
+    max-width: 100%;
+  }
+  .hero-services-strip-items,
+  .services-focus-rituals {
+    font-size: clamp(0.92rem, 1.35vw, 1.25rem) !important;
+    white-space: nowrap !important;
+  }
+}
+
 /* Container */
 .container {
   width: 100%;
@@ -1076,11 +1183,11 @@ html[lang="te"] .footer-col ul li a {
 
 .hero-logo-frame {
   position: relative;
-  max-width: min(340px, 85vw);
+  max-width: min(340px, 80vw);
   width: 100%;
   aspect-ratio: 1 / 1;
   border-radius: 50%;
-  padding: clamp(6px, 2vw, 10px);
+  padding: clamp(5px, 1.8vw, 10px);
   background: radial-gradient(circle, #FFE082 0%, #D4AF37 50%, #851317 100%);
   box-shadow: 0 0 45px rgba(255, 224, 130, 0.55), 0 16px 36px rgba(0, 0, 0, 0.6);
   display: flex;
@@ -1089,6 +1196,13 @@ html[lang="te"] .footer-col ul li a {
   margin: 0 auto;
   transition: transform var(--transition-bounce), box-shadow var(--transition-normal);
   animation: float 6s ease-in-out infinite;
+}
+
+@media (max-width: 768px) {
+  .hero-logo-frame {
+    max-width: clamp(165px, 45vw, 215px);
+    margin: 0 auto;
+  }
 }
 
 .hero-logo-frame:hover {
@@ -1140,12 +1254,14 @@ html[lang="te"] .footer-col ul li a {
 
 .hero-headline {
   font-family: var(--font-heading);
-  font-size: clamp(1.9rem, 3.8vw, 3.1rem);
+  font-size: clamp(1.5rem, 3.6vw, 2.9rem);
   font-weight: 900;
-  line-height: 1.18;
+  line-height: 1.25;
   color: #FFE082;
   text-shadow: 0 3px 18px rgba(0, 0, 0, 0.6);
-  letter-spacing: -0.3px;
+  letter-spacing: 0;
+  word-break: break-word;
+  overflow-wrap: break-word;
 }
 
 .hero-tagline-motto {
@@ -2776,20 +2892,20 @@ section {
 /* Back to Top Floating Button */
 .back-to-top {
   position: fixed;
-  bottom: calc(75px + env(safe-area-inset-bottom, 0px));
-  right: 16px;
-  width: 46px;
-  height: 46px;
+  bottom: calc(72px + env(safe-area-inset-bottom, 0px));
+  right: 12px;
+  width: 40px;
+  height: 40px;
   border-radius: 50%;
   background: var(--color-primary);
-  color: #FFFFFF;
-  border: 2px solid var(--border-gold);
-  box-shadow: var(--shadow-md);
+  color: #FFE082;
+  border: 1.5px solid var(--border-gold-strong);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.4);
   display: flex;
   align-items: center;
   justify-content: center;
   cursor: pointer;
-  z-index: 950;
+  z-index: 95;
   opacity: 0;
   visibility: hidden;
   transition: all var(--transition-fast);
