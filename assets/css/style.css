@@ -742,7 +742,7 @@ html[lang="te"] .contact-item p {
   white-space: normal;
 }
 
-@media (min-width: 1140px) {
+@media (min-width: 1200px) {
   .brand-identity {
     flex: 0 0 auto;
   }
@@ -774,7 +774,7 @@ html[lang="te"] .contact-item p {
   flex-wrap: nowrap;
 }
 
-@media (min-width: 1140px) {
+@media (min-width: 1200px) {
   .nav-menu {
     display: flex;
   }
@@ -996,7 +996,7 @@ html[lang="te"] .contact-item p {
   color: var(--color-primary);
 }
 
-@media (min-width: 1140px) {
+@media (min-width: 1200px) {
   .mobile-menu-btn {
     display: none;
   }
@@ -1025,7 +1025,7 @@ html[lang="te"] .contact-item p {
 .nav-drawer {
   position: fixed;
   top: 0;
-  right: -340px;
+  right: 0;
   width: min(320px, 85vw);
   height: 100%;
   background: var(--bg-card);
@@ -1035,13 +1035,14 @@ html[lang="te"] .contact-item p {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  transition: right var(--transition-normal);
+  transform: translateX(100%);
+  transition: transform var(--transition-normal);
   overflow-y: auto;
   border-left: 2px solid var(--border-gold);
 }
 
 .nav-drawer.active {
-  right: 0;
+  transform: translateX(0);
 }
 
 .drawer-header {
@@ -2834,16 +2835,28 @@ section {
   background: #FFFFFF;
   color: #000000;
   border: none;
-  width: 38px;
-  height: 38px;
+  width: 44px;
+  height: 44px;
   border-radius: 50%;
   font-weight: 900;
-  font-size: 1.25rem;
+  font-size: 1.35rem;
   cursor: pointer;
   display: flex;
   align-items: center;
   justify-content: center;
   transition: all var(--transition-fast);
+  z-index: 2005;
+}
+
+@media (max-width: 600px) {
+  .lightbox-close {
+    position: fixed;
+    top: calc(15px + env(safe-area-inset-top, 0px));
+    right: 15px;
+    background: rgba(0, 0, 0, 0.75);
+    color: #FFE082;
+    border: 1.5px solid var(--border-gold);
+  }
 }
 
 .lightbox-close:hover {
