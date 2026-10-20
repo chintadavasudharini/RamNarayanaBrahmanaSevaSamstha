@@ -4,7 +4,7 @@
    Theme Management (Light & Dark), and Micro-Interactions.
    ========================================================================== */
 
-@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700;800;900&family=Outfit:wght@300;400;500;600;700;800&family=Noto+Sans+Telugu:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@0,600;0,700;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700;800;900&family=Outfit:wght@300;400;500;600;700;800&family=Ramabhadra&display=swap');
 
 /* ==========================================================================
    1. Design Tokens & Color Palettes
@@ -61,9 +61,9 @@
   --transition-normal: 0.35s cubic-bezier(0.4, 0, 0.2, 1);
   --transition-bounce: 0.5s cubic-bezier(0.34, 1.56, 0.64, 1);
   
-  --font-heading: 'Cinzel', 'Noto Sans Telugu', serif;
-  --font-body: 'Outfit', 'Noto Sans Telugu', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-  --font-telugu: 'Noto Sans Telugu', 'Gautami', 'Tiro Telugu', sans-serif;
+  --font-heading: 'Cinzel', 'Ramabhadra', serif;
+  --font-body: 'Outfit', 'Ramabhadra', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-telugu: 'Ramabhadra', 'Noto Sans Telugu', sans-serif;
 }
 
 /* ==========================================================================
@@ -119,9 +119,202 @@ button, input, select, textarea {
   font-size: 1rem;
 }
 
-/* Language font optimization */
-[lang="te"] {
-  font-family: var(--font-telugu), var(--font-body);
+/* ==========================================================================
+   Language-Specific Typography: Telugu (Ramabhadra) & English (Cinzel/Outfit)
+   ========================================================================== */
+
+/* 1. Telugu Typography - Ramabhadra applied across all Telugu elements */
+html[lang="te"],
+[lang="te"],
+:lang(te) {
+  --font-heading: 'Ramabhadra', 'Cinzel', serif;
+  --font-body: 'Ramabhadra', 'Outfit', sans-serif;
+  --font-telugu: 'Ramabhadra', sans-serif;
+  font-family: 'Ramabhadra', 'Outfit', sans-serif;
+}
+
+/* Headings & Brand Titles in Telugu */
+html[lang="te"] h1,
+html[lang="te"] h2,
+html[lang="te"] h3,
+html[lang="te"] h4,
+html[lang="te"] h5,
+html[lang="te"] h6,
+html[lang="te"] .brand-title,
+html[lang="te"] .brand-subtitle,
+html[lang="te"] .hero-headline,
+html[lang="te"] .hero-services-strip-title,
+html[lang="te"] .hero-services-strip-items,
+html[lang="te"] .section-title,
+html[lang="te"] .services-focus-label,
+html[lang="te"] .services-focus-rituals,
+html[lang="te"] .service-title,
+html[lang="te"] .benefit-header h3,
+html[lang="te"] .about-feature-card h3,
+html[lang="te"] .gallery-info h3,
+html[lang="te"] .contact-item-content h4,
+html[lang="te"] .social-tag,
+html[lang="te"] .social-card-title,
+html[lang="te"] .footer-brand h3,
+html[lang="te"] .footer-col h4 {
+  font-family: 'Ramabhadra', 'Cinzel', serif !important;
+  letter-spacing: normal !important;
+  word-spacing: normal;
+}
+
+/* Telugu Spacing & Line-Height Optimizations (Prevents vowel/matra clipping) */
+html[lang="te"] .brand-title {
+  line-height: 1.35;
+}
+
+html[lang="te"] .brand-subtitle {
+  line-height: 1.3;
+}
+
+html[lang="te"] .hero-headline {
+  line-height: 1.36;
+  padding-top: 0.12rem;
+  padding-bottom: 0.12rem;
+}
+
+html[lang="te"] .section-title {
+  line-height: 1.4;
+}
+
+html[lang="te"] .service-title,
+html[lang="te"] .benefit-header h3,
+html[lang="te"] .about-feature-card h3 {
+  line-height: 1.45;
+}
+
+html[lang="te"] .hero-services-strip-items,
+html[lang="te"] .services-focus-rituals {
+  line-height: 1.55;
+  letter-spacing: 0.02em !important;
+}
+
+/* Telugu Paragraphs, Subtitles, Lists & Body Text */
+html[lang="te"] p,
+html[lang="te"] .hero-tagline,
+html[lang="te"] .hero-description,
+html[lang="te"] .section-subtitle,
+html[lang="te"] .service-desc,
+html[lang="te"] .service-features li,
+html[lang="te"] .benefit-desc,
+html[lang="te"] .about-feature-desc,
+html[lang="te"] .about-text-content p,
+html[lang="te"] .contact-item-content p,
+html[lang="te"] .social-card-desc,
+html[lang="te"] .footer-brand p,
+html[lang="te"] .footer-bottom,
+html[lang="te"] .footer-bottom p,
+html[lang="te"] .lightbox-caption {
+  font-family: 'Ramabhadra', 'Outfit', sans-serif !important;
+  letter-spacing: normal !important;
+  line-height: 1.76;
+}
+
+/* Telugu Buttons & Interactive Triggers */
+html[lang="te"] button,
+html[lang="te"] input,
+html[lang="te"] select,
+html[lang="te"] textarea,
+html[lang="te"] .btn,
+html[lang="te"] .btn-primary,
+html[lang="te"] .btn-secondary,
+html[lang="te"] .btn-whatsapp,
+html[lang="te"] .btn-location-glass,
+html[lang="te"] .phone-badge,
+html[lang="te"] .gallery-zoom-btn,
+html[lang="te"] .social-card-cta,
+html[lang="te"] .nav-cta-btn,
+html[lang="te"] .back-to-top {
+  font-family: 'Ramabhadra', 'Outfit', sans-serif !important;
+  letter-spacing: normal !important;
+  line-height: 1.45;
+}
+
+/* Telugu Navigation & Menus */
+html[lang="te"] .nav-link,
+html[lang="te"] .nav-links a,
+html[lang="te"] .services-dropdown a,
+html[lang="te"] .dropdown-link,
+html[lang="te"] .drawer-nav-item,
+html[lang="te"] .drawer-sub-link,
+html[lang="te"] .lang-btn-text,
+html[lang="te"] .lang-option-btn,
+html[lang="te"] .mobile-action-item,
+html[lang="te"] .mobile-action-item span {
+  font-family: 'Ramabhadra', 'Outfit', sans-serif !important;
+  letter-spacing: normal !important;
+}
+
+/* Telugu Badges, Ribbons, Announcements & Cards */
+html[lang="te"] .section-badge,
+html[lang="te"] .hero-badge,
+html[lang="te"] .hero-focus-badge,
+html[lang="te"] .services-focus-ribbon,
+html[lang="te"] .services-focus-label,
+html[lang="te"] .floating-pill,
+html[lang="te"] .floating-pill span,
+html[lang="te"] .service-card,
+html[lang="te"] .benefit-card,
+html[lang="te"] .gallery-card,
+html[lang="te"] .about-feature-card,
+html[lang="te"] .contact-details-box,
+html[lang="te"] .social-card {
+  font-family: 'Ramabhadra', 'Outfit', sans-serif;
+  letter-spacing: normal;
+}
+
+/* Telugu Footer Elements */
+html[lang="te"] .site-footer,
+html[lang="te"] .footer-links a,
+html[lang="te"] .footer-contact-item,
+html[lang="te"] .footer-bottom p,
+html[lang="te"] [data-i18n="footer_developed"] {
+  font-family: 'Ramabhadra', 'Outfit', sans-serif !important;
+  letter-spacing: normal !important;
+}
+
+/* 2. English Typography - Preserved exactly as original design */
+html[lang="en"],
+[lang="en"],
+:lang(en) {
+  --font-heading: 'Cinzel', 'Ramabhadra', serif;
+  --font-body: 'Outfit', 'Ramabhadra', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-telugu: 'Ramabhadra', sans-serif;
+  font-family: var(--font-body);
+}
+
+html[lang="en"] h1,
+html[lang="en"] h2,
+html[lang="en"] h3,
+html[lang="en"] h4,
+html[lang="en"] h5,
+html[lang="en"] h6,
+html[lang="en"] .brand-title,
+html[lang="en"] .hero-headline,
+html[lang="en"] .section-title,
+html[lang="en"] .service-title,
+html[lang="en"] .benefit-header h3,
+html[lang="en"] .social-tag,
+html[lang="en"] .social-card-title,
+html[lang="en"] .footer-brand h3,
+html[lang="en"] .footer-col h4,
+html[lang="en"] .hero-services-strip-items,
+html[lang="en"] .services-focus-rituals {
+  font-family: 'Cinzel', 'Ramabhadra', serif !important;
+}
+
+html[lang="en"] p,
+html[lang="en"] a,
+html[lang="en"] button,
+html[lang="en"] .btn,
+html[lang="en"] .nav-link,
+html[lang="en"] .footer-brand p,
+html[lang="en"] .footer-links a {
+  font-family: 'Outfit', 'Ramabhadra', sans-serif !important;
 }
 
 /* Container */

@@ -28,7 +28,7 @@ const translations = {
     // Hero Section
     pill_loc: "దిల్‌సుఖ్‌నగర్, హైదరాబాద్",
     hero_badge: "• సంప్రదాయం  • భక్తి  • సేవ",
-    hero_founder: "ప్రొ॥ నంబూరి ఆదినారాయణ శర్మ",
+    hero_founder: "నంబూరి ఆదినారాయణ శర్మ",
     hero_est: "EST. 2026 | రామ్ నారాయణ బ్రాహ్మణ సేవా సంస్థ",
     hero_title_main: "రామ్ నారాయణ బ్రాహ్మణ సేవా సంస్థ",
     hero_tagline: "వైదిక సంప్రదాయ పరిరక్షణే మా లక్ష్యం...",
@@ -62,7 +62,7 @@ const translations = {
     about_badge: "మా పవిత్ర ధ్యేయం",
     about_title: "సనాతన ధర్మ రక్షణ & పితృ కర్మల విశిష్టత",
     about_lead: "మాతాపితరుల రుణం తీర్చుకోవడం ప్రతి మానవుని ప్రథమ కర్తవ్యం. శాస్త్రోక్తంగా నిర్వహించే శ్రద్ధ మరియు శ్రాద్ధ కర్మలు పితృదేవతలకు సద్గతిని, కుటుంబానికి శుభాలను చేకూరుస్తాయి.",
-    about_text_1: "రామ్ నారాయణ బ్రాహ్మణ సేవా సంస్థ ద్వారా ప్రొ॥ నంబూరి ఆదినారాయణ శర్మ గారి పర్యవేక్షణలో అత్యంత నిష్ఠతో, వేద మంత్రోచ్ఛారణలతో పితృ కార్యాలు మరియు శ్రాద్ధ కర్మలు నిర్వహించబడుతున్నాయి.",
+    about_text_1: "రామ్ నారాయణ బ్రాహ్మణ సేవా సంస్థ ద్వారా నంబూరి ఆదినారాయణ శర్మ గారి పర్యవేక్షణలో అత్యంత నిష్ఠతో, వేద మంత్రోచ్ఛారణలతో పితృ కార్యాలు మరియు శ్రాద్ధ కర్మలు నిర్వహించబడుతున్నాయి.",
     about_text_2: "అన్ని కార్యక్రమాలు హైదరాబాద్ దిల్‌సుఖ్‌నగర్లోని మా రామ్ నారాయణ బ్రాహ్మణ సేవా సంస్థ ప్రాంగణంలోనే (H.No. 11-62, ప్రగతి నగర్ రోడ్, సాహితి నగర్) పురోహితులు, భోక్తలు, పూజా సామాగ్రి, సాత్విక వంట మరియు సంపూర్ణ సౌకర్యాలతో శాస్త్రోక్తంగా నిర్వహించబడును.",
     about_quote: "\"పూర్వీకుల ఆశీస్సులే కుటుంబ క్షేమానికి మూలస్తంభాలు\"",
     about_point_1: "అనుభవజ్ఞులైన వేద పండితుల మార్గదర్శకత్వం",
@@ -196,7 +196,7 @@ const translations = {
     footer_contact_info: "సంప్రదింపుల కేంద్రం",
     footer_social_title: "Follow Us",
     footer_rights: "రామ్ నారాయణ బ్రాహ్మణ సేవా సంస్థ. సర్వ హక్కులూ ప్రత్యేకించబడినవి.",
-    footer_developed: "ప్రొ॥ నంబూరి ఆదినారాయణ శర్మ గారి ఆధ్వర్యంలో"
+    footer_developed: "నంబూరి ఆదినారాయణ శర్మ గారి ఆధ్వర్యంలో"
   },
 
   en: {
@@ -223,7 +223,7 @@ const translations = {
     // Hero Section
     pill_loc: "Dilsukhnagar, Hyderabad",
     hero_badge: "♦ Tradition ♦ Devotion ♦ Service",
-    hero_founder: "Pro. Namburi Adinarayana Sharma",
+    hero_founder: "Namburi Adinarayana Sharma",
     hero_est: "EST. 2026 | Ram Narayana Brahmana Seva Samstha",
     hero_title_main: "RAM NARAYANA BRAHMANA SEVA SAMSTHA",
     hero_tagline: "Preserving Vedic Tradition is our Mission...",
@@ -257,7 +257,7 @@ const translations = {
     about_badge: "Our Sacred Mission",
     about_title: "Preserving Sanatana Dharma & Ancestral Rites",
     about_lead: "Fulfilling filial duty (Pitru Rina) and upholding Vedic sacraments is our prime duty. Properly conducted rituals bring peace, spiritual upliftment, and lasting family prosperity.",
-    about_text_1: "Under the venerable leadership and guidance of Pro. Namburi Adinarayana Sharma, Ram Narayana Brahmana Seva Samstha conducts all ancestral rites and Shraddha ceremonies with unwavering devotion and authentic Vedic chanting.",
+    about_text_1: "Under the venerable leadership and guidance of Namburi Adinarayana Sharma, Ram Narayana Brahmana Seva Samstha conducts all ancestral rites and Shraddha ceremonies with unwavering devotion and authentic Vedic chanting.",
     about_text_2: "All rituals are conducted exclusively at our sacred Ram Narayana Brahmana Seva Samstha premises in Dilsukhnagar, Hyderabad (H.No. 11-62, Pragathi Nagar Road, Sahithi Nagar), complete with Vedic Purohits, Bhokthas, authentic puja items, and pure Satvik cooking.",
     about_quote: "\"Ancestral blessings form the foundation of peace and prosperity for generations.\"",
     about_point_1: "Guidance of experienced Vedic scholars & Pandits",
@@ -391,6 +391,6 @@ const translations = {
     footer_contact_info: "Contact Information",
     footer_social_title: "Follow Us",
     footer_rights: "Ram Narayana Brahmana Seva Samstha. All Rights Reserved.",
-    footer_developed: "Under the guidance of Pro. Namburi Adinarayana Sharma"
+    footer_developed: "Under the guidance of Namburi Adinarayana Sharma"
   }
 };

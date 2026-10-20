@@ -161,7 +161,7 @@
 
 **Ram Narayana Brahmana Seva Samstha** (రామ్ నారాయణ బ్రాహ్మణ సేవా సంస్థ) is a mission-critical digital gateway engineered for the Brahmin community and devotees seeking orthodox Vedic rites, ancestral Shraddha karmas, and Shastric ceremonies.
 
-Led under the spiritual guidance of **Pro. Namburi Adinarayana Sharma**, the project marries **ancient Shastric authenticity** with **modern high-performance web engineering**. 
+Led under the spiritual guidance of **Namburi Adinarayana Sharma**, the project marries **ancient Shastric authenticity** with **modern high-performance web engineering**. 
 
 Rather than succumbing to the modern anti-pattern of shipping hundreds of kilobytes of runtime framework overhead (React, Next.js, Vue) for content-driven public portals, this project adheres to the **Zero-Framework Standard**: pure semantic HTML5, modern modular CSS3, and high-efficiency Vanilla ES6+ JavaScript.
 
@@ -440,7 +440,7 @@ The application's footer represents an integrated exploration and community enga
 ├───────────────────┴───────────────────┴───────────────────┴────────────────────────────┤
 │ 5. Sacred Community Ribbon: Follow Us On Social Media (Instagram, Facebook, YouTube)    │
 ├────────────────────────────────────────────────────────────────────────────────────────┤
-│ 6. Copyright Banner & Sacred Direction: Pro. Namburi Adinarayana Sharma                │
+│ 6. Copyright Banner & Sacred Direction: Namburi Adinarayana Sharma                │
 └────────────────────────────────────────────────────────────────────────────────────────┘
 ```
 
@@ -627,7 +627,7 @@ print(f"Engineered with devotion and precision by {lead_engineer.name}")
 ## 📜 License & Shastric Integrity
 
 - **Software Engineering & Architecture:** Designed, developed, and maintained with ❤️ by [**Chintada Vasudharini**](https://github.com/chintadavasudharini).
-- **Spiritual Supervision & Guidance:** **Pro. Namburi Adinarayana Sharma** (రామ్ నారాయణ బ్రాహ్మణ సేవా సంస్థ).
+- **Spiritual Supervision & Guidance:** **Namburi Adinarayana Sharma** (రామ్ నారాయణ బ్రాహ్మణ సేవా సంస్థ).
 - **Open-Source License:** Licensed under the [MIT License](LICENSE). Free for non-profit and spiritual organizations dedicated to Sanatana Dharma.
 
 <div align="center">
