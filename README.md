@@ -339,10 +339,10 @@ The design system incorporates the sacred aesthetic of traditional South Indian 
   --bg-card:                #FFFFFF;  /* Crisp Pristine Card Canvas */
   --bg-card-subtle:         #FFFDF8;  /* Elevated Altar Warm White */
 
-  /* Typography Scale */
-  --font-telugu:            'Tiro Telugu', 'Mandali', 'Gautami', serif;
-  --font-heading:           'Cinzel', 'Playfair Display', Georgia, serif;
-  --font-body:              'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  /* Typography Scale (Dual-Language Vedic Engine) */
+  --font-telugu:            'Ramabhadra', 'Noto Sans Telugu', sans-serif;
+  --font-heading:           'Cinzel', 'Ramabhadra', serif;
+  --font-body:              'Outfit', 'Ramabhadra', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
 
   /* Glassmorphism & Elevation */
   --glass-bg:               rgba(255, 255, 255, 0.94);
@@ -482,6 +482,7 @@ RamNarayanaBrahmanaSevaSamstha/
 │       └── translations.js      # Immutable Telugu (te) and English (en) dictionaries
 ├── index.html                   # Semantic HTML5 single-page application with
 │                                # embedded Schema.org JSON-LD LocalBusiness metadata
+├── package.json                 # Lightweight dev scripts (npm run dev -> instant live server)
 ├── README.md                    # Senior staff engineer architectural documentation
 ├── LICENSE                      # Open-source MIT License
 └── .gitignore                   # Version control ignore definitions
@@ -504,7 +505,12 @@ cd RamNarayanaBrahmanaSevaSamstha
 
 Choose your preferred runtime environment:
 
-#### Option A: Python 3 (Native Built-in)
+#### Option 1: NPM Dev Server (Recommended)
+```bash
+npm run dev
+```
+
+#### Option 2: Python 3 (Native Built-in)
 ```bash
 python -m http.server 8000
 ```
