@@ -1,0 +1,19 @@
+{
+  "name": "ram-narayana-brahmana-seva-samstha",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Official Web Application for Ram Narayana Brahmana Seva Samstha",
+  "scripts": {
+    "dev": "npx serve .",
+    "start": "npx serve .",
+    "serve": "npx serve ."
+  },
+  "keywords": [
+    "vedic",
+    "pitru-karyas",
+    "brahmin-seva",
+    "hyderabad"
+  ],
+  "author": "Chintada Vasudharini",
+  "license": "MIT"
+}

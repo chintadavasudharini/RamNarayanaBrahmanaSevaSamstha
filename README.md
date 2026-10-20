@@ -9,7 +9,7 @@
 
   <p align="center">
     <strong>బ్రాహ్మణ పితృ కార్యముల సమగ్ర నిర్వహణ సంస్థ</strong><br>
-    <strong style="color:#B43403; font-size:1.1rem;">◆ మాసికం &nbsp;◆ ఆబ్దికం &nbsp;◆ సంవత్సరీకం &nbsp;◆ పిండప్రదానం</strong><br>
+    <strong style="color:#B43403; font-size:1.15rem;">◆ మాసికం &nbsp;◆ ఆబ్దికం &nbsp;◆ సంవత్సరీకం &nbsp;◆ పిండప్రదానం</strong><br>
     <strong>• వేదోక్తం &nbsp;• శాస్త్రోక్తం &nbsp;• భక్తితో</strong> <em>(• Vedoktam • Shastroktam • With Devotion)</em>
   </p>
 
@@ -20,7 +20,7 @@
   </p>
 
   <p align="center">
-    📞 <strong>ఫోన్:</strong> <a href="tel:7780223977">+91 77802 23977</a> &nbsp;|&nbsp; <a href="tel:8790323977">+91 87903 23977</a><br>
+    📞 <strong>ఫోన్ నంబర్లు:</strong> <a href="tel:7780223977">+91 77802 23977</a> &nbsp;|&nbsp; <a href="tel:8790323977">+91 87903 23977</a><br>
     💬 <strong>వాట్సాప్:</strong> <a href="https://wa.me/917780223977?text=నమస్కారం%20రామ్%20నారాయణ%20బ్రాహ్మణ%20సేవా%20సంస్థ,%20నేను%20మీ%20సేవల%20గురించి%20తెలుసుకోవాలనుకుంటున్నాను.">+91 77802 23977</a><br>
     🌐 <strong>అధికారిక వెబ్‌సైట్:</strong> <a href="https://ramnarayana-brahmana-sevasamstha.vercel.app/" target="_blank">ramnarayana-brahmana-sevasamstha.vercel.app</a>
   </p>
