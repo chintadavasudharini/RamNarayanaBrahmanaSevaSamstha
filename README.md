@@ -60,6 +60,8 @@
 - [🎨 Vedic Light Design System & Token Architecture](#-vedic-light-design-system--token-architecture)
 - [🕉️ Shastric Service Taxonomy & Domain Model](#️-shastric-service-taxonomy--domain-model)
 - [📡 Official Social & Community Channels](#-official-social--community-channels)
+- [💬 1-Tap WhatsApp Deep-Linking & Conversion Architecture](#-1-tap-whatsapp-deep-linking--conversion-architecture)
+- [🧭 Footer Architecture & Sacred Community Ribbon](#-footer-architecture--sacred-community-ribbon)
 - [📂 Codebase Anatomy & File Mapping](#-codebase-anatomy--file-mapping)
 - [🚀 Local Development & Production Verification](#-local-development--production-verification)
 - [📱 Fluid Responsive Engineering & Viewport Breakpoints](#-fluid-responsive-engineering--viewport-breakpoints)
@@ -291,6 +293,66 @@ Devotees and community members can stay connected with the Samstha for latest ev
 | 👥 **Facebook** | `Ram Narayana Brahmana Seva` | [Visit Facebook Page](https://www.facebook.com/profile.php?id=61595183055843) | Samstha announcements, devotional posts, community updates |
 | 🎥 **YouTube** | `@RamNarayanaBrahmanaSevaSamstha` | [Visit YouTube Channel](https://www.youtube.com/@RamNarayanaBrahmanaSevaSamstha) | Vedic chanting, sacred ritual videos, ritual explanations |
 | 📍 **Google Maps** | `Dilsukhnagar, Hyderabad` | [Open in Google Maps](https://maps.app.goo.gl/kL4BedYNx17JEaZs9?g_st=aw) | Directions, geographic coordinates, physical address |
+
+---
+
+## 💬 1-Tap WhatsApp Deep-Linking & Conversion Architecture
+
+To maximize accessibility for elderly devotees, non-technical family members, and Telugu speakers across all demographics, the application implements standardized **WhatsApp Click-to-Chat Deep Linking** across every primary user conversion point.
+
+### Pre-Configured Telugu Inquiry Intent
+Rather than landing the devotee into an empty WhatsApp conversation, every touchpoint automatically pre-populates a polite, formal Shastric inquiry message:
+
+```text
+నమస్కారం రామ్ నారాయణ బ్రాహ్మణ సేవా సంస్థ,  
+నేను మీ సేవల గురించి తెలుసుకోవాలనుకుంటున్నాను.
+```
+*(English translation: "Namaskaram Ram Narayana Brahmana Seva Samstha, I would like to inquire about your services.")*
+
+### Conversion Touchpoint Mapping
+
+| Touchpoint Context | Visual Selector | Target Endpoint | Conversion Rationale |
+|:---|:---|:---|:---|
+| **Hero Section Primary CTA** | `.btn-whatsapp` | `wa.me/917780223977?text=...` | Immediate high-intent inquiry above the fold |
+| **Mobile Drawer Menu** | `.nav-drawer .btn-whatsapp` | `wa.me/917780223977?text=...` | Direct access when browsing site menu on mobile devices |
+| **Contact Section Direct Badge**| `.phone-badge` (WhatsApp) | `wa.me/917780223977?text=...` | High-trust verification alongside office phone numbers |
+| **Mobile Bottom Sticky Bar** | `.mobile-action-bar .whatsapp`| `wa.me/917780223977?text=...` | Persistent 1-thumb accessibility across all scroll depths |
+
+### Technical Implementation & URI Protocol
+```html
+<!-- Standardized URI Schema with Preserved Newline (%0A) -->
+<a href="https://wa.me/917780223977?text=%E0%B0%A8%E0%B0%AE%E0%B0%B8%E0%B1%8D%E0%B0%95%E0%B0%BE%E0%B0%B0%E0%B0%82%20%E0%B0%B0%E0%B0%BE%E0%B0%AE%E0%B1%8D%20%E0%B0%A8%E0%B0%BE%E0%B0%B0%E0%B0%BE%E0%B0%AF%E0%B0%A3%20%E0%B0%AC%E0%B1%8D%E0%B0%B0%E0%B0%BE%E0%B0%B9%E0%B1%8D%E0%B0%AE%E0%B0%A3%20%E0%B0%B8%E0%B1%87%E0%B0%B5%E0%B0%BE%20%E0%B0%B8%E0%B0%82%E0%B0%B8%E0%B1%8D%E0%B0%A5%2C%0A%E0%B0%A8%E0%B1%87%E0%B0%A8%E0%B1%81%20%E0%B0%AE%E0%B1%80%20%E0%B0%B8%E0%B1%87%E0%B0%B5%E0%B0%B2%20%E0%B0%97%E0%B1%81%E0%B0%B0%E0%B0%BF%E0%B0%82%E0%B0%9A%E0%B0%BF%20%E0%B0%A4%E0%B1%86%E0%B0%B2%E0%B1%81%E0%B0%B8%E0%B1%81%E0%B0%95%E0%B1%8B%E0%B0%B5%E0%B0%BE%E0%B0%B2%E0%B0%A8%E0%B1%81%E0%B0%95%E0%B1%81%E0%B0%82%E0%B0%9F%E0%B1%81%E0%B0%A8%E0%B1%8D%E0%B0%A8%E0%B0%BE%E0%B0%A8%E0%B1%81." 
+   target="_blank" 
+   rel="noopener" 
+   class="btn-whatsapp">
+  💬 వాట్సాప్
+</a>
+```
+
+---
+
+## 🧭 Footer Architecture & Sacred Community Ribbon
+
+The application's footer represents an integrated exploration and community engagement hub structured into 4 semantic columns and a full-width social media ribbon:
+
+```
+┌────────────────────────────────────────────────────────────────────────────────────────┐
+│                                    FOOTER ARCHITECTURE                                 │
+├───────────────────┬───────────────────┬───────────────────┬────────────────────────────┤
+│ 1. Samstha Brand  │ 2. Quick Explore  │ 3. Core Rituals   │ 4. Contact Center          │
+│ • Sacred Emblem   │ • మా సంస్థను      │ • భోక్తల సేవ      │ • Dilsukhnagar Address     │
+│ • Sacred Chants   │   అన్వేషించండి   │ • పితృకార్యాలు     │ • Direct Phones            │
+│ • Shastric Motto  │   (Explore Links) │ • సాత్విక వంట     │ • Daily Hours (8AM - 6PM)  │
+├───────────────────┴───────────────────┴───────────────────┴────────────────────────────┤
+│ 5. Sacred Community Ribbon: Follow Us On Social Media (Instagram, Facebook, YouTube)    │
+├────────────────────────────────────────────────────────────────────────────────────────┤
+│ 6. Copyright Banner & Sacred Direction: Pro. Namburi Adinarayana Sharma                │
+└────────────────────────────────────────────────────────────────────────────────────────┘
+```
+
+- **Exploration Pillar (`మా సంస్థను అన్వేషించండి` / `Explore Our Samstha`)**: Direct internal anchor links traversing Home, Samstha History, Services, Pitru Benefits, Why Choose Us, Official Gallery, Contact, and Social Channels.
+- **Dedicated Rituals Pillar (`సేవలు` / `Our Rituals`)**: Direct navigational routing to the 3 canonical service categories.
+- **Full-Width Community Ribbon**: Positioned strategically directly above the copyright bar to guarantee that visitors concluding their page journey find a seamless path to ongoing event broadcasts and sacred reels.
 
 ---
 
