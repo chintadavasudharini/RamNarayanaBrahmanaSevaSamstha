@@ -1810,15 +1810,9 @@ section {
 }
 
 .contact-grid {
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: clamp(1.5rem, 3vw, 2.75rem);
-}
-
-@media (min-width: 992px) {
-  .contact-grid {
-    grid-template-columns: 1fr 1fr;
-  }
+  max-width: 780px;
+  margin: 0 auto;
+  width: 100%;
 }
 
 .contact-details-box {
