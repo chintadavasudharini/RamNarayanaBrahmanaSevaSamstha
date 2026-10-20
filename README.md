@@ -96,6 +96,7 @@
 ## 📑 Table of Contents
 
 - [🌺 అధికారిక సంస్థ వివరాలు & సంప్రదింపులు](#-అధికారిక-సంస్థ-వివరాలు--సంప్రదింపులు)
+- [✨ Recent System Updates & Production Highlights](#-recent-system-updates--production-highlights)
 - [🏛️ Executive Architecture & System Overview](#️-executive-architecture--system-overview)
 - [⚡ Performance Benchmarks & Core Web Vitals](#-performance-benchmarks--core-web-vitals)
 - [🧠 Architectural Design Decisions (ADRs)](#-architectural-design-decisions-adrs)
@@ -111,6 +112,42 @@
 - [🔒 Security, Accessibility & SEO Architecture](#-security-accessibility--seo-architecture)
 - [👩‍💻 Principal Engineer & Leadership Profile](#-principal-engineer--leadership-profile)
 - [📜 License & Shastric Integrity](#-license--shastric-integrity)
+
+---
+
+## ✨ Recent System Updates & Production Highlights
+
+### 1. 🪔 Branding, Sacred Mottos & Terminology
+- **Sacred Mottos Aligned**:
+  - **Telugu**: Synchronized hero badge and mottos to `• సంప్రదాయం • భక్తి • సేవ` and `• వేదోక్తం • శాస్త్రోక్తం • భక్తితో`.
+  - **English**: Aligned to `♦ Tradition ♦ Devotion ♦ Service` and `• Vedoktam • Shastroktam • With Devotion`.
+- **Highlighted Rituals Banner**: Added a prominent service highlight in the Hero, Services section, and documentation:
+  > **బ్రాహ్మణ పితృ కార్యముల నిర్వహణ సంస్థ:** `◆ మాసికం ◆ ఆబ్దికం ◆ సంవత్సరీకం ◆ పిండప్రదానం`
+- **Terminology & Spelling Refinements**:
+  - Updated service terminology to **భోక్తల సేవ** (*Bhoktha Seva*).
+  - Refined Telugu town spelling to **దిల్సుఖ్నగర్** (*Dilsukhnagar*).
+  - Standardized brand badges to **• పితృ సేవ** / **• సంప్రదాయం • భక్తి • సేవ**.
+
+### 2. 📸 High-Resolution Assets & Media Overhaul
+- **Lossless PNG Migration**: Migrated website images from compressed JPEGs to crisp, high-resolution PNGs:
+  - [`assets/images/banner.png`](assets/images/banner.png) (Grand Official Banner)
+  - [`assets/images/card.png`](assets/images/card.png) (Official Visiting Card)
+  - [`assets/images/flyer-te.png`](assets/images/flyer-te.png) & [`assets/images/flyer-en.png`](assets/images/flyer-en.png) (Official Telugu & English Brochures)
+  - [`assets/images/logo.png`](assets/images/logo.png) (Master Circular Emblem)
+- **Latest Brochure Integration**: Integrated the official promotional flyers containing ritual definitions (*ఆబ్దికం, మాసికం, సంవత్సరికం*), 5 spiritual benefits (*కృతజ్ఞతా భావం, కుటుంబ బలం, శుభఫల ప్రాప్తి, సంస్కృతి పరిరక్షణ, వంశ పరంపర*), and website QR scan codes.
+- **Cleaned Up Deprecated Files**: Cleaned up deprecated and redundant image files to keep the repository fast and lightweight.
+
+### 3. 🌐 Navigation, Footer & User Experience (UX)
+- **Footer Navigation Update**: Changed Telugu quick links title from **ముఖ్యమైన లింకులు** to **మా సంస్థను అన్వేషించండి** (matching *"Explore Our Samstha"*).
+- **Social Media Section**: Added a dedicated **Follow Us On** social media bar featuring Instagram ([@ramnarayana_brahmana_seva](https://www.instagram.com/ramnarayana_brahmana_seva/)), Facebook ([Ram Narayana Brahmana Seva](https://www.facebook.com/profile.php?id=61595183055843)), and YouTube ([@RamNarayanaBrahmanaSevaSamstha](https://www.youtube.com/@RamNarayanaBrahmanaSevaSamstha)), linked directly from the navigation bar.
+- **Polite WhatsApp Inquiry Message**: Updated all WhatsApp CTA buttons across the website (Hero, Drawer, Contact, and Mobile Bar) to pre-fill a natural message:
+  > *"నమస్కారం రామ్ నారాయణ బ్రాహ్మణ సేవా సంస్థ, నేను మీ సేవల గురించి తెలుసుకోవాలనుకుంటున్నాను."*
+- **Timing Consistency**: Cleaned English service timings to `Every Day: 8:00 AM – 6:00 PM`.
+
+### 4. 🚀 Production & GitHub Updates
+- **Official Live URL**: [https://ramnarayana-brahmana-sevasamstha.vercel.app/](https://ramnarayana-brahmana-sevasamstha.vercel.app/)
+- **Official Repository**: Repointed and pushed all commits cleanly to the official repository:  
+  👉 [https://github.com/ramnarayanabrahmanaseva/RamNarayanaBrahmanaSevaSamstha](https://github.com/ramnarayanabrahmanaseva/RamNarayanaBrahmanaSevaSamstha)
 
 ---
 
