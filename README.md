@@ -1,24 +1,26 @@
 <div align="center">
 
   <!-- Logo & Sacred Emblem -->
-  <a href="https://ram-narayana-brahmana-seva-samstha.vercel.app/" target="_blank" rel="noopener noreferrer">
+  <a href="https://ramnarayana-brahmana-sevasamstha.vercel.app/" target="_blank" rel="noopener noreferrer">
     <img src="assets/images/logo.jpg" alt="Ram Narayana Brahmana Seva Samstha Emblem" width="136" height="136" style="border-radius: 50%; border: 3px solid #D4AF37; box-shadow: 0 0 30px rgba(212, 175, 55, 0.45), 0 0 10px rgba(133, 19, 23, 0.35); margin-bottom: 14px;" />
   </a>
 
-  # 🕉️ రామ్ నారాయణ బ్రాహ్మణ సేవా సంస్థ
-  ## Ram Narayana Brahmana Seva Samstha
+  # 🕉️ ఓం శ్రీమాత్రే నమః
+  # 🌺 రామ్ నారాయణ బ్రాహ్మణ సేవా సంస్థ 🌺
+  ### **• సంప్రదాయం • భక్తి • సేవ •**
+  ### **• వేదోక్తం • శాస్త్రోక్తం • భక్తితో •**
   
-  **Enterprise-Grade, Zero-Framework Static Web Architecture for Sacred Vedic Rites & Ancestral Ceremonies**  
-  *Vedic Shastra Integrity • Ancestral Pitru Karyas • Satvik Traditions • Real-Time Bilingual Engine*
+  **బ్రాహ్మణ పితృ కార్యముల నిర్వహణ సంస్థ**  
+  *◆ మాసికం ◆ ఆబ్దికం ◆ సంవత్సరీకం ◆ పిండప్రదానం*
 
   <p align="center">
-    <strong>Preserving Sanatana Dharma under the sacred guidance of Pro. Namburi Adinarayana Sharma</strong><br>
-    <em>📍 Dilsukhnagar, Hyderabad, Telangana — 500060, India</em>
+    <strong>నిర్వాహకులు: నంబూరి ఆదినారాయణ శర్మ</strong><br>
+    <em>📍 దిల్సుఖ్నగర్, హైదరాబాద్, Telangana — 500060, India</em>
   </p>
 
   <!-- Live Deployment & Engineering Badges -->
   <p align="center">
-    <a href="https://ram-narayana-brahmana-seva-samstha.vercel.app/" target="_blank" rel="noopener noreferrer">
+    <a href="https://ramnarayana-brahmana-sevasamstha.vercel.app/" target="_blank" rel="noopener noreferrer">
       <img src="https://img.shields.io/badge/Production-Live_Deployment-success?style=for-the-badge&logo=vercel&logoColor=white&color=000000" alt="Vercel Production Deployment" />
     </a>
     <a href="https://github.com/chintadavasudharini/RamNarayanaBrahmanaSevaSamstha/stargazers">
@@ -44,8 +46,50 @@
   </p>
 
   <h3>
-    🌐 <a href="https://ram-narayana-brahmana-seva-samstha.vercel.app/" target="_blank" rel="noopener noreferrer"><strong>Explore the Live Production Application »</strong></a>
+    🌐 <a href="https://ramnarayana-brahmana-sevasamstha.vercel.app/" target="_blank" rel="noopener noreferrer"><strong>Explore the Live Production Application »</strong></a>
   </h3>
+
+</div>
+
+---
+
+<div align="center">
+
+## 🌺 అధికారిక సంస్థ వివరాలు & సంప్రదింపులు
+
+```text
+ఓం శ్రీమాత్రే నమః
+
+🌺 రామ్ నారాయణ బ్రాహ్మణ సేవా సంస్థ 🌺
+• సంప్రదాయం • భక్తి • సేవ
+
+• వేదోక్తం • శాస్త్రోక్తం • భక్తితో
+బ్రాహ్మణ పితృ కార్యముల నిర్వహణ సంస్థ
+◆ మాసికం ◆ ఆబ్దికం ◆ సంవత్సరీకం ◆ పిండప్రదానం
+నిర్వాహకులు
+నంబూరి ఆదినారాయణ శర్మ
+
+🪔 మా సేవలు
+🔸 భోక్తల సేవ
+🔸 పితృకార్యాలు & శ్రాద్ధకర్మలు
+🔸 సాత్విక వంట & సంపూర్ణ నిర్వహణ
+🔸 ఆబ్దికం, మాసికం, సంవత్సరీకం & పిండప్రదానం
+
+ధర్మో రక్షతి రక్షితః
+
+🕗 ప్రతిరోజూ: ఉదయం 8:00 – సాయంత్రం 6:00
+
+📞 సంప్రదించండి:
+7780223977 | 8790323977
+
+📍 దిల్సుఖ్నగర్,  హైదరాబాద్
+
+🌐 మా వెబ్సైట్: https://ramnarayana-brahmana-sevasamstha.vercel.app/
+
+📸 Instagram: https://www.instagram.com/ramnarayana_brahmana_seva/
+📘 Facebook: https://www.facebook.com/profile.php?id=61595183055843
+▶️ YouTube: https://www.youtube.com/@RamNarayanaBrahmanaSevaSamstha
+```
 
 </div>
 
@@ -53,6 +97,7 @@
 
 ## 📑 Table of Contents
 
+- [🌺 అధికారిక సంస్థ వివరాలు & సంప్రదింపులు](#-అధికారిక-సంస్థ-వివరాలు--సంప్రదింపులు)
 - [🏛️ Executive Architecture & System Overview](#️-executive-architecture--system-overview)
 - [⚡ Performance Benchmarks & Core Web Vitals](#-performance-benchmarks--core-web-vitals)
 - [🧠 Architectural Design Decisions (ADRs)](#-architectural-design-decisions-adrs)
@@ -280,19 +325,24 @@ The portal coordinates 3 major Shastric service verticals, ensuring end-to-end r
 | **SVC-01** | **భోక్తల సేవ** | Bhoktha Seva | Disciplined, orthodox Vedic Brahmin Bhokthas adhering strictly to Shastric codes, Niyama, and traditional Shraddha Bhojana protocols. |
 | **SVC-02** | **పితృకార్యాలు & శ్రాద్ధకర్మలు** | Pitru Karyas & Shraddha Karmas | Masikam, Abdikam, Samvatsarikam, Mahalaya Paksha Tarpanam, Hiranya Shraddham, and Vedic Pinda Pradanam under certified Purohits. |
 | **SVC-03** | **సాత్విక వంట & సంపూర్ణ నిర్వహణ** | Satvik Catering & Full Arrangements | Pure Brahmin Satvik cuisine preparation, fresh sacred puja samagri procurement, clean ritual seating, and complete event logistics. |
+| **SVC-04** | **ఆబ్దికం, మాసికం, సంవత్సరీకం & పిండప్రదానం** | Ancestral Rites & Sacred Offerings | Pavitra Shastric conduct of monthly rituals (Masikam), yearly rites (Abdikam/Samvatsarikam), and solemn Pinda Pradanam rituals. |
 
 ---
 
 ## 📡 Official Social & Community Channels
 
-Devotees and community members can stay connected with the Samstha for latest event updates, sacred festival highlights, and ritual announcements across all official social media platforms:
+Devotees and community members can stay connected with the Samstha for latest event updates, sacred festival highlights, and ritual announcements across all official touchpoints:
 
-| Platform | Official Handle / Channel | Direct Access URL | Scope of Content |
+| Platform / Contact | Official Handle / Link | Direct Access URL | Scope of Content & Availability |
 |:---|:---|:---|:---|
-| 📸 **Instagram** | `@ramnarayana_brahmana_seva` | [Visit Instagram Profile](https://www.instagram.com/ramnarayana_brahmana_seva?xtok=MTAwMWFiY245OWJrcQ==) | Event highlights, sacred ceremony reels, high-res photos |
+| 🌐 **మా వెబ్‌సైట్ (Website)** | `ramnarayana-brahmana-sevasamstha` | [Visit Official Website](https://ramnarayana-brahmana-sevasamstha.vercel.app/) | Live production portal, bilingual switcher, interactive gallery |
+| 📸 **Instagram** | `@ramnarayana_brahmana_seva` | [Visit Instagram Profile](https://www.instagram.com/ramnarayana_brahmana_seva/) | Event highlights, sacred ceremony reels, high-res photos |
 | 👥 **Facebook** | `Ram Narayana Brahmana Seva` | [Visit Facebook Page](https://www.facebook.com/profile.php?id=61595183055843) | Samstha announcements, devotional posts, community updates |
 | 🎥 **YouTube** | `@RamNarayanaBrahmanaSevaSamstha` | [Visit YouTube Channel](https://www.youtube.com/@RamNarayanaBrahmanaSevaSamstha) | Vedic chanting, sacred ritual videos, ritual explanations |
-| 📍 **Google Maps** | `Dilsukhnagar, Hyderabad` | [Open in Google Maps](https://maps.app.goo.gl/kL4BedYNx17JEaZs9?g_st=aw) | Directions, geographic coordinates, physical address |
+| 📞 **ఫోన్ నంబర్లు (Call)** | `7780223977` \| `8790323977` | [Call +91 77802 23977](tel:7780223977) \| [Call +91 87903 23977](tel:8790323977) | Direct devotee consultation and ritual booking |
+| 💬 **WhatsApp విచారణ** | `+91 77802 23977` | [Chat on WhatsApp](https://wa.me/917780223977?text=%E0%B0%A8%E0%B0%AE%E0%B0%B8%E0%B1%8D%E0%B0%95%E0%B0%BE%E0%B0%B0%E0%B0%82%20%E0%B0%B0%E0%B0%BE%E0%B0%AE%E0%B1%8D%20%E0%B0%A8%E0%B0%BE%E0%B0%B0%E0%B0%BE%E0%B0%AF%E0%B0%A3%20%E0%B0%AC%E0%B1%8D%E0%B0%B0%E0%B0%BE%E0%B0%B9%E0%B1%8D%E0%B0%AE%E0%B0%A3%20%E0%B0%B8%E0%B1%87%E0%B0%B5%E0%B0%BE%20%E0%B0%B8%E0%B0%82%E0%B0%B8%E0%B1%8D%E0%B0%A5%2C%0A%E0%B0%A8%E0%B1%87%E0%B0%A8%E0%B1%81%20%E0%B0%AE%E0%B1%80%20%E0%B0%B8%E0%B1%87%E0%B0%B5%E0%B0%B2%20%E0%B0%97%E0%B1%81%E0%B0%B0%E0%B0%BF%E0%B0%82%E0%B0%9A%E0%B0%BF%20%E0%B0%A4%E0%B1%86%E0%B0%B2%E0%B1%81%E0%B0%B8%E0%B1%81%E0%B0%95%E0%B1%8B%E0%B0%B5%E0%B0%BE%E0%B0%B2%E0%B0%A8%E0%B1%81%E0%B0%95%E0%B1%81%E0%B0%82%E0%B0%9F%E0%B1%81%E0%B0%A8%E0%B1%8D%E0%B0%A8%E0%B0%BE%E0%B0%A8%E0%B1%81.) | Instant pre-filled Telugu inquiry routing |
+| 🕗 **సేవా సమయాలు (Timings)** | `ప్రతిరోజూ: ఉదయం 8:00 – సాయంత్రం 6:00` | Regular Daily Operational Hours | Sacred consultation & hall arrangements |
+| 📍 **చిరునామా (Location)** | `దిల్సుఖ్నగర్, హైదరాబాద్` | [Open in Google Maps](https://maps.app.goo.gl/kL4BedYNx17JEaZs9?g_st=aw) | Pragathi Nagar Road, Sahithi Nagar, Dilsukhnagar |
 
 ---
 
