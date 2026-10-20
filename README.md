@@ -99,12 +99,12 @@
 
 ### 🏛️ అధికారిక గ్రాండ్ బ్యానర్ (Grand Official Banner)
 <p align="center">
-  <img src="assets/images/banner.png" alt="రామ్ నారాయణ బ్రాహ్మణ సేవా సంస్థ - అధికారిక గ్రాండ్ బ్యానర్" width="88%" style="border-radius: 10px; border: 2px solid #D4AF37; box-shadow: 0 8px 24px rgba(133, 19, 23, 0.2);" />
+  <img src="assets/images/banner-new.png" alt="రామ్ నారాయణ బ్రాహ్మణ సేవా సంస్థ - అధికారిక గ్రాండ్ బ్యానర్" width="88%" style="border-radius: 10px; border: 2px solid #D4AF37; box-shadow: 0 8px 24px rgba(133, 19, 23, 0.2);" />
 </p>
 
 ### 📜 అధికారిక విజిటింగ్ కార్డు (Official Visiting Card)
 <p align="center">
-  <img src="assets/images/card.png" alt="రామ్ నారాయణ బ్రాహ్మణ సేవా సంస్థ - అధికారిక విజిటింగ్ కార్డు" width="60%" style="border-radius: 10px; border: 2px solid #D4AF37; box-shadow: 0 8px 24px rgba(133, 19, 23, 0.2);" />
+  <img src="assets/images/card-cream.png" alt="రామ్ నారాయణ బ్రాహ్మణ సేవా సంస్థ - అధికారిక విజిటింగ్ కార్డు" width="60%" style="border-radius: 10px; border: 2px solid #D4AF37; box-shadow: 0 8px 24px rgba(133, 19, 23, 0.2);" />
 </p>
 
 </div>
@@ -149,8 +149,8 @@
 
 ### 2. 📸 High-Resolution Assets & Media Overhaul
 - **Lossless PNG Migration**: Migrated website images from compressed JPEGs to crisp, high-resolution PNGs:
-  - [`assets/images/banner.png`](assets/images/banner.png) (Grand Official Banner)
-  - [`assets/images/card.png`](assets/images/card.png) (Official Visiting Card)
+  - [`assets/images/banner-new.png`](assets/images/banner-new.png) (Grand Official Banner)
+  - [`assets/images/card-cream.png`](assets/images/card-cream.png) (Official Visiting Card)
   - [`assets/images/flyer-te.png`](assets/images/flyer-te.png) & [`assets/images/flyer-en.png`](assets/images/flyer-en.png) (Official Telugu & English Brochures)
   - [`assets/images/logo.png`](assets/images/logo.png) (Master Circular Emblem)
 - **Latest Brochure Integration**: Integrated the official promotional flyers containing ritual definitions (*ఆబ్దికం, మాసికం, సంవత్సరికం*), 5 spiritual benefits (*కృతజ్ఞతా భావం, కుటుంబ బలం, శుభఫల ప్రాప్తి, సంస్కృతి పరిరక్షణ, వంశ పరంపర*), and website QR scan codes.
@@ -182,39 +182,41 @@ Rather than succumbing to the modern anti-pattern of shipping hundreds of kiloby
 
 ```mermaid
 flowchart TD
-    subgraph ClientLayer["Edge Client Tier (User Browser)"]
-        Browser["User Browser (Mobile / Tablet / Desktop)"]
-        Storage[("Browser LocalStorage\n(lang: 'te' | 'en')")]
+    subgraph ClientLayer["Edge Client Tier - User Browser"]
+        Browser["User Browser"]
+        Storage[("Browser LocalStorage")]
     end
 
     subgraph CDNLayer["Global Edge Delivery Tier"]
-        VercelCDN["Vercel Global Edge Network\n(HTTP/2, HTTP/3, Brotli, Gzip)"]
-        Cache["Edge Cache & Static Asset Pipeline\n(Zero Cold-Start, Immutable Assets)"]
+        VercelCDN["Vercel Global Edge Network"]
+        Cache["Edge Cache and Static Pipeline"]
     end
 
-    subgraph RuntimeLayer["Client-Side Runtime & State Engine"]
-        DOMHydration["DOM Initialization Engine\n(DOMContentLoaded)"]
-        i18nEngine["Declarative i18n DOM Engine\n(translations.js / [data-i18n*])"]
-        UIState["Micro-Interactive State Controllers\n(Dropdowns, Drawer, Lightbox Modal)"]
-        SEOEngine["Structured Metadata\n(JSON-LD LocalBusiness Schema)"]
+    subgraph RuntimeLayer["Client-Side Runtime and State Engine"]
+        DOMHydration["DOM Initialization Engine"]
+        i18nEngine["Declarative i18n DOM Engine"]
+        UIState["Micro-Interactive State Controllers"]
+        SEOEngine["Structured Metadata JSON-LD"]
     end
 
-    subgraph DesignSystem["Modern CSS Layout & Token Engine"]
-        Tokens["CSS Custom Properties (:root Tokens)\n(Maroon, Pure Gold, Ivory, Charcoal)"]
-        FluidLayout["CSS Grid & clamp() Mathematical Fluid Sizing"]
+    subgraph DesignSystem["Modern CSS Layout and Token Engine"]
+        Tokens["CSS Custom Properties Tokens"]
+        FluidLayout["CSS Grid and Fluid Typography"]
         Glassmorphism["Backdrop-Filter Glassmorphic Cards"]
     end
 
-    Browser -->|1. Request Asset| VercelCDN
+    Browser -->|"1. Request Web Page"| VercelCDN
     VercelCDN --> Cache
-    Cache -->|2. Stream 24KB Clean Payload| Browser
+    Cache -->|"2. Stream Clean Fast Payload"| Browser
     Browser --> DOMHydration
     DOMHydration --> i18nEngine
     DOMHydration --> UIState
-    Storage <-->|Sync State| i18nEngine
-    i18nEngine -->|O(N) In-Place Node Mutation| Browser
-    DesignSystem -.->|Token Injection| Browser
-    SEOEngine -.->|Knowledge Graph Extraction| GoogleBots["Search Engine Crawlers"]
+    Storage -->|"Hydrate Language Preference"| i18nEngine
+    i18nEngine -->|"Persist Selected Language"| Storage
+    i18nEngine -->|"In-Place DOM Mutation"| Browser
+    Tokens -.->|"Theme Token Injection"| Browser
+    FluidLayout -.->|"Responsive Layout"| Browser
+    SEOEngine -.->|"Knowledge Graph Extraction"| GoogleBots["Search Engine Crawlers"]
 ```
 
 ---
@@ -469,8 +471,8 @@ RamNarayanaBrahmanaSevaSamstha/
 │   │   └── style.css            # Master stylesheet: CSS variables, clamp() typography,
 │   │                            # glassmorphism cards, and responsive media rules
 │   ├── 📁 images/
-│   │   ├── banner.png           # High-res official banner & social OpenGraph cover
-│   │   ├── card.png             # Authentic visiting card asset (lightbox enabled)
+│   │   ├── banner-new.png       # High-res official banner & social OpenGraph cover
+│   │   ├── card-cream.png       # Authentic visiting card asset (lightbox enabled)
 │   │   ├── flyer-en.png         # Localized English ceremonial brochure
 │   │   ├── flyer-te.png         # Localized Telugu ceremonial brochure
 │   │   └── logo.png             # Master circular emblem (Omkara & Golden Rim)
