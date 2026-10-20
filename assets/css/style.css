@@ -212,34 +212,58 @@ html[lang="te"] .contact-item p,
 /* ==========================================================================
    Typography & Layout Polish for Telugu Ramabhadra Font
    Prevents glyph clipping (matras & vattulu), adjusts line-height & spacing,
-   and enhances font size across headings, body, buttons, menus, and cards.
+   and provides enhanced font size and rich readability across all screens.
    ========================================================================== */
 html[lang="te"] {
-  font-size: 17.5px;
+  font-size: 18px;
   letter-spacing: normal;
 }
 
+@media (min-width: 1200px) {
+  html[lang="te"] {
+    font-size: 18.5px;
+  }
+}
+
+@media (min-width: 601px) and (max-width: 991px) {
+  html[lang="te"] {
+    font-size: 17.5px;
+  }
+}
+
+@media (max-width: 600px) {
+  html[lang="te"] {
+    font-size: 16.5px;
+  }
+}
+
+/* Brand Identity in Header */
 html[lang="te"] .brand-title {
-  font-size: clamp(0.85rem, 2.9vw, 1.25rem);
-  line-height: 1.32;
+  font-size: clamp(0.92rem, 2.9vw, 1.32rem);
+  line-height: 1.34;
   letter-spacing: 0;
+  font-weight: 700;
 }
 
 html[lang="te"] .brand-subtitle {
-  font-size: clamp(0.72rem, 1.8vw, 0.88rem);
+  font-size: clamp(0.74rem, 1.8vw, 0.92rem);
   line-height: 1.35;
   letter-spacing: 0;
 }
 
+/* Hero Section */
 html[lang="te"] .hero-headline {
-  font-size: clamp(2.15rem, 4.3vw, 3.45rem);
-  line-height: 1.32;
+  font-size: clamp(2.2rem, 4.3vw, 3.5rem);
+  line-height: 1.34;
   letter-spacing: 0;
+  font-weight: 700;
+  word-break: break-word;
+  overflow-wrap: break-word;
 }
 
 html[lang="te"] .hero-tagline-motto {
-  font-size: clamp(1.2rem, 2.2vw, 1.5rem);
-  line-height: 1.4;
+  font-size: clamp(1.25rem, 2.3vw, 1.58rem);
+  line-height: 1.45;
   letter-spacing: 0;
 }
 
@@ -251,35 +275,45 @@ html[lang="te"] .hero-services-strip-items {
 }
 
 html[lang="te"] .hero-description {
-  font-size: clamp(1.08rem, 2vw, 1.22rem);
-  line-height: 1.78;
+  font-size: clamp(1.12rem, 2vw, 1.28rem);
+  line-height: 1.82;
 }
 
 html[lang="te"] .hero-founder-tag {
-  font-size: 1.08rem;
+  font-size: 1.15rem;
   line-height: 1.35;
   letter-spacing: 0;
 }
 
+html[lang="te"] .hero-badge-pill {
+  font-size: 1.05rem;
+  line-height: 1.35;
+  letter-spacing: 0;
+}
+
+/* Section Titles & Badges */
 html[lang="te"] .section-title {
-  font-size: clamp(1.95rem, 3.6vw, 2.95rem);
+  font-size: clamp(2.05rem, 3.7vw, 3.1rem);
   line-height: 1.38;
   letter-spacing: 0;
+  word-break: break-word;
+  overflow-wrap: break-word;
 }
 
 html[lang="te"] .section-subtitle,
 html[lang="te"] .section-lead {
-  font-size: clamp(1.08rem, 2vw, 1.25rem);
-  line-height: 1.7;
+  font-size: clamp(1.12rem, 2vw, 1.32rem);
+  line-height: 1.75;
   letter-spacing: 0;
 }
 
 html[lang="te"] .section-badge {
-  font-size: 0.96rem;
+  font-size: 1.02rem;
   line-height: 1.35;
   letter-spacing: 0;
 }
 
+/* Section 5 Focus Ribbon */
 html[lang="te"] .services-focus-rituals {
   font-size: clamp(0.72rem, 1.75vw, 1.25rem);
   line-height: 1.5;
@@ -287,40 +321,34 @@ html[lang="te"] .services-focus-rituals {
   white-space: nowrap !important;
 }
 
+/* Card Titles */
 html[lang="te"] .service-title {
+  font-size: 1.52rem;
+  line-height: 1.4;
+  letter-spacing: 0;
+}
+
+html[lang="te"] .benefit-header h3 {
   font-size: 1.48rem;
   line-height: 1.4;
   letter-spacing: 0;
 }
 
-html[lang="te"] .service-desc {
-  font-size: 1.06rem;
+html[lang="te"] .why-title {
+  font-size: 1.44rem;
+  line-height: 1.4;
+  letter-spacing: 0;
 }
 
-html[lang="te"] .service-bullets li {
-  font-size: 1.04rem;
-}
-
-html[lang="te"] .benefit-header h3 {
+html[lang="te"] .social-card-title {
   font-size: 1.42rem;
   line-height: 1.4;
   letter-spacing: 0;
 }
 
-html[lang="te"] .why-title {
-  font-size: 1.38rem;
-  line-height: 1.4;
-}
-
-html[lang="te"] .social-card-title {
-  font-size: 1.35rem;
-  line-height: 1.4;
-  letter-spacing: 0;
-}
-
+/* Body Paragraphs & List Content */
 html[lang="te"] p,
 html[lang="te"] li,
-html[lang="te"] .about-lead,
 html[lang="te"] .about-p,
 html[lang="te"] .service-desc,
 html[lang="te"] .benefit-desc,
@@ -330,111 +358,100 @@ html[lang="te"] .social-card-desc,
 html[lang="te"] .footer-brand p,
 html[lang="te"] .footer-desc,
 html[lang="te"] .footer-bottom p {
-  font-size: 1.06rem;
-  line-height: 1.75;
+  font-size: 1.1rem;
+  line-height: 1.82;
   font-weight: 400;
 }
 
 html[lang="te"] .about-lead {
-  font-size: 1.25rem;
-  line-height: 1.8;
+  font-size: 1.28rem;
+  line-height: 1.85;
 }
 
+html[lang="te"] .service-bullets li {
+  font-size: 1.08rem;
+  line-height: 1.7;
+}
+
+/* Navigation & Menus */
 html[lang="te"] .nav-link {
-  font-size: 1.02rem;
+  font-size: 1.06rem;
   line-height: 1.35;
   letter-spacing: 0;
 }
 
 html[lang="te"] .nav-dropdown a {
-  font-size: 0.98rem;
+  font-size: 1.02rem;
   line-height: 1.35;
 }
 
 html[lang="te"] .drawer-nav-item {
-  font-size: 1.1rem;
+  font-size: 1.15rem;
   line-height: 1.35;
   letter-spacing: 0;
 }
 
+html[lang="te"] .lang-btn-text {
+  font-size: 0.98rem;
+}
+
+/* Buttons & Badges */
 html[lang="te"] .btn-primary,
 html[lang="te"] .btn-secondary,
 html[lang="te"] .btn-whatsapp,
 html[lang="te"] .btn-location-glass,
 html[lang="te"] .btn-nav-call,
-html[lang="te"] .phone-badge,
-html[lang="te"] .hero-badge-pill {
-  font-size: 1.04rem;
+html[lang="te"] .phone-badge {
+  font-size: 1.08rem;
   line-height: 1.35;
   letter-spacing: 0;
 }
 
 html[lang="te"] .mobile-action-item span {
-  font-size: 0.82rem;
+  font-size: 0.85rem;
+  line-height: 1.25;
 }
 
+/* Announcements & Marquee */
 html[lang="te"] .announcement-bar,
 html[lang="te"] .announcement-label {
-  font-size: 0.98rem;
-  line-height: 1.45;
+  font-size: 1.04rem;
+  line-height: 1.48;
   letter-spacing: 0;
 }
 
 html[lang="te"] .marquee-item {
-  font-size: 0.96rem;
-  line-height: 1.45;
+  font-size: 1.02rem;
+  line-height: 1.48;
   letter-spacing: 0;
 }
 
+/* Footer Section */
 html[lang="te"] .footer-brand h3 {
-  font-size: 1.68rem;
+  font-size: 1.75rem;
   line-height: 1.4;
   letter-spacing: 0;
 }
 
 html[lang="te"] .footer-col h4 {
-  font-size: 1.25rem;
+  font-size: 1.32rem;
   line-height: 1.4;
   letter-spacing: 0;
 }
 
 html[lang="te"] .footer-col ul li a {
-  font-size: 1.02rem;
+  font-size: 1.06rem;
+  line-height: 1.6;
 }
 
-@media (max-width: 520px) {
-  html[lang="te"] {
-    font-size: 16.5px;
-  }
-  html[lang="te"] .brand-title {
-    font-size: clamp(0.78rem, 3.4vw, 1.05rem);
-    line-height: 1.32;
-  }
-  html[lang="te"] .hero-headline {
-    font-size: clamp(1.85rem, 6.4vw, 2.45rem);
-    line-height: 1.35;
-  }
-  html[lang="te"] .section-title {
-    font-size: clamp(1.68rem, 5.6vw, 2.2rem);
-    line-height: 1.35;
-  }
-  html[lang="te"] .hero-services-strip-items,
-  html[lang="te"] .services-focus-rituals,
-  .hero-services-strip-items,
-  .services-focus-rituals {
-    font-size: clamp(0.66rem, 3.1vw, 0.88rem) !important;
-    white-space: nowrap !important;
-  }
-  .hero-services-strip {
-    padding: 0.65rem 0.85rem;
-    max-width: 100%;
-    width: 100%;
-  }
-  .services-focus-ribbon {
-    padding: 0.75rem 0.95rem;
-    max-width: 100%;
-    width: 100%;
-  }
+html[lang="te"] .contact-item h4 {
+  font-size: 1.05rem;
+  line-height: 1.35;
+}
+
+html[lang="te"] .contact-item p {
+  font-size: 1.12rem;
+  line-height: 1.75;
 }
 
 /* ==========================================================================
