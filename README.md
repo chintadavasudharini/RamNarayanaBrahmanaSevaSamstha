@@ -2,7 +2,7 @@
 
   <!-- Logo & Sacred Emblem -->
   <a href="https://ramnarayana-brahmana-sevasamstha.vercel.app/" target="_blank" rel="noopener noreferrer">
-    <img src="assets/images/logo.jpg" alt="Ram Narayana Brahmana Seva Samstha Emblem" width="136" height="136" style="border-radius: 50%; border: 3px solid #D4AF37; box-shadow: 0 0 30px rgba(212, 175, 55, 0.45), 0 0 10px rgba(133, 19, 23, 0.35); margin-bottom: 14px;" />
+    <img src="assets/images/logo.png" alt="Ram Narayana Brahmana Seva Samstha Emblem" width="136" height="136" style="border-radius: 50%; border: 3px solid #D4AF37; box-shadow: 0 0 30px rgba(212, 175, 55, 0.45), 0 0 10px rgba(133, 19, 23, 0.35); margin-bottom: 14px;" />
   </a>
 
   # 🕉️ ఓం శ్రీమాత్రే నమః
@@ -23,13 +23,13 @@
     <a href="https://ramnarayana-brahmana-sevasamstha.vercel.app/" target="_blank" rel="noopener noreferrer">
       <img src="https://img.shields.io/badge/Production-Live_Deployment-success?style=for-the-badge&logo=vercel&logoColor=white&color=000000" alt="Vercel Production Deployment" />
     </a>
-    <a href="https://github.com/chintadavasudharini/RamNarayanaBrahmanaSevaSamstha/stargazers">
-      <img src="https://img.shields.io/github/stars/chintadavasudharini/RamNarayanaBrahmanaSevaSamstha?style=for-the-badge&logo=github&color=D4AF37&labelColor=1a1a1a" alt="GitHub Stars" />
+    <a href="https://github.com/ramnarayanabrahmanaseva/RamNarayanaBrahmanaSevaSamstha/stargazers">
+      <img src="https://img.shields.io/github/stars/ramnarayanabrahmanaseva/RamNarayanaBrahmanaSevaSamstha?style=for-the-badge&logo=github&color=D4AF37&labelColor=1a1a1a" alt="GitHub Stars" />
     </a>
-    <a href="https://github.com/chintadavasudharini/RamNarayanaBrahmanaSevaSamstha/network/members">
-      <img src="https://img.shields.io/github/forks/chintadavasudharini/RamNarayanaBrahmanaSevaSamstha?style=for-the-badge&logo=github&color=851317&labelColor=1a1a1a" alt="GitHub Forks" />
+    <a href="https://github.com/ramnarayanabrahmanaseva/RamNarayanaBrahmanaSevaSamstha/network/members">
+      <img src="https://img.shields.io/github/forks/ramnarayanabrahmanaseva/RamNarayanaBrahmanaSevaSamstha?style=for-the-badge&logo=github&color=851317&labelColor=1a1a1a" alt="GitHub Forks" />
     </a>
-    <a href="https://github.com/chintadavasudharini/RamNarayanaBrahmanaSevaSamstha/blob/main/LICENSE">
+    <a href="https://github.com/ramnarayanabrahmanaseva/RamNarayanaBrahmanaSevaSamstha/blob/main/LICENSE">
       <img src="https://img.shields.io/badge/License-MIT-gold?style=for-the-badge&labelColor=1a1a1a" alt="MIT License" />
     </a>
   </p>
@@ -254,7 +254,7 @@ function setLanguage(lang) {
 |:---|:---|:---|:---|
 | `[data-i18n]` | `Element.textContent` | UI Labels, Headings, Paragraphs | Navigation links, badge labels |
 | `[data-i18n-html]` | `Element.innerHTML` | Formatted Copy, Spans, Emphases | Hero subheadings with styled text |
-| `[data-i18n-src]` | `HTMLImageElement.src` | Localized Graphic Media | Dynamic switching between `flyer-te.jpg` & `flyer-en.jpg` |
+| `[data-i18n-src]` | `HTMLImageElement.src` | Localized Graphic Media | Dynamic switching between `flyer-te.png` & `flyer-en.png` |
 | `[data-i18n-alt]` | `HTMLImageElement.alt` | Screen Reader Accessibility | Screen reader announcements in Telugu vs. English |
 
 ---
@@ -413,13 +413,11 @@ RamNarayanaBrahmanaSevaSamstha/
 │   │   └── style.css            # Master stylesheet: CSS variables, clamp() typography,
 │   │                            # glassmorphism cards, and responsive media rules
 │   ├── 📁 images/
-│   │   ├── banner-new.jpg       # High-res official banner & social OpenGraph cover
-│   │   ├── card-cream.jpg       # Authentic visiting card asset (lightbox enabled)
-│   │   ├── flyer-en.jpg         # Localized English ceremonial brochure
-│   │   ├── flyer-te.jpg         # Localized Telugu ceremonial brochure
-│   │   ├── logo.jpg             # Master circular emblem (Omkara & Golden Rim)
-│   │   ├── pamphlet.jpg         # High-resolution credentials & Shastric pamphlet
-│   │   └── pamphlet.png         # Transparent emblem icon
+│   │   ├── banner-new.png       # High-res official banner & social OpenGraph cover
+│   │   ├── card-cream.png       # Authentic visiting card asset (lightbox enabled)
+│   │   ├── flyer-en.png         # Localized English ceremonial brochure
+│   │   ├── flyer-te.png         # Localized Telugu ceremonial brochure
+│   │   └── logo.png             # Master circular emblem (Omkara & Golden Rim)
 │   └── 📁 js/
 │       ├── app.js               # Reactive i18n controller, lightbox state machine,
 │       │                        # dropdown handlers, and mobile drawer coordinator
@@ -440,7 +438,7 @@ Because this codebase is intentionally engineered without fragile build steps, b
 ### 1️⃣ Clone the Repository
 
 ```bash
-git clone https://github.com/chintadavasudharini/RamNarayanaBrahmanaSevaSamstha.git
+git clone https://github.com/ramnarayanabrahmanaseva/RamNarayanaBrahmanaSevaSamstha.git
 cd RamNarayanaBrahmanaSevaSamstha
 ```
 
