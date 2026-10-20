@@ -27,7 +27,7 @@ const translations = {
 
     // Hero Section
     pill_loc: "దిల్‌సుఖ్‌నగర్, హైదరాబాద్",
-    hero_badge: "• పితృ సేవ",
+    hero_badge: "• సంప్రదాయం  • భక్తి  • సేవ",
     hero_founder: "ప్రొ॥ నంబూరి ఆదినారాయణ శర్మ",
     hero_est: "EST. 2026 | రామ్ నారాయణ బ్రాహ్మణ సేవా సంస్థ",
     hero_title_main: "రామ్ నారాయణ బ్రాహ్మణ సేవా సంస్థ",
