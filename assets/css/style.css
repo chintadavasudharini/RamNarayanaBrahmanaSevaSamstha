@@ -215,25 +215,27 @@ html[lang="te"] .contact-item p,
    and provides enhanced font size and rich readability across all screens.
    ========================================================================== */
 html[lang="te"] {
-  font-size: 18px;
+  font-size: 18.5px;
   letter-spacing: normal;
 }
 
 @media (min-width: 1200px) {
   html[lang="te"] {
+    font-size: 19px;
+  }
+}
+
+/* Tablet Devices (iPads, Android Tablets) */
+@media (min-width: 601px) and (max-width: 991px) {
+  html[lang="te"] {
     font-size: 18.5px;
   }
 }
 
-@media (min-width: 601px) and (max-width: 991px) {
-  html[lang="te"] {
-    font-size: 17.5px;
-  }
-}
-
+/* Mobile Devices (iPhones, Android Phones, Small Screens) */
 @media (max-width: 600px) {
   html[lang="te"] {
-    font-size: 16.5px;
+    font-size: 18px;
   }
 }
 
@@ -470,8 +472,26 @@ html[lang="te"] .contact-item p {
     line-height: 1.25;
   }
   html[lang="te"] .hero-headline {
-    font-size: clamp(1.35rem, 5.4vw, 1.95rem) !important;
-    line-height: 1.35;
+    font-size: clamp(1.5rem, 5.8vw, 2.15rem) !important;
+    line-height: 1.34;
+  }
+  html[lang="te"] .brand-title {
+    font-size: clamp(0.85rem, 3.6vw, 1.15rem);
+    line-height: 1.34;
+  }
+  html[lang="te"] .section-title {
+    font-size: clamp(1.78rem, 5.8vw, 2.35rem);
+    line-height: 1.36;
+  }
+  html[lang="te"] .drawer-nav-item {
+    font-size: 1.25rem;
+    padding: 0.65rem 0.5rem;
+  }
+  html[lang="te"] .btn-primary,
+  html[lang="te"] .btn-secondary,
+  html[lang="te"] .btn-whatsapp,
+  html[lang="te"] .btn-location-glass {
+    font-size: 1.12rem;
   }
   .hero-tagline-motto {
     font-size: clamp(0.95rem, 3.6vw, 1.18rem);
