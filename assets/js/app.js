@@ -1,3 +1,22 @@
+const whatsappMessages = {
+  te: {
+    general: "నమస్కారం రామ్ నారాయణ బ్రాహ్మణ సేవా సంస్థ,\n\nనేను మీ సేవల గురించి తెలుసుకోవాలనుకుంటున్నాను.",
+    masikam: "నమస్కారం రామ్ నారాయణ బ్రాహ్మణ సేవా సంస్థ,\n\nమాసికం శ్రాద్ధ కర్మ నిర్వహణ వివరాలు తెలుసుకోవాలనుకుంటున్నాను.",
+    samvatsarikam: "నమస్కారం రామ్ నారాయణ బ్రాహ్మణ సేవా సంస్థ,\n\nసంవత్సరికం శ్రాద్ధ నిర్వహణ వివరాలు తెలుసుకోవాలనుకుంటున్నాను.",
+    abdikam: "నమస్కారం రామ్ నారాయణ బ్రాహ్మణ సేవా సంస్థ,\n\nఆబ్దికం శ్రాద్ధ నిర్వహణ వివరాలు తెలుసుకోవాలనుకుంటున్నాను.",
+    pinda: "నమస్కారం రామ్ నారాయణ బ్రాహ్మణ సేవా సంస్థ,\n\nపిండప్రదానం శ్రాద్ధ నిర్వహణ వివరాలు తెలుసుకోవాలనుకుంటున్నాను.",
+    promise: "నమస్కారం రామ్ నారాయణ బ్రాహ్మణ సేవా సంస్థ,\n\nపితృకార్యాల నిర్వహణ వివరాలు తెలుసుకోవాలనుకుంటున్నాను."
+  },
+  en: {
+    general: "Namaskaram Ram Narayana Brahmana Seva Samstha,\n\nI would like to inquire about your ancestral services.",
+    masikam: "Namaskaram Ram Narayana Brahmana Seva Samstha,\n\nI would like to inquire about Masikam ritual arrangements.",
+    samvatsarikam: "Namaskaram Ram Narayana Brahmana Seva Samstha,\n\nI would like to inquire about Samvatsarikam ritual arrangements.",
+    abdikam: "Namaskaram Ram Narayana Brahmana Seva Samstha,\n\nI would like to inquire about Abdikam ritual arrangements.",
+    pinda: "Namaskaram Ram Narayana Brahmana Seva Samstha,\n\nI would like to inquire about Pinda Pradanam ritual arrangements.",
+    promise: "Namaskaram Ram Narayana Brahmana Seva Samstha,\n\nI would like to inquire about complete ancestral ritual management."
+  }
+};
+
 /**
  * Main Application Logic for Ram Narayana Brahmana Seva Samstha / Matham
  * Features:
@@ -124,6 +143,23 @@ function setLanguage(lang) {
       el.placeholder = dict[key];
     }
   });
+
+  // Update WhatsApp link messages based on language
+  document.querySelectorAll('a[data-wa-type]').forEach(link => {
+    const type = link.getAttribute('data-wa-type');
+    const msg = (whatsappMessages[lang] && whatsappMessages[lang][type]) || whatsappMessages.te[type];
+    if (msg) {
+      link.href = `https://wa.me/917780223977?text=${encodeURIComponent(msg)}`;
+    }
+  });
+
+  // Update meta description dynamically
+  const metaDesc = document.querySelector('meta[name="description"]');
+  if (metaDesc) {
+    metaDesc.content = lang === 'te' 
+      ? "హైదరాబాద్ దిల్‌సుఖ్‌నగర్‌లో రామ్ నారాయణ బ్రాహ్మణ సేవా సంస్థ. వేదోక్తంగా, శాస్త్రోక్తంగా నిర్వహించే పితృకార్యాలు - మాసికం, సంవత్సరికం, ఆబ్దికం, పిండప్రదానం."
+      : "Ram Narayana Brahmana Seva Samstha in Dilsukhnagar, Hyderabad. Authentic Vedic ancestral rituals - Masikam, Samvatsarikam, Abdikam, Pinda Pradanam conducted strictly as per Shastras.";
+  }
 
   // Update language trigger text & active options
   document.querySelectorAll('.lang-btn-text').forEach(el => {
@@ -400,7 +436,8 @@ function initRitualForm() {
       }
     }
     const tithi = document.getElementById('rf_tithi')?.value.trim() || '__________';
-    const masikamMonth = document.getElementById('rf_masikam_month')?.value || '__________';
+    const monthEl = document.getElementById('rf_masikam_month');
+    const masikamMonth = (monthEl && monthEl.selectedIndex > 0) ? monthEl.options[monthEl.selectedIndex].text.trim() : '__________';
     const gotram = document.getElementById('rf_gotram')?.value.trim() || '__________';
     const kartha = document.getElementById('rf_kartha')?.value.trim() || '__________';
     const attendees = document.getElementById('rf_attendees')?.value.trim() || '__________';
