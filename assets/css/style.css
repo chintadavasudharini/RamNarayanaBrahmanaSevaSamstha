@@ -2136,7 +2136,7 @@ html[lang="te"] .service-sub-label {
   background: var(--bg-card);
   border: 1.5px solid var(--border-gold);
   border-radius: var(--radius-lg);
-  padding: 1.85rem 1.5rem;
+  padding: 1.75rem clamp(0.75rem, 1.3vw, 1.35rem);
   box-shadow: var(--shadow-sm);
   display: flex;
   flex-direction: column;
@@ -2168,7 +2168,7 @@ html[lang="te"] .service-sub-label {
 
 .diff-card-title {
   font-family: var(--font-heading);
-  font-size: 1.25rem;
+  font-size: 1.18rem;
   font-weight: 800;
   color: var(--color-primary);
   margin-bottom: 0.65rem;
@@ -2176,7 +2176,14 @@ html[lang="te"] .service-sub-label {
 }
 
 html[lang="te"] .diff-card-title {
-  font-size: 1.35rem;
+  font-size: clamp(0.85rem, 1.22vw, 1.16rem);
+  white-space: nowrap !important;
+}
+
+@media (max-width: 768px) {
+  html[lang="te"] .diff-card-title {
+    font-size: clamp(0.76rem, 3.8vw, 1.08rem);
+  }
 }
 
 .diff-card-when {
