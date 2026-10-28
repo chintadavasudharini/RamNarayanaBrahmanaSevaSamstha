@@ -144,12 +144,12 @@ const translations = {
     diff_card3_step: "ఆ తర్వాత → ఆబ్దికం",
     diff_card3_when: "ప్రతి సంవత్సరం, తిథి రోజున",
     diff_card3_why: "పితృదేవతల శాంతి, శ్రేయస్సు కోసం ప్రతి ఏటా చేసే శ్రాద్ధ కర్మ.",
-    remember_title: "గుర్తుంచుకోండి:",
+    remember_title: "గుర్తుంచుకోండి",
     remember_1: "మాసికం:<br>మొదటి సంవత్సరం ప్రతి నెలా",
     remember_2: "సంవత్సరికం:<br>సంవత్సరం పూర్తయ్యాక ఒక్కసారి",
     remember_3: "ఆ తర్వాత ప్రతి ఏటా:<br>ఆబ్దికం",
     promise_title: "మిగతాది మేము చూసుకుంటాము 🙏",
-    promise_desc: "హైదరాబాద్ దిల్‌సుఖ్‌నగర్ సంస్థలో అనుభవజ్ఞులైన వేద పండితులు, సత్ బ్రాహ్మణ భోక్తలు, సమగ్ర పూజా సామాగ్రి మరియు పరిశుభ్రమైన సాత్విక భోజనంతో<br>— సంపూర్ణ ఏర్పాట్లు మేము చూసుకుంటాము.",
+    promise_desc: "హైదరాబాద్ దిల్సుఖ్నగర్ సంస్థలో అనుభవజ్ఞులైన వేద పండితులు, సత్ బ్రాహ్మణ భోక్తలు, సమగ్ర పూజా సామాగ్రి మరియు పరిశుభ్రమైన సాత్విక భోజనంతో — సంపూర్ణ ఏర్పాట్లు మేము చూసుకుంటాము.",
 
     // 5. Why Do It? Benefits (ఎందుకు చేయాలి? ప్రయోజనాలు)
     benefits_badge: "పితృ కర్మల విశిష్టత",
@@ -450,7 +450,7 @@ const translations = {
     diff_card3_step: "Every Year After Samvatsarikam → Abdikam",
     diff_card3_when: "Every year on the ancestral lunar tithi",
     diff_card3_why: "Annual Vedic rite performed for ancestral peace, blessings, and family prosperity.",
-    remember_title: "Key Points to Remember:",
+    remember_title: "Key Points to Remember",
     remember_1: "Masikam:<br>Every month during the first year",
     remember_2: "Samvatsarikam:<br>Once upon completion of the year",
     remember_3: "Abdikam:<br>Every year thereafter",
