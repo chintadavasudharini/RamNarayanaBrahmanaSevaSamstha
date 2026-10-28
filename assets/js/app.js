@@ -1,19 +1,19 @@
 const whatsappMessages = {
   te: {
-    general: "నమస్కారం రామ్ నారాయణ బ్రాహ్మణ సేవా సంస్థ,\n\nనేను మీ సేవల గురించి తెలుసుకోవాలనుకుంటున్నాను.",
-    masikam: "నమస్కారం రామ్ నారాయణ బ్రాహ్మణ సేవా సంస్థ,\n\nమాసికం శ్రాద్ధ కర్మ నిర్వహణ వివరాలు తెలుసుకోవాలనుకుంటున్నాను.",
-    samvatsarikam: "నమస్కారం రామ్ నారాయణ బ్రాహ్మణ సేవా సంస్థ,\n\nసంవత్సరికం శ్రాద్ధ నిర్వహణ వివరాలు తెలుసుకోవాలనుకుంటున్నాను.",
-    abdikam: "నమస్కారం రామ్ నారాయణ బ్రాహ్మణ సేవా సంస్థ,\n\nఆబ్దికం శ్రాద్ధ నిర్వహణ వివరాలు తెలుసుకోవాలనుకుంటున్నాను.",
-    pinda: "నమస్కారం రామ్ నారాయణ బ్రాహ్మణ సేవా సంస్థ,\n\nపిండప్రదానం శ్రాద్ధ నిర్వహణ వివరాలు తెలుసుకోవాలనుకుంటున్నాను.",
-    promise: "నమస్కారం రామ్ నారాయణ బ్రాహ్మణ సేవా సంస్థ,\n\nపితృకార్యాల నిర్వహణ వివరాలు తెలుసుకోవాలనుకుంటున్నాను."
+    general: "నమస్కారం రామ్ నారాయణ బ్రాహ్మణ సేవా సంస్థ (దిల్సుఖ్నగర్),\n\nనేను మీ సేవల గురించి తెలుసుకోవాలనుకుంటున్నాను.",
+    masikam: "నమస్కారం రామ్ నారాయణ బ్రాహ్మణ సేవా సంస్థ (దిల్సుఖ్నగర్),\n\nమాసికం శ్రాద్ధ కర్మ నిర్వహణ వివరాలు తెలుసుకోవాలనుకుంటున్నాను.",
+    samvatsarikam: "నమస్కారం రామ్ నారాయణ బ్రాహ్మణ సేవా సంస్థ (దిల్సుఖ్నగర్),\n\nసంవత్సరికం శ్రాద్ధ నిర్వహణ వివరాలు తెలుసుకోవాలనుకుంటున్నాను.",
+    abdikam: "నమస్కారం రామ్ నారాయణ బ్రాహ్మణ సేవా సంస్థ (దిల్సుఖ్నగర్),\n\nఆబ్దికం శ్రాద్ధ నిర్వహణ వివరాలు తెలుసుకోవాలనుకుంటున్నాను.",
+    pinda: "నమస్కారం రామ్ నారాయణ బ్రాహ్మణ సేవా సంస్థ (దిల్సుఖ్నగర్),\n\nపిండప్రదానం శ్రాద్ధ నిర్వహణ వివరాలు తెలుసుకోవాలనుకుంటున్నాను.",
+    promise: "నమస్కారం రామ్ నారాయణ బ్రాహ్మణ సేవా సంస్థ (దిల్సుఖ్నగర్),\n\nపితృకార్యాల నిర్వహణ వివరాలు తెలుసుకోవాలనుకుంటున్నాను."
   },
   en: {
-    general: "Namaskaram Ram Narayana Brahmana Seva Samstha,\n\nI would like to inquire about your ancestral services.",
-    masikam: "Namaskaram Ram Narayana Brahmana Seva Samstha,\n\nI would like to inquire about Masikam ritual arrangements.",
-    samvatsarikam: "Namaskaram Ram Narayana Brahmana Seva Samstha,\n\nI would like to inquire about Samvatsarikam ritual arrangements.",
-    abdikam: "Namaskaram Ram Narayana Brahmana Seva Samstha,\n\nI would like to inquire about Abdikam ritual arrangements.",
-    pinda: "Namaskaram Ram Narayana Brahmana Seva Samstha,\n\nI would like to inquire about Pinda Pradanam ritual arrangements.",
-    promise: "Namaskaram Ram Narayana Brahmana Seva Samstha,\n\nI would like to inquire about complete ancestral ritual management."
+    general: "Namaskaram Ram Narayana Brahmana Seva Samstha (Dilsukhnagar),\n\nI would like to inquire about your ancestral services.",
+    masikam: "Namaskaram Ram Narayana Brahmana Seva Samstha (Dilsukhnagar),\n\nI would like to inquire about Masikam ritual arrangements.",
+    samvatsarikam: "Namaskaram Ram Narayana Brahmana Seva Samstha (Dilsukhnagar),\n\nI would like to inquire about Samvatsarikam ritual arrangements.",
+    abdikam: "Namaskaram Ram Narayana Brahmana Seva Samstha (Dilsukhnagar),\n\nI would like to inquire about Abdikam ritual arrangements.",
+    pinda: "Namaskaram Ram Narayana Brahmana Seva Samstha (Dilsukhnagar),\n\nI would like to inquire about Pinda Pradanam ritual arrangements.",
+    promise: "Namaskaram Ram Narayana Brahmana Seva Samstha (Dilsukhnagar),\n\nI would like to inquire about complete ancestral ritual management."
   }
 };
 
@@ -157,7 +157,7 @@ function setLanguage(lang) {
   const metaDesc = document.querySelector('meta[name="description"]');
   if (metaDesc) {
     metaDesc.content = lang === 'te' 
-      ? "హైదరాబాద్ దిల్‌సుఖ్‌నగర్‌లో రామ్ నారాయణ బ్రాహ్మణ సేవా సంస్థ. వేదోక్తంగా, శాస్త్రోక్తంగా నిర్వహించే పితృకార్యాలు - మాసికం, సంవత్సరికం, ఆబ్దికం, పిండప్రదానం."
+      ? "హైదరాబాద్ దిల్సుఖ్నగర్‌లో రామ్ నారాయణ బ్రాహ్మణ సేవా సంస్థ. వేదోక్తంగా, శాస్త్రోక్తంగా నిర్వహించే పితృకార్యాలు - మాసికం, సంవత్సరికం, ఆబ్దికం, పిండప్రదానం."
       : "Ram Narayana Brahmana Seva Samstha in Dilsukhnagar, Hyderabad. Authentic Vedic ancestral rituals - Masikam, Samvatsarikam, Abdikam, Pinda Pradanam conducted strictly as per Shastras.";
   }
 
@@ -463,7 +463,7 @@ Details Required for Ancestral Rituals:
 We kindly request you to review the above details and guide us with the procedure, auspicious date/time, dakshina, and arrangements.
 
 🙏 Dhanyavadhalu.
-Ram Narayana Brahmana Seva Samstha`;
+Ram Narayana Brahmana Seva Samstha - Dilsukhnagar`;
     } else {
       return `🙏 నమస్కారం.
 
@@ -483,7 +483,7 @@ Ram Narayana Brahmana Seva Samstha`;
 మీరు అందించిన వివరాలను పరిశీలించిన అనంతరం, మీ కర్మకు అనుగుణంగా కర్మ విధానం, తేదీ, సమయం, స్థలం, ఖర్చు మరియు ఇతర అవసరమైన ఏర్పాట్లకు సంబంధించిన పూర్తి వివరాలను మాకు తెలియజేయగలరు.
 
 🙏 ధన్యవాదాలు.
-రామ్ నారాయణ బ్రాహ్మణ సేవా సంస్థ`;
+రామ్ నారాయణ బ్రాహ్మణ సేవా సంస్థ - దిల్సుఖ్నగర్`;
     }
   }
 
