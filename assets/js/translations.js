@@ -26,7 +26,7 @@ const translations = {
     drawer_call_cta: "📞 +91 77802 23977",
 
     // Hero Section
-    pill_loc: "దిల్‌సుఖ్‌నగర్, హైదరాబాద్",
+    pill_loc: "దిల్‌సుఖ్‌నగర్, హైదరాబాద్.",
     hero_badge: "• సంప్రదాయం  • భక్తి  • సేవ",
     hero_founder: "నంబూరి ఆదినారాయణ శర్మ",
     hero_est: "స్థాపన 2026 | రామ్ నారాయణ బ్రాహ్మణ సేవా సంస్థ",
@@ -89,7 +89,7 @@ const translations = {
     srv_masikam_next_label: "తర్వాత ఏమి చేయాలి?",
     srv_masikam_step1: "మొదటి సంవత్సరం: ప్రతి నెలా మాసికం",
     srv_masikam_step2: "సంవత్సరం పూర్తయ్యాక: సంవత్సరికం (ఒక్కసారి)",
-    srv_masikam_step3: "ఆ తర్వాత ప్రతి ఏటా: ఆబ్దికం",
+    srv_masikam_step3: "సంవత్సరికం అనంతరం ప్రతి సంవత్సరం: ఆబ్దికం (వార్షిక శ్రాద్ధం)",
 
     // 2. Samvatsarikam
     srv_samvatsarikam_badge: "02",
@@ -100,7 +100,7 @@ const translations = {
     srv_samvatsarikam_next_label: "ఈ క్రమం తెలుసా?",
     srv_samvatsarikam_step1: "మొదటి సంవత్సరం: ప్రతి నెలా మాసికం",
     srv_samvatsarikam_step2: "సంవత్సరం పూర్తయ్యాక: సంవత్సరికం (ఒక్కసారి)",
-    srv_samvatsarikam_step3: "ఆ తర్వాత ప్రతి ఏటా: ఆబ్దికం",
+    srv_samvatsarikam_step3: "సంవత్సరికం అనంతరం ప్రతి సంవత్సరం: ఆబ్దికం (వార్షిక శ్రాద్ధం)",
 
     // 3. Abdikam
     srv_abdikam_badge: "03",
@@ -331,7 +331,7 @@ const translations = {
     drawer_call_cta: "📞 +91 77802 23977",
 
     // Hero Section
-    pill_loc: "Dilsukhnagar, Hyderabad",
+    pill_loc: "Dilsukhnagar, Hyderabad.",
     hero_badge: "• Tradition • Devotion • Service",
     hero_founder: "Namburi Adinarayana Sharma",
     hero_est: "EST. 2026 | Ram Narayana Brahmana Seva Samstha",
@@ -394,7 +394,7 @@ const translations = {
     srv_masikam_next_label: "What to do next?",
     srv_masikam_step1: "First Year: Monthly Masikam",
     srv_masikam_step2: "After 1 Year: Samvatsarikam (Performed once)",
-    srv_masikam_step3: "Every Year After That: Abdikam (Annual Shraddha)",
+    srv_masikam_step3: "Every Year After Samvatsarikam: Abdikam (Annual Shraddha)",
 
     // 2. Samvatsarikam
     srv_samvatsarikam_badge: "02",
@@ -405,7 +405,7 @@ const translations = {
     srv_samvatsarikam_next_label: "Do you know the sequence?",
     srv_samvatsarikam_step1: "First Year: Monthly Masikam",
     srv_samvatsarikam_step2: "After 1 Year: Samvatsarikam (Performed once)",
-    srv_samvatsarikam_step3: "Every Year After That: Abdikam (Annual Shraddha)",
+    srv_samvatsarikam_step3: "Every Year After Samvatsarikam: Abdikam (Annual Shraddha)",
 
     // 3. Abdikam
     srv_abdikam_badge: "03",
