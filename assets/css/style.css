@@ -548,6 +548,37 @@ html[lang="te"] .contact-item p {
   white-space: normal;
 }
 
+@media (max-width: 768px) {
+  .sacred-top-bar {
+    padding: 0.5rem 0.75rem;
+  }
+
+  .top-bar-left {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.28rem;
+    width: 100%;
+    text-align: center;
+  }
+
+  .sacred-chant {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: clamp(0.82rem, 3.2vw, 0.92rem);
+  }
+
+  .sacred-motto {
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-size: clamp(0.75rem, 2.9vw, 0.85rem);
+    line-height: 1.35;
+  }
+}
+
 /* ==========================================================================
    4. Main Sticky Header & Navigation
    ========================================================================== */
