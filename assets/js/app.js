@@ -153,12 +153,24 @@ function setLanguage(lang) {
     }
   });
 
-  // Update meta description dynamically
+  // Update meta tags dynamically
   const metaDesc = document.querySelector('meta[name="description"]');
   if (metaDesc) {
     metaDesc.content = lang === 'te' 
       ? "హైదరాబాద్ దిల్సుఖ్నగర్‌లో రామ్ నారాయణ బ్రాహ్మణ సేవా సంస్థ. వేదోక్తంగా, శాస్త్రోక్తంగా నిర్వహించే పితృకార్యాలు - మాసికం, సంవత్సరికం, ఆబ్దికం, పిండప్రదానం."
       : "Ram Narayana Brahmana Seva Samstha in Dilsukhnagar, Hyderabad. Authentic Vedic ancestral rituals - Masikam, Samvatsarikam, Abdikam, Pinda Pradanam conducted strictly as per Shastras.";
+  }
+  const ogDesc = document.querySelector('meta[property="og:description"]');
+  if (ogDesc) {
+    ogDesc.content = lang === 'te'
+      ? "• సంప్రదాయం • భక్తి • సేవ - బ్రాహ్మణ పితృ కార్యముల నిర్వహణ సంస్థ. దిల్సుఖ్నగర్, హైదరాబాద్. Call: +91 7780223977, +91 8790323977"
+      : "• Tradition • Devotion • Service - Brahmin Ancestral Rituals Organization. Dilsukhnagar, Hyderabad. Call: +91 7780223977, +91 8790323977";
+  }
+  const ogTitle = document.querySelector('meta[property="og:title"]');
+  if (ogTitle) {
+    ogTitle.content = lang === 'te'
+      ? "రామ్ నారాయణ బ్రాహ్మణ సేవా సంస్థ - దిల్సుఖ్నగర్, హైదరాబాద్"
+      : "Ram Narayana Brahmana Seva Samstha - Dilsukhnagar, Hyderabad";
   }
 
   // Update language trigger text & active options
