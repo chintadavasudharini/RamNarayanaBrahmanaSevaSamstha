@@ -77,6 +77,10 @@ const translations = {
     btn_service_inquire: "వాట్సాప్‌లో విచారణ →",
 
     // 1. Masikam
+    nav_srv_masikam: "1. మాసికం",
+    nav_srv_samvatsarikam: "2. సంవత్సరికం",
+    nav_srv_abdikam: "3. ఆబ్దికం",
+    nav_srv_pinda: "4. పిండప్రదానం",
     srv_masikam_badge: "01",
     srv_masikam_hook: "ఇంట్లో పెద్దలు కాలం చేశారా? / మొదటి సంవత్సరం ప్రతి నెల మాసికం చేయాలని తెలుసా?",
     srv_masikam_name: "1. మాసికం",
@@ -308,9 +312,13 @@ const translations = {
     btn_service_inquire: "Inquire via WhatsApp →",
 
     // 1. Masikam
+    nav_srv_masikam: "1. Masikam",
+    nav_srv_samvatsarikam: "2. Samvatsarikam",
+    nav_srv_abdikam: "3. Abdikam",
+    nav_srv_pinda: "4. Pinda Pradanam",
     srv_masikam_badge: "01",
-    srv_masikam_hook: "Did an elder in your family pass away? / Did you know Masikam must be performed every month during the first year?",
-    srv_masikam_name: "1. Masikam (Monthly Rites)",
+    srv_masikam_hook: "Did an elder in your family pass away?<br>Did you know Masikam must be performed every month during the first year?",
+    srv_masikam_name: "1. Masikam<br>(Monthly Rites – First Year Only)",
     srv_masikam_what_label: "What is Masikam?",
     srv_masikam_what_desc: "A sacred Shraddha ritual performed every month on the lunar tithi of departure throughout the first year.",
     srv_masikam_next_label: "What to do next?",
@@ -320,8 +328,8 @@ const translations = {
 
     // 2. Samvatsarikam
     srv_samvatsarikam_badge: "02",
-    srv_samvatsarikam_hook: "Did an elder in your family pass away? / Did you know Samvatsarikam must be performed upon completing the first year?",
-    srv_samvatsarikam_name: "2. Samvatsarikam (1st Year Rites)",
+    srv_samvatsarikam_hook: "Did an elder in your family pass away?<br>Did you know Samvatsarikam must be performed upon completing the first year?",
+    srv_samvatsarikam_name: "2. Samvatsarikam<br>(First-Year Completion Rites)",
     srv_samvatsarikam_what_label: "What is Samvatsarikam?",
     srv_samvatsarikam_what_desc: "A sacred Shraddha ritual performed only once on the tithi upon completing the first year of departure.",
     srv_samvatsarikam_next_label: "Do you know the sequence?",
@@ -332,7 +340,7 @@ const translations = {
     // 3. Abdikam
     srv_abdikam_badge: "03",
     srv_abdikam_hook: "Are you planning to perform Abdikam for your departed ancestors?",
-    srv_abdikam_name: "3. Abdikam (Annual Shraddha)",
+    srv_abdikam_name: "3. Abdikam<br>(Annual Shraddha – Every Year After Samvatsarikam)",
     srv_abdikam_what_label: "What is Abdikam?",
     srv_abdikam_what_desc: "A Vedic Shraddha ritual performed once every year on the ancestral lunar tithi.",
     srv_abdikam_next_label: "Why perform it? For ancestral peace & family prosperity:",
@@ -342,8 +350,8 @@ const translations = {
 
     // 4. Pinda Pradanam
     srv_pinda_badge: "04",
-    srv_pinda_hook: "What is Pinda Pradanam? Why and when is it performed?",
-    srv_pinda_name: "4. Pinda Pradanam (Sacred Rice Offerings)",
+    srv_pinda_hook: "What is Pinda Pradanam?<br>Why and when is it performed?",
+    srv_pinda_name: "4. Pinda Pradanam<br>(Sacred Rice Offerings)",
     srv_pinda_what_label: "What is Pinda Pradanam?",
     srv_pinda_what_desc: "A sacred Shraddha ceremony where cooked rice mixed with black sesame seeds is formed into balls (Pindas), placed upon holy Darbha grass, and offered to departed ancestors with Vedic mantras. \"Pindam\" means morsel/offering, and \"Pradanam\" means devout dedication.",
     srv_pinda_why_label: "Why is it performed?",
@@ -368,7 +376,7 @@ const translations = {
     diff_card2_when: "Only once on the tithi upon completing the first year",
     diff_card2_why: "Solemn ritual performed by the family commemorating completion of the first year.",
     diff_badge_step3: "Step 3",
-    diff_card3_step: "Every Year After That → Abdikam",
+    diff_card3_step: "Every Year After Samvatsarikam → Abdikam",
     diff_card3_when: "Every year on the ancestral lunar tithi",
     diff_card3_why: "Annual Vedic rite performed for ancestral peace, blessings, and family prosperity.",
     remember_title: "Key Points to Remember:",
@@ -380,16 +388,16 @@ const translations = {
 
     // 5. Why Do It? Benefits
     benefits_badge: "Spiritual Significance",
-    benefits_title: "Why should we perform rituals for our ancestors?",
+    benefits_title: "Why should we perform rituals<br>for<br>our ancestors?",
     benefits_sub: "A sacred duty to express eternal gratitude to our ancestors who gave us birth, nurtured us, and instilled sacred values.",
     ben_ctx_title: "Importance of the Rites:",
-    ben_ctx_masikam_title: "Masikam (First year, every month)",
+    ben_ctx_masikam_title: "Masikam<br>(First Year, Every Month)",
     ben_ctx_masikam_desc: "A devout monthly homage offered for the peace and satisfaction of the departed soul.",
-    ben_ctx_samvat_title: "Samvatsarikam (After 1 year, performed once)",
+    ben_ctx_samvat_title: "Samvatsarikam<br>(After 1 Year, Performed Once)",
     ben_ctx_samvat_desc: "A sacred ritual performed devoutly by the whole family marking 1st year completion.",
-    ben_ctx_abdikam_title: "Abdikam (Every year)",
+    ben_ctx_abdikam_title: "Abdikam<br>(Every Year After Samvatsarikam)",
     ben_ctx_abdikam_desc: "Remembering our ancestors annually on their tithi to seek their divine protection and blessings.",
-    benefits_pillars_title: "Benefits (According to Vedic Shastra):",
+    benefits_pillars_title: "Benefits<br>(According to Vedic Shastra)",
     ben_1_title: "Ancestral Peace & Eternal Blessings",
     ben_1_desc: "Rituals performed with reverence satisfy departed ancestors, bringing their protective blessings to the family.",
     ben_2_title: "Family Unity & Collective Prosperity",
@@ -401,15 +409,15 @@ const translations = {
 
     // 6. Why Choose Us (4 Key Reasons)
     why_badge: "Our Distinction",
-    why_title: "Why Choose Us for Ancestral Rituals?",
+    why_title: "Why Choose Us<br>for<br>Ancestral Rituals?",
     why_sub: "4 Key Reasons — Trusted Vedic services and complete ritual management with devotion",
-    why_1_title: "Reason 1: Experienced Vedic Pandits",
+    why_1_title: "Reason 1:<br>Experienced Vedic Pandits",
     why_1_desc: "Senior Vedic scholars conduct all rites strictly as per scripture and Agnihotra Paranam tradition.",
-    why_2_title: "Reason 2: Traditional Satvik Food",
+    why_2_title: "Reason 2:<br>Traditional Satvik Food",
     why_2_desc: "Pure, ritual-compliant ('Madi') Satvik meals prepared with devotion for Bhokthas and family.",
-    why_3_title: "Reason 3: Clean & Serene Environment",
+    why_3_title: "Reason 3:<br>Clean & Serene Environment",
     why_3_desc: "A pure, serene, and spiritually uplifting setting at our dedicated Dilsukhnagar Samstha.",
-    why_4_title: "Reason 4: Complete Management",
+    why_4_title: "Reason 4:<br>Complete Management",
     why_4_desc: "Just provide the tithi and ancestor's name; all guidance, Vedic Purohits, Bhokthas, and arrangements are handled by us.",
     srv_diff_name: "Key Differences",
 
@@ -427,7 +435,7 @@ const translations = {
 
     // Contact Section
     contact_badge: "Contact Us",
-    contact_title: "Samstha Address & Contact Details",
+    contact_title: "Samstha<br>Address & Contact<br>Details",
     contact_address_label: "Samstha Address:",
     contact_address_val: "H.No. 11-62, Ram Narayana Brahmana Seva Samstha, Pragathi Nagar Road, Sahithi Nagar, Dilsukhnagar, Hyderabad, Telangana, India - 500060.",
     contact_phone_label: "Phone Numbers (Call Us):",
