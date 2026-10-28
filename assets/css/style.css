@@ -1984,6 +1984,288 @@ section {
   box-shadow: 0 4px 14px rgba(128, 18, 22, 0.35);
 }
 
+
+/* Card Hook Tag */
+.card-hook-tag {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 0.45rem;
+  background: rgba(184, 134, 11, 0.1);
+  border: 1px solid var(--border-gold);
+  color: var(--color-primary);
+  font-size: 0.84rem;
+  font-weight: 700;
+  padding: 0.45rem 0.85rem;
+  border-radius: var(--radius-md);
+  margin-bottom: 0.85rem;
+  line-height: 1.45;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+html[lang="te"] .card-hook-tag {
+  font-size: 0.92rem;
+  line-height: 1.5;
+}
+
+.service-detail-block {
+  margin-top: 1rem;
+}
+
+.service-sub-label {
+  font-size: 0.95rem;
+  font-weight: 800;
+  color: var(--color-primary);
+  margin-bottom: 0.4rem;
+  line-height: 1.4;
+}
+
+html[lang="te"] .service-sub-label {
+  font-size: 1.05rem;
+}
+
+/* ==========================================================================
+   4. Differences Section (మాసికం, సంవత్సరికం, ఆబ్దికం... తేడా తెలుసా?)
+   ========================================================================== */
+.differences-section {
+  background: var(--bg-alt);
+  padding: clamp(3rem, 6vw, 5.5rem) 0;
+  border-top: 1px solid var(--border-light);
+  border-bottom: 1px solid var(--border-light);
+  position: relative;
+}
+
+.diff-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+@media (min-width: 768px) {
+  .diff-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.diff-card {
+  background: var(--bg-card);
+  border: 1.5px solid var(--border-gold);
+  border-radius: var(--radius-lg);
+  padding: 1.85rem 1.5rem;
+  box-shadow: var(--shadow-sm);
+  display: flex;
+  flex-direction: column;
+  transition: all var(--transition-normal);
+  position: relative;
+}
+
+.diff-card:hover {
+  transform: translateY(-6px);
+  box-shadow: var(--shadow-lg), var(--shadow-gold-glow);
+  border-color: var(--color-primary);
+}
+
+.diff-card-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  font-size: 0.78rem;
+  font-weight: 800;
+  color: var(--color-secondary);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin-bottom: 0.65rem;
+  background: rgba(184, 134, 11, 0.1);
+  padding: 0.25rem 0.65rem;
+  border-radius: var(--radius-full);
+  width: fit-content;
+}
+
+.diff-card-title {
+  font-family: var(--font-heading);
+  font-size: 1.25rem;
+  font-weight: 800;
+  color: var(--color-primary);
+  margin-bottom: 0.65rem;
+  line-height: 1.35;
+}
+
+html[lang="te"] .diff-card-title {
+  font-size: 1.35rem;
+}
+
+.diff-card-when {
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: var(--color-secondary);
+  margin-bottom: 0.65rem;
+  display: flex;
+  align-items: center;
+  gap: 0.45rem;
+  line-height: 1.4;
+}
+
+html[lang="te"] .diff-card-when {
+  font-size: 1.02rem;
+}
+
+.diff-card-purpose {
+  font-size: 0.92rem;
+  color: var(--text-muted);
+  line-height: 1.65;
+}
+
+html[lang="te"] .diff-card-purpose {
+  font-size: 0.98rem;
+}
+
+/* Remember Box */
+.remember-box {
+  background: linear-gradient(135deg, rgba(255, 248, 235, 0.98) 0%, rgba(254, 243, 219, 0.92) 100%);
+  border: 1.5px solid var(--border-gold-strong);
+  border-radius: var(--radius-lg);
+  padding: 1.35rem 1.75rem;
+  margin-bottom: 2.25rem;
+  box-shadow: var(--shadow-xs);
+}
+
+.remember-title {
+  font-family: var(--font-heading);
+  font-size: 1.15rem;
+  font-weight: 800;
+  color: var(--color-primary);
+  margin-bottom: 0.75rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+html[lang="te"] .remember-title {
+  font-size: 1.25rem;
+}
+
+.remember-items {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0.75rem;
+}
+
+@media (min-width: 680px) {
+  .remember-items {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.remember-item {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-weight: 700;
+  font-size: 0.95rem;
+  color: var(--text-main);
+  line-height: 1.4;
+}
+
+html[lang="te"] .remember-item {
+  font-size: 1.05rem;
+}
+
+.remember-item svg {
+  color: var(--color-secondary);
+  flex-shrink: 0;
+}
+
+/* Sacred Promise Banner ("మిగతాది మేము చూసుకుంటాము 🙏") */
+.promise-banner {
+  background: linear-gradient(135deg, #4A080B 0%, #801216 50%, #4A080B 100%);
+  color: #FFFFFF;
+  border: 2px solid var(--border-gold);
+  border-radius: var(--radius-xl);
+  padding: clamp(1.75rem, 4vw, 2.75rem);
+  text-align: center;
+  box-shadow: 0 12px 35px rgba(0, 0, 0, 0.3);
+  position: relative;
+  overflow: hidden;
+}
+
+.promise-title {
+  font-family: var(--font-heading);
+  font-size: clamp(1.4rem, 3.2vw, 2.35rem);
+  font-weight: 900;
+  color: #FFE082;
+  margin-bottom: 0.75rem;
+  text-shadow: 0 2px 12px rgba(0, 0, 0, 0.5);
+}
+
+.promise-desc {
+  font-size: clamp(0.95rem, 1.6vw, 1.15rem);
+  color: #FFF8E7;
+  max-width: 780px;
+  margin: 0 auto 1.65rem;
+  line-height: 1.75;
+}
+
+html[lang="te"] .promise-desc {
+  font-size: clamp(1.02rem, 1.8vw, 1.22rem);
+  line-height: 1.8;
+}
+
+.promise-actions {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+/* Benefits Ritual Context Banner */
+.benefits-rituals-context {
+  background: var(--bg-card);
+  border: 1.5px solid var(--border-gold);
+  border-radius: var(--radius-lg);
+  padding: 1.35rem 1.5rem;
+  margin-bottom: 2.5rem;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.25rem;
+  box-shadow: var(--shadow-xs);
+}
+
+@media (min-width: 768px) {
+  .benefits-rituals-context {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.benefit-context-item {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  border-left: 3.5px solid var(--color-secondary);
+  padding-left: 1rem;
+}
+
+.benefit-context-title {
+  font-weight: 800;
+  color: var(--color-primary);
+  font-size: 1.02rem;
+  line-height: 1.4;
+}
+
+html[lang="te"] .benefit-context-title {
+  font-size: 1.12rem;
+}
+
+.benefit-context-desc {
+  font-size: 0.92rem;
+  color: var(--text-muted);
+  line-height: 1.65;
+}
+
+html[lang="te"] .benefit-context-desc {
+  font-size: 0.98rem;
+}
+
 /* ==========================================================================
    10. Spiritual Significance / Benefits Section (6 Pillars)
    ========================================================================== */
@@ -3136,6 +3418,27 @@ html, body {
   html[lang="te"] .drawer-nav-item {
     font-size: 1.25rem !important;
     padding: 0.65rem 0.5rem !important;
+  }
+
+  .diff-card {
+    padding: 1.35rem 1.15rem !important;
+  }
+  .remember-box {
+    padding: 1.15rem 1rem !important;
+  }
+  .promise-banner {
+    padding: 1.5rem 1rem !important;
+  }
+  .benefits-rituals-context {
+    padding: 1rem 0.85rem !important;
+    gap: 1rem !important;
+  }
+  .card-hook-tag {
+    font-size: 0.82rem !important;
+    padding: 0.4rem 0.65rem !important;
+  }
+  html[lang="te"] .card-hook-tag {
+    font-size: 0.88rem !important;
   }
 }
 
