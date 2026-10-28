@@ -455,7 +455,7 @@ const translations = {
     remember_2: "Samvatsarikam:<br>Once upon completion of the year",
     remember_3: "Abdikam:<br>Every year thereafter",
     promise_title: "We Will Take Care of Everything Else 🙏",
-    promise_desc: "Experienced Vedic scholars, devout Brahmin Bhokthas, comprehensive puja samagri, and authentic Satvik meals<br>— fully managed at our Dilsukhnagar Samstha premises.",
+    promise_desc: "Experienced Vedic scholars, devout Brahmin Bhokthas, comprehensive puja samagri, and authentic Satvik meals — fully managed at our Dilsukhnagar Samstha premises.",
 
     // 5. Why Do It? Benefits
     benefits_badge: "Spiritual Significance",
@@ -481,7 +481,7 @@ const translations = {
     // 6. Why Choose Us (4 Key Reasons)
     why_badge: "Our Distinction",
     why_title: "Why Choose Us<br>for<br>Ancestral Rituals?",
-    why_sub: "4 Key Reasons — Trusted Vedic services and complete ritual management with devotion",
+    why_sub: "4 Key Reasons<br>Trusted Vedic services and complete ritual management with devotion",
     why_1_title: "Reason 1:<br>Experienced Vedic Pandits",
     why_1_desc: "Senior Vedic scholars conduct all rites strictly as per scripture and Agnihotra Paranam tradition.",
     why_2_title: "Reason 2:<br>Traditional Satvik Food",
