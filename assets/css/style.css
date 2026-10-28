@@ -1165,6 +1165,11 @@ html[lang="te"] .contact-item p {
 .hero-badge-pill {
   display: inline-flex;
   align-items: center;
+  justify-content: center;
+  text-align: center;
+  align-self: center;
+  margin-left: auto;
+  margin-right: auto;
   gap: 0.5rem;
   background: rgba(255, 224, 130, 0.18);
   border: 1.5px solid #FFE082;
@@ -3277,6 +3282,11 @@ html, body {
     max-width: 100% !important;
     white-space: normal !important;
     word-break: break-word !important;
+    align-self: center !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    justify-content: center !important;
+    text-align: center !important;
   }
 
   .hero-founder-tag {
