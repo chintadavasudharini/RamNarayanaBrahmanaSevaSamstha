@@ -346,14 +346,59 @@ function initRitualForm() {
 
   if (!form || !btnWhatsApp) return;
 
+  // Toggle dynamic other detail inputs
+  const relSelect = document.getElementById('rf_relation');
+  const relOtherWrap = document.getElementById('rf_relation_other_wrap');
+  const relOtherInput = document.getElementById('rf_relation_other');
+
+  function updateRelationOther() {
+    if (!relSelect || !relOtherWrap) return;
+    const isOther = relSelect.value.includes('Others') || relSelect.value.includes('ఇతరులు');
+    relOtherWrap.style.display = isOther ? 'block' : 'none';
+    if (isOther && relOtherInput) relOtherInput.focus();
+  }
+  relSelect?.addEventListener('change', updateRelationOther);
+
+  const ritSelect = document.getElementById('rf_ritual');
+  const ritOtherWrap = document.getElementById('rf_ritual_other_wrap');
+  const ritOtherInput = document.getElementById('rf_ritual_other');
+
+  function updateRitualOther() {
+    if (!ritSelect || !ritOtherWrap) return;
+    const isOther = ritSelect.value.includes('Other') || ritSelect.value.includes('ఇతర');
+    ritOtherWrap.style.display = isOther ? 'block' : 'none';
+    if (isOther && ritOtherInput) ritOtherInput.focus();
+  }
+  ritSelect?.addEventListener('change', updateRitualOther);
+
   function buildMessage() {
     const lang = document.documentElement.getAttribute('lang') || 'te';
     const name = document.getElementById('rf_name')?.value.trim() || '__________';
     const ancestor = document.getElementById('rf_ancestor')?.value.trim() || '__________';
+    
     const relEl = document.getElementById('rf_relation');
-    const relation = (relEl && relEl.selectedIndex > 0) ? relEl.options[relEl.selectedIndex].text.trim() : '__________';
+    let relation = '__________';
+    if (relEl && relEl.selectedIndex > 0) {
+      const isOther = relEl.value.includes('Others') || relEl.value.includes('ఇతరులు');
+      const otherVal = document.getElementById('rf_relation_other')?.value.trim();
+      if (isOther && otherVal) {
+        relation = `${relEl.options[relEl.selectedIndex].text.trim()} (${otherVal})`;
+      } else {
+        relation = relEl.options[relEl.selectedIndex].text.trim();
+      }
+    }
+
     const ritEl = document.getElementById('rf_ritual');
-    const ritual = (ritEl && ritEl.selectedIndex > 0) ? ritEl.options[ritEl.selectedIndex].text.trim() : '__________';
+    let ritual = '__________';
+    if (ritEl && ritEl.selectedIndex > 0) {
+      const isOther = ritEl.value.includes('Other') || ritEl.value.includes('ఇతర');
+      const otherVal = document.getElementById('rf_ritual_other')?.value.trim();
+      if (isOther && otherVal) {
+        ritual = `${ritEl.options[ritEl.selectedIndex].text.trim()} (${otherVal})`;
+      } else {
+        ritual = ritEl.options[ritEl.selectedIndex].text.trim();
+      }
+    }
     const tithi = document.getElementById('rf_tithi')?.value.trim() || '__________';
     const masikamMonth = document.getElementById('rf_masikam_month')?.value || '__________';
     const gotram = document.getElementById('rf_gotram')?.value.trim() || '__________';

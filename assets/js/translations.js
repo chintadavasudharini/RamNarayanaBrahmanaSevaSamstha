@@ -73,7 +73,7 @@ const translations = {
     // Services Section (4 Core Rituals)
     services_badge: "మా సేవా విభాగాలు",
     services_title: "శాస్త్రోక్తంగా నిర్వహించే పితృకార్యాలు",
-    services_sub: "మాసికం, సంవత్సరికం, ఆబ్దికం, పిండప్రదానం — మా సంస్థ ప్రాంగణంలో శ్రద్ధ, భక్తి, శాస్త్రబద్ధతతో మీ సేవా తత్పరతలో",
+    services_sub: "మాసికం, సంవత్సరికం, ఆబ్దికం, పిండప్రదానం<br>మా సంస్థ ప్రాంగణంలో శ్రద్ధ, భక్తి, శాస్త్రబద్ధతతో మీ సేవా తత్పరతలో",
     btn_service_inquire: "వాట్సాప్‌లో విచారణ →",
 
     // 1. Masikam
@@ -82,7 +82,7 @@ const translations = {
     nav_srv_abdikam: "3. ఆబ్దికం",
     nav_srv_pinda: "4. పిండప్రదానం",
     srv_masikam_badge: "01",
-    srv_masikam_hook: "ఇంట్లో పెద్దలు కాలం చేశారా? / మొదటి సంవత్సరం ప్రతి నెల మాసికం చేయాలని తెలుసా?",
+    srv_masikam_hook: "ఇంట్లో పెద్దలు కాలం చేశారా?<br>మొదటి సంవత్సరం ప్రతి నెల మాసికం చేయాలని తెలుసా?",
     srv_masikam_name: "1. మాసికం",
     srv_masikam_what_label: "మాసికం అంటే ఏమిటి?",
     srv_masikam_what_desc: "మరణించిన తిథి రోజున, మొదటి సంవత్సరం పాటు ప్రతి నెలా చేసే శ్రాద్ధ కర్మ.",
@@ -93,7 +93,7 @@ const translations = {
 
     // 2. Samvatsarikam
     srv_samvatsarikam_badge: "02",
-    srv_samvatsarikam_hook: "ఇంట్లో పెద్దలు కాలం చేశారా? / మొదటి సంవత్సరం పూర్తయ్యాక సంవత్సరికం చేయాలని తెలుసా?",
+    srv_samvatsarikam_hook: "ఇంట్లో పెద్దలు కాలం చేశారా?<br>మొదటి సంవత్సరం పూర్తయ్యాక సంవత్సరికం చేయాలని తెలుసా?",
     srv_samvatsarikam_name: "2. సంవత్సరికం",
     srv_samvatsarikam_what_label: "సంవత్సరికం అంటే ఏమిటి?",
     srv_samvatsarikam_what_desc: "మరణించిన ఒక సంవత్సరం పూర్తయ్యాక, తిథి రోజున ఒక్కసారి మాత్రమే చేసే శ్రాద్ధ కర్మ.",
@@ -104,7 +104,7 @@ const translations = {
 
     // 3. Abdikam
     srv_abdikam_badge: "03",
-    srv_abdikam_hook: "పితృదేవతలకు ఆబ్దికం చేయాలనుకుంటున్నారా?",
+    srv_abdikam_hook: "పితృదేవతలకు ఆబ్దికం చేయాలనుకుంటున్నారా?<br>(సాంవత్సరిక శ్రాద్ధం<br>– సంవత్సరికం తర్వాత ప్రతి ఏటా)",
     srv_abdikam_name: "3. ఆబ్దికం",
     srv_abdikam_what_label: "ఆబ్దికం అంటే ఏమిటి?",
     srv_abdikam_what_desc: "పితృదేవతల తిథి రోజున, సంవత్సరానికి ఒకసారి వేదోక్తంగా చేసే శ్రాద్ధ కర్మ.",
@@ -115,7 +115,7 @@ const translations = {
 
     // 4. Pinda Pradanam
     srv_pinda_badge: "04",
-    srv_pinda_hook: "పిండప్రదానం అంటే ఏమిటి? ఎందుకు, ఎప్పుడు చేస్తారు?",
+    srv_pinda_hook: "పిండప్రదానం అంటే ఏమిటి?<br>ఎందుకు, ఎప్పుడు చేస్తారు?",
     srv_pinda_name: "4. పిండప్రదానం",
     srv_pinda_what_label: "పిండప్రదానం అంటే ఏమిటి?",
     srv_pinda_what_desc: "వండిన అన్నం, నల్ల నువ్వులు కలిపి చేసిన ముద్దలను (పిండాలను) దర్భలపై ఉంచి, మంత్రాలతో పితృదేవతలకు సమర్పించే శ్రాద్ధ కర్మ. \"పిండం\" అంటే ముద్ద, \"ప్రదానం\" అంటే సమర్పణ.",
@@ -149,7 +149,7 @@ const translations = {
     remember_2: "సంవత్సరికం:<br>సంవత్సరం పూర్తయ్యాక ఒక్కసారి",
     remember_3: "ఆ తర్వాత ప్రతి ఏటా:<br>ఆబ్దికం",
     promise_title: "మిగతాది మేము చూసుకుంటాము 🙏",
-    promise_desc: "హైదరాబాద్ దిల్‌సుఖ్‌నగర్ సంస్థలో అనుభవజ్ఞులైన వేద పండితులు, సత్ బ్రాహ్మణ భోక్తలు, సమగ్ర పూజా సామాగ్రి మరియు పరిశుభ్రమైన సాత్విక భోజనంతో సంపూర్ణ ఏర్పాట్లు మేము చూసుకుంటాము.",
+    promise_desc: "హైదరాబాద్ దిల్‌సుఖ్‌నగర్ సంస్థలో అనుభవజ్ఞులైన వేద పండితులు, సత్ బ్రాహ్మణ భోక్తలు, సమగ్ర పూజా సామాగ్రి మరియు పరిశుభ్రమైన సాత్విక భోజనంతో<br>— సంపూర్ణ ఏర్పాట్లు మేము చూసుకుంటాము.",
 
     // 5. Why Do It? Benefits (ఎందుకు చేయాలి? ప్రయోజనాలు)
     benefits_badge: "పితృ కర్మల విశిష్టత",
@@ -207,6 +207,8 @@ const translations = {
     form_field3_opt_pgrandma: "నాన్నమ్మ",
     form_field3_opt_mgrandma: "అమ్మమ్మ",
     form_field3_opt_other: "ఇతరులు",
+    form_field3_other_label: "ఇతర సంబంధం వివరాలు:",
+    form_field3_other_placeholder: "దయచేసి సంబంధం వివరాలను నమోదు చేయండి",
     form_field4_label: "4. నిర్వహించవలసిన కర్మ:",
     form_field4_opt_default: "-- కర్మను ఎంచుకోండి --",
     form_field4_opt_masikam: "1. మాసికం",
@@ -214,6 +216,8 @@ const translations = {
     form_field4_opt_abdikam: "3. ఆబ్దికం",
     form_field4_opt_pinda: "4. పిండప్రదానం",
     form_field4_opt_other: "ఇతర పితృ కర్మలు",
+    form_field4_other_label: "ఇతర కర్మ వివరాలు:",
+    form_field4_other_placeholder: "దయచేసి నిర్వహించవలసిన కర్మ వివరాలను నమోదు చేయండి",
     form_field5_label: "5. మరణించిన తిథి:",
     form_field5_placeholder: "ఉదా: బహుళ అష్టమి లేదా తేదీ 15-08-2023",
     form_field5_help: "*తిథి తెలియకపోతే, మరణించిన తేదీని తెలియజేయండి. తిథిని మేము పరిశీలించి తెలియజేస్తాము.*",
@@ -359,7 +363,7 @@ const translations = {
     // Services Section (4 Core Rituals)
     services_badge: "Our Sacred Services",
     services_title: "Sacred Ancestral Rites Conducted as per Shastra",
-    services_sub: "Masikam, Samvatsarikam, Abdikam, Pinda Pradanam — Conducted exclusively at our Samstha premises with devotion & Shastra compliance",
+    services_sub: "Masikam, Samvatsarikam, Abdikam, Pinda Pradanam<br>Conducted exclusively at our Samstha premises with devotion & Shastra compliance",
     btn_service_inquire: "Inquire via WhatsApp →",
 
     // 1. Masikam
@@ -390,7 +394,7 @@ const translations = {
 
     // 3. Abdikam
     srv_abdikam_badge: "03",
-    srv_abdikam_hook: "Are you planning to perform Abdikam for your departed ancestors?",
+    srv_abdikam_hook: "Are you planning to perform Abdikam for your departed ancestors?<br>(Annual Shraddha<br>– Every Year After Samvatsarikam)",
     srv_abdikam_name: "3. Abdikam<br>(Annual Shraddha – Every Year After Samvatsarikam)",
     srv_abdikam_what_label: "What is Abdikam?",
     srv_abdikam_what_desc: "A Vedic Shraddha ritual performed once every year on the ancestral lunar tithi.",
@@ -435,7 +439,7 @@ const translations = {
     remember_2: "Samvatsarikam:<br>Once upon completion of the year",
     remember_3: "Abdikam:<br>Every year thereafter",
     promise_title: "We Will Take Care of Everything Else 🙏",
-    promise_desc: "Experienced Vedic scholars, devout Brahmin Bhokthas, comprehensive puja samagri, and authentic Satvik meals — fully managed at our Dilsukhnagar Samstha premises.",
+    promise_desc: "Experienced Vedic scholars, devout Brahmin Bhokthas, comprehensive puja samagri, and authentic Satvik meals<br>— fully managed at our Dilsukhnagar Samstha premises.",
 
     // 5. Why Do It? Benefits
     benefits_badge: "Spiritual Significance",
@@ -493,6 +497,8 @@ const translations = {
     form_field3_opt_pgrandma: "Paternal Grandmother",
     form_field3_opt_mgrandma: "Maternal Grandmother",
     form_field3_opt_other: "Other Relatives",
+    form_field3_other_label: "Please specify other relationship:",
+    form_field3_other_placeholder: "Enter details of your relationship",
     form_field4_label: "4. Ritual to be Performed:",
     form_field4_opt_default: "-- Select Ritual --",
     form_field4_opt_masikam: "1. Masikam (Monthly Rites)",
@@ -500,6 +506,8 @@ const translations = {
     form_field4_opt_abdikam: "3. Abdikam (Annual Shraddha)",
     form_field4_opt_pinda: "4. Pinda Pradanam (Sacred Rice Offerings)",
     form_field4_opt_other: "Other Ancestral Ceremonies",
+    form_field4_other_label: "Please specify ceremony details:",
+    form_field4_other_placeholder: "Enter details of ancestral ceremony to be performed",
     form_field5_label: "5. Departure Tithi / Date:",
     form_field5_placeholder: "e.g., Bahula Ashtami or Date: 15-08-2023",
     form_field5_help: "*If you do not know the lunar Tithi, please mention the date of departure. Our Vedic scholars will verify and determine the exact Tithi for you.*",
