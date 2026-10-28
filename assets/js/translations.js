@@ -341,7 +341,7 @@ const translations = {
     hero_tagline_sub: "In your service with reverence, devotion & Shastra compliance...",
     hero_services_strip_title: "Brahmin Ancestral Rituals Organization - Dilsukhnagar",
     hero_services_strip_items: "◆ Masikam ◆ Samvatsarikam ◆ Abdikam ◆ Pinda Pradanam",
-    hero_desc: "Conducting authentic Vedic rituals (Masikam, Samvatsarikam, Abdikam, Pinda Pradanam, Pitru Karyas, Homams) exclusively at our sacred Samstha premises in Dilsukhnagar following strict Sanatana Dharma, Agnihotra Paranam recitation, devout Vedic Purohits, Bhokthas, and traditional Brahmin Satvik cooking.",
+    hero_desc: "Conducting authentic Vedic rituals (Pitru Karyas - Masikam, Samvatsarikam, Abdikam, Pinda Pradanam) exclusively at our sacred Samstha premises in Dilsukhnagar following strict Sanatana Dharma, Agnihotra Paranam recitation, devout Vedic Purohits, Bhokthas, and traditional Brahmin Satvik cooking.",
     hero_cta_call: "Call Us",
     hero_cta_whatsapp: "WhatsApp",
     hero_cta_location: "Location",

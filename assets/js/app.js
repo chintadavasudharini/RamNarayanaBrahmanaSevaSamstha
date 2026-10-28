@@ -158,7 +158,7 @@ function setLanguage(lang) {
   if (metaDesc) {
     metaDesc.content = lang === 'te' 
       ? "హైదరాబాద్ దిల్‌సుఖ్‌నగర్‌లో రామ్ నారాయణ బ్రాహ్మణ సేవా సంస్థ. వేదోక్తంగా, శాస్త్రోక్తంగా నిర్వహించే పితృకార్యాలు - మాసికం, సంవత్సరికం, ఆబ్దికం, పిండప్రదానం."
-      : "Ram Narayana Brahmana Seva Samstha in Dilsukhnagar, Hyderabad. Authentic Vedic ancestral rituals - Masikam, Samvatsarikam, Abdikam, Pinda Pradanam conducted strictly as per Shastras.";
+      : "Ram Narayana Brahmana Seva Samstha in Dilsukhnagar, Hyderabad. Authentic Vedic ancestral rituals (Pitru Karyas - Masikam, Samvatsarikam, Abdikam, Pinda Pradanam) conducted strictly as per Shastras.";
   }
   const ogDesc = document.querySelector('meta[property="og:description"]');
   if (ogDesc) {
