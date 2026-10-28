@@ -459,18 +459,31 @@ function initRitualForm() {
     if (lang === 'en') {
       return `🙏 Namaskaram.
 
+
 Details Required for Ancestral Rituals:
+
 1. Your Name: ${name}
+
 2. Ancestor's Name: ${ancestor}
+
 3. Relationship to Ancestor: ${relation}
+
 4. Ritual to be Performed: ${ritual}
+
 5. Departure Tithi / Date: ${tithi}
+
 6. If Masikam — Which Month: ${masikamMonth}
+
 7. Gotram: ${gotram}
+
 8. Performer (Kartha) Name: ${kartha}
+
 9. Number of Attendees: ${attendees}
+
 10. Preferred Date & Time: ${dateTime}
+
 11. Special Requirements: ${special}
+
 
 We kindly request you to review the above details and guide us with the procedure, auspicious date/time, dakshina, and arrangements.
 
@@ -479,18 +492,31 @@ Ram Narayana Brahmana Seva Samstha - Dilsukhnagar`;
     } else {
       return `🙏 నమస్కారం.
 
+
 కర్మ నిర్వహణకు అవసరమైన వివరాలు:
+
 1. మీ పేరు: ${name}
+
 2. పితృదేవత పేరు: ${ancestor}
+
 3. పితృదేవతకు మీ సంబంధం: ${relation}
+
 4. నిర్వహించవలసిన కర్మ: ${ritual}
+
 5. మరణించిన తిథి/తేదీ: ${tithi}
+
 6. మాసికం అయితే — ఎన్నో నెల: ${masikamMonth}
+
 7. గోత్రం: ${gotram}
+
 8. కర్మ నిర్వహించే కర్త పేరు: ${kartha}
+
 9. కర్మకు హాజరయ్యే వారి సంఖ్య: ${attendees}
+
 10. మీకు అనుకూలమైన తేదీ & సమయం: ${dateTime}
+
 11. ప్రత్యేక అవసరాలు: ${special}
+
 
 మీరు అందించిన వివరాలను పరిశీలించిన అనంతరం, మీ కర్మకు అనుగుణంగా కర్మ విధానం, తేదీ, సమయం, స్థలం, ఖర్చు మరియు ఇతర అవసరమైన ఏర్పాట్లకు సంబంధించిన పూర్తి వివరాలను మాకు తెలియజేయగలరు.
 
