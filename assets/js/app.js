@@ -51,6 +51,16 @@ function initLanguage() {
     });
   });
 
+  // Mobile quick action bar language toggle
+  const mobileLangBtn = document.querySelector('.mobile-action-bar .lang-toggle-btn');
+  if (mobileLangBtn) {
+    mobileLangBtn.addEventListener('click', (e) => {
+      e.preventDefault();
+      const current = document.documentElement.getAttribute('lang') || 'te';
+      setLanguage(current === 'te' ? 'en' : 'te');
+    });
+  }
+
   // Close language dropdown on outside click
   document.addEventListener('click', (e) => {
     if (langDropdownWrapper && !langDropdownWrapper.contains(e.target)) {
@@ -65,6 +75,12 @@ function setLanguage(lang) {
   
   document.documentElement.setAttribute('lang', lang);
   localStorage.setItem('rnbs_lang', lang);
+
+  if (lang === 'te') {
+    document.title = "రామ్ నారాయణ బ్రాహ్మణ సేవా సంస్థ - దిల్సుఖ్నగర్, హైదరాబాద్";
+  } else {
+    document.title = "Ram Narayana Brahmana Seva Samstha - Dilsukhnagar, Hyderabad";
+  }
 
   const dict = translations[lang];
 
