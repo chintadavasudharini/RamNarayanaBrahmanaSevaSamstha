@@ -548,12 +548,13 @@ html[lang="te"] .contact-item p {
   white-space: normal;
 }
 
+/* Sacred Top Bar - English Mobile Version: Stacked one after one (Mobile, Android, iPhone) */
 @media (max-width: 768px) {
-  .sacred-top-bar {
+  html[lang="en"] .sacred-top-bar {
     padding: 0.5rem 0.75rem;
   }
 
-  .top-bar-left {
+  html[lang="en"] .top-bar-left {
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -562,7 +563,7 @@ html[lang="te"] .contact-item p {
     text-align: center;
   }
 
-  .sacred-chant {
+  html[lang="en"] .sacred-chant {
     display: inline-flex;
     justify-content: center;
     align-items: center;
@@ -570,13 +571,57 @@ html[lang="te"] .contact-item p {
     font-size: clamp(0.82rem, 3.2vw, 0.92rem);
   }
 
-  .sacred-motto {
+  html[lang="en"] .sacred-motto {
     display: block;
     width: 100%;
     text-align: center;
     font-size: clamp(0.75rem, 2.9vw, 0.85rem);
     line-height: 1.35;
   }
+}
+
+/* Sacred Top Bar - Telugu Version: Single Line across ALL devices (mobile, tablet, desktop, android, iphone) */
+html[lang="te"] .sacred-top-bar {
+  padding: 0.45rem clamp(0.2rem, 1.2vw, 0.75rem) !important;
+}
+
+html[lang="te"] .top-bar-content {
+  flex-wrap: nowrap !important;
+  justify-content: center !important;
+}
+
+html[lang="te"] .top-bar-left {
+  flex-direction: row !important;
+  flex-wrap: nowrap !important;
+  justify-content: center !important;
+  align-items: center !important;
+  white-space: nowrap !important;
+  gap: clamp(0.32rem, 1.6vw, 2.2rem) !important;
+  font-size: clamp(0.55rem, 2.1vw, 0.86rem) !important;
+  width: auto !important;
+  max-width: 100% !important;
+}
+
+html[lang="te"] .sacred-chant {
+  display: inline-flex !important;
+  align-items: center !important;
+  white-space: nowrap !important;
+  flex-shrink: 0 !important;
+  font-size: inherit !important;
+  gap: 0.3rem !important;
+}
+
+html[lang="te"] .sacred-chant svg {
+  width: clamp(12px, 2.8vw, 16px) !important;
+  height: clamp(12px, 2.8vw, 16px) !important;
+  flex-shrink: 0 !important;
+}
+
+html[lang="te"] .sacred-motto {
+  display: inline-block !important;
+  white-space: nowrap !important;
+  flex-shrink: 0 !important;
+  font-size: inherit !important;
 }
 
 /* ==========================================================================
