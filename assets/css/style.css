@@ -2128,6 +2128,9 @@ html[lang="te"] .diff-card-purpose {
   padding: 1.35rem 1.75rem;
   margin-bottom: 2.25rem;
   box-shadow: var(--shadow-xs);
+  max-width: 960px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .remember-title {
@@ -2135,9 +2138,11 @@ html[lang="te"] .diff-card-purpose {
   font-size: 1.15rem;
   font-weight: 800;
   color: var(--color-primary);
-  margin-bottom: 0.75rem;
+  margin-bottom: 1rem;
   display: flex;
   align-items: center;
+  justify-content: center;
+  text-align: center;
   gap: 0.5rem;
 }
 
@@ -2154,6 +2159,7 @@ html[lang="te"] .remember-title {
 @media (min-width: 680px) {
   .remember-items {
     grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
   }
 }
 
@@ -2278,18 +2284,15 @@ html[lang="te"] .benefit-context-desc {
 .benefits-grid {
   display: grid;
   grid-template-columns: 1fr;
-  gap: 1.75rem;
+  gap: 1.5rem;
+  max-width: 1000px;
+  margin: 0 auto;
 }
 
-@media (min-width: 600px) {
+@media (min-width: 640px) {
   .benefits-grid {
     grid-template-columns: repeat(2, 1fr);
-  }
-}
-
-@media (min-width: 1024px) {
-  .benefits-grid {
-    grid-template-columns: repeat(3, 1fr);
+    gap: 1.75rem;
   }
 }
 
@@ -2357,18 +2360,15 @@ html[lang="te"] .benefit-context-desc {
 .why-us-grid {
   display: grid;
   grid-template-columns: 1fr;
-  gap: 1.75rem;
+  gap: 1.5rem;
+  max-width: 1000px;
+  margin: 0 auto;
 }
 
 @media (min-width: 640px) {
   .why-us-grid {
     grid-template-columns: repeat(2, 1fr);
-  }
-}
-
-@media (min-width: 1024px) {
-  .why-us-grid {
-    grid-template-columns: repeat(3, 1fr);
+    gap: 1.75rem;
   }
 }
 

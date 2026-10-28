@@ -126,7 +126,7 @@ const translations = {
 
     // 4. Differences Section (మూడింటి తేడాలు)
     diff_badge: "ఆచరణ క్రమం & అవగాహన",
-    diff_title: "మాసికం, సంవత్సరికం, ఆబ్దికం... తేడా తెలుసా?",
+    diff_title: "మాసికం, సంవత్సరికం, ఆబ్దికం...<br>తేడా తెలుసా?",
     diff_sub: "సనాతన ధర్మ సంప్రదాయంలో పితృకార్యాల స్పష్టమైన తేడాలు & క్రమం",
     diff_badge_step1: "దశ 1",
     diff_card1_step: "మొదటి సంవత్సరం → మాసికం",
@@ -357,7 +357,7 @@ const translations = {
 
     // 4. Differences Section (Key Differences)
     diff_badge: "Sacred Sequence & Clarity",
-    diff_title: "Masikam, Samvatsarikam, Abdikam... Do you know the difference?",
+    diff_title: "Masikam, Samvatsarikam, Abdikam...<br>Do you know the difference?",
     diff_sub: "Clear understanding of ancestral rites and sequence as per Sanatana Dharma",
     diff_badge_step1: "Step 1",
     diff_card1_step: "First Year → Masikam",
