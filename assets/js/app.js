@@ -350,8 +350,10 @@ function initRitualForm() {
     const lang = document.documentElement.getAttribute('lang') || 'te';
     const name = document.getElementById('rf_name')?.value.trim() || '__________';
     const ancestor = document.getElementById('rf_ancestor')?.value.trim() || '__________';
-    const relation = document.getElementById('rf_relation')?.value || '__________';
-    const ritual = document.getElementById('rf_ritual')?.value || '__________';
+    const relEl = document.getElementById('rf_relation');
+    const relation = (relEl && relEl.selectedIndex > 0) ? relEl.options[relEl.selectedIndex].text.trim() : '__________';
+    const ritEl = document.getElementById('rf_ritual');
+    const ritual = (ritEl && ritEl.selectedIndex > 0) ? ritEl.options[ritEl.selectedIndex].text.trim() : '__________';
     const tithi = document.getElementById('rf_tithi')?.value.trim() || '__________';
     const masikamMonth = document.getElementById('rf_masikam_month')?.value || '__________';
     const gotram = document.getElementById('rf_gotram')?.value.trim() || '__________';
