@@ -117,6 +117,7 @@
           <li><a href="#benefits"<li><a href="#benefits" class="nav-link" data-i18n="nav_benefits">ప్రయోజనాలు</a></li>
           <li><a href="#why-us" class="nav-link" data-i18n="nav_why_us">ఎందుకు ఎంచుకోవాలి</a></li>
           <li><a href="#gallery" class="nav-link" data-i18n="nav_gallery">బ్యానర్లు & కరపత్రం</a></li>
+          <li><a href="#ritual-form" class="nav-link" data-i18n="nav_ritual_form">కర్మ వివరాల ఫారం</a></li>
           <li><a href="#contact" class="nav-link" data-i18n="nav_contact">సంప్రదించండి</a></li>
           <li><a href="#follow-us" class="nav-link" data-i18n="nav_social">సోషల్ మీడియా</a></li>
         </ul>
@@ -180,6 +181,7 @@
         <li><a href="#benefits"<li><a href="#benefits" data-i18n="nav_benefits">ప్రయోజనాలు</a></li>
         <li><a href="#why-us" data-i18n="nav_why_us">ఎందుకు ఎంచుకోవాలి</a></li>
         <li><a href="#gallery" data-i18n="nav_gallery">బ్యానర్లు & కరపత్రం</a></li>
+            <li><a href="#ritual-form" data-i18n="nav_ritual_form">కర్మ వివరాల ఫారం</a></li>
         <li><a href="#contact" data-i18n="nav_contact">సంప్రదించండి</a></li>
         <li><a href="#follow-us" data-i18n="nav_social">సోషల్ మీడియా</a></li>
       </ul>
@@ -905,6 +907,160 @@
               <h3 data-i18n="card_pamphlet_title">పితృకర్మల వివరాల కరపత్రం</h3>
             </div>
           </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         Ancestral Ritual Intake Form (కర్మ నిర్వహణకు అవసరమైన వివరాలు)
+         ========================================================================== -->
+    <section id="ritual-form" class="ritual-form-section">
+      <div class="container">
+        
+        <div class="section-header">
+          <span class="section-badge" data-i18n="form_badge">ఆచరణ వివరాల నమోదు</span>
+          <h2 class="section-title" data-i18n="form_title">కర్మ నిర్వహణకు అవసరమైన వివరాలు</h2>
+          <p class="section-subtitle" data-i18n="form_subtitle">వేదోక్త మార్గదర్శకత్వం, తేదీ, ఏర్పాట్ల కోసం మీ కుటుంబ వివరాలను తెలియజేయండి</p>
+        </div>
+
+        <div class="ritual-form-card">
+          
+          <!-- Reverent Intro Message -->
+          <div class="ritual-form-intro">
+            <h3 class="ritual-form-greeting" data-i18n="form_greeting">🙏 నమస్కారం.</h3>
+            <p class="ritual-form-thanks" data-i18n="form_thanks">రామ్ నారాయణ బ్రాహ్మణ సేవా సంస్థను సంప్రదించినందుకు హృదయపూర్వక ధన్యవాదాలు.</p>
+            <p class="ritual-form-intro-desc" data-i18n="form_intro_desc">
+              మీ కుటుంబ పితృకర్మను శాస్త్రోక్త విధానంలో, సంప్రదాయ ఆచారాలను అనుసరిస్తూ, భక్తిశ్రద్ధలతో సక్రమంగా నిర్వహించేందుకు, దయచేసి క్రింది వివరాలను మాకు తెలియజేయండి.
+            </p>
+          </div>
+
+          <form id="ritualIntakeForm" class="ritual-intake-form" onsubmit="event.preventDefault();">
+            <div class="ritual-form-grid">
+              
+              <!-- 1. Name -->
+              <div class="ritual-form-group">
+                <label for="rf_name" data-i18n="form_field1_label">1. మీ పేరు:</label>
+                <input type="text" id="rf_name" name="name" data-i18n-ph="form_field1_placeholder" placeholder="మీ పూర్తి పేరు నమోదు చేయండి" autocomplete="name">
+              </div>
+
+              <!-- 2. Ancestor Name -->
+              <div class="ritual-form-group">
+                <label for="rf_ancestor" data-i18n="form_field2_label">2. పితృదేవత పేరు:</label>
+                <input type="text" id="rf_ancestor" name="ancestor" data-i18n-ph="form_field2_placeholder" placeholder="పితృదేవత పవిత్ర నామము">
+              </div>
+
+              <!-- 3. Relationship -->
+              <div class="ritual-form-group">
+                <label for="rf_relation" data-i18n="form_field3_label">3. పితృదేవతకు మీ సంబంధం:</label>
+                <select id="rf_relation" name="relation">
+                  <option value="" data-i18n="form_field3_opt_default">-- సంబంధాన్ని ఎంచుకోండి --</option>
+                  <option value="Father / తండ్రి" data-i18n="form_field3_opt_father">తండ్రి</option>
+                  <option value="Mother / తల్లి" data-i18n="form_field3_opt_mother">తల్లి</option>
+                  <option value="Grandfather / తాత" data-i18n="form_field3_opt_pgrandpa">తాత</option>
+                  <option value="Paternal Grandmother / నాన్నమ్మ" data-i18n="form_field3_opt_pgrandma">నాన్నమ్మ</option>
+                  <option value="Maternal Grandmother / అమ్మమ్మ" data-i18n="form_field3_opt_mgrandma">అమ్మమ్మ</option>
+                  <option value="Others / ఇతరులు" data-i18n="form_field3_opt_other">ఇతరులు</option>
+                </select>
+              </div>
+
+              <!-- 4. Ritual -->
+              <div class="ritual-form-group">
+                <label for="rf_ritual" data-i18n="form_field4_label">4. నిర్వహించవలసిన కర్మ:</label>
+                <select id="rf_ritual" name="ritual">
+                  <option value="" data-i18n="form_field4_opt_default">-- కర్మను ఎంచుకోండి --</option>
+                  <option value="Masikam / మాసికం" data-i18n="form_field4_opt_masikam">1. మాసికం</option>
+                  <option value="Samvatsarikam / సంవత్సరికం" data-i18n="form_field4_opt_samvatsarikam">2. సంవత్సరికం</option>
+                  <option value="Abdikam / ఆబ్దికం" data-i18n="form_field4_opt_abdikam">3. ఆబ్దికం</option>
+                  <option value="Pinda Pradanam / పిండప్రదానం" data-i18n="form_field4_opt_pinda">4. పిండప్రదానం</option>
+                  <option value="Other / ఇతర పితృ కర్మలు" data-i18n="form_field4_opt_other">ఇతర పితృ కర్మలు</option>
+                </select>
+              </div>
+
+              <!-- 5. Tithi / Date -->
+              <div class="ritual-form-group">
+                <label for="rf_tithi" data-i18n="form_field5_label">5. మరణించిన తిథి:</label>
+                <input type="text" id="rf_tithi" name="tithi" data-i18n-ph="form_field5_placeholder" placeholder="ఉదా: బహుళ అష్టమి లేదా తేదీ 15-08-2023">
+                <small class="form-help-text" data-i18n="form_field5_help">*తిథి తెలియకపోతే, మరణించిన తేదీని తెలియజేయండి. తిథిని మేము పరిశీలించి తెలియజేస్తాము.*</small>
+              </div>
+
+              <!-- 6. Masikam Month (if applicable) -->
+              <div class="ritual-form-group">
+                <label for="rf_masikam_month" data-i18n="form_field6_label">6. మాసికం అయితే — ఎన్నో నెల:</label>
+                <select id="rf_masikam_month" name="masikam_month">
+                  <option value="" data-i18n="form_field6_opt_default">-- నెల ఎంచుకోండి (1 నుండి 12) --</option>
+                  <option value="1వ నెల (Month 1)">1వ నెల (Month 1)</option>
+                  <option value="2వ నెల (Month 2)">2వ నెల (Month 2)</option>
+                  <option value="3వ నెల (Month 3)">3వ నెల (Month 3)</option>
+                  <option value="4వ నెల (Month 4)">4వ నెల (Month 4)</option>
+                  <option value="5వ నెల (Month 5)">5వ నెల (Month 5)</option>
+                  <option value="6వ నెల (Month 6)">6వ నెల (Month 6)</option>
+                  <option value="7వ నెల (Month 7)">7వ నెల (Month 7)</option>
+                  <option value="8వ నెల (Month 8)">8వ నెల (Month 8)</option>
+                  <option value="9వ నెల (Month 9)">9వ నెల (Month 9)</option>
+                  <option value="10వ నెల (Month 10)">10వ నెల (Month 10)</option>
+                  <option value="11వ నెల (Month 11)">11వ నెల (Month 11)</option>
+                  <option value="12వ నెల (Month 12)">12వ నెల (Month 12)</option>
+                  <option value="వర్తించదు (Not Applicable)">వర్తించదు (Not Applicable)</option>
+                </select>
+              </div>
+
+              <!-- 7. Gotram -->
+              <div class="ritual-form-group">
+                <label for="rf_gotram" data-i18n="form_field7_label">7. గోత్రం:</label>
+                <input type="text" id="rf_gotram" name="gotram" data-i18n-ph="form_field7_placeholder" placeholder="మీ కుటుంబ గోత్రం">
+              </div>
+
+              <!-- 8. Kartha Name -->
+              <div class="ritual-form-group">
+                <label for="rf_kartha" data-i18n="form_field8_label">8. కర్మ నిర్వహించే కర్త పేరు:</label>
+                <input type="text" id="rf_kartha" name="kartha" data-i18n-ph="form_field8_placeholder" placeholder="కర్మ నిర్వహించే కర్త పేరు">
+              </div>
+
+              <!-- 9. Attendees Count -->
+              <div class="ritual-form-group">
+                <label for="rf_attendees" data-i18n="form_field9_label">9. కర్మకు హాజరయ్యే వారి సంఖ్య:</label>
+                <input type="text" id="rf_attendees" name="attendees" data-i18n-ph="form_field9_placeholder" placeholder="ఉదా: 5-10 మంది కుటుంబ సభ్యులు">
+              </div>
+
+              <!-- 10. Preferred Date & Time -->
+              <div class="ritual-form-group">
+                <label for="rf_date_time" data-i18n="form_field10_label">10. మీకు అనుకూలమైన తేదీ & సమయం:</label>
+                <input type="text" id="rf_date_time" name="date_time" data-i18n-ph="form_field10_placeholder" placeholder="ఉదా: ఆదివారం ఉదయం 8:00 గంటలకు">
+              </div>
+
+              <!-- 11. Special Requirements -->
+              <div class="ritual-form-group full-width">
+                <label for="rf_special" data-i18n="form_field11_label">11. ప్రత్యేక అవసరాలు:</label>
+                <textarea id="rf_special" name="special" rows="3" data-i18n-ph="form_field11_placeholder" placeholder="ఆహార నియమాలు లేదా ఇతర ప్రత్యేక ఏర్పాట్లు ఉంటే తెలియజేయండి"></textarea>
+              </div>
+
+            </div>
+
+            <!-- Closing Assurance Note -->
+            <div class="ritual-form-assurance">
+              <p data-i18n="form_assurance_1">మీరు అందించిన వివరాలను పరిశీలించిన అనంతరం, మీ కర్మకు అనుగుణంగా కర్మ విధానం, తేదీ, సమయం, స్థలం, ఖర్చు మరియు ఇతర అవసరమైన ఏర్పాట్లకు సంబంధించిన పూర్తి వివరాలను మీకు తెలియజేస్తాము.</p>
+              <p data-i18n="form_assurance_2" style="margin-top:0.75rem;">పితృదేవతలకు నిర్వహించే కర్మలు కుటుంబానికి ఎంతో ముఖ్యమైనవి. అందువల్ల ప్రతి కర్మను శ్రద్ధతో, భక్తితో, సంప్రదాయబద్ధంగా మరియు సక్రమమైన విధానంలో నిర్వహించేందుకు మా సంస్థ మీకు అవసరమైన సహాయాన్ని అందిస్తుంది.</p>
+              <div class="form-signoff" data-i18n="form_signoff">🙏 ధన్యవాదాలు. రామ్ నారాయణ బ్రాహ్మణ సేవా సంస్థ</div>
+            </div>
+
+            <!-- Form Action Buttons -->
+            <div class="ritual-form-actions">
+              <button type="button" id="btnSendWhatsApp" class="btn-gold-cta" data-i18n="form_btn_whatsapp">
+                వాట్సాప్‌లో వివరాలు పంపండి 💬
+              </button>
+              <button type="button" id="btnCopyDetails" class="btn-secondary" data-i18n="form_btn_copy">
+                వివరాలు కాపీ చేసుకోండి 📋
+              </button>
+              <a href="tel:7780223977" class="btn-primary" data-i18n="form_btn_call">
+                ఫోన్‌లో మాట్లాడండి 📞
+              </a>
+            </div>
+
+            <div id="formToast" class="form-toast" role="status" aria-live="polite"></div>
+
+          </form>
 
         </div>
 

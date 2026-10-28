@@ -3641,6 +3641,195 @@ html, body {
   }
 }
 
+
+/* ==========================================================================
+   Ritual Intake Form Section (కర్మ నిర్వహణకు అవసరమైన వివరాలు)
+   ========================================================================== */
+.ritual-form-section {
+  padding: clamp(3rem, 6vw, 5.5rem) 0;
+  background: linear-gradient(180deg, var(--bg-alt) 0%, #FFFDF8 100%);
+  border-top: 1px solid var(--border-light);
+  border-bottom: 1px solid var(--border-light);
+}
+
+.ritual-form-card {
+  background: var(--bg-card);
+  border: 2px solid var(--border-gold);
+  border-radius: var(--radius-xl);
+  box-shadow: 0 10px 32px rgba(128, 0, 0, 0.08);
+  padding: clamp(1.5rem, 4vw, 3rem);
+  max-width: 920px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+.ritual-form-intro {
+  background: linear-gradient(135deg, rgba(255, 248, 235, 0.98) 0%, rgba(254, 243, 219, 0.92) 100%);
+  border: 1.5px solid var(--border-gold-strong);
+  border-radius: var(--radius-lg);
+  padding: 1.25rem 1.6rem;
+  margin-bottom: 2rem;
+  box-shadow: var(--shadow-xs);
+}
+
+.ritual-form-greeting {
+  font-family: var(--font-heading);
+  font-size: 1.35rem;
+  font-weight: 800;
+  color: var(--color-primary);
+  margin-bottom: 0.35rem;
+}
+
+.ritual-form-thanks {
+  font-weight: 800;
+  color: var(--color-primary-dark);
+  font-size: 1.05rem;
+  margin-bottom: 0.65rem;
+  line-height: 1.5;
+}
+
+.ritual-form-intro-desc {
+  font-size: 0.98rem;
+  color: var(--text-main);
+  line-height: 1.7;
+}
+
+.ritual-form-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.25rem;
+  margin-bottom: 1.5rem;
+}
+
+@media (min-width: 680px) {
+  .ritual-form-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem 1.75rem;
+  }
+}
+
+.ritual-form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.45rem;
+}
+
+.ritual-form-group.full-width {
+  grid-column: 1 / -1;
+}
+
+.ritual-form-group label {
+  font-weight: 700;
+  font-size: 0.96rem;
+  color: var(--color-primary);
+  line-height: 1.4;
+}
+
+html[lang="te"] .ritual-form-group label {
+  font-size: 1.05rem;
+}
+
+.ritual-form-group input,
+.ritual-form-group select,
+.ritual-form-group textarea {
+  padding: 0.8rem 1rem;
+  font-family: inherit;
+  font-size: 0.96rem;
+  color: var(--text-main);
+  background: #FFFFFF;
+  border: 1.5px solid var(--border-card);
+  border-radius: var(--radius-md);
+  outline: none;
+  transition: all var(--transition-fast);
+  width: 100%;
+  box-sizing: border-box;
+}
+
+html[lang="te"] .ritual-form-group input,
+html[lang="te"] .ritual-form-group select,
+html[lang="te"] .ritual-form-group textarea {
+  font-family: 'Ramabhadra', sans-serif;
+  font-size: 0.98rem;
+}
+
+.ritual-form-group input:focus,
+.ritual-form-group select:focus,
+.ritual-form-group textarea:focus {
+  border-color: var(--color-primary);
+  box-shadow: 0 0 0 3px rgba(128, 0, 0, 0.12);
+}
+
+.form-help-text {
+  font-size: 0.82rem;
+  color: var(--color-secondary-dark);
+  font-style: italic;
+  line-height: 1.45;
+  margin-top: 0.15rem;
+}
+
+.ritual-form-assurance {
+  background: rgba(254, 243, 219, 0.7);
+  border-left: 4px solid var(--color-secondary);
+  border-radius: var(--radius-md);
+  padding: 1.35rem 1.5rem;
+  margin-top: 1.75rem;
+  font-size: 0.94rem;
+  color: var(--text-main);
+  line-height: 1.75;
+}
+
+html[lang="te"] .ritual-form-assurance {
+  font-size: 1rem;
+  line-height: 1.8;
+}
+
+.form-signoff {
+  font-family: var(--font-heading);
+  font-weight: 800;
+  color: var(--color-primary);
+  margin-top: 1rem;
+  font-size: 1.05rem;
+}
+
+.ritual-form-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.ritual-form-actions .btn-gold-cta,
+.ritual-form-actions .btn-secondary,
+.ritual-form-actions .btn-primary {
+  padding: 0.85rem 1.75rem;
+  font-size: 1rem;
+  border-radius: var(--radius-full);
+}
+
+.form-toast {
+  position: fixed;
+  bottom: 2rem;
+  left: 50%;
+  transform: translateX(-50%) translateY(100px);
+  background: var(--color-primary-dark);
+  color: #FFF9C4;
+  border: 1.5px solid var(--color-secondary);
+  padding: 0.75rem 1.5rem;
+  border-radius: var(--radius-full);
+  font-weight: 700;
+  box-shadow: var(--shadow-lg);
+  z-index: 10000;
+  opacity: 0;
+  transition: all 0.3s ease;
+  pointer-events: none;
+}
+
+.form-toast.show {
+  transform: translateX(-50%) translateY(0);
+  opacity: 1;
+}
+
 /* Print Styles */
 @media print {
   .site-header, .sacred-top-bar, .mobile-action-bar, .hero-cta-group, .btn-primary, .btn-secondary, .btn-whatsapp, .back-to-top {

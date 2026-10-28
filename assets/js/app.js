@@ -18,6 +18,7 @@ document.addEventListener('DOMContentLoaded', () => {
   initMobileNav();
   initScrollEffects();
   initLightbox();
+  initRitualForm();
 });
 
 /* ==========================================================================
@@ -113,6 +114,14 @@ function setLanguage(lang) {
     const key = el.getAttribute('data-i18n-alt');
     if (dict[key]) {
       el.alt = dict[key];
+    }
+  });
+
+  // Update placeholders for inputs with data-i18n-ph
+  document.querySelectorAll('[data-i18n-ph]').forEach(el => {
+    const key = el.getAttribute('data-i18n-ph');
+    if (dict[key]) {
+      el.placeholder = dict[key];
     }
   });
 
@@ -324,4 +333,124 @@ function initLightbox() {
       closeLightbox();
     }
   });
+}
+
+/* ==========================================================================
+   Ritual Intake Form Logic (WhatsApp & Copy)
+   ========================================================================== */
+function initRitualForm() {
+  const form = document.getElementById('ritualIntakeForm');
+  const btnWhatsApp = document.getElementById('btnSendWhatsApp');
+  const btnCopy = document.getElementById('btnCopyDetails');
+  const toast = document.getElementById('formToast');
+
+  if (!form || !btnWhatsApp) return;
+
+  function buildMessage() {
+    const lang = document.documentElement.getAttribute('lang') || 'te';
+    const name = document.getElementById('rf_name')?.value.trim() || '__________';
+    const ancestor = document.getElementById('rf_ancestor')?.value.trim() || '__________';
+    const relation = document.getElementById('rf_relation')?.value || '__________';
+    const ritual = document.getElementById('rf_ritual')?.value || '__________';
+    const tithi = document.getElementById('rf_tithi')?.value.trim() || '__________';
+    const masikamMonth = document.getElementById('rf_masikam_month')?.value || '__________';
+    const gotram = document.getElementById('rf_gotram')?.value.trim() || '__________';
+    const kartha = document.getElementById('rf_kartha')?.value.trim() || '__________';
+    const attendees = document.getElementById('rf_attendees')?.value.trim() || '__________';
+    const dateTime = document.getElementById('rf_date_time')?.value.trim() || '__________';
+    const special = document.getElementById('rf_special')?.value.trim() || (lang === 'en' ? 'None' : 'ఏమీ లేవు');
+
+    if (lang === 'en') {
+      return `🙏 Namaskaram.
+Heartfelt thanks for contacting Ram Narayana Brahmana Seva Samstha.
+
+Details Required for Ancestral Rituals:
+1. Your Name: ${name}
+2. Ancestor's Name: ${ancestor}
+3. Relationship to Ancestor: ${relation}
+4. Ritual to be Performed: ${ritual}
+5. Departure Tithi / Date: ${tithi}
+6. If Masikam — Month: ${masikamMonth}
+7. Gotram: ${gotram}
+8. Performer (Kartha) Name: ${kartha}
+9. Number of Attendees: ${attendees}
+10. Preferred Date & Time: ${dateTime}
+11. Special Requirements: ${special}
+
+We kindly request you to review the above details and guide us with the procedure, auspicious date/time, dakshina, and arrangements.
+
+🙏 Dhanyavadhalu.
+Ram Narayana Brahmana Seva Samstha`;
+    } else {
+      return `🙏 నమస్కారం.
+రామ్ నారాయణ బ్రాహ్మణ సేవా సంస్థను సంప్రదించినందుకు హృదయపూర్వక ధన్యవాదాలు.
+
+కర్మ నిర్వహణకు అవసరమైన వివరాలు:
+1. మీ పేరు: ${name}
+2. పితృదేవత పేరు: ${ancestor}
+3. పితృదేవతకు మీ సంబంధం: ${relation}
+4. నిర్వహించవలసిన కర్మ: ${ritual}
+5. మరణించిన తిథి/తేదీ: ${tithi}
+6. మాసికం అయితే — ఎన్నో నెల: ${masikamMonth}
+7. గోత్రం: ${gotram}
+8. కర్మ నిర్వహించే కర్త పేరు: ${kartha}
+9. కర్మకు హాజరయ్యే వారి సంఖ్య: ${attendees}
+10. మీకు అనుకూలమైన తేదీ & సమయం: ${dateTime}
+11. ప్రత్యేక అవసరాలు: ${special}
+
+మీరు అందించిన వివరాలను పరిశీలించిన అనంతరం, మీ కర్మకు అనుగుణంగా కర్మ విధానం, తేదీ, సమయం, స్థలం, ఖర్చు మరియు ఇతర అవసరమైన ఏర్పాట్లకు సంబంధించిన పూర్తి వివరాలను మాకు తెలియజేయగలరు.
+
+🙏 ధన్యవాదాలు.
+రామ్ నారాయణ బ్రాహ్మణ సేవా సంస్థ`;
+    }
+  }
+
+  btnWhatsApp.addEventListener('click', () => {
+    const msg = buildMessage();
+    const encoded = encodeURIComponent(msg);
+    const url = `https://wa.me/917780223977?text=${encoded}`;
+    window.open(url, '_blank', 'noopener,noreferrer');
+  });
+
+  if (btnCopy) {
+    btnCopy.addEventListener('click', () => {
+      const msg = buildMessage();
+      if (navigator.clipboard && navigator.clipboard.writeText) {
+        navigator.clipboard.writeText(msg).then(() => {
+          showToast();
+        }).catch(() => {
+          fallbackCopy(msg);
+        });
+      } else {
+        fallbackCopy(msg);
+      }
+    });
+  }
+
+  function fallbackCopy(text) {
+    const ta = document.createElement('textarea');
+    ta.value = text;
+    ta.style.position = 'fixed';
+    ta.style.left = '-9999px';
+    document.body.appendChild(ta);
+    ta.select();
+    try {
+      document.execCommand('copy');
+      showToast();
+    } catch (e) {
+      console.warn('Copy failed', e);
+    }
+    document.body.removeChild(ta);
+  }
+
+  function showToast() {
+    if (!toast) return;
+    const lang = document.documentElement.getAttribute('lang') || 'te';
+    const dict = translations[lang] || {};
+    toast.textContent = dict['form_copied_msg'] || (lang === 'en' ? 'Details copied to clipboard!' : 'వివరాలు కాపీ అయ్యాయి!');
+    toast.classList.add('show');
+    setTimeout(() => {
+      toast.classList.remove('show');
+    }, 3500);
+  }
 }
