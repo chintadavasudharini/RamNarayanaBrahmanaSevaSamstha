@@ -446,7 +446,6 @@ function initRitualForm() {
 
     if (lang === 'en') {
       return `🙏 Namaskaram.
-Heartfelt thanks for contacting Ram Narayana Brahmana Seva Samstha.
 
 Details Required for Ancestral Rituals:
 1. Your Name: ${name}
@@ -467,7 +466,6 @@ We kindly request you to review the above details and guide us with the procedur
 Ram Narayana Brahmana Seva Samstha`;
     } else {
       return `🙏 నమస్కారం.
-రామ్ నారాయణ బ్రాహ్మణ సేవా సంస్థను సంప్రదించినందుకు హృదయపూర్వక ధన్యవాదాలు.
 
 కర్మ నిర్వహణకు అవసరమైన వివరాలు:
 1. మీ పేరు: ${name}
