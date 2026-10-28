@@ -3787,8 +3787,9 @@ html[lang="te"] .ritual-form-assurance {
   font-family: var(--font-heading);
   font-weight: 800;
   color: var(--color-primary);
-  margin-top: 1rem;
+  margin-top: 1.15rem;
   font-size: 1.05rem;
+  line-height: 1.5;
 }
 
 .ritual-form-actions {
