@@ -83,7 +83,7 @@ const translations = {
     nav_srv_pinda: "4. పిండప్రదానం",
     srv_masikam_badge: "01",
     srv_masikam_hook: "ఇంట్లో పెద్దలు కాలం చేశారా?<br>మొదటి సంవత్సరం ప్రతి నెల మాసికం చేయాలని తెలుసా?",
-    srv_masikam_name: "1. మాసికం",
+    srv_masikam_name: "1. మాసికం<br>(మొదటి సంవత్సరం ప్రతి నెల నిర్వహించే పితృకర్మ)",
     srv_masikam_what_label: "మాసికం అంటే ఏమిటి?",
     srv_masikam_what_desc: "మరణించిన తిథి రోజున, మొదటి సంవత్సరం పాటు ప్రతి నెలా చేసే శ్రాద్ధ కర్మ.",
     srv_masikam_next_label: "తర్వాత ఏమి చేయాలి?",
@@ -94,7 +94,7 @@ const translations = {
     // 2. Samvatsarikam
     srv_samvatsarikam_badge: "02",
     srv_samvatsarikam_hook: "ఇంట్లో పెద్దలు కాలం చేశారా?<br>మొదటి సంవత్సరం పూర్తయ్యాక సంవత్సరికం చేయాలని తెలుసా?",
-    srv_samvatsarikam_name: "2. సంవత్సరికం",
+    srv_samvatsarikam_name: "2. సంవత్సరికం<br>(మొదటి సంవత్సరం పూర్తైన సందర్భంగా నిర్వహించే పితృకర్మ)",
     srv_samvatsarikam_what_label: "సంవత్సరికం అంటే ఏమిటి?",
     srv_samvatsarikam_what_desc: "మరణించిన ఒక సంవత్సరం పూర్తయ్యాక, తిథి రోజున ఒక్కసారి మాత్రమే చేసే శ్రాద్ధ కర్మ.",
     srv_samvatsarikam_next_label: "ఈ క్రమం తెలుసా?",
@@ -105,7 +105,7 @@ const translations = {
     // 3. Abdikam
     srv_abdikam_badge: "03",
     srv_abdikam_hook: "పితృదేవతలకు ఆబ్దికం చేయాలనుకుంటున్నారా?",
-    srv_abdikam_name: "3. ఆబ్దికం",
+    srv_abdikam_name: "3. ఆబ్దికం<br>(సంవత్సరికం అనంతరం ప్రతి సంవత్సరం నిర్వహించే వార్షిక శ్రాద్ధ కర్మ)",
     srv_abdikam_what_label: "ఆబ్దికం అంటే ఏమిటి?",
     srv_abdikam_what_desc: "పితృదేవతల తిథి రోజున, సంవత్సరానికి ఒకసారి వేదోక్తంగా చేసే శ్రాద్ధ కర్మ.",
     srv_abdikam_next_label: "ఎందుకు చేయాలి? పితృదేవతల శాంతి, శ్రేయస్సు కోసం:",
@@ -116,7 +116,7 @@ const translations = {
     // 4. Pinda Pradanam
     srv_pinda_badge: "04",
     srv_pinda_hook: "పిండప్రదానం అంటే ఏమిటి?<br>ఎందుకు, ఎప్పుడు చేస్తారు?",
-    srv_pinda_name: "4. పిండప్రదానం",
+    srv_pinda_name: "4. పిండప్రదానం<br>(పితృదేవతలకు పిండాలను సమర్పించే పవిత్రమైన కర్మ)",
     srv_pinda_what_label: "పిండప్రదానం అంటే ఏమిటి?",
     srv_pinda_what_desc: "వండిన అన్నం, నల్ల నువ్వులు కలిపి చేసిన ముద్దలను (పిండాలను) దర్భలపై ఉంచి, మంత్రాలతో పితృదేవతలకు సమర్పించే శ్రాద్ధ కర్మ. \"పిండం\" అంటే ముద్ద, \"ప్రదానం\" అంటే సమర్పణ.",
     srv_pinda_why_label: "ఎందుకు చేస్తారు?",
