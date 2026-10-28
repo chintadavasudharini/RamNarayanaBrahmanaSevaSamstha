@@ -104,7 +104,7 @@ const translations = {
 
     // 3. Abdikam
     srv_abdikam_badge: "03",
-    srv_abdikam_hook: "పితృదేవతలకు ఆబ్దికం చేయాలనుకుంటున్నారా?<br>(సాంవత్సరిక శ్రాద్ధం<br>– సంవత్సరికం తర్వాత ప్రతి ఏటా)",
+    srv_abdikam_hook: "పితృదేవతలకు ఆబ్దికం చేయాలనుకుంటున్నారా?",
     srv_abdikam_name: "3. ఆబ్దికం",
     srv_abdikam_what_label: "ఆబ్దికం అంటే ఏమిటి?",
     srv_abdikam_what_desc: "పితృదేవతల తిథి రోజున, సంవత్సరానికి ఒకసారి వేదోక్తంగా చేసే శ్రాద్ధ కర్మ.",
@@ -394,8 +394,8 @@ const translations = {
 
     // 3. Abdikam
     srv_abdikam_badge: "03",
-    srv_abdikam_hook: "Are you planning to perform Abdikam for your departed ancestors?<br>(Annual Shraddha<br>– Every Year After Samvatsarikam)",
-    srv_abdikam_name: "3. Abdikam<br>(Annual Shraddha – Every Year After Samvatsarikam)",
+    srv_abdikam_hook: "Are you planning to perform Abdikam for your departed ancestors?",
+    srv_abdikam_name: "3. Abdikam<br>(Annual Shraddha<br>– Every Year After Samvatsarikam)",
     srv_abdikam_what_label: "What is Abdikam?",
     srv_abdikam_what_desc: "A Vedic Shraddha ritual performed once every year on the ancestral lunar tithi.",
     srv_abdikam_next_label: "Why perform it? For ancestral peace & family prosperity:",
