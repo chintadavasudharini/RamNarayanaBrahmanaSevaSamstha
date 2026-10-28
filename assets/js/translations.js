@@ -528,7 +528,7 @@ const translations = {
     form_field5_placeholder: "e.g., Bahula Ashtami or Date: 15-08-2023",
     form_field5_help: "*If you do not know the lunar Tithi, please mention the date of departure. Our Vedic scholars will verify and determine the exact Tithi for you.*",
     form_field6_label: "6. If Masikam — Which Month:",
-    form_field6_opt_default: "-- Select Month (1 to 12) --",
+    form_field6_opt_default: "-- Select Month (Month 1 to Month 12) --",
     form_field6_opt_m1: "Month 1",
     form_field6_opt_m2: "Month 2",
     form_field6_opt_m3: "Month 3",

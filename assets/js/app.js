@@ -465,7 +465,7 @@ Details Required for Ancestral Rituals:
 3. Relationship to Ancestor: ${relation}
 4. Ritual to be Performed: ${ritual}
 5. Departure Tithi / Date: ${tithi}
-6. If Masikam — Month: ${masikamMonth}
+6. If Masikam — Which Month: ${masikamMonth}
 7. Gotram: ${gotram}
 8. Performer (Kartha) Name: ${kartha}
 9. Number of Attendees: ${attendees}
