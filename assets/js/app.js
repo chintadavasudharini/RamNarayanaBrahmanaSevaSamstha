@@ -1,19 +1,19 @@
 const whatsappMessages = {
   te: {
-    general: "నమస్కారం రామ్ నారాయణ బ్రాహ్మణ సేవా సంస్థ (దిల్‌సుఖ్‌నగర్),\n\nనేను మీ సేవల గురించి తెలుసుకోవాలనుకుంటున్నాను.",
-    masikam: "నమస్కారం రామ్ నారాయణ బ్రాహ్మణ సేవా సంస్థ (దిల్‌సుఖ్‌నగర్),\n\nమాసికం శ్రాద్ధ కర్మ నిర్వహణ వివరాలు తెలుసుకోవాలనుకుంటున్నాను.",
-    samvatsarikam: "నమస్కారం రామ్ నారాయణ బ్రాహ్మణ సేవా సంస్థ (దిల్‌సుఖ్‌నగర్),\n\nసంవత్సరికం శ్రాద్ధ నిర్వహణ వివరాలు తెలుసుకోవాలనుకుంటున్నాను.",
-    abdikam: "నమస్కారం రామ్ నారాయణ బ్రాహ్మణ సేవా సంస్థ (దిల్‌సుఖ్‌నగర్),\n\nఆబ్దికం శ్రాద్ధ నిర్వహణ వివరాలు తెలుసుకోవాలనుకుంటున్నాను.",
-    pinda: "నమస్కారం రామ్ నారాయణ బ్రాహ్మణ సేవా సంస్థ (దిల్‌సుఖ్‌నగర్),\n\nపిండప్రదానం శ్రాద్ధ నిర్వహణ వివరాలు తెలుసుకోవాలనుకుంటున్నాను.",
-    promise: "నమస్కారం రామ్ నారాయణ బ్రాహ్మణ సేవా సంస్థ (దిల్‌సుఖ్‌నగర్),\n\nపితృకార్యాల నిర్వహణ వివరాలు తెలుసుకోవాలనుకుంటున్నాను."
+    general: "నమస్కారం,\nరామ్ నారాయణ బ్రాహ్మణ సేవా సంస్థ (దిల్‌సుఖ్‌నగర్).\n\nనేను మీ సేవల గురించి తెలుసుకోవాలనుకుంటున్నాను.",
+    masikam: "నమస్కారం,\nరామ్ నారాయణ బ్రాహ్మణ సేవా సంస్థ (దిల్‌సుఖ్‌నగర్).\n\nమాసికం శ్రాద్ధ కర్మ నిర్వహణ వివరాలు తెలుసుకోవాలనుకుంటున్నాను.",
+    samvatsarikam: "నమస్కారం,\nరామ్ నారాయణ బ్రాహ్మణ సేవా సంస్థ (దిల్‌సుఖ్‌నగర్).\n\nసంవత్సరికం శ్రాద్ధ నిర్వహణ వివరాలు తెలుసుకోవాలనుకుంటున్నాను.",
+    abdikam: "నమస్కారం,\nరామ్ నారాయణ బ్రాహ్మణ సేవా సంస్థ (దిల్‌సుఖ్‌నగర్).\n\nఆబ్దికం శ్రాద్ధ నిర్వహణ వివరాలు తెలుసుకోవాలనుకుంటున్నాను.",
+    pinda: "నమస్కారం,\nరామ్ నారాయణ బ్రాహ్మణ సేవా సంస్థ (దిల్‌సుఖ్‌నగర్).\n\nపిండప్రదానం శ్రాద్ధ నిర్వహణ వివరాలు తెలుసుకోవాలనుకుంటున్నాను.",
+    promise: "నమస్కారం,\nరామ్ నారాయణ బ్రాహ్మణ సేవా సంస్థ (దిల్‌సుఖ్‌నగర్).\n\nపితృకార్యాల నిర్వహణ వివరాలు తెలుసుకోవాలనుకుంటున్నాను."
   },
   en: {
-    general: "Namaskaram Ram Narayana Brahmana Seva Samstha (Dilsukhnagar),\n\nI would like to inquire about your ancestral services.",
-    masikam: "Namaskaram Ram Narayana Brahmana Seva Samstha (Dilsukhnagar),\n\nI would like to inquire about Masikam ritual arrangements.",
-    samvatsarikam: "Namaskaram Ram Narayana Brahmana Seva Samstha (Dilsukhnagar),\n\nI would like to inquire about Samvatsarikam ritual arrangements.",
-    abdikam: "Namaskaram Ram Narayana Brahmana Seva Samstha (Dilsukhnagar),\n\nI would like to inquire about Abdikam ritual arrangements.",
-    pinda: "Namaskaram Ram Narayana Brahmana Seva Samstha (Dilsukhnagar),\n\nI would like to inquire about Pinda Pradanam ritual arrangements.",
-    promise: "Namaskaram Ram Narayana Brahmana Seva Samstha (Dilsukhnagar),\n\nI would like to inquire about complete ancestral ritual management."
+    general: "Namaskaram,\nRam Narayana Brahmana Seva Samstha (Dilsukhnagar).\n\nI would like to inquire about your ancestral services.",
+    masikam: "Namaskaram,\nRam Narayana Brahmana Seva Samstha (Dilsukhnagar).\n\nI would like to inquire about Masikam ritual arrangements.",
+    samvatsarikam: "Namaskaram,\nRam Narayana Brahmana Seva Samstha (Dilsukhnagar).\n\nI would like to inquire about Samvatsarikam ritual arrangements.",
+    abdikam: "Namaskaram,\nRam Narayana Brahmana Seva Samstha (Dilsukhnagar).\n\nI would like to inquire about Abdikam ritual arrangements.",
+    pinda: "Namaskaram,\nRam Narayana Brahmana Seva Samstha (Dilsukhnagar).\n\nI would like to inquire about Pinda Pradanam ritual arrangements.",
+    promise: "Namaskaram,\nRam Narayana Brahmana Seva Samstha (Dilsukhnagar).\n\nI would like to inquire about complete ancestral ritual management."
   }
 };
 
@@ -157,7 +157,7 @@ function setLanguage(lang) {
   const metaDesc = document.querySelector('meta[name="description"]');
   if (metaDesc) {
     metaDesc.content = lang === 'te' 
-      ? "హైదరాబాద్ దిల్‌సుఖ్‌నగర్‌లో రామ్ నారాయణ బ్రాహ్మణ సేవా సంస్థ. వేదోక్తంగా, శాస్త్రోక్తంగా నిర్వహించే పితృకార్యాలు - మాసికం, సంవత్సరికం, ఆబ్దికం, పిండప్రదానం."
+      ? "హైదరాబాద్ దిల్‌సుఖ్‌నగర్లో రామ్ నారాయణ బ్రాహ్మణ సేవా సంస్థ. వేదోక్తంగా, శాస్త్రోక్తంగా నిర్వహించే పితృకార్యాలు - మాసికం, సంవత్సరికం, ఆబ్దికం, పిండప్రదానం."
       : "Ram Narayana Brahmana Seva Samstha in Dilsukhnagar, Hyderabad. Authentic Vedic ancestral rituals (Pitru Karyas - Masikam, Samvatsarikam, Abdikam, Pinda Pradanam) conducted strictly as per Shastras.";
   }
   const ogDesc = document.querySelector('meta[property="og:description"]');
@@ -262,6 +262,11 @@ function initMobileNav() {
     });
   }
 
+  const drawerCloseBtn = document.getElementById('drawerCloseBtn') || document.querySelector('.drawer-close-btn');
+  if (drawerCloseBtn) {
+    drawerCloseBtn.addEventListener('click', closeDrawer);
+  }
+
   if (drawerOverlay) {
     drawerOverlay.addEventListener('click', closeDrawer);
   }
@@ -276,9 +281,33 @@ function initMobileNav() {
    ========================================================================== */
 function initScrollEffects() {
   const header = document.querySelector('.site-header');
-  const backToTopBtn = document.querySelector('.back-to-top');
+  const scrollToTopBtn = document.getElementById('scrollToTopBtn') || document.querySelector('.back-to-top');
+  const scrollToBottomBtn = document.getElementById('scrollToBottomBtn') || document.querySelector('.scroll-to-bottom');
   const navLinks = document.querySelectorAll('.desktop-nav .nav-link');
   const sections = document.querySelectorAll('section[id], #home');
+
+  function updateScrollButtons() {
+    const scrollY = window.scrollY;
+    const maxScroll = (document.documentElement.scrollHeight || document.body.scrollHeight) - window.innerHeight;
+
+    // Up button: show when scrolled down > 250px
+    if (scrollToTopBtn) {
+      if (scrollY > 250) {
+        scrollToTopBtn.classList.add('visible');
+      } else {
+        scrollToTopBtn.classList.remove('visible');
+      }
+    }
+
+    // Down button: show until within 200px of page bottom
+    if (scrollToBottomBtn) {
+      if (scrollY < maxScroll - 200) {
+        scrollToBottomBtn.classList.add('visible');
+      } else {
+        scrollToBottomBtn.classList.remove('visible');
+      }
+    }
+  }
 
   window.addEventListener('scroll', () => {
     const scrollY = window.scrollY;
@@ -292,15 +321,7 @@ function initScrollEffects() {
       }
     }
 
-    // Back to top visibility - on mobile, only show after scrolling well past hero CTAs
-    if (backToTopBtn) {
-      const threshold = window.innerWidth < 768 ? 750 : 400;
-      if (scrollY > threshold) {
-        backToTopBtn.classList.add('visible');
-      } else {
-        backToTopBtn.classList.remove('visible');
-      }
-    }
+    updateScrollButtons();
 
     // ScrollSpy active link highlight
     let currentSectionId = '';
@@ -323,10 +344,22 @@ function initScrollEffects() {
     }
   });
 
-  if (backToTopBtn) {
-    backToTopBtn.addEventListener('click', () => {
+  // Initial check on load
+  updateScrollButtons();
+
+  if (scrollToTopBtn) {
+    scrollToTopBtn.addEventListener('click', () => {
       window.scrollTo({
         top: 0,
+        behavior: 'smooth'
+      });
+    });
+  }
+
+  if (scrollToBottomBtn) {
+    scrollToBottomBtn.addEventListener('click', () => {
+      window.scrollTo({
+        top: document.documentElement.scrollHeight,
         behavior: 'smooth'
       });
     });
@@ -457,7 +490,8 @@ function initRitualForm() {
     const special = document.getElementById('rf_special')?.value.trim() || (lang === 'en' ? 'None' : 'ఏమీ లేవు');
 
     if (lang === 'en') {
-      return `🙏 Namaskaram.
+      return `Namaskaram,
+Ram Narayana Brahmana Seva Samstha (Dilsukhnagar).
 
 
 Details Required for Ancestral Rituals:
@@ -490,10 +524,11 @@ We kindly request you to review the above details and guide us with the procedur
 🙏 Dhanyavadhalu.
 Ram Narayana Brahmana Seva Samstha - Dilsukhnagar`;
     } else {
-      return `🙏 నమస్కారం.
+      return `నమస్కారం,
+రామ్ నారాయణ బ్రాహ్మణ సేవా సంస్థ (దిల్‌సుఖ్‌నగర్).
 
 
-కర్మ నిర్వహణకు అవసరమైన వివరాలు:
+కర్మకు సంబంధించిన వివరాలు :
 
 1. మీ పేరు: ${name}
 
@@ -518,10 +553,11 @@ Ram Narayana Brahmana Seva Samstha - Dilsukhnagar`;
 11. ప్రత్యేక అవసరాలు: ${special}
 
 
-మీరు అందించిన వివరాలను పరిశీలించిన అనంతరం, మీ కర్మకు అనుగుణంగా కర్మ విధానం, తేదీ, సమయం, స్థలం, ఖర్చు మరియు ఇతర అవసరమైన ఏర్పాట్లకు సంబంధించిన పూర్తి వివరాలను మాకు తెలియజేయగలరు.
+పై వివరాలను పరిశీలించి, 
+కర్మ విధానం, తేదీ, సమయం, స్థలం, ఖర్చు మరియు ఇతర అవసరమైన ఏర్పాట్లకు సంబంధించిన పూర్తి వివరాలను మాకు తెలియజేయగలరు.
 
-🙏 ధన్యవాదాలు.
-రామ్ నారాయణ బ్రాహ్మణ సేవా సంస్థ - దిల్‌సుఖ్‌నగర్`;
+
+ధన్యవాదాలు 🙏`;
     }
   }
 

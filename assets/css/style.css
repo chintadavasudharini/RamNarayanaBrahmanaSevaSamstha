@@ -98,7 +98,7 @@ body {
     radial-gradient(circle at 90% 80%, rgba(128, 18, 22, 0.02) 0%, transparent 40%);
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
   body {
     padding-bottom: 0;
   }
@@ -196,6 +196,8 @@ html[lang="te"] .btn-primary,
 html[lang="te"] .btn-secondary,
 html[lang="te"] .btn-whatsapp,
 html[lang="te"] .btn-location-glass,
+html[lang="te"] .btn-register-cta,
+html[lang="te"] .btn-service-register,
 html[lang="te"] .btn-nav-call,
 html[lang="te"] .mobile-action-item,
 html[lang="te"] .floating-whatsapp-btn,
@@ -205,6 +207,10 @@ html[lang="te"] .feature-title,
 html[lang="te"] .feature-desc,
 html[lang="te"] .contact-item h4,
 html[lang="te"] .contact-item p,
+html[lang="te"] .guidance-title,
+html[lang="te"] .guidance-desc,
+html[lang="te"] .guidance-badge,
+html[lang="te"] .guidance-note-box,
 [lang="te"],
 :lang(te),
 .font-telugu {
@@ -235,6 +241,16 @@ html[lang="te"] {
 }
 
 /* Mobile Devices (iPhones, Android Phones, Small Screens) */
+/* Multi-line Brand Title for Mobile & Tablets (< 1200px: iPhone, Android, iPads, Tabs) */
+@media (max-width: 1199px) {
+  .brand-title .brand-line,
+  .footer-brand h3 .brand-line,
+  .drawer-brand-title .brand-line {
+    display: block;
+    line-height: 1.2;
+  }
+}
+
 @media (max-width: 600px) {
   html[lang="te"] {
     font-size: 18px;
@@ -432,8 +448,8 @@ html[lang="te"] .marquee-item {
 
 /* Footer Section */
 html[lang="te"] .footer-brand h3 {
-  font-size: 1.75rem;
-  line-height: 1.4;
+  font-size: clamp(1.15rem, 2.5vw, 1.55rem);
+  line-height: 1.35;
   letter-spacing: 0;
 }
 
@@ -1021,10 +1037,72 @@ html[lang="te"] .sacred-motto {
 .drawer-header {
   display: flex;
   align-items: center;
-  gap: 0.75rem;
+  justify-content: space-between;
+  gap: 0.65rem;
   margin-bottom: 1.25rem;
   padding-bottom: 1rem;
   border-bottom: 1px solid var(--border-gold);
+}
+
+.drawer-brand-wrap {
+  display: flex;
+  align-items: center;
+  gap: 0.65rem;
+  min-width: 0;
+  flex: 1;
+}
+
+.drawer-emblem-wrap {
+  width: 44px;
+  height: 44px;
+  flex-shrink: 0;
+}
+
+.drawer-brand-title {
+  font-family: var(--font-heading);
+  font-size: 0.88rem;
+  font-weight: 800;
+  color: var(--color-primary);
+  line-height: 1.22;
+  display: block;
+}
+
+html[lang="te"] .drawer-brand-title {
+  font-size: 0.92rem;
+  line-height: 1.26;
+}
+
+.drawer-invocation {
+  color: var(--color-secondary);
+  display: block;
+  font-size: 0.72rem;
+  font-weight: 600;
+  margin-top: 2px;
+}
+
+.drawer-close-btn {
+  width: 38px;
+  height: 38px;
+  border-radius: var(--radius-full);
+  background: rgba(128, 18, 22, 0.08);
+  border: 1.5px solid var(--border-gold);
+  color: var(--color-primary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  flex-shrink: 0;
+  transition: all var(--transition-fast);
+  padding: 0;
+  margin-left: 0.25rem;
+}
+
+.drawer-close-btn:hover,
+.drawer-close-btn:active {
+  background: var(--color-primary);
+  color: #FFFFFF;
+  border-color: var(--color-primary);
+  transform: rotate(90deg);
 }
 
 .drawer-links {
@@ -1365,25 +1443,86 @@ html[lang="te"] .sacred-motto {
 
 .hero-cta-group {
   display: flex;
-  flex-wrap: wrap;
-  gap: 0.85rem;
-  margin-top: 0.65rem;
+  flex-direction: column;
+  gap: 0.95rem;
+  margin-top: 0.85rem;
   width: 100%;
   max-width: 100%;
+  align-items: center;
+}
+
+.hero-cta-row-top {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.85rem;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.hero-cta-row-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
 }
 
 @media (max-width: 520px) {
   .hero-cta-group {
+    display: flex;
     flex-direction: column;
+    align-items: center;
+    width: 100%;
+    gap: 0.52rem;
+  }
+  .hero-cta-row-top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    gap: 0.52rem;
+  }
+  .hero-cta-row-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 100%;
   }
+  .hero-cta-row-top .btn-gold-cta,
+  .hero-cta-row-top .btn-whatsapp,
+  .hero-cta-row-top .btn-location-glass,
+  .hero-cta-row-center .btn-register-cta,
   .hero-cta-group .btn-gold-cta,
   .hero-cta-group .btn-whatsapp,
+  .hero-cta-group .btn-register-cta,
   .hero-cta-group .btn-location-glass {
-    width: 100%;
-    justify-content: center;
-    text-align: center;
-    padding: 0.85rem 1.25rem;
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    text-align: center !important;
+    align-self: center !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    width: auto !important;
+    min-width: 210px !important;
+    max-width: 280px !important;
+    min-height: 38px !important;
+    padding: 0.45rem 1.25rem !important;
+    border-radius: var(--radius-full) !important;
+    font-size: 0.88rem !important;
+    font-weight: 700 !important;
+    gap: 0.5rem !important;
+    box-sizing: border-box !important;
+  }
+  html[lang="te"] .hero-cta-row-top .btn-gold-cta,
+  html[lang="te"] .hero-cta-row-top .btn-whatsapp,
+  html[lang="te"] .hero-cta-row-top .btn-location-glass,
+  html[lang="te"] .hero-cta-row-center .btn-register-cta,
+  html[lang="te"] .hero-cta-group .btn-gold-cta,
+  html[lang="te"] .hero-cta-group .btn-whatsapp,
+  html[lang="te"] .hero-cta-group .btn-register-cta,
+  html[lang="te"] .hero-cta-group .btn-location-glass {
+    font-size: 0.92rem !important;
   }
 }
 
@@ -1454,6 +1593,140 @@ html[lang="te"] .sacred-motto {
   color: #FFE082 !important;
   transform: translateY(-3px);
   box-shadow: 0 8px 24px rgba(255, 224, 130, 0.35);
+}
+
+.btn-register-cta {
+  background: linear-gradient(135deg, #FF7700 0%, #FF5500 50%, #E64A00 100%);
+  color: #FFFFFF !important;
+  padding: 0.85rem 1.85rem;
+  border-radius: var(--radius-full);
+  font-weight: 800;
+  font-size: 0.98rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.65rem;
+  border: 1.5px solid #FFE082;
+  box-shadow: 0 4px 16px rgba(255, 85, 0, 0.4);
+  transition: all var(--transition-fast);
+  cursor: pointer;
+  white-space: nowrap;
+  text-decoration: none;
+}
+
+.btn-register-cta:hover {
+  transform: translateY(-2px);
+  background: linear-gradient(135deg, #FF8800 0%, #FF6600 50%, #F4511E 100%);
+  box-shadow: 0 8px 24px rgba(255, 85, 0, 0.6), 0 0 15px rgba(255, 224, 130, 0.5);
+  color: #FFFFFF !important;
+}
+
+.service-card-actions {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.65rem;
+  margin-top: 1.5rem;
+  align-items: stretch;
+}
+
+.service-card-actions .btn-service-book,
+.service-card-actions .btn-service-register {
+  width: 100%;
+  height: 100%;
+  min-height: 44px;
+  padding: 0.72rem 0.5rem;
+  font-size: clamp(0.78rem, 1vw, 0.93rem);
+  box-sizing: border-box;
+  text-align: center;
+  justify-content: center;
+  white-space: nowrap;
+}
+
+html[lang="te"] .service-card-actions .btn-service-book,
+html[lang="te"] .service-card-actions .btn-service-register {
+  font-size: clamp(0.8rem, 1.05vw, 0.95rem);
+}
+
+/* Contact Us Medium-Sized Actions */
+.contact-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-top: 1.15rem;
+  align-items: center;
+}
+
+.contact-action-btn-wrap {
+  margin-top: 0.45rem;
+  background: transparent !important;
+  background-color: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+  padding: 0 !important;
+  display: block;
+}
+
+.btn-contact-md {
+  padding: 0.62rem 1.35rem !important;
+  font-size: 0.92rem !important;
+  min-height: 42px !important;
+  width: auto !important;
+  justify-content: center !important;
+  border-radius: var(--radius-full) !important;
+  background-clip: padding-box !important;
+}
+
+/* Ensure contact button area remains completely transparent without rectangular glow haze */
+.contact-item-content .btn-contact-md {
+  box-shadow: none !important;
+  -webkit-box-shadow: none !important;
+}
+
+.contact-item-content .btn-contact-md:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.16) !important;
+  -webkit-box-shadow: 0 4px 12px rgba(0, 0, 0, 0.16) !important;
+}
+
+html[lang="te"] .btn-contact-md {
+  font-size: 0.96rem !important;
+}
+
+@media (max-width: 520px) {
+  .contact-actions {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  .contact-actions .btn-contact-md,
+  .contact-item-content .btn-contact-md {
+    width: 100% !important;
+  }
+}
+
+.btn-service-register {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  width: 100%;
+  padding: 0.82rem 1rem;
+  border-radius: var(--radius-md);
+  background: linear-gradient(135deg, #FF7700 0%, #FF5500 50%, #E64A00 100%);
+  color: #FFFFFF !important;
+  font-weight: 800;
+  font-size: 0.95rem;
+  border: 1.5px solid #FFE082;
+  box-shadow: 0 4px 14px rgba(255, 85, 0, 0.35);
+  transition: all var(--transition-fast);
+  cursor: pointer;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.btn-service-register:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(255, 85, 0, 0.55), 0 0 12px rgba(255, 224, 130, 0.4);
+  background: linear-gradient(135deg, #FF8800 0%, #FF6600 50%, #F4511E 100%);
+  color: #FFFFFF !important;
 }
 
 .btn-primary {
@@ -2112,10 +2385,10 @@ html[lang="te"] .service-sub-label {
    4. Differences Section (మాసికం, సంవత్సరికం, ఆబ్దికం... తేడా తెలుసా?)
    ========================================================================== */
 .differences-section {
-  background: var(--bg-alt);
+  background: linear-gradient(180deg, #F4ECE1 0%, #EDE3D4 100%);
   padding: clamp(3rem, 6vw, 5.5rem) 0;
-  border-top: 1px solid var(--border-light);
-  border-bottom: 1px solid var(--border-light);
+  border-top: 1px solid var(--border-gold);
+  border-bottom: 1px solid var(--border-gold);
   position: relative;
 }
 
@@ -2317,6 +2590,108 @@ html[lang="te"] .promise-desc {
   gap: 1rem;
 }
 
+/* Guidance Card in Ritual Process & Tradition */
+.guidance-card {
+  background: linear-gradient(135deg, #FFF6E8 0%, #FEECCE 50%, #FEE0B0 100%);
+  border: 2px solid #D4AF37;
+  border-radius: var(--radius-xl);
+  padding: clamp(1.85rem, 4vw, 2.85rem);
+  text-align: center;
+  box-shadow: 0 14px 40px rgba(184, 134, 11, 0.22), 0 2px 10px rgba(92, 10, 14, 0.06);
+  margin-top: 2.5rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.guidance-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 5px;
+  background: linear-gradient(90deg, #D4AF37 0%, #FF7700 50%, #D4AF37 100%);
+}
+
+.guidance-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.85rem;
+  font-weight: 800;
+  color: #4A080B;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  background: rgba(212, 175, 55, 0.25);
+  border: 1.5px solid #D4AF37;
+  padding: 0.4rem 1.15rem;
+  border-radius: var(--radius-full);
+  margin-bottom: 1rem;
+  box-shadow: 0 2px 8px rgba(184, 134, 11, 0.15);
+}
+
+html[lang="te"] .guidance-badge {
+  font-size: 0.94rem;
+}
+
+.guidance-title {
+  font-family: var(--font-heading);
+  font-size: clamp(1.35rem, 3.2vw, 2.25rem);
+  font-weight: 900;
+  color: #5C0A0E;
+  margin-bottom: 0.85rem;
+  line-height: 1.35;
+}
+
+.guidance-desc {
+  font-size: clamp(0.98rem, 1.7vw, 1.15rem);
+  color: #2D1A15;
+  max-width: 800px;
+  margin: 0 auto 1.35rem;
+  line-height: 1.8;
+  font-weight: 500;
+}
+
+html[lang="te"] .guidance-desc {
+  font-size: clamp(1.04rem, 1.85vw, 1.2rem);
+  line-height: 1.9;
+}
+
+.guidance-note-box {
+  background: rgba(255, 255, 255, 0.88);
+  border: 1.5px dashed #B8860B;
+  border-radius: var(--radius-md);
+  padding: 0.85rem 1.35rem;
+  max-width: 740px;
+  margin: 0 auto 1.85rem;
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: #5C0A0E;
+  line-height: 1.65;
+  box-shadow: 0 2px 10px rgba(184, 134, 11, 0.08);
+}
+
+html[lang="te"] .guidance-note-box {
+  font-size: 1rem;
+}
+
+.guidance-actions {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+@media (max-width: 600px) {
+  .guidance-actions {
+    flex-direction: column;
+    width: 100%;
+  }
+  .guidance-actions a {
+    width: 100% !important;
+  }
+}
+
 /* Benefits Ritual Context Banner */
 .benefits-rituals-context {
   background: var(--bg-card);
@@ -2369,9 +2744,10 @@ html[lang="te"] .benefit-context-desc {
    10. Spiritual Significance / Benefits Section (6 Pillars)
    ========================================================================== */
 .benefits-section {
-  background: var(--bg-alt);
-  border-top: 1px solid var(--border-light);
-  border-bottom: 1px solid var(--border-light);
+  background: linear-gradient(180deg, #FFF7EE 0%, #FCECD9 50%, #FAF0E1 100%);
+  border-top: 1px solid var(--border-gold);
+  border-bottom: 1px solid var(--border-gold);
+  position: relative;
 }
 
 .benefits-grid {
@@ -2655,7 +3031,7 @@ html[lang="te"] .benefit-context-desc {
 
 .contact-item-content {
   min-width: 0;
-  overflow: hidden;
+  overflow: visible;
 }
 
 .contact-item-content h4 {
@@ -2888,13 +3264,25 @@ html[lang="te"] .benefit-context-desc {
 .social-card-cta {
   display: inline-flex;
   align-items: center;
-  justify-content: space-between;
-  padding: 0.75rem 1.15rem;
-  border-radius: var(--radius-md);
-  font-size: 0.88rem;
+  justify-content: center;
+  gap: 0.55rem;
+  padding: 0.45rem 1.25rem;
+  border-radius: var(--radius-full);
+  font-size: 0.85rem;
   font-weight: 700;
   color: #FFFFFF;
   transition: all var(--transition-fast);
+  align-self: center;
+  margin: 0 auto;
+  width: auto;
+  min-width: 200px;
+  max-width: 260px;
+  min-height: 38px;
+  box-sizing: border-box;
+}
+
+html[lang="te"] .social-card-cta {
+  font-size: 0.88rem;
 }
 
 .social-card-cta.ig-cta {
@@ -2955,11 +3343,88 @@ html[lang="te"] .benefit-context-desc {
   }
 }
 
+.brand-line {
+  display: inline;
+}
+
+.footer-brand-header {
+  display: flex;
+  align-items: center;
+  gap: clamp(0.95rem, 2.2vw, 1.45rem);
+  margin-bottom: 1.15rem;
+  text-decoration: none;
+  color: inherit;
+}
+
+.footer-logo-wrap {
+  width: clamp(70px, 7.8vw, 92px);
+  height: clamp(70px, 7.8vw, 92px);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  border: 2px solid #D4AF37;
+  flex-shrink: 0;
+  box-shadow:
+    0 0 20px rgba(212, 175, 55, 0.5),
+    0 0 42px rgba(212, 175, 55, 0.25),
+    0 4px 16px rgba(0, 0, 0, 0.6);
+  transition: transform var(--transition-bounce), box-shadow var(--transition-normal);
+  overflow: hidden;
+}
+
+.footer-brand-header:hover .footer-logo-wrap {
+  transform: scale(1.05);
+  box-shadow:
+    0 0 28px rgba(255, 224, 130, 0.7),
+    0 0 52px rgba(212, 175, 55, 0.38),
+    0 6px 20px rgba(0, 0, 0, 0.7);
+}
+
+.footer-logo-wrap img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+  display: block;
+}
+
+.footer-brand-text {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+}
+
 .footer-brand h3 {
   font-family: var(--font-heading);
-  font-size: 1.5rem;
+  font-size: clamp(1.1rem, 2.3vw, 1.45rem);
   color: #FFE082;
-  margin-bottom: 0.75rem;
+  margin-bottom: 0.25rem;
+  line-height: 1.25;
+  transition: text-shadow var(--transition-fast);
+}
+
+.footer-brand-header:hover .footer-brand h3 {
+  text-shadow: 0 0 12px rgba(255, 224, 130, 0.4);
+}
+
+.footer-brand h3 .brand-line {
+  display: block !important;
+  line-height: 1.22 !important;
+}
+
+.footer-brand-subtitle {
+  font-size: clamp(0.75rem, 1.4vw, 0.88rem);
+  font-weight: 700;
+  color: #FFE082;
+  letter-spacing: 0.3px;
+  margin-bottom: 0;
+  opacity: 0.92;
+}
+
+html[lang="te"] .footer-brand-subtitle {
+  font-size: clamp(0.82rem, 1.5vw, 0.95rem);
 }
 
 .footer-brand p {
@@ -3117,6 +3582,34 @@ html[lang="te"] .benefit-context-desc {
   font-size: 0.88rem;
 }
 
+.footer-copyright {
+  display: inline-block;
+  line-height: 1.5;
+}
+
+.copyright-org,
+.copyright-reserved {
+  display: inline;
+}
+
+/* Multi-line copyright only in mobile, iPhone, Android, and tabs (< 1200px) */
+@media (max-width: 1199px) {
+  .footer-copyright .copyright-org,
+  .footer-copyright .copyright-reserved {
+    display: block;
+    line-height: 1.45;
+  }
+  .footer-copyright .copyright-reserved {
+    margin-top: 0.2rem;
+  }
+  .footer-bottom-bar {
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 0.85rem;
+  }
+}
+
 /* ==========================================================================
    15. Modals & Lightbox
    ========================================================================== */
@@ -3225,7 +3718,7 @@ html[lang="te"] .benefit-context-desc {
   -webkit-backdrop-filter: blur(14px);
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
   .mobile-action-bar {
     display: none;
   }
@@ -3261,11 +3754,38 @@ html[lang="te"] .benefit-context-desc {
   color: #25D366;
 }
 
-/* Back to Top Floating Button */
-.back-to-top {
+/* Floating Scroll Navigation Controls (Up and Down Circles) */
+.scroll-nav-controls {
   position: fixed;
-  bottom: calc(72px + env(safe-area-inset-bottom, 0px));
-  right: 12px;
+  bottom: calc(88px + env(safe-area-inset-bottom, 0px));
+  right: 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  z-index: 95;
+  pointer-events: none;
+}
+
+/* Tablets & Tabs Breakpoint (768px - 1199px) */
+@media (min-width: 768px) and (max-width: 1199px) {
+  .scroll-nav-controls {
+    bottom: calc(92px + env(safe-area-inset-bottom, 0px));
+    right: 20px;
+    gap: 18px;
+  }
+}
+
+/* Desktop Breakpoint (1200px and up) - No fixed bottom bar */
+@media (min-width: 1200px) {
+  .scroll-nav-controls {
+    bottom: 30px;
+    right: 25px;
+    gap: 14px;
+  }
+}
+
+.scroll-nav-btn,
+.back-to-top {
   width: 40px;
   height: 40px;
   border-radius: 50%;
@@ -3280,27 +3800,49 @@ html[lang="te"] .benefit-context-desc {
   z-index: 95;
   opacity: 0;
   visibility: hidden;
+  transform: scale(0.85);
   transition: all var(--transition-fast);
+  pointer-events: auto;
+  padding: 0;
+}
+
+.scroll-nav-btn:not(.visible),
+.back-to-top:not(.visible) {
+  display: none !important;
 }
 
 @media (min-width: 768px) {
+  .scroll-nav-btn,
   .back-to-top {
-    bottom: 30px;
-    right: 25px;
-    width: 48px;
-    height: 48px;
+    width: 44px;
+    height: 44px;
   }
 }
 
-.back-to-top.visible {
-  opacity: 1;
-  visibility: visible;
+@media (min-width: 1200px) {
+  .scroll-nav-btn,
+  .back-to-top {
+    width: 46px;
+    height: 46px;
+  }
 }
 
-.back-to-top:hover {
+.scroll-nav-btn.visible,
+.back-to-top.visible {
+  display: flex;
+  opacity: 1;
+  visibility: visible;
+  transform: scale(1);
+}
+
+.scroll-nav-btn:hover,
+.scroll-nav-btn:active,
+.back-to-top:hover,
+.back-to-top:active {
   background: var(--color-secondary);
   color: #000000;
-  transform: translateY(-4px) scale(1.05);
+  border-color: var(--color-secondary-glow);
+  transform: scale(1.08);
   box-shadow: var(--shadow-gold-glow);
 }
 
@@ -3460,28 +4002,110 @@ html, body {
   }
 
   .hero-cta-group {
+    display: flex !important;
     flex-direction: column !important;
+    align-items: center !important;
     width: 100% !important;
-    gap: 0.65rem !important;
+    gap: 0.52rem !important;
   }
 
+  .hero-cta-row-top {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    width: 100% !important;
+    gap: 0.52rem !important;
+  }
+
+  .hero-cta-row-center {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    width: 100% !important;
+  }
+
+  /* Pill-Shaped Medium Buttons for Mobile (iPhone, Android) styled like (🪔 • Tradition • Devotion • Service) */
   .hero-cta-group .btn-gold-cta,
   .hero-cta-group .btn-whatsapp,
-  .hero-cta-group .btn-location-glass {
-    width: 100% !important;
-    max-width: 100% !important;
+  .hero-cta-group .btn-register-cta,
+  .hero-cta-group .btn-location-glass,
+  .hero-cta-row-top .btn-gold-cta,
+  .hero-cta-row-top .btn-whatsapp,
+  .hero-cta-row-top .btn-location-glass,
+  .hero-cta-row-center .btn-register-cta,
+  .promise-actions a,
+  .promise-banner a,
+  .guidance-actions a,
+  .nav-drawer .btn-primary,
+  .nav-drawer .btn-whatsapp,
+  .nav-drawer .btn-secondary {
+    display: inline-flex !important;
+    align-items: center !important;
     justify-content: center !important;
     text-align: center !important;
-    min-height: 46px !important;
-    font-size: 0.95rem !important;
-    padding: 0.75rem 1rem !important;
+    align-self: center !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    width: auto !important;
+    min-width: 210px !important;
+    max-width: 280px !important;
+    min-height: 38px !important;
+    padding: 0.45rem 1.25rem !important;
+    border-radius: var(--radius-full) !important;
+    font-size: 0.88rem !important;
+    font-weight: 700 !important;
+    gap: 0.5rem !important;
     box-sizing: border-box !important;
   }
 
   html[lang="te"] .hero-cta-group .btn-gold-cta,
   html[lang="te"] .hero-cta-group .btn-whatsapp,
-  html[lang="te"] .hero-cta-group .btn-location-glass {
-    font-size: 1.05rem !important;
+  html[lang="te"] .hero-cta-group .btn-register-cta,
+  html[lang="te"] .hero-cta-group .btn-location-glass,
+  html[lang="te"] .hero-cta-row-top .btn-gold-cta,
+  html[lang="te"] .hero-cta-row-top .btn-whatsapp,
+  html[lang="te"] .hero-cta-row-top .btn-location-glass,
+  html[lang="te"] .hero-cta-row-center .btn-register-cta,
+  html[lang="te"] .promise-actions a,
+  html[lang="te"] .promise-banner a,
+  html[lang="te"] .guidance-actions a,
+  html[lang="te"] .nav-drawer a {
+    font-size: 0.92rem !important;
+  }
+
+  /* Centered Action Containers */
+  .guidance-actions,
+  .promise-actions {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+    width: 100% !important;
+    gap: 0.52rem !important;
+  }
+
+  /* Pill-Shaped Social Media Buttons on Mobile */
+  .social-card-cta {
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    text-align: center !important;
+    align-self: center !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    width: auto !important;
+    min-width: 210px !important;
+    max-width: 260px !important;
+    min-height: 38px !important;
+    padding: 0.45rem 1.25rem !important;
+    border-radius: var(--radius-full) !important;
+    font-size: 0.84rem !important;
+    gap: 0.5rem !important;
+    box-sizing: border-box !important;
+  }
+
+  html[lang="te"] .social-card-cta {
+    font-size: 0.88rem !important;
   }
 
   .hero-stats-bar {
@@ -3579,6 +4203,74 @@ html, body {
   .hero-cta-group {
     flex-wrap: wrap !important;
     justify-content: flex-start !important;
+    gap: 0.65rem !important;
+  }
+
+  /* Pill Size Buttons for Tablets (iPads, Android Tablets) */
+  .hero-cta-group .btn-gold-cta,
+  .hero-cta-group .btn-whatsapp,
+  .hero-cta-group .btn-register-cta,
+  .hero-cta-group .btn-location-glass,
+  .hero-cta-row-top .btn-gold-cta,
+  .hero-cta-row-top .btn-whatsapp,
+  .hero-cta-row-top .btn-location-glass,
+  .hero-cta-row-center .btn-register-cta,
+  .promise-actions a,
+  .promise-banner a,
+  .guidance-actions a {
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    text-align: center !important;
+    align-self: center !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    width: auto !important;
+    min-width: 210px !important;
+    max-width: 280px !important;
+    min-height: 38px !important;
+    padding: 0.45rem 1.25rem !important;
+    border-radius: var(--radius-full) !important;
+    font-size: 0.88rem !important;
+    font-weight: 700 !important;
+    gap: 0.5rem !important;
+    box-sizing: border-box !important;
+  }
+
+  html[lang="te"] .hero-cta-group .btn-gold-cta,
+  html[lang="te"] .hero-cta-group .btn-whatsapp,
+  html[lang="te"] .hero-cta-group .btn-register-cta,
+  html[lang="te"] .hero-cta-group .btn-location-glass,
+  html[lang="te"] .hero-cta-row-top .btn-gold-cta,
+  html[lang="te"] .hero-cta-row-top .btn-whatsapp,
+  html[lang="te"] .hero-cta-row-top .btn-location-glass,
+  html[lang="te"] .hero-cta-row-center .btn-register-cta,
+  html[lang="te"] .promise-actions a,
+  html[lang="te"] .promise-banner a,
+  html[lang="te"] .guidance-actions a {
+    font-size: 0.92rem !important;
+  }
+
+  .social-card-cta {
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    text-align: center !important;
+    align-self: center !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    width: auto !important;
+    min-width: 210px !important;
+    max-width: 260px !important;
+    min-height: 38px !important;
+    padding: 0.45rem 1.25rem !important;
+    border-radius: var(--radius-full) !important;
+    font-size: 0.84rem !important;
+    gap: 0.5rem !important;
+  }
+
+  html[lang="te"] .social-card-cta {
+    font-size: 0.88rem !important;
   }
 }
 

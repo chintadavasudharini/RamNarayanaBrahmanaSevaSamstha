@@ -14,8 +14,8 @@ const translations = {
     top_call: "కాల్: 87903 23977",
     nav_home: "ప్రధాన పేజీ",
     nav_about: "సంస్థ గురించి",
-    nav_services: "మా సేవలు",
-    nav_benefits: "ప్రయోజనాలు",
+    nav_services: "మా కర్మలు",
+    nav_benefits: "ఆధ్యాత్మిక విశిష్టత & ప్రయోజనాలు",
     nav_why_us: "ఎందుకు ఎంచుకోవాలి",
     nav_gallery: "బ్యానర్లు & కరపత్రం",
     nav_contact: "సంప్రదించండి",
@@ -24,13 +24,15 @@ const translations = {
     nav_whatsapp_btn: "వాట్సాప్",
     nav_location_btn: "గూగుల్ మ్యాప్స్",
     drawer_call_cta: "📞 +91 77802 23977",
+    brand_title: "రామ్ నారాయణ బ్రాహ్మణ సేవా సంస్థ",
+    brand_title_multiline: '<span class="brand-line">రామ్ నారాయణ</span> <span class="brand-line">బ్రాహ్మణ</span> <span class="brand-line">సేవా సంస్థ</span>',
 
     // Hero Section
     pill_loc: "దిల్‌సుఖ్‌నగర్, హైదరాబాద్.",
     hero_badge: "• సంప్రదాయం  • భక్తి  • సేవ",
     hero_founder: "నంబూరి ఆదినారాయణ శర్మ",
     hero_est: "స్థాపన 2026 | రామ్ నారాయణ బ్రాహ్మణ సేవా సంస్థ",
-    hero_title_main: "రామ్ నారాయణ బ్రాహ్మణ సేవా సంస్థ",
+    hero_title_main: "రామ్ నారాయణ<br>బ్రాహ్మణ<br>సేవా సంస్థ",
     hero_tagline: "వైదిక సంప్రదాయ పరిరక్షణే మా లక్ష్యం...",
     hero_tagline_sub: "శ్రద్ధ, భక్తి, శాస్త్రబద్ధతతో మీ సేవా తత్పరతలో...",
     hero_services_strip_title: "బ్రాహ్మణ పితృ కార్యముల నిర్వహణ సంస్థ - దిల్‌సుఖ్‌నగర్",
@@ -56,14 +58,14 @@ const translations = {
     feature_3_title: "సాంప్రదాయ సాత్విక వంట",
     feature_3_desc: "శుచి, శుభ్రతతో కూడిన సాంప్రదాయ బ్రాహ్మణ భోజన సదుపాయం",
     feature_4_title: "పవిత్ర సేవా వేదిక",
-    feature_4_desc: "దిల్‌సుఖ్‌నగర్‌లో విశాలమైన, పరిశుభ్రమైన పూజా ప్రాంగణం",
+    feature_4_desc: "దిల్‌సుఖ్‌నగర్లో విశాలమైన, పరిశుభ్రమైన పూజా ప్రాంగణం",
 
     // About Section
     about_badge: "మా పవిత్ర ధ్యేయం",
     about_title: "సనాతన ధర్మ రక్షణ & పితృ కర్మల విశిష్టత",
     about_lead: "మాతాపితరుల రుణం తీర్చుకోవడం ప్రతి మానవుని ప్రథమ కర్తవ్యం. శాస్త్రోక్తంగా నిర్వహించే శ్రద్ధ మరియు శ్రాద్ధ కర్మలు పితృదేవతలకు సద్గతిని, కుటుంబానికి శుభాలను చేకూరుస్తాయి.",
     about_text_1: "రామ్ నారాయణ బ్రాహ్మణ సేవా సంస్థ ద్వారా నంబూరి ఆదినారాయణ శర్మ గారి పర్యవేక్షణలో అత్యంత నిష్ఠతో, వేద మంత్రోచ్ఛారణలతో పితృ కార్యాలు మరియు శ్రాద్ధ కర్మలు నిర్వహించబడుతున్నాయి.",
-    about_text_2: "అన్ని కార్యక్రమాలు హైదరాబాద్ దిల్‌సుఖ్‌నగర్‌లోని మా రామ్ నారాయణ బ్రాహ్మణ సేవా సంస్థ ప్రాంగణంలోనే (ఇంటి నెం. 11-62, ప్రగతి నగర్ రోడ్, సాహితి నగర్) పురోహితులు, భోక్తలు, పూజా సామాగ్రి, సాత్విక వంట మరియు సంపూర్ణ సౌకర్యాలతో శాస్త్రోక్తంగా నిర్వహించబడును.",
+    about_text_2: "అన్ని కార్యక్రమాలు హైదరాబాద్ దిల్‌సుఖ్‌నగర్లోని మా రామ్ నారాయణ బ్రాహ్మణ సేవా సంస్థ ప్రాంగణంలోనే (ఇంటి నెం. 11-62, ప్రగతి నగర్ రోడ్, సాహితి నగర్) పురోహితులు, భోక్తలు, పూజా సామాగ్రి, సాత్విక వంట మరియు సంపూర్ణ సౌకర్యాలతో శాస్త్రోక్తంగా నిర్వహించబడును.",
     about_quote: "\"పూర్వీకుల ఆశీస్సులే కుటుంబ క్షేమానికి మూలస్తంభాలు\"",
     about_point_1: "అనుభవజ్ఞులైన వేద పండితుల మార్గదర్శకత్వం",
     about_point_2: "సమగ్ర పూజా సామగ్రి మరియు భోక్తల ఏర్పాట్లు",
@@ -129,7 +131,7 @@ const translations = {
     srv_pinda_diff_desc: "తర్పణం అంటే నువ్వులు కలిపిన నీటిని సమర్పించడం. పిండప్రదానం అంటే అన్నంతో చేసిన పిండాలను సమర్పించడం. రెండూ కలిసి చేస్తారు.",
 
     // 4. Differences Section (మూడింటి తేడాలు)
-    diff_badge: "ఆచరణ క్రమం & అవగాహన",
+    diff_badge: "కర్మ విధానం & సాంప్రదాయం",
     diff_title: "మాసికం, సంవత్సరికం, ఆబ్దికం<br>తేడా తెలుసా?",
     diff_sub: "సనాతన ధర్మ సంప్రదాయంలో పితృకార్యాల స్పష్టమైన తేడాలు & క్రమం",
     diff_badge_step1: "దశ 1",
@@ -148,11 +150,15 @@ const translations = {
     remember_1: "మాసికం:<br>మొదటి సంవత్సరం ప్రతి నెలా",
     remember_2: "సంవత్సరికం:<br>సంవత్సరం పూర్తయ్యాక ఒక్కసారి",
     remember_3: "ఆ తర్వాత ప్రతి ఏటా:<br>ఆబ్దికం",
+    guidance_badge: "శాస్త్రోక్త మార్గదర్శకత్వం & సంప్రదాయ సలహా",
+    guidance_title: "తిథి లేదా కర్మ ఎంపికలో సందేహాలు ఉన్నాయా?",
+    guidance_desc: "మీ పితృదేవతల సరైన తిథి తెలియకపోయినా లేదా ఏ కర్మ ఎప్పుడు నిర్వహించాలో స్పష్టత లేకపోయినా — మా వేద పండితులు శాస్త్రోక్తంగా పరిశీలించి సరైన తిథి నిర్ణయం మరియు సంపూర్ణ మార్గదర్శకత్వం అందిస్తారు.",
+    guidance_note: "💡 తిథి తెలియకపోతే మరణించిన ఇంగ్లీష్ తేదీని తెలియజేయండి; మా పండితులు సరైన తిథిని లెక్కించి తెలియజేస్తారు.",
     promise_title: "మిగతాది మేము చూసుకుంటాము 🙏",
     promise_desc: "హైదరాబాద్ దిల్‌సుఖ్‌నగర్ సంస్థలో అనుభవజ్ఞులైన వేద పండితులు, సత్ బ్రాహ్మణ భోక్తలు, సమగ్ర పూజా సామాగ్రి మరియు పరిశుభ్రమైన సాత్విక భోజనంతో — సంపూర్ణ ఏర్పాట్లు మేము చూసుకుంటాము.",
 
     // 5. Why Do It? Benefits (ఎందుకు చేయాలి? ప్రయోజనాలు)
-    benefits_badge: "పితృ కర్మల విశిష్టత",
+    benefits_badge: "ఆధ్యాత్మిక ప్రాధాన్యత & ప్రయోజనాలు",
     benefits_title: "పితృదేవతలకు కర్మలు<br>ఎందుకు చేయాలి?",
     benefits_sub: "మనకు జన్మనిచ్చి, పెంచి, విలువలు నేర్పిన పూర్వీకులకు కృతజ్ఞత తెలుపుకునే పవిత్ర కర్తవ్యం.",
     ben_ctx_title: "కర్మల ప్రాధాన్యత:",
@@ -184,11 +190,14 @@ const translations = {
     why_3_desc: "హైదరాబాద్ దిల్‌సుఖ్‌నగర్ సంస్థలో పరిశుభ్రమైన, ప్రశాంతమైన వాతావరణంలో శ్రద్ధాభక్తులతో కర్మలు జరుగుతాయి.",
     why_4_title: "కారణం 4:<br>సంపూర్ణ నిర్వహణ",
     why_4_desc: "తిథి, పితృదేవత పేరు చెప్తే చాలు. సూచనలు, మార్గదర్శకత్వం, ఏర్పాట్లన్నీ మేము చూసుకుంటాము.",
-    srv_diff_name: "మూడింటి తేడాలు",
+    srv_diff_name: "కర్మ విధానం & సాంప్రదాయం",
+    nav_srv_process: "కర్మ విధానం & సాంప్రదాయం",
+    nav_srv_blessings: "ఆధ్యాత్మిక ప్రయోజనాలు & ఆశీస్సులు",
 
     // Ritual Details Intake Form
-    nav_ritual_form: "కర్మ వివరాల ఫారం",
-    form_badge: "ఆచరణ వివరాల నమోదు",
+    nav_ritual_form: "కర్మ బుకింగ్",
+    cta_register_ritual: "కర్మ బుకింగ్",
+    form_badge: "కర్మ బుకింగ్",
     form_title: "కర్మ నిర్వహణకు అవసరమైన వివరాలు",
     form_subtitle: "వేదోక్త మార్గదర్శకత్వం, తేదీ, ఏర్పాట్ల కోసం మీ కుటుంబ వివరాలను తెలియజేయండి",
     form_greeting: "🙏 నమస్కారం.",
@@ -279,6 +288,8 @@ const translations = {
     contact_email_label: "ఈమెయిల్ చిరునామా:",
     contact_hours_label: "సేవా సమయాలు:",
     contact_hours_val: "రోజూ ఉదయం 8:00 నుండి సాయంత్రం 6:00 వరకు",
+    contact_booking_label: "కర్మ బుకింగ్:",
+    contact_location_label: "సంస్థ లొకేషన్:",
     contact_cta_maps: "📍 గూగుల్ మ్యాప్స్‌లో చూడండి",
     contact_cta_whatsapp: "💬 వాట్సాప్‌లో సంప్రదించండి (+91 77802 23977)",
 
@@ -301,11 +312,13 @@ const translations = {
     // Footer
     footer_desc: "హిందూ సాంప్రదాయ విధాన సత్ బ్రాహ్మణులతో, అగ్నిహోత్ర పారణంతో పితృ కార్యముల సమగ్ర నిర్వహణ సేవా సంస్థ.",
     footer_quick_links: "మా సంస్థను అన్వేషించండి",
-    footer_services: "సేవలు",
+    footer_services: "మా కర్మలు",
     footer_srv_2: "భోక్తల సేవ",
     footer_contact_info: "సంప్రదింపుల కేంద్రం",
     footer_social_title: "సోషల్ మీడియా",
     footer_rights: "రామ్ నారాయణ బ్రాహ్మణ సేవా సంస్థ. సర్వ హక్కులూ ప్రత్యేకించబడినవి.",
+    footer_rights_org: "రామ్ నారాయణ బ్రాహ్మణ సేవా సంస్థ.",
+    footer_rights_reserved: "సర్వ హక్కులూ ప్రత్యేకించబడినవి.",
     footer_developed: "నంబూరి ఆదినారాయణ శర్మ గారి ఆధ్వర్యంలో"
   },
 
@@ -319,8 +332,8 @@ const translations = {
     top_call: "Call: 87903 23977",
     nav_home: "Home",
     nav_about: "About the Samstha",
-    nav_services: "Our Services",
-    nav_benefits: "Benefits of Shraddha",
+    nav_services: "Our Rituals",
+    nav_benefits: "Spiritual Importance & Benefits",
     nav_why_us: "Why Choose Us",
     nav_gallery: "Banners & Brochure",
     nav_contact: "Contact Us",
@@ -329,13 +342,15 @@ const translations = {
     nav_whatsapp_btn: "WhatsApp",
     nav_location_btn: "Google Maps",
     drawer_call_cta: "📞 +91 77802 23977",
+    brand_title: "RAM NARAYANA BRAHMANA SEVA SAMSTHA",
+    brand_title_multiline: '<span class="brand-line">RAM NARAYANA</span> <span class="brand-line">BRAHMANA</span> <span class="brand-line">SEVA SAMSTHA</span>',
 
     // Hero Section
     pill_loc: "Dilsukhnagar, Hyderabad.",
     hero_badge: "• Tradition • Devotion • Service",
     hero_founder: "Namburi Adinarayana Sharma",
     hero_est: "EST. 2026 | Ram Narayana Brahmana Seva Samstha",
-    hero_title_main: "RAM NARAYANA BRAHMANA SEVA SAMSTHA",
+    hero_title_main: "RAM NARAYANA<br>BRAHMANA<br>SEVA SAMSTHA",
     hero_tagline: "Preserving Vedic Tradition is our Mission...",
     hero_tagline_sub: "In your service with reverence, devotion & Shastra compliance...",
     hero_services_strip_title: "Brahmin Ancestral Rituals Organization - Dilsukhnagar",
@@ -434,7 +449,7 @@ const translations = {
     srv_pinda_diff_desc: "Tarpanam is the sacred offering of water mixed with black sesame seeds (Tarpana). Pinda Pradanam is the offering of cooked rice pindas. Both are performed harmoniously together.",
 
     // 4. Differences Section (Key Differences)
-    diff_badge: "Sacred Sequence & Clarity",
+    diff_badge: "Ritual Process & Tradition",
     diff_title: "Masikam, Samvatsarikam, Abdikam<br>Do you know the difference?",
     diff_sub: "Clear understanding of ancestral rites and sequence as per Sanatana Dharma",
     diff_badge_step1: "Step 1",
@@ -453,11 +468,15 @@ const translations = {
     remember_1: "Masikam:<br>Every month during the first year",
     remember_2: "Samvatsarikam:<br>Once upon completion of the year",
     remember_3: "Abdikam:<br>Every year thereafter",
+    guidance_badge: "Vedic Guidance & Shastra Consultation",
+    guidance_title: "Need Help with Tithi Calculation or Ritual Selection?",
+    guidance_desc: "If you are unsure of the exact Tithi or need clarity on the appropriate ritual to perform — our experienced Vedic scholars will calculate the Tithi according to the Shastras and provide comprehensive guidance.",
+    guidance_note: "💡 If the exact Tithi is unknown, simply provide the date of demise; our scholars will determine the correct Vedic Tithi for you.",
     promise_title: "We Will Take Care of Everything Else 🙏",
     promise_desc: "Experienced Vedic scholars, devout Brahmin Bhokthas, comprehensive puja samagri, and authentic Satvik meals — fully managed at our Dilsukhnagar Samstha premises.",
 
     // 5. Why Do It? Benefits
-    benefits_badge: "Spiritual Significance",
+    benefits_badge: "Spiritual Importance & Benefits",
     benefits_title: "Why should we perform rituals<br>for<br>our ancestors?",
     benefits_sub: "A sacred duty to express eternal gratitude to our ancestors who gave us birth, nurtured us, and instilled sacred values.",
     ben_ctx_title: "Importance of the Rites:",
@@ -489,11 +508,14 @@ const translations = {
     why_3_desc: "A pure, serene, and spiritually uplifting setting at our dedicated Dilsukhnagar Samstha.",
     why_4_title: "Reason 4:<br>Complete Management",
     why_4_desc: "Just provide the tithi and ancestor's name; all guidance, Vedic Purohits, Bhokthas, and arrangements are handled by us.",
-    srv_diff_name: "Key Differences",
+    srv_diff_name: "Ritual Process & Tradition",
+    nav_srv_process: "Ritual Process & Tradition",
+    nav_srv_blessings: "Spiritual Purpose & Blessings",
 
     // Ritual Details Intake Form
-    nav_ritual_form: "Ritual Details Form",
-    form_badge: "Sacred Ritual Registration",
+    nav_ritual_form: "Ritual Booking",
+    cta_register_ritual: "Ritual Booking",
+    form_badge: "Ritual Booking",
     form_title: "Details Required<br>for<br>Ancestral Rituals",
     form_subtitle: "Submit your family details to receive Vedic guidance, auspicious date, and complete arrangements",
     form_greeting: "🙏 Namaskaram.",
@@ -584,6 +606,8 @@ const translations = {
     contact_email_label: "Email Address:",
     contact_hours_label: "Service Timings:",
     contact_hours_val: "Every Day: 8:00 AM – 6:00 PM",
+    contact_booking_label: "Book a Ritual:",
+    contact_location_label: "Location:",
     contact_cta_maps: "📍 Open in Google Maps",
     contact_cta_whatsapp: "💬 Connect on WhatsApp (+91 77802 23977)",
 
@@ -611,6 +635,8 @@ const translations = {
     footer_contact_info: "Contact Information",
     footer_social_title: "Social Media",
     footer_rights: "Ram Narayana Brahmana Seva Samstha. All Rights Reserved.",
+    footer_rights_org: "Ram Narayana Brahmana Seva Samstha.",
+    footer_rights_reserved: "All Rights Reserved.",
     footer_developed: "Under the guidance of Namburi Adinarayana Sharma"
   }
 };
