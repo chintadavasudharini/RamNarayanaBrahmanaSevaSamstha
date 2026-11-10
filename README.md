@@ -19,7 +19,10 @@
       <img src="https://img.shields.io/badge/Production-Live_Deployment-success?style=for-the-badge&logo=vercel&logoColor=white&color=000000" alt="Vercel Production Deployment" />
     </a>
     <a href="https://github.com/chintadavasudharini/RamNarayanaBrahmanaSevaSamstha" target="_blank" rel="noopener noreferrer">
-      <img src="https://img.shields.io/badge/GitHub-Repository-851317?style=for-the-badge&logo=github&logoColor=FFE082" alt="GitHub Repository" />
+      <img src="https://img.shields.io/badge/GitHub-Project_Repo-851317?style=for-the-badge&logo=github&logoColor=FFE082" alt="GitHub Project Repository" />
+    </a>
+    <a href="https://github.com/ramnarayanabrahmanaseva/RamNarayanaBrahmanaSevaSamstha" target="_blank" rel="noopener noreferrer">
+      <img src="https://img.shields.io/badge/Official_Samstha-Organization_Repo-D4AF37?style=for-the-badge&logo=github&logoColor=1a1a1a" alt="Official Samstha Organization Repository" />
     </a>
     <a href="https://github.com/chintadavasudharini/RamNarayanaBrahmanaSevaSamstha/blob/main/LICENSE">
       <img src="https://img.shields.io/badge/License-MIT-gold?style=for-the-badge&labelColor=1a1a1a" alt="MIT License" />
@@ -41,7 +44,9 @@
   <h3>
     🌐 <a href="https://ramnarayana-brahmana-sevasamstha.vercel.app/" target="_blank" rel="noopener noreferrer"><strong>Explore the Live Production Application »</strong></a>
     &nbsp;&nbsp;•&nbsp;&nbsp;
-    🐙 <a href="https://github.com/chintadavasudharini/RamNarayanaBrahmanaSevaSamstha" target="_blank" rel="noopener noreferrer"><strong>Explore the GitHub Codebase »</strong></a>
+    🐙 <a href="https://github.com/chintadavasudharini/RamNarayanaBrahmanaSevaSamstha" target="_blank" rel="noopener noreferrer"><strong>Project Codebase Repository »</strong></a>
+    &nbsp;&nbsp;•&nbsp;&nbsp;
+    🏛️ <a href="https://github.com/ramnarayanabrahmanaseva/RamNarayanaBrahmanaSevaSamstha" target="_blank" rel="noopener noreferrer"><strong>Official Samstha Organization Repository »</strong></a>
   </h3>
 
 </div>
@@ -50,44 +55,92 @@
 
 ## 📑 Table of Contents
 
-1. [📌 Project Overview & Problem Statement](#1-project-overview--problem-statement)
-2. [🗺️ End-to-End Application Architecture (Start to End Walkthrough)](#2-end-to-end-application-architecture-start-to-end-walkthrough)
-   - [2.1 Top Announcement & Sacred Invocation Bar](#21-top-announcement--sacred-invocation-bar)
-   - [2.2 Sticky Header & Navigation Systems](#22-sticky-header--navigation-systems)
-   - [2.3 Hero Section & Single-Line Ritual Ribbon](#23-hero-section--single-line-ritual-ribbon)
-   - [2.4 About the Samstha & Leadership](#24-about-the-samstha--leadership)
-   - [2.5 Ancestral Ritual Services Modules](#25-ancestral-ritual-services-modules)
-   - [2.6 Ritual Chronology & Timeline Matrix ("మూడింటి తేడాలు")](#26-ritual-chronology--timeline-matrix-మూడింటి-తేడాలు)
-   - [2.7 Filial Duty & 4 Sacred Benefits](#27-filial-duty--4-sacred-benefits)
-   - [2.8 Why Choose Us (4 Operational Pillars)](#28-why-choose-us-4-operational-pillars)
-   - [2.9 Media Gallery & Modal Lightbox](#29-media-gallery--modal-lightbox)
-   - [2.10 Interactive 11-Field Ancestral Ritual Intake Form System](#210-interactive-11-field-ancestral-ritual-intake-form-system)
-   - [2.11 Contact & Location Hub](#211-contact--location-hub)
-   - [2.12 Official Social Media Ribbon](#212-official-social-media-ribbon)
-   - [2.13 Integrated Footer System](#213-integrated-footer-system)
-   - [2.14 Persistent Mobile Bottom Quick Action Bar](#214-persistent-mobile-bottom-quick-action-bar)
-3. [⚙️ Technical Implementation & Subsystems](#3-technical-implementation--subsystems)
-   - [3.1 Zero-Framework Philosophy & Why Vanilla JS](#31-zero-framework-philosophy--why-vanilla-js)
-   - [3.2 Declarative Reactive i18n Engine](#32-declarative-reactive-i18n-engine)
-   - [3.3 Multi-Attribute Directives Binding Matrix](#33-multi-attribute-directives-binding-matrix)
-   - [3.4 Telugu Typography Engine (Google Font Ramabhadra)](#34-telugu-typography-engine-google-font-ramabhadra)
-   - [3.5 Spacious WhatsApp Message Generation Protocol](#35-spacious-whatsapp-message-generation-protocol)
-   - [3.6 Modal Lightbox & Focus State Machine](#36-modal-lightbox--focus-state-machine)
-   - [3.7 Vedic Light Design System & CSS Token Architecture](#37-vedic-light-design-system--css-token-architecture)
-   - [3.8 Fluid Layouts & Zero-Overflow Engineering](#38-fluid-layouts--zero-overflow-engineering)
-4. [📊 Performance Benchmarks & Core Web Vitals](#4-performance-benchmarks--core-web-vitals)
-5. [🔒 Accessibility, Security & SEO Engineering](#5-accessibility-security--seo-engineering)
-6. [📂 Codebase Anatomy & File Mapping](#6-codebase-anatomy--file-mapping)
-7. [🚀 Getting Started & Local Development](#7-getting-started--local-development)
-8. [🚢 Deployment & Hosting Architecture](#8-deployment--hosting-architecture)
-9. [📱 Browser & Device Support Matrix](#9-browser--device-support-matrix)
-10. [📜 Open-Source License](#10-open-source-license)
+1. [🏛️ Ram Narayana Brahmana Seva Samstha (Institution Overview & Official Organization)](#1-️-ram-narayana-brahmana-seva-samstha-institution-overview--official-organization)
+2. [📌 Project Overview & Problem Statement](#2-project-overview--problem-statement)
+3. [🗺️ End-to-End Application Architecture (Start to End Walkthrough)](#3-end-to-end-application-architecture-start-to-end-walkthrough)
+   - [3.1 Top Announcement & Sacred Invocation Bar](#31-top-announcement--sacred-invocation-bar)
+   - [3.2 Sticky Header & Navigation Systems](#32-sticky-header--navigation-systems)
+   - [3.3 Hero Section & Single-Line Ritual Ribbon](#33-hero-section--single-line-ritual-ribbon)
+   - [3.4 About the Samstha & Leadership](#34-about-the-samstha--leadership)
+   - [3.5 Ancestral Ritual Services Modules](#35-ancestral-ritual-services-modules)
+   - [3.6 Ritual Chronology & Timeline Matrix ("మూడింటి తేడాలు")](#36-ritual-chronology--timeline-matrix-మూడింటి-తేడాలు)
+   - [3.7 Filial Duty & 4 Sacred Benefits](#37-filial-duty--4-sacred-benefits)
+   - [3.8 Why Choose Us (4 Operational Pillars)](#38-why-choose-us-4-operational-pillars)
+   - [3.9 Media Gallery & Modal Lightbox](#39-media-gallery--modal-lightbox)
+   - [3.10 Interactive 11-Field Ancestral Ritual Intake Form System](#310-interactive-11-field-ancestral-ritual-intake-form-system)
+   - [3.11 Contact & Location Hub](#311-contact--location-hub)
+   - [3.12 Official Social Media Ribbon](#312-official-social-media-ribbon)
+   - [3.13 Integrated Footer System](#313-integrated-footer-system)
+   - [3.14 Persistent Mobile Bottom Quick Action Bar](#314-persistent-mobile-bottom-quick-action-bar)
+4. [⚙️ Technical Implementation & Subsystems](#4-technical-implementation--subsystems)
+   - [4.1 Zero-Framework Philosophy & Why Vanilla JS](#41-zero-framework-philosophy--why-vanilla-js)
+   - [4.2 Declarative Reactive i18n Engine](#42-declarative-reactive-i18n-engine)
+   - [4.3 Multi-Attribute Directives Binding Matrix](#43-multi-attribute-directives-binding-matrix)
+   - [4.4 Telugu Typography Engine (Google Font Ramabhadra)](#44-telugu-typography-engine-google-font-ramabhadra)
+   - [4.5 Spacious WhatsApp Message Generation Protocol](#45-spacious-whatsapp-message-generation-protocol)
+   - [4.6 Modal Lightbox & Focus State Machine](#46-modal-lightbox--focus-state-machine)
+   - [4.7 Vedic Light Design System & CSS Token Architecture](#47-vedic-light-design-system--css-token-architecture)
+   - [4.8 Fluid Layouts & Zero-Overflow Engineering](#48-fluid-layouts--zero-overflow-engineering)
+5. [📊 Performance Benchmarks & Core Web Vitals](#5-performance-benchmarks--core-web-vitals)
+6. [🔒 Accessibility, Security & SEO Engineering](#6-accessibility-security--seo-engineering)
+7. [📂 Codebase Anatomy & File Mapping](#7-codebase-anatomy--file-mapping)
+8. [🚀 Getting Started & Local Development](#8-getting-started--local-development)
+9. [🚢 Deployment & Hosting Architecture](#9-deployment--hosting-architecture)
+10. [📱 Browser & Device Support Matrix](#10-browser--device-support-matrix)
+11. [📜 Open-Source License](#11-open-source-license)
 
 ---
 
-## 1. 📌 Project Overview & Problem Statement
+## 1. 🏛️ Ram Narayana Brahmana Seva Samstha (Institution Overview & Official Organization)
 
-### 1.1 The Context
+> 🔗 **Official Organization Repository:**  
+> **[`https://github.com/ramnarayanabrahmanaseva/RamNarayanaBrahmanaSevaSamstha`](https://github.com/ramnarayanabrahmanaseva/RamNarayanaBrahmanaSevaSamstha)**
+
+<div align="center">
+  <img src="assets/images/logo.png" alt="Ram Narayana Brahmana Seva Samstha Emblem" width="124" style="border-radius: 50%; border: 3px solid #D4AF37; box-shadow: 0 0 20px rgba(212, 175, 55, 0.4); margin-bottom: 8px;" />
+  <h3>🕉️ రామ్ నారాయణ బ్రాహ్మణ సేవా సంస్థ 🕉️</h3>
+  <h4><strong>• సంప్రదాయం &nbsp;• భక్తి &nbsp;• సేవ &nbsp;|&nbsp; • వేదోక్తం &nbsp;• శాస్త్రోక్తం &nbsp;• భక్తితో</strong></h4>
+  <p><em>బ్రాహ్మణ పితృ కార్యముల సమగ్ర నిర్వహణ సంస్థ — దిల్‌సుఖ్‌నగర్, హైదరాబాద్</em></p>
+</div>
+
+### 1.1 Institution Background & Spiritual Leadership
+**Ram Narayana Brahmana Seva Samstha** is a premier sacred spiritual organization operating out of **Dilsukhnagar, Hyderabad, Telangana**. The institution is dedicated to upholding Sanatana Dharma and conducting Hindu ancestral sacraments (*Pitru Karyas*, *Shraddha*, *Masikam*, *Samvatsarikam*, *Abdikam*, and *Pinda Pradanam*) strictly in accordance with Vedic scriptures (Bodhāyana and Āpastamba Grihya Sutras).
+
+Under the divine guidance and supervision of **Namburi Adinarayana Sharma (నంబూరి ఆదినారాయణ శర్మ)**, the Samstha provides a dedicated, peaceful sanctuary where families can fulfill their filial duties (*Pitru Rina*) without the logistical burdens of urban apartment living.
+
+### 1.2 Dedicated Sacred Services & Turnkey Facilities
+The Samstha provides complete Shastric arrangements under one sacred roof:
+- **వేద పండితులు (Vedic Pandits)**: Experienced Vedic scholars conducting rituals with precise intonation and scriptural rigor.
+- **సదాచార సత్ బ్రాహ్మణ భోక్తలు (Devout Brahmin Bhokthas)**: Practicing Brahmins observing daily *Sandhyavandanam*, strict fasting, and sacred Bhojana niyamas.
+- **శాస్త్రోక్త మడి సాత్విక భోజనం (Pure Madi Satvik Catering)**: Traditional food prepared strictly without onion or garlic, using pure cow ghee in a ritual-grade kitchen.
+- **సమగ్ర పూజా సామగ్రి (Complete Puja Essentials)**: Darbha, samidhalu, black sesame (*Tila*), sacred cow ghee, leaf plates (*Vistallu*), and homam dravyas.
+- **పవిత్ర ప్రాంగణం (Spiritual Premises)**: Well-ventilated ritual halls, dedicated dining spaces, and accommodations for family members and elders.
+
+### 1.3 Key Ancestral Sacraments Managed
+| Ceremony (కర్మ) | Frequency & Timing | Spiritual Significance & Deliverables |
+|:---|:---|:---|
+| **మాసికం (Masikam)** | 1st Year (Every month on the lunar tithi) | Monthly Shraddha karma conducted throughout the first year for the peace and contentment of departed souls. |
+| **సంవత్సరికం (Samvatsarikam)** | 1st Year Completion (Solemn one-time rite) | Crucial transition ritual performed once marking the completion of the first year as prescribed by the Shastras. |
+| **ఆబ్దికం (Abdikam)** | Every Year Thereafter (Annually on the tithi) | Annual Shraddha rite performed each year with Agnihotra Paranam for family peace, prosperity, and blessings. |
+| **పిండప్రదానం (Pinda Pradanam)** | Shradha rites, Mahalaya Pitru Paksha & special days | Cooked rice and black sesame offerings (*Pindas*) on Darbha grass with Vedic mantras for ancestral satisfaction. |
+
+### 1.4 Official Institution Details & Directory
+| Resource / Detail | Information |
+|:---|:---|
+| **Official Samstha Repository** | 🐙 [`https://github.com/ramnarayanabrahmanaseva/RamNarayanaBrahmanaSevaSamstha`](https://github.com/ramnarayanabrahmanaseva/RamNarayanaBrahmanaSevaSamstha) |
+| **Divya Paryavekshana / Leadership** | **నంబూరి ఆదినారాయణ శర్మ (Namburi Adinarayana Sharma)** |
+| **Premises Address** | H.No. 11-62, Pragathi Nagar Road, Sahithi Nagar, Dilsukhnagar, Hyderabad, Telangana – 500060 |
+| **Phone Inquiries** | 📞 [**+91 77802 23977**](tel:7780223977) &nbsp;\|&nbsp; 📞 [**+91 87903 23977**](tel:8790323977) |
+| **Direct WhatsApp Consultation** | 💬 [**Chat on WhatsApp (+91 77802 23977)**](https://wa.me/917780223977?text=%E0%B0%A8%E0%B0%AE%E0%B0%B8%E0%B1%8D%E0%B0%95%E0%B0%BE%E0%B0%B0%E0%B0%82%2C%0A%E0%B0%B0%E0%B0%BE%E0%B0%AE%E0%B1%8D%20%E0%B0%A8%E0%B0%BE%E0%B0%B0%E0%B0%BE%E0%B0%AF%E0%B0%A3%20%E0%B0%AC%E0%B1%8D%E0%B0%B0%E0%B0%BE%E0%B0%B9%E0%B1%8D%E0%B0%AE%E0%B0%A3%20%E0%B0%B8%E0%B1%87%E0%B0%B5%E0%B0%BE%20%E0%B0%B8%E0%B0%82%E0%B0%B8%E0%B1%8D%E0%B0%A5%20(%E0%B0%A6%E0%B0%BF%E0%B0%B2%E0%B1%8D%E2%80%8C%E0%B0%B8%E0%B1%81%E0%B0%96%E0%B1%8D%E2%80%8C%E0%B0%A8%E0%B0%97%E0%B0%B0%E0%B1%8D).%0A%0A%E0%B0%A8%E0%B1%87%E0%B0%A8%E0%B1%81%20%E0%B0%AE%E0%B1%80%20%E0%B0%B8%E0%B1%87%E0%B0%B5%E0%B0%B2%20%E0%B0%97%E0%B1%81%E0%B0%B0%E0%B0%BF%E0%B0%82%E0%B0%9A%E0%B0%BF%20%E0%B0%A4%E0%B1%86%E0%B0%B2%E0%B1%81%E0%B0%B8%E0%B1%81%E0%B0%95%E0%B1%8B%E0%B0%B5%E0%B0%BE%E0%B0%B2%E0%B0%A8%E0%B1%81%E0%B0%95%E0%B1%81%E0%B0%82%E0%B0%9F%E0%B1%81%E0%B0%A8%E0%B1%8D%E0%B0%A8%E0%B0%BE%E0%B0%A8%E0%B1%81.) |
+| **Official Email** | ✉️ [ramnarayanabrahmanasevasamstha@gmail.com](mailto:ramnarayanabrahmanasevasamstha@gmail.com) |
+| **Google Maps Location** | 📍 [Open in Google Maps](https://maps.app.goo.gl/LFmHe4vhQKaKRtFi8?g_st=aw) |
+| **Operational & Ritual Hours** | ⏰ Everyday 8:00 AM – 6:00 PM (Including Sundays & Festivals) |
+
+---
+
+## 2. 📌 Project Overview & Problem Statement
+
+### 2.1 The Context
 In contemporary urban society, Hindu families residing in high-density metropolitan apartments and gated communities often face immense challenges when performing sacred ancestral sacraments (*Pitru Karyas*, *Shraddha*, *Masikam*, *Samvatsarikam*, *Abdikam*, and *Pinda Pradanam*):
 - Fire and smoke restrictions prevent conducting Homas inside apartments.
 - Severe scarcity of practicing, devout Brahmin *Bhokthas* who observe daily *Sandhyavandanam*.
@@ -96,7 +149,7 @@ In contemporary urban society, Hindu families residing in high-density metropoli
 
 **Ram Narayana Brahmana Seva Samstha** (located in Dilsukhnagar, Hyderabad, under the guidance of **Namburi Adinarayana Sharma**) was established to provide a dedicated sanctuary and turnkey management for these sacred ceremonies.
 
-### 1.2 The Software Engineering Mission
+### 2.2 The Software Engineering Mission
 To build a modern, elegant, lightning-fast digital web platform that:
 1. **Educates devotees and family members** on the precise Shastric procedure, timing, and significance of each ancestral rite.
 2. **Offers an interactive 11-field ritual intake system** connecting families directly to the organizers via WhatsApp and clipboard integration.
@@ -106,45 +159,45 @@ To build a modern, elegant, lightning-fast digital web platform that:
 
 ---
 
-## 2. 🗺️ End-to-End Application Architecture (Start to End Walkthrough)
+## 3. 🗺️ End-to-End Application Architecture (Start to End Walkthrough)
 
 The application is engineered as a single-page, progressive static web portal organized into 14 distinct visual and interactive modules traversing the page from top to bottom:
 
 ```
 ┌────────────────────────────────────────────────────────────────────────────────────────┐
-│ 2.1  TOP ANNOUNCEMENT BAR (Vedic Chants, Direct Contact Phones, Language Switcher)      │
+│ 3.1  TOP ANNOUNCEMENT BAR (Vedic Chants, Direct Contact Phones, Language Switcher)      │
 ├────────────────────────────────────────────────────────────────────────────────────────┤
-│ 2.2  STICKY NAVIGATION HEADER (Logo, Brand Title, Desktop Nav, Mobile Hamburger)      │
+│ 3.2  STICKY NAVIGATION HEADER (Logo, Brand Title, Desktop Nav, Mobile Hamburger)      │
 ├────────────────────────────────────────────────────────────────────────────────────────┤
-│ 2.3  HERO SECTION (Sacred Mottos, Founder Banner, Single-Line Ritual Strip, CTAs)      │
+│ 3.3  HERO SECTION (Sacred Mottos, Founder Banner, Single-Line Ritual Strip, CTAs)      │
 ├────────────────────────────────────────────────────────────────────────────────────────┤
-│ 2.4  ABOUT SECTION (Samstha Origins, Historical Context, Mission & Shastric Rigor)    │
+│ 3.4  ABOUT SECTION (Samstha Origins, Historical Context, Mission & Shastric Rigor)    │
 ├────────────────────────────────────────────────────────────────────────────────────────┤
-│ 2.5  SERVICES SECTION (4 Core Rituals: Masikam, Samvatsarikam, Abdikam, Pinda Pradanam)│
+│ 3.5  SERVICES SECTION (4 Core Rituals: Masikam, Samvatsarikam, Abdikam, Pinda Pradanam)│
 ├────────────────────────────────────────────────────────────────────────────────────────┤
-│ 2.6  TIMELINE MATRIX (3-Stage Chronology: "మూడింటి తేడాలు" & Shastric Sequencing)       │
+│ 3.6  TIMELINE MATRIX (3-Stage Chronology: "మూడింటి తేడాలు" & Shastric Sequencing)       │
 ├────────────────────────────────────────────────────────────────────────────────────────┤
-│ 2.7  SACRED BENEFITS SECTION (Filial Duty & 4 Spiritual Blessings for Families)        │
+│ 3.7  SACRED BENEFITS SECTION (Filial Duty & 4 Spiritual Blessings for Families)        │
 ├────────────────────────────────────────────────────────────────────────────────────────┤
-│ 2.8  WHY CHOOSE US (4 Operational Pillars: Pandits, Satvik Food, Venue, Management)    │
+│ 3.8  WHY CHOOSE US (4 Operational Pillars: Pandits, Satvik Food, Venue, Management)    │
 ├────────────────────────────────────────────────────────────────────────────────────────┤
-│ 2.9  MEDIA GALLERY & MODAL LIGHTBOX (Telugu & English Brochures, Visiting Card Modal) │
+│ 3.9  MEDIA GALLERY & MODAL LIGHTBOX (Telugu & English Brochures, Visiting Card Modal) │
 ├────────────────────────────────────────────────────────────────────────────────────────┤
-│ 2.10 INTERACTIVE 11-FIELD RITUAL INTAKE FORM SYSTEM (Dynamic Fields, WhatsApp Engine) │
+│ 3.10 INTERACTIVE 11-FIELD RITUAL INTAKE FORM SYSTEM (Dynamic Fields, WhatsApp Engine) │
 ├────────────────────────────────────────────────────────────────────────────────────────┤
-│ 2.11 CONTACT & LOCATION HUB (Phone Lines, Deep Google Maps Link, Visiting Hours)      │
+│ 3.11 CONTACT & LOCATION HUB (Phone Lines, Deep Google Maps Link, Visiting Hours)      │
 ├────────────────────────────────────────────────────────────────────────────────────────┤
-│ 2.12 OFFICIAL SOCIAL MEDIA RIBBON (Instagram, Facebook, YouTube Deep Links)            │
+│ 3.12 OFFICIAL SOCIAL MEDIA RIBBON (Instagram, Facebook, YouTube Deep Links)            │
 ├────────────────────────────────────────────────────────────────────────────────────────┤
-│ 2.13 INTEGRATED FOOTER (Brand Column, Internal Anchor Directory, Sacred Copyright)    │
+│ 3.13 INTEGRATED FOOTER (Brand Column, Internal Anchor Directory, Sacred Copyright)    │
 ├────────────────────────────────────────────────────────────────────────────────────────┤
-│ 2.14 PERSISTENT MOBILE BOTTOM ACTION BAR (Sticky Call, WhatsApp, Location, Lang-Toggle)│
+│ 3.14 PERSISTENT MOBILE BOTTOM ACTION BAR (Sticky Call, WhatsApp, Location, Lang-Toggle)│
 └────────────────────────────────────────────────────────────────────────────────────────┘
 ```
 
 ---
 
-### 2.1 Top Announcement & Sacred Invocation Bar
+### 3.1 Top Announcement & Sacred Invocation Bar
 - **Location**: Pinned at the very top of the page (`.top-bar`).
 - **Functionality**:
   - Displays sacred Sanskrit invocations: `ఓం శ్రీ మాత్రే నమః`, `• వేదోక్తం • శాస్త్రోక్తం • భక్తితో`, and `ధర్మో రక్షతి రక్షితః`.
@@ -152,7 +205,7 @@ The application is engineered as a single-page, progressive static web portal or
   - Houses the desktop **Bilingual Language Switcher** dropdown (`#langDropdownBtn`) allowing instant toggling between Telugu (`🇮🇳 తెలుగు`) and English (`🌐 English`).
   - Provides instant direct call links to primary contact lines (`+91 77802 23977` and `+91 87903 23977`).
 
-### 2.2 Sticky Header & Navigation Systems
+### 3.2 Sticky Header & Navigation Systems
 - **Location**: Directly below the announcement bar, sticks to the top of the viewport on scroll (`header.site-header`).
 - **Features**:
   - **Brand Emblem & Typography**: Circular golden emblem alongside bilingual brand name (*Ram Narayana Brahmana Seva Samstha*).
@@ -160,7 +213,7 @@ The application is engineered as a single-page, progressive static web portal or
   - **Services Dropdown**: Multi-level navigation dropdown enabling 1-click jumps to specific rituals (*Masikam, Samvatsarikam, Abdikam, Pinda Pradanam*).
   - **Mobile Drawer Coordinator**: On screens `< 1024px`, the navigation collapses into an accessible hamburger button that animates a full-height slide-out drawer from the right with backdrop blurring.
 
-### 2.3 Hero Section & Single-Line Ritual Ribbon
+### 3.3 Hero Section & Single-Line Ritual Ribbon
 - **Location**: `#home`
 - **Features**:
   - **Sacred Motto Badge**: Highlighting `• సంప్రదాయం • భక్తి • సేవ` in a golden-bordered pill.
@@ -172,14 +225,14 @@ The application is engineered as a single-page, progressive static web portal or
     - Engineered with `white-space: nowrap` and mathematical `clamp()` scaling, guaranteeing zero line-breaks across all mobile phone viewports.
   - **Primary Call to Actions (CTAs)**: One-touch "Call Now" (`tel:7780223977`) and "WhatsApp Inquiry" with pre-filled localized messages.
 
-### 2.4 About the Samstha & Leadership
+### 3.4 About the Samstha & Leadership
 - **Location**: `#about`
 - **Features**:
   - Details the spiritual vision and background of the institution in Dilsukhnagar, Hyderabad.
   - Highlights the leadership of Veda Pandits under **Namburi Adinarayana Sharma**.
   - Contrasts modern urban apartment living challenges with the turnkey solutions provided by the Samstha.
 
-### 2.5 Ancestral Ritual Services Modules
+### 3.5 Ancestral Ritual Services Modules
 - **Location**: `#services`
 - **Architecture**: A responsive grid containing 4 specialized ceremonial cards:
   1. **మాసికం (Masikam - Monthly Rites)**: Monthly Shraddha karma conducted on the lunar tithi throughout the 1st year for departed souls.
@@ -189,7 +242,7 @@ The application is engineered as a single-page, progressive static web portal or
 - **Card Anatomy**: Each card includes an ordinal badge (`01`–`04`), an engaging question hook, comprehensive Shastric explanation, key takeaways, and a direct WhatsApp inquiry button pre-filled with the specific ritual name.
 - **Foundational Pillars**: Features 2 supporting operational cards: **భోక్తల సేవ (Bhoktha Seva)** and **సాత్విక వంట & సంపూర్ణ నిర్వహణ (Traditional Satvik Catering)**.
 
-### 2.6 Ritual Chronology & Timeline Matrix ("మూడింటి తేడాలు")
+### 3.6 Ritual Chronology & Timeline Matrix ("మూడింటి తేడాలు")
 - **Location**: `#differences`
 - **Educational Value**: Solves the universal confusion among families regarding the correct sequential order of ancestral rituals:
   - **Step 1 (Year 1, Monthly)**: మాసికం (Masikam) – Performed every month for 12 months.
@@ -197,7 +250,7 @@ The application is engineered as a single-page, progressive static web portal or
   - **Step 3 (Every Year Thereafter)**: ఆబ్దికం (Abdikam) – Performed annually every year.
   - **Key Shastric Rule Banner**: Clear summary emphasizing: **"మిగతాది మేము చూసుకుంటాము 🙏"** (You provide the tithi and ancestor name; we handle the guidance, pandits, bhokthas, materials, and satvik cooking).
 
-### 2.7 Filial Duty & 4 Sacred Benefits
+### 3.7 Filial Duty & 4 Sacred Benefits
 - **Location**: `#benefits`
 - **Core Philosophy**: Highlights filial gratitude (*Pitru Rina*) and lists the 4 core spiritual blessings bestowed upon the family:
   1. *పితృదేవతల శాంతి & ఆశీస్సులు* (Ancestral Peace & Blessings)
@@ -205,7 +258,7 @@ The application is engineered as a single-page, progressive static web portal or
   3. *ఆరోగ్యం, శాంతి & సుఖసంతోషాలు* (Health, Peace & Happiness)
   4. *సంస్కృతి & వంశ పరంపర కొనసాగింపు* (Continuity of Cultural Lineage)
 
-### 2.8 Why Choose Us (4 Operational Pillars)
+### 3.8 Why Choose Us (4 Operational Pillars)
 - **Location**: `#why-us`
 - **Features**: A 2x2 grid outlining the core institutional differentiators:
   1. 🪔 **అనుభవజ్ఞులైన వేద పండితులు (Vedic Scholars)**: Rigorous recitation and authentic Shastric procedure.
@@ -213,14 +266,14 @@ The application is engineered as a single-page, progressive static web portal or
   3. 🏛️ **ప్రశాంతమైన వాతావరణం (Serene Sanctuary)**: Temple-like, unhurried, clean ritual halls away from city noise.
   4. 📦 **సంపూర్ణ నిర్వహణ (Turnkey Arrangements)**: Complete management of puja items, samidhalu, darbhalu, bhokthas, and dining.
 
-### 2.9 Media Gallery & Modal Lightbox
+### 3.9 Media Gallery & Modal Lightbox
 - **Location**: `#gallery`
 - **Features**:
   - Displays high-resolution graphics: Official ceremonial banner, visiting card, and dynamic localized brochures.
   - **Dynamic Brochure Swapping**: When in Telugu mode, displays the authentic Telugu flyer (`assets/images/flyer-te.png`); when in English mode, swaps seamlessly to the English flyer (`assets/images/flyer-en.png`).
   - **Zero-Dependency Lightbox**: Clicking any image opens an accessible modal with full-size magnification, image caption, and Escape key / click-outside close handlers.
 
-### 2.10 Interactive 11-Field Ancestral Ritual Intake Form System
+### 3.10 Interactive 11-Field Ancestral Ritual Intake Form System
 - **Location**: `#ritual-form`
 - **Technical Capabilities**: A digital intake terminal designed for families to provide essential ceremony details:
   1. **Your Name (మీ పేరు)**: Performer/contact person's full name.
@@ -238,7 +291,7 @@ The application is engineered as a single-page, progressive static web portal or
   - **💬 Send via WhatsApp**: Instantly builds a formatted, multi-line WhatsApp intent and launches WhatsApp Web/App via `wa.me` protocol.
   - **📋 Copy Details**: Copies the full intake summary to the user's native clipboard via `navigator.clipboard` and triggers an animated floating toast message.
 
-### 2.11 Contact & Location Hub
+### 3.11 Contact & Location Hub
 - **Location**: `#contact`
 - **Features**:
   - Complete physical address: *H.No. 11-62, Pragathi Nagar Road, Sahithi Nagar, Dilsukhnagar, Hyderabad – 500060*.
@@ -247,20 +300,21 @@ The application is engineered as a single-page, progressive static web portal or
   - **Performance Optimization**: Replaced heavy embedded Google Maps iframes with an ultra-fast, high-trust direct deep link to Google Maps (`https://maps.app.goo.gl/LFmHe4vhQKaKRtFi8?g_st=aw`).
   - Operational hours: *Everyday 8:00 AM – 6:00 PM*.
 
-### 2.12 Official Social Media Ribbon
+### 3.12 Official Social Media Ribbon
 - **Location**: `#follow-us`
-- **Features**: Glassmorphic community cards connecting devotees to official social platforms:
+- **Features**: Glassmorphic community cards connecting devotees to official platforms:
   - 📸 **Instagram**: [`@ramnarayana_brahmana_seva`](https://www.instagram.com/ramnarayana_brahmana_seva/)
   - 📘 **Facebook**: [`Ram Narayana Brahmana Seva`](https://www.facebook.com/profile.php?id=61595183055843)
   - 🎥 **YouTube**: [`@RamNarayanaBrahmanaSevaSamstha`](https://www.youtube.com/@RamNarayanaBrahmanaSevaSamstha)
+  - 🏛️ **Official Samstha Organization**: [`ramnarayanabrahmanaseva/RamNarayanaBrahmanaSevaSamstha`](https://github.com/ramnarayanabrahmanaseva/RamNarayanaBrahmanaSevaSamstha)
 
-### 2.13 Integrated Footer System
+### 3.13 Integrated Footer System
 - **Location**: `footer.site-footer`
 - **Features**:
   - 4-column semantic layout: Brand identity & emblem, Quick internal explore directory, Core rituals links, and Direct contact office info.
   - Full copyright attribution to **Namburi Adinarayana Sharma** and the organization.
 
-### 2.14 Persistent Mobile Bottom Quick Action Bar
+### 3.14 Persistent Mobile Bottom Quick Action Bar
 - **Location**: `.mobile-action-bar` (visible strictly on mobile viewports `< 768px`).
 - **Features**:
   - Fixed 4-button dock at the bottom of the screen:
@@ -272,9 +326,9 @@ The application is engineered as a single-page, progressive static web portal or
 
 ---
 
-## 3. ⚙️ Technical Implementation & Subsystems
+## 4. ⚙️ Technical Implementation & Subsystems
 
-### 3.1 Zero-Framework Philosophy & Why Vanilla JS
+### 4.1 Zero-Framework Philosophy & Why Vanilla JS
 Modern web development frequently suffers from "framework fatigue," where simple informational websites ship massive multi-megabyte JavaScript bundles (React, Next.js, hydration runtimes) that:
 - Cripple low-end mobile devices common in emerging markets.
 - Incur steep CPU parsing and execution penalties.
@@ -287,7 +341,7 @@ This project strictly adheres to the **Zero-Framework Standard**:
 
 ---
 
-### 3.2 Declarative Reactive i18n Engine
+### 4.2 Declarative Reactive i18n Engine
 Localization is handled by a custom client-side reactivity engine in `assets/js/app.js` using data dictionaries defined in `assets/js/translations.js`.
 
 ```mermaid
@@ -360,7 +414,7 @@ function setLanguage(lang) {
 
 ---
 
-### 3.3 Multi-Attribute Directives Binding Matrix
+### 4.3 Multi-Attribute Directives Binding Matrix
 
 | Directive Attribute | Target DOM Property | Typical Usage | Real-World Scenario |
 |:---|:---|:---|:---|
@@ -373,7 +427,7 @@ function setLanguage(lang) {
 
 ---
 
-### 3.4 Telugu Typography Engine (Google Font Ramabhadra)
+### 4.4 Telugu Typography Engine (Google Font Ramabhadra)
 
 Rendering Indic scripts (specifically Telugu) on web browsers requires careful typographic treatment due to complex consonant conjuncts (*vattulu* and *guninthalu*) that can easily clip if line heights are insufficient.
 
@@ -404,7 +458,7 @@ html[lang="te"] p  { line-height: 1.76; }
 
 ---
 
-### 3.5 Spacious WhatsApp Message Generation Protocol
+### 4.5 Spacious WhatsApp Message Generation Protocol
 
 Rather than dumping unformatted, squished text into the devotee's WhatsApp chat, the system utilizes a **double line-break architecture** that mirrors professional messaging formatting:
 
@@ -412,27 +466,27 @@ Rather than dumping unformatted, squished text into the devotee's WhatsApp chat,
 // Pre-configured localized WhatsApp templates (assets/js/app.js)
 const whatsappMessages = {
   te: {
-    general: "నమస్కారం రామ్ నారాయణ బ్రాహ్మణ సేవా సంస్థ (దిల్‌సుఖ్‌నగర్),\n\nనేను మీ సేవల గురించి తెలుసుకోవాలనుకుంటున్నాను.",
-    masikam: "నమస్కారం రామ్ నారాయణ బ్రాహ్మణ సేవా సంస్థ (దిల్‌సుఖ్‌నగర్),\n\nమాసికం శ్రాద్ధ కర్మ నిర్వహణ వివరాలు తెలుసుకోవాలనుకుంటున్నాను.",
-    samvatsarikam: "నమస్కారం రామ్ నారాయణ బ్రాహ్మణ సేవా సంస్థ (దిల్‌సుఖ్‌నగర్),\n\nసంవత్సరికం శ్రాద్ధ నిర్వహణ వివరాలు తెలుసుకోవాలనుకుంటున్నాను.",
-    abdikam: "నమస్కారం రామ్ నారాయణ బ్రాహ్మణ సేవా సంస్థ (దిల్‌సుఖ్‌నగర్),\n\nఆబ్దికం శ్రాద్ధ నిర్వహణ వివరాలు తెలుసుకోవాలనుకుంటున్నాను.",
-    pinda: "నమస్కారం రామ్ నారాయణ బ్రాహ్మణ సేవా సంస్థ (దిల్‌సుఖ్‌నగర్),\n\nపిండప్రదానం శ్రాద్ధ నిర్వహణ వివరాలు తెలుసుకోవాలనుకుంటున్నాను.",
-    promise: "నమస్కారం రామ్ నారాయణ బ్రాహ్మణ సేవా సంస్థ (దిల్‌సుఖ్‌నగర్),\n\nపితృకార్యాల నిర్వహణ వివరాలు తెలుసుకోవాలనుకుంటున్నాను."
+    general: "నమస్కారం, రామ్ నారాయణ బ్రాహ్మణ సేవా సంస్థ (దిల్సుఖ్నగర్).\n\nనేను మీ సేవల గురించి తెలుసుకోవాలనుకుంటున్నాను.",
+    masikam: "నమస్కారం, రామ్ నారాయణ బ్రాహ్మణ సేవా సంస్థ (దిల్సుఖ్నగర్).\n\nమాసికం శ్రాద్ధ కర్మ నిర్వహణ వివరాలు తెలుసుకోవాలనుకుంటున్నాను.",
+    samvatsarikam: "నమస్కారం, రామ్ నారాయణ బ్రాహ్మణ సేవా సంస్థ (దిల్సుఖ్నగర్).\n\nసంవత్సరికం శ్రాద్ధ నిర్వహణ వివరాలు తెలుసుకోవాలనుకుంటున్నాను.",
+    abdikam: "నమస్కారం, రామ్ నారాయణ బ్రాహ్మణ సేవా సంస్థ (దిల్సుఖ్నగర్).\n\nఆబ్దికం శ్రాద్ధ నిర్వహణ వివరాలు తెలుసుకోవాలనుకుంటున్నాను.",
+    pinda: "నమస్కారం, రామ్ నారాయణ బ్రాహ్మణ సేవా సంస్థ (దిల్సుఖ్నగర్).\n\nపిండప్రదానం శ్రాద్ధ నిర్వహణ వివరాలు తెలుసుకోవాలనుకుంటున్నాను.",
+    promise: "నమస్కారం, రామ్ నారాయణ బ్రాహ్మణ సేవా సంస్థ (దిల్సుఖ్నగర్).\n\nపితృకార్యాల నిర్వహణ వివరాలు తెలుసుకోవాలనుకుంటున్నాను."
   },
   en: {
-    general: "Namaskaram Ram Narayana Brahmana Seva Samstha (Dilsukhnagar),\n\nI would like to inquire about your ancestral services.",
-    masikam: "Namaskaram Ram Narayana Brahmana Seva Samstha (Dilsukhnagar),\n\nI would like to inquire about Masikam ritual arrangements.",
-    samvatsarikam: "Namaskaram Ram Narayana Brahmana Seva Samstha (Dilsukhnagar),\n\nI would like to inquire about Samvatsarikam ritual arrangements.",
-    abdikam: "Namaskaram Ram Narayana Brahmana Seva Samstha (Dilsukhnagar),\n\nI would like to inquire about Abdikam ritual arrangements.",
-    pinda: "Namaskaram Ram Narayana Brahmana Seva Samstha (Dilsukhnagar),\n\nI would like to inquire about Pinda Pradanam ritual arrangements.",
-    promise: "Namaskaram Ram Narayana Brahmana Seva Samstha (Dilsukhnagar),\n\nI would like to inquire about complete ancestral ritual management."
+    general: "Namaskaram, Ram Narayana Brahmana Seva Samstha (Dilsukhnagar).\n\nI would like to inquire about your ancestral services.",
+    masikam: "Namaskaram, Ram Narayana Brahmana Seva Samstha (Dilsukhnagar).\n\nI would like to inquire about Masikam ritual arrangements.",
+    samvatsarikam: "Namaskaram, Ram Narayana Brahmana Seva Samstha (Dilsukhnagar).\n\nI would like to inquire about Samvatsarikam ritual arrangements.",
+    abdikam: "Namaskaram, Ram Narayana Brahmana Seva Samstha (Dilsukhnagar).\n\nI would like to inquire about Abdikam ritual arrangements.",
+    pinda: "Namaskaram, Ram Narayana Brahmana Seva Samstha (Dilsukhnagar).\n\nI would like to inquire about Pinda Pradanam ritual arrangements.",
+    promise: "Namaskaram, Ram Narayana Brahmana Seva Samstha (Dilsukhnagar).\n\nI would like to inquire about complete ancestral ritual management."
   }
 };
 ```
 
 ---
 
-### 3.6 Modal Lightbox & Focus State Machine
+### 4.6 Modal Lightbox & Focus State Machine
 
 The media viewer (`initLightbox()`) provides modal magnification for high-resolution graphics without third-party libraries:
 - **Trap Focus**: Disables background scrolling by attaching `overflow: hidden` to `document.body`.
@@ -441,7 +495,7 @@ The media viewer (`initLightbox()`) provides modal magnification for high-resolu
 
 ---
 
-### 3.7 Vedic Light Design System & CSS Token Architecture
+### 4.7 Vedic Light Design System & CSS Token Architecture
 
 The UI is built on a custom design system blending orthodox temple colors with modern digital design tokens:
 
@@ -474,7 +528,7 @@ The UI is built on a custom design system blending orthodox temple colors with m
 
 ---
 
-### 3.8 Fluid Layouts & Zero-Overflow Engineering
+### 4.8 Fluid Layouts & Zero-Overflow Engineering
 
 To guarantee **0px horizontal overflow across all viewports (from 320px foldables to 4K displays)**:
 1. Universal box sizing with boundary constraint:
@@ -497,7 +551,7 @@ To guarantee **0px horizontal overflow across all viewports (from 320px foldable
 
 ---
 
-## 4. 📊 Performance Benchmarks & Core Web Vitals
+## 5. 📊 Performance Benchmarks & Core Web Vitals
 
 ```
 ┌──────────────────────────────────────────────────────────────────────────────┐
@@ -520,14 +574,14 @@ To guarantee **0px horizontal overflow across all viewports (from 320px foldable
 
 ---
 
-## 5. 🔒 Accessibility, Security & SEO Engineering
+## 6. 🔒 Accessibility, Security & SEO Engineering
 
-### 5.1 Accessibility (WCAG 2.1 AA)
+### 6.1 Accessibility (WCAG 2.1 AA)
 - Semantic HTML5 sectioning tags (`<header>`, `<nav>`, `<main>`, `<section>`, `<aside>`, `<footer>`, `<form>`).
 - Explicit `aria-label` and `aria-expanded` attributes on interactive toggles (mobile drawer, language dropdown, lightbox close button).
 - Color contrast ratios exceed WCAG AA standards (minimum 4.5:1 for body text, 7:1 for headers against ivory canvas).
 
-### 5.2 Structured Data (Schema.org JSON-LD)
+### 6.2 Structured Data (Schema.org JSON-LD)
 Embedded directly in `<head>` to power Google Knowledge Graph rich cards:
 ```json
 {
@@ -551,7 +605,7 @@ Embedded directly in `<head>` to power Google Knowledge Graph rich cards:
 
 ---
 
-## 6. 📂 Codebase Anatomy & File Mapping
+## 7. 📂 Codebase Anatomy & File Mapping
 
 ```
 RamNarayanaBrahmanaSevaSamstha/
@@ -578,18 +632,18 @@ RamNarayanaBrahmanaSevaSamstha/
 
 ---
 
-## 7. 🚀 Getting Started & Local Development
+## 8. 🚀 Getting Started & Local Development
 
-### 7.1 Prerequisites
+### 8.1 Prerequisites
 Any standard modern web browser (Google Chrome, Mozilla Firefox, Microsoft Edge, or Apple Safari). No build tools, preprocessors, or runtime compilers are required.
 
-### 7.2 Clone the Repository
+### 8.2 Clone the Repository
 ```bash
 git clone https://github.com/chintadavasudharini/RamNarayanaBrahmanaSevaSamstha.git
 cd RamNarayanaBrahmanaSevaSamstha
 ```
 
-### 7.3 Run Locally
+### 8.3 Run Locally
 Using Node.js:
 ```bash
 npm run dev
@@ -605,7 +659,7 @@ python -m http.server 8000
 Using VS Code:
 Right-click on `index.html` and select **"Open with Live Server"**.
 
-### 7.4 Verification & Testing Checklist
+### 8.4 Verification & Testing Checklist
 - [x] **Language Toggling**: Click the language switcher in the top bar or mobile bottom bar. Ensure all headings, copy, placeholders, and WhatsApp links swap instantaneously between Telugu and English without full-page reloads.
 - [x] **Ritual Intake Form**: Fill out the 11 fields in `#ritual-form`. Click **"Send via WhatsApp"** to verify that the generated WhatsApp message is cleanly formatted with double line breaks. Click **"Copy Details"** to confirm clipboard copy and toast confirmation.
 - [x] **Mobile Responsiveness**: Test viewports from 320px to 430px (iPhone, Galaxy, Pixel). Verify that the rituals strip stays strictly on one line and horizontal scrolling is 0px.
@@ -613,7 +667,7 @@ Right-click on `index.html` and select **"Open with Live Server"**.
 
 ---
 
-## 8. 🚢 Deployment & Hosting Architecture
+## 9. 🚢 Deployment & Hosting Architecture
 
 The production web application is hosted on **Vercel's Global Edge Network**:
 - **Automatic Continuous Deployment (CI/CD)**: Every push to the `main` branch automatically triggers an edge cache invalidation and instantaneous static re-deployment.
@@ -622,7 +676,7 @@ The production web application is hosted on **Vercel's Global Edge Network**:
 
 ---
 
-## 9. 📱 Browser & Device Support Matrix
+## 10. 📱 Browser & Device Support Matrix
 
 | Browser / Device | Minimum Supported Version | Verification Status |
 |:---|:---:|:---:|
@@ -635,7 +689,7 @@ The production web application is hosted on **Vercel's Global Edge Network**:
 
 ---
 
-## 10. 📜 Open-Source License
+## 11. 📜 Open-Source License
 
 This project is open-source software licensed under the **[MIT License](LICENSE)**.
 
@@ -666,5 +720,5 @@ SOFTWARE.
 <div align="center">
   <p><strong>Ram Narayana Brahmana Seva Samstha Web Application</strong></p>
   <p><em>Engineered with precision for Sanatana Dharma, Brahmin filial tradition, and modern digital excellence.</em></p>
-  <sub>Official Repository: <a href="https://github.com/chintadavasudharini/RamNarayanaBrahmanaSevaSamstha">github.com/chintadavasudharini/RamNarayanaBrahmanaSevaSamstha</a></sub>
+  <sub>Project Codebase: <a href="https://github.com/chintadavasudharini/RamNarayanaBrahmanaSevaSamstha">chintadavasudharini/RamNarayanaBrahmanaSevaSamstha</a> &nbsp;|&nbsp; Official Samstha Organization: <a href="https://github.com/ramnarayanabrahmanaseva/RamNarayanaBrahmanaSevaSamstha">ramnarayanabrahmanaseva/RamNarayanaBrahmanaSevaSamstha</a></sub>
 </div>
